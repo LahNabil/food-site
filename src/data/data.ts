@@ -41,3 +41,33 @@ export const scis = [
         link: '',
     },
 ]
+export const heroSlides = [
+    {
+        id:1,
+        bgImg: '/assets/photo1.jpg',
+        title: 'photo1',
+        brief: 'jehj jkehka',
+        link: ''
+    },
+    {
+        id:2,
+        bgImg: '',
+        title: 'photo2',
+        brief: '',
+        link: ''
+    },
+    {
+        id:3,
+        bgImg: '',
+        title: 'photo3',
+        brief: '',
+        link: ''
+    },
+    {
+        id:4,
+        bgImg: '',
+        title: 'photo4',
+        brief: '',
+        link: ''
+    },
+]

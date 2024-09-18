@@ -1,3 +1,4 @@
+
 import { Hero } from "@/sections/Hero";
 import { Recipes } from "@/sections/Recipes";
 
