@@ -4,7 +4,7 @@ import { Recipes } from "@/sections/Recipes";
 
 export default function Home() {
   return (
-    <div>
+    <div id="main">
       <Hero/>
       <Recipes/>
     </div>
