@@ -78,26 +78,77 @@ export const postItems = [
     {
         id: 1,
         img: '/assets/photo2.jpg',
-        category: 'Category 1',
+        category: 'Quick & Easy',
         date: 'date1',
         title: 'title1',
-        brief: 'brief1',
+        brief: 'Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de limprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte',
         author: 'author1',
-        avatar: 'avatar1',
+        ingredients: ['ingredient1','ingredient2','ingredient3'],
+        preptime: 30,
         type: false,
         trending: false
     },
     {
         id: 2,
         img: '/assets/photo2.jpg',
-        category: 'Category 2',
+        category: 'Quick & Easy',
         date: 'date2',
         title: 'title2',
         brief: 'brief2',
         author: 'author2',
-        avatar: 'avatar2',
+        ingredients: ['ingredient1','ingredient2','ingredient3'],
         type: false,
         trending: false
     },
+    {
+        id: 3,
+        img: '/assets/photo3.jpg',
+        category: 'Quick & Easy',
+        date: 'date2',
+        title: 'title2',
+        brief: 'brief2',
+        author: 'author2',
+        ingredients: ['ingredient1','ingredient2','ingredient3'],
+        type: false,
+        trending: false
+    },
+    {
+        id: 4,
+        img: '/assets/photo3.jpg',
+        category: 'Quick & Easy',
+        date: 'date2',
+        title: 'title2',
+        brief: 'brief2',
+        author: 'author2',
+        ingredients: ['ingredient1','ingredient2','ingredient3'],
+        type: false,
+        trending: false
+    },
+    {
+        id: 5,
+        img: '/assets/photo3.jpg',
+        category: 'Quick & Easy',
+        date: 'date2',
+        title: 'title2',
+        brief: 'brief2',
+        author: 'author2',
+        ingredients: ['ingredient1','ingredient2','ingredient3'],
+        type: false,
+        trending: false
+    },
+    {
+        id: 6,
+        img: '/assets/photo1.jpg',
+        category: 'Quick & Easy',
+        date: 'date2',
+        title: 'title2',
+        brief: 'brief2',
+        author: 'author2',
+        ingredients: ['ingredient1','ingredient2','ingredient3'],
+        type: false,
+        trending: false
+    },
+
+
 
 ]
