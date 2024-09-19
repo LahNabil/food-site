@@ -105,7 +105,7 @@ export const postItems = [
         img: '/assets/photo3.jpg',
         category: 'Quick & Easy',
         date: 'date2',
-        title: 'title2',
+        title: 'title3',
         brief: 'brief2',
         author: 'author2',
         ingredients: ['ingredient1','ingredient2','ingredient3'],
@@ -117,7 +117,7 @@ export const postItems = [
         img: '/assets/photo3.jpg',
         category: 'Quick & Easy',
         date: 'date2',
-        title: 'title2',
+        title: 'title4',
         brief: 'brief2',
         author: 'author2',
         ingredients: ['ingredient1','ingredient2','ingredient3'],
@@ -129,7 +129,31 @@ export const postItems = [
         img: '/assets/photo3.jpg',
         category: 'Quick & Easy',
         date: 'date2',
-        title: 'title2',
+        title: 'title5',
+        brief: 'brief2',
+        author: 'author2',
+        ingredients: ['ingredient1','ingredient2','ingredient3'],
+        type: false,
+        trending: true
+    },
+    {
+        id: 6,
+        img: '/assets/photo1.jpg',
+        category: 'Quick & Easy',
+        date: 'date2',
+        title: 'title6',
+        brief: 'brief2',
+        author: 'author2',
+        ingredients: ['ingredient1','ingredient2','ingredient3'],
+        type: false,
+        trending: true
+    },
+    {
+        id: 7,
+        img: '/assets/photo1.jpg',
+        category: 'Quick & Easy',
+        date: 'date2',
+        title: 'title7',
         brief: 'brief2',
         author: 'author2',
         ingredients: ['ingredient1','ingredient2','ingredient3'],
@@ -137,17 +161,19 @@ export const postItems = [
         trending: false
     },
     {
-        id: 6,
+        id: 8,
         img: '/assets/photo1.jpg',
         category: 'Quick & Easy',
         date: 'date2',
-        title: 'title2',
+        title: 'title8',
         brief: 'brief2',
         author: 'author2',
         ingredients: ['ingredient1','ingredient2','ingredient3'],
         type: false,
         trending: false
     },
+
+
 
 
 

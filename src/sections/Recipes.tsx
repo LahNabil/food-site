@@ -1,19 +1,19 @@
 'use client';
 import React, { useState, useEffect } from 'react';
-import { useRouter } from 'next/navigation';
-import { postItems } from '@/data/data'; // Suppose que tu as un fichier de données contenant des posts
+import { postItems } from '@/data/data'; // Suppose that you have a data file containing posts
 import AOS from 'aos';
 import { PostItemOne } from '@/components/PostItemOne';
+import { TrendingPost } from '@/components/TrendingPost';
 
 export const Recipes = () => {
-  const [items, setItems] = useState(postItems); // Assigne directement la liste des items
+  const [items, setItems] = useState(postItems); // Assign postItems directly
 
   useEffect(() => {
     AOS.init({
       duration: 1000,
       easing: 'ease-in-out',
       once: false,
-      mirror: false
+      mirror: false,
     });
   }, []);
 
@@ -22,21 +22,49 @@ export const Recipes = () => {
       <div className="container">
         <div className="row g-5">
           <div className="col-lg-4">
-            {/* Ici, il manque une sélection du premier élément pour afficher en grand */}
+            {/* Display the first post in large format */}
             {items.length > 0 && <PostItemOne large={true} item={items[0]} />}
           </div>
           <div className="col-lg-8">
             <div className="row g-5">
-              {/* Itère sur les autres éléments à partir du deuxième pour les afficher */}
-              {items.slice(1).map(item => (
-                <div className="col-lg-4 border-start custom-border" key={item.id}>
-                  <PostItemOne large={false} item={item} />
+              <div className="col-lg-4 border-start custom-border">
+                {/* Filter posts that are not trending or top, and display the first 3 */}
+                {items
+                  .filter(
+                    (item) => !item.trending && !item.top
+                  )
+                  .slice(0, 3)
+                  .map((item, index) => (
+                    <PostItemOne key={index} large={false} item={item} />
+                  ))}
+              </div>
+              <div className="col-lg-4 border-start custom-border">
+              {items
+                  .filter(
+                    (item) => !item.trending && !item.top
+                  )
+                  .slice(3, 6)
+                  .map((item, index) => (
+                    <PostItemOne key={index} large={false} item={item} />
+                  ))} 
+              </div>
+              <div className="col-lg-4 border-start custom-border">
+                <div className="trending">
+                  <h3>Trending</h3>
+                  <ul className='trending-post'>
+                    {
+                      items && items.length> 0
+                      && items.filter((item) => item.trending).map((item, index) => (
+                        <TrendingPost key={item.id} index={index} item={item}/>
+                      ))
+                    }
+                  </ul>
                 </div>
-              ))}
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
   );
-}
+};
