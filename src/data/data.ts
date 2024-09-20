@@ -157,7 +157,7 @@ export const postItems = [
         ingredients: ['ingredient1','ingredient2','ingredient3'],
         preptime: 30,
         type: false,
-        trending: false
+        trending: true
     },
     {
         id: 8,
@@ -169,8 +169,45 @@ export const postItems = [
         ingredients: ['ingredient1','ingredient2','ingredient3'],
         preptime: 30,
         type: false,
-        trending: false
+        trending: true
     },
+    {
+        id: 9,
+        img: '/assets/photo1.jpg',
+        category: 'Quick & Easy',
+        date: 'date2',
+        title: 'title9',
+        brief: 'brief9',
+        ingredients: ['ingredient1','ingredient2','ingredient3'],
+        preptime: 30,
+        type: false,
+        trending: true
+    },
+    {
+        id: 10,
+        img: '/assets/photo1.jpg',
+        category: 'Quick & Easy',
+        date: 'date10',
+        title: 'title10',
+        brief: 'brief10',
+        ingredients: ['ingredient1','ingredient2','ingredient3'],
+        preptime: 30,
+        type: false,
+        trending: true
+    },
+    {
+        id: 11,
+        img: '/assets/photo1.jpg',
+        category: 'Quick & Easy',
+        date: 'date11',
+        title: 'title11',
+        brief: 'brief11',
+        ingredients: ['ingredient1','ingredient2','ingredient3'],
+        preptime: 30,
+        type: false,
+        trending: true
+    },
+
 
 
 

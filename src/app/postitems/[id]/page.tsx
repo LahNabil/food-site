@@ -66,13 +66,15 @@ const PostItem = ({ params }: { params: { id: number } }) => {
                     {item.brief && item.brief.substring(1)}
                 </p>
                 <figure className='my-4'>
-                    <Image
+                    <img src={item.img} alt='photo_recipe' className='img-fluid' />
+                    
+                    {/* <Image
                      src={item.img}
                      alt='photo_recipe'
                      className='img-fluid'
                      height={100}
                      width={100}
-                     layout="responsive" />
+                     layout="responsive" /> */}
                 </figure>
                 <figcaption>
                 Lorem du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de limprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte
@@ -103,6 +105,33 @@ const PostItem = ({ params }: { params: { id: number } }) => {
                             ))
                             }
                         </div>
+                        <div className={`tab-pane fade ${
+                            tabs[1].active ? 'show active' : ''
+                        }`}>
+                            {items
+                            .filter(item=> item.trending)
+                            // .slice(6,12)
+                            .map(item=>(
+                                <SidePostItem key={item.id} item={item}/>
+                            ))
+                            }
+                        </div>
+                    </div>
+                </div>
+                <div className="aside-block">
+                    <h3 className="aside-title">Video</h3>
+                    <div className="video-post">
+                        <a
+                        target='_blank'
+                        href="https://www.youtube.com/watch?v=NJuxjSplSII&ab_channel=ChoumichaChafay"
+                        className='link-video'>
+                        <span className="bi-play-fill"></span>
+                        <img
+                        src='/assets/photo3.jpg'
+                        alt="photo_video_recipe"
+                        className='img-fluid'
+                        />
+                        </a>
                     </div>
                 </div>
             </div>
