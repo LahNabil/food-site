@@ -5,19 +5,19 @@ export const navs = [
         id:1,
         name: "Home",
         link: "/",
-        active: "true"
+        active: true
     },
     {
         id:2,
-        name: "Recipes",
-        link: "/recipes",
-        active: "false"
+        name: "PostItems",
+        link: "/postitems",
+        active: true
     },
     {
         id:3,
         name: "About",
         link: "/about",
-        active: "false"
+        active: true
     },
     {
         id:4,
@@ -81,8 +81,7 @@ export const postItems = [
         category: 'Quick & Easy',
         date: 'date1',
         title: 'title1',
-        brief: 'Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de limprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte',
-        author: 'author1',
+        brief: 'Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de limprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de limprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de limprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte',
         ingredients: ['ingredient1','ingredient2','ingredient3'],
         preptime: 30,
         type: false,
@@ -95,8 +94,8 @@ export const postItems = [
         date: 'date2',
         title: 'title2',
         brief: 'brief2',
-        author: 'author2',
         ingredients: ['ingredient1','ingredient2','ingredient3'],
+        preptime: 30,
         type: false,
         trending: false
     },
@@ -107,8 +106,8 @@ export const postItems = [
         date: 'date2',
         title: 'title3',
         brief: 'brief2',
-        author: 'author2',
         ingredients: ['ingredient1','ingredient2','ingredient3'],
+        preptime: 30,
         type: false,
         trending: false
     },
@@ -119,8 +118,8 @@ export const postItems = [
         date: 'date2',
         title: 'title4',
         brief: 'brief2',
-        author: 'author2',
         ingredients: ['ingredient1','ingredient2','ingredient3'],
+        preptime: 30,
         type: false,
         trending: false
     },
@@ -131,8 +130,8 @@ export const postItems = [
         date: 'date2',
         title: 'title5',
         brief: 'brief2',
-        author: 'author2',
         ingredients: ['ingredient1','ingredient2','ingredient3'],
+        preptime: 30,
         type: false,
         trending: true
     },
@@ -143,8 +142,8 @@ export const postItems = [
         date: 'date2',
         title: 'title6',
         brief: 'brief2',
-        author: 'author2',
         ingredients: ['ingredient1','ingredient2','ingredient3'],
+        preptime: 30,
         type: false,
         trending: true
     },
@@ -155,8 +154,8 @@ export const postItems = [
         date: 'date2',
         title: 'title7',
         brief: 'brief2',
-        author: 'author2',
         ingredients: ['ingredient1','ingredient2','ingredient3'],
+        preptime: 30,
         type: false,
         trending: false
     },
@@ -167,8 +166,8 @@ export const postItems = [
         date: 'date2',
         title: 'title8',
         brief: 'brief2',
-        author: 'author2',
         ingredients: ['ingredient1','ingredient2','ingredient3'],
+        preptime: 30,
         type: false,
         trending: false
     },
