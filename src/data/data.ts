@@ -43,6 +43,28 @@ export const scis = [
         link: '',
     },
 ]
+export const contact_sci = [
+    {
+        id:1,
+        img: './assets/facebook-logo.png',
+        link: 'facebook',
+    },
+    {
+        id:2,
+        img: './assets/instagram-logo.png',
+        name: '',
+    },
+    {
+        id:3,
+        img: './assets/tiktok-logo.png',
+        link: '',
+    },
+    {
+        id:4,
+        img: './assets/email-logo.png',
+        link: '',
+    },
+]
 export const heroSlides = [
     {
         id:1,
