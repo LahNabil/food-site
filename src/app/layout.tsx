@@ -6,6 +6,7 @@ import 'aos/dist/aos.css'
 import "./variables.css";
 import "./globals.css";
 import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 
 
 const ebGaramond = EB_Garamond({subsets: ['latin']});
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body className={ebGaramond.className}>
         <Header/>
         {children}
+        <Footer/>
       </body>
     </html>
   );

@@ -133,7 +133,7 @@ export const postItems = [
         ingredients: ['ingredient1','ingredient2','ingredient3'],
         preptime: 30,
         type: false,
-        trending: true
+        trending: false
     },
     {
         id: 6,
