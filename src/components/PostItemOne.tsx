@@ -23,7 +23,7 @@ export const PostItemOne = ({large, item}:{
             <img src={`${item.img}`} alt='recipe_food' className='img-fluid'/>
         </Link>
         <div className="post-meta">
-            <span className="date">{item.category}    {item.preptime} min</span>
+            <span className="date">{item.category}{item.preptime} min</span>
             <span className="mx-1">
                 <i className="bi bi-dot"></i>{' '}
             </span>{' '}
