@@ -1,8 +1,7 @@
 "use client";
 
-import React, {useState} from 'react'
+import React from 'react'
 import "./contact.css"
-import { Sci } from '@/components/Sci'
 import { contact_sci } from '@/data/data';
 
 const Contact = () => {
@@ -26,8 +25,13 @@ const Contact = () => {
         </div>
         <div className="social-media">
           {
-            contact_sci.map((sci)=>(
-              <div className="elements" key={sci.id}><img src={sci.img} alt='image_social_facebook_instagram'/></div>
+            contact_sci
+            .slice(0,-1)
+            .map((sci)=>(
+              <div className="elements" key={sci.id}>
+                <a href={sci.link}><img src={sci.img} className='social-element' alt='image_social_facebook_instagram'/></a>
+                
+              </div>
             ))
           }
 

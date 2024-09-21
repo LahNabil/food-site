@@ -9,7 +9,7 @@ export const Footer = () => {
     <footer>
       <div className="container-footer">
         <div className="description-footer">
-          <h3>Coot it Easy</h3>
+          <h3>Cook it Easy</h3>
         Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page
         avant impression. Le Lorem Ipsum est le faux texte standard de limprimerie depuis les années
         1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre

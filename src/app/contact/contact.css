@@ -7,6 +7,9 @@
     background-position: center center;
     margin-top: 3%;
 }
+.sous-titre{
+    font-weight: bold;
+}
 .container_contact{
     padding: 5%;
 }
@@ -16,11 +19,20 @@
     margin-right: 10%;
 
 }
-.social-media{
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: center;
+.social-media {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;     /* Centre verticalement */
+    flex-wrap: wrap;         /* Si tu veux que les éléments s'ajustent en fonction de l'espace */
+              /* Fait en sorte que le conteneur occupe toute la hauteur de la page */
+    margin: 0;               /* Supprime les marges inutiles */
+}
+.social-element{
+    height: 100px;
+    width: auto;
 
+}
+.elements{
+    padding-left: 5%;
 }
 

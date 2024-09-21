@@ -30,7 +30,7 @@ export const scis = [
     {
         id:1,
         icon: 'bi-facebook',
-        link: '',
+        link: 'https://web.facebook.com/profile.php?id=61566508671453',
     },
     {
         id:2,
@@ -47,17 +47,17 @@ export const contact_sci = [
     {
         id:1,
         img: './assets/facebook-logo.png',
-        link: 'facebook',
+        link: 'https://web.facebook.com/profile.php?id=61566508671453',
     },
     {
         id:2,
         img: './assets/instagram-logo.png',
-        name: '',
+        name: 'https://instagram.com',
     },
     {
         id:3,
         img: './assets/tiktok-logo.png',
-        link: '',
+        link: 'https://tiktok.com',
     },
     {
         id:4,

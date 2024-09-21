@@ -12,7 +12,7 @@
 
 .header .logo img {
   max-height: 40px;
-  margin-right: 6px;
+  /* margin-right: 6px; */
 }
 
 .header .logo h1 {
@@ -20,4 +20,8 @@
   font-weight: 700;
   color: var(--color-default);
   font-family: var(--font-primary);
+  
+}
+.title_header{
+  padding-top: 10%;
 }

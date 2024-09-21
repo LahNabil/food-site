@@ -23,6 +23,7 @@ a {
 
 .navigation-footer {
     flex: 1;
+    padding-left: 5%;
 }
 
 .categories-footer {

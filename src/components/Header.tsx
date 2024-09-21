@@ -17,9 +17,12 @@ export const Header = () => {
 
     <header id="header" className='header d-flex align-items-center fixed-top'>
         <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
-            <a href='/' className='logo d-flex align-items-center'>
-                <h1>Coot it Easy</h1>
+        
+            <a href='/' className='d-flex'>
+            <img src='./assets/logo_cook_it.png' alt='cook t easy' className='img_logo' style={{ width: '90px', height: 'auto' }} />
+                <h1 className='title_header'>Cook it Easy</h1>
             </a>
+            
             <Nav/>
             <div className="position-relative">
                 <Sci/>
