@@ -13,6 +13,22 @@
 .container_contact{
     padding: 5%;
 }
+.email{
+    height: 100px;
+}
+.text-email{
+    font-weight: bold;
+
+}
+.container_email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: 25%;
+    flex-direction: column;
+    margin-top: 20px;
+}
 .text_contact{
     margin-top: 5%;
     margin-left: 10%;

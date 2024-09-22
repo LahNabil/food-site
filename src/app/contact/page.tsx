@@ -30,10 +30,10 @@ const Contact = () => {
             .map((sci)=>(
               <div className="elements" key={sci.id}>
                 <a href={sci.link}><img src={sci.img} className='social-element' alt='image_social_facebook_instagram'/></a>
-                
               </div>
             ))
           }
+          
 
         {/* <div className="position_relative">
                 <Sci/>
@@ -43,6 +43,12 @@ const Contact = () => {
                     ) : ( <i className='bi bi-list mobile-nav-toggle' onClick={handleToggleMenu}></i>)
                 }
           </div> */}
+        </div>
+        <div className="container_email">
+            <img src='./assets/email-logo.png' alt='logo_mail' className='email'/>
+            <span className="text-email">
+              <p>nabillh.business@gmail.com</p>
+            </span>
         </div>
       </div>
 
