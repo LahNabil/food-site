@@ -11,6 +11,7 @@ interface Post {
   id: number;
   img: string;
   category: string;
+  comment: string[];
   title: string;
   brief: string;
   ingredients: string[];
@@ -75,10 +76,32 @@ const PostItem = ({ params }: { params: { id: number } }) => {
                      height={100}
                      width={100}
                      layout="responsive" /> */}
-                </figure>
                 <figcaption>
-                Lorem du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de limprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte
-                </figcaption>
+                  <div className="infos_comment">
+                    <h2>Steps:</h2>
+                    <ol>
+                    {item.comment.map((step, index)=>(
+                      <li key={index}>{step}</li>
+                    ))}
+
+                    </ol>
+                     
+                  </div>
+                  <div className="infos_ingrédients">
+                  <h2>Ingredients:</h2>
+                  <ol>
+                   {item.ingredients.map((ingredient, index)=>(
+                    <li key={index}>{ingredient}</li>
+
+                   ))}
+                   </ol>
+                  </div>
+                  <div className="infos_duration">
+                    Duration: {item.preptime} min
+                  </div>
+                  
+               </figcaption>
+               </figure>
               </div>
             </div>
             <div className="col-md-3">

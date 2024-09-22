@@ -10,12 +10,11 @@ export const Footer = () => {
       <div className="container-footer">
         <div className="description-footer">
           <h3>Cook it Easy</h3>
-        Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page
-        avant impression. Le Lorem Ipsum est le faux texte standard de limprimerie depuis les années
-        1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre
-        spécimen de polices de texte du faux texte employé dans la composition et la mise en page avant
-        impression.
-         </div>
+          Discover delicious and easy-to-make recipes for every taste and occasion.
+          Explore our articles, follow simple steps, and enjoy homemade meals. Whether you're a
+          beginner or a seasoned cook, find inspiration and make cooking a delightful part of your daily
+          routine. Enjoy cooking with us!
+          </div>
         <div className="navigation-footer">
           <h3>Navigation</h3>
           <ul>

@@ -29,7 +29,7 @@ const Contact = () => {
             .slice(0,-1)
             .map((sci)=>(
               <div className="elements" key={sci.id}>
-                <a href={sci.link}><img src={sci.img} className='social-element' alt='image_social_facebook_instagram'/></a>
+                <a href={sci.link} target='_blank'><img src={sci.img} className='social-element' alt='image_social_facebook_instagram'/></a>
               </div>
             ))
           }
