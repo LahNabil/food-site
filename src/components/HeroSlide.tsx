@@ -14,7 +14,7 @@ export default function HeroSlide({
 
 }){
   return (
-    <a href="#" className="img-bg d-flex align-items-end"
+    <a href={slide.link} className="img-bg d-flex align-items-end"
     style={{backgroundImage: `url(${slide.bgImg})`}}
     >
         <div className="img-bg-inner">

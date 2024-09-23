@@ -1,7 +1,6 @@
 import React from 'react'
 import './PostItemOne.css';
 import Link from 'next/link';
-import { postItems } from '@/data/data';
 
 export const PostItemOne = ({large, item}:{
     

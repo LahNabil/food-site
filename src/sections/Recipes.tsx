@@ -31,7 +31,7 @@ export const Recipes = () => {
                 {/* Filter posts that are not trending or top, and display the first 3 */}
                 {items
                   .filter(
-                    (item) => !item.trending && !item.top
+                    (item) => !item.trending 
                   )
                   .slice(0, 3)
                   .map((item, index) => (
@@ -41,7 +41,7 @@ export const Recipes = () => {
               <div className="col-lg-4 border-start custom-border">
               {items
                   .filter(
-                    (item) => !item.trending && !item.top
+                    (item) => !item.trending
                   )
                   .slice(3, 6)
                   .map((item, index) => (

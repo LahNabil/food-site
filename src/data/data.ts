@@ -66,33 +66,35 @@ export const contact_sci = [
     },
 ]
 export const heroSlides = [
+  
     {
         id:1,
-        bgImg: '/assets/photo1.jpg',
-        title: 'photo1',
-        brief: 'Neat own nor she said see walk. And charm add green you these. Sang busy in this drew ye fine. At greater prepare musical so attacks as on distant. Improving age our her cordially intention. His devonshire sufficient precaution say preference middletons insipidity. Since might water hence the her worse. Concluded it offending dejection do earnestly as me direction. Nature played thirty all him.',
-        link: ''
+        bgImg: '/assets/kale_chicken_salade.jpg',
+        title: 'GREEN CHICKEN SALAD',
+        brief: 'A healthy and nourishing chicken salad topped with fresh green vegetables, perfect for a light lunch.',
+        link: '/postitems/6'
     },
     {
         id:2,
-        bgImg: '/assets/photo2.jpg',
-        title: 'photo 2',
-        brief: 'Neat own nor she said see walk. And charm add green you these. Sang busy in this drew ye fine. At greater prepare musical so attacks as on distant. Improving age our her cordially intention. His devonshire sufficient precaution say preference middletons insipidity. Since might water hence the her worse. Concluded it offending dejection do earnestly as me direction. Nature played thirty all him.',
-        link: ''
+        bgImg: '/assets/Backed_chicken.jpg',
+        title: 'BAKED CHICKEN DRUMSTICKS',
+        brief: 'Oven-baked chicken drumsticks, flavorful and crispy, perfect for a quick and delicious dinner.',
+        link: '/postitems/8'
     },
     {
         id:3,
-        bgImg: '/assets/photo3.jpg',
-        title: 'photo 3',
-        brief: 'Neat own nor she said see walk. And charm add green you these. Sang busy in this drew ye fine. At greater prepare musical so attacks as on distant. Improving age our her cordially intention. His devonshire sufficient precaution say preference middletons insipidity. Since might water hence the her worse. Concluded it offending dejection do earnestly as me direction. Nature played thirty all him.',
-        link: ''
+        bgImg: '/assets/sesame_chicken.jpg',
+        title: 'SESAME CHICKEN',
+        brief: 'Popular Asian dish, featuring chicken coated in a sweet and spicy sauce, topped with sesame seeds.',
+        link: '/postitems/7'
     },
     {
+      
         id:4,
-        bgImg: '/assets/photo4.jpg',
-        title: 'photo 4',
-        brief: 'Neat own nor she said see walk. And charm add green you these. Sang busy in this drew ye fine. At greater prepare musical so attacks as on distant. Improving age our her cordially intention. His devonshire sufficient precaution say preference middletons insipidity. Since might water hence the her worse. Concluded it offending dejection do earnestly as me direction. Nature played thirty all him.',
-        link: ''
+        bgImg: '/assets/CILANTRO_LIME_AVOCADO_TOAST.jpg',
+        title: 'Cilantro Lime Avocado Toast',
+        brief: 'This Cilantro Lime Avocado Toast is a fresh and tasty starter perfect for weekends, featuring creamy avocado topped with vibrant ingredients.',
+        link: '/postitems/17'
     },
 ]
 
