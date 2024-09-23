@@ -4,32 +4,35 @@ import Link from 'next/link';
 import { postItems } from '@/data/data';
 
 export const PostItemOne = ({large, item}:{
+    
     large: boolean;
     item: {
-        id: string;
-        img: string;
-        category: string;
-        date: string;
-        title: string;
-        brief: string;
-        avatar: string;
-        author: string;
-        preptime: number;
+        id: number,
+        img: string,
+          category: string,
+          comment: string[],
+          title: string,
+          brief: string
+          ingredients: string[],
+          preptime: number,
+          type: boolean,
+          trending: boolean
     }
 }) => {
   return (
+    
     <div className={`post-entry-1 ${large ? 'lg' : undefined}`}>
         <Link href={`postitems/${item.id}`}>
             <img src={`${item.img}`} alt='recipe_food' className='img-fluid'/>
         </Link>
         <div className="post-meta">
-            <span className="date">{item.category}{item.preptime} min</span>
+            <span className="date">{item.category} {item.preptime} min</span>
             <span className="mx-1">
                 <i className="bi bi-dot"></i>{' '}
             </span>{' '}
         </div>
         <h2>
-            <Link href={`postItems/${item.id}`}>{item.title}</Link>
+            <Link href={`postitems/${item.id}`}>{item.title}</Link>
         </h2>
         {large ? (
             <>
