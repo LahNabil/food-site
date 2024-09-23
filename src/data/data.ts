@@ -227,44 +227,296 @@ export const postItems = [
           type: false,
           trending: true,
         },
-      
-    {
-        id: 9,
-        img: '/assets/photo1.jpg',
-        category: 'Quick & Easy',
-        date: 'date2',
-        title: 'title9',
-        brief: 'brief9',
-        ingredients: ['ingredient1','ingredient2','ingredient3'],
-        preptime: 30,
-        type: false,
-        trending: true
-    },
-    {
-        id: 10,
-        img: '/assets/photo1.jpg',
-        category: 'Quick & Easy',
-        date: 'date10',
-        title: 'title10',
-        brief: 'brief10',
-        ingredients: ['ingredient1','ingredient2','ingredient3'],
-        preptime: 30,
-        type: false,
-        trending: true
-    },
-    {
-        id: 11,
-        img: '/assets/photo1.jpg',
-        category: 'Quick & Easy',
-        date: 'date11',
-        title: 'title11',
-        brief: 'brief11',
-        ingredients: ['ingredient1','ingredient2','ingredient3'],
-        preptime: 30,
-        type: false,
-        trending: true
-    },
+        {
+          id: 9,
+          img: '/assets/BUTTER_CHICKEN.jpg',
+          category: 'Main course',
+          comment: [
+            'Marinate the chicken with yogurt, lemon juice, and spices for at least 30 minutes.',
+            'Cook the marinated chicken in a pan until lightly browned.',
+            'In another pan, sauté onions, garlic, and ginger. Add tomatoes and cook until soft.',
+            'Blend the tomato mixture into a smooth sauce and return it to the pan.',
+            'Add butter, cream, and spices to the sauce and simmer.',
+            'Add the cooked chicken to the sauce and simmer for 10-15 minutes.',
+            'Serve hot with basmati rice or garlic naan.'
+          ],
+          title: 'Butter Chicken (Murgh Makhani)',
+          brief: 'Butter Chicken is a creamy and flavorful Indian curry, rich with spices and best enjoyed with basmati rice or garlic naan.',
+          ingredients: ['chicken', 'yogurt', 'lemon juice', 'spices', 'onions', 'garlic', 'ginger', 'tomatoes', 'butter', 'cream'],
+          preptime: 45,
+          type: false,
+          trending: true
+        },
+        {
+          id: 10,
+          img: '/assets/ARRABBIATA_PASTA.jpg',
+          category: 'Main course',
+          comment: [
+            'Cook the pasta in salted boiling water until al dente. Drain and set aside.',
+            'Heat olive oil in a pan and sauté the garlic and cayenne pepper until fragrant.',
+            'Add the canned tomatoes, chilli flakes, sugar, black pepper, and kosher salt. Simmer for 15-20 minutes.',
+            'Mash the tomatoes with a fork to break them up, then simmer until the sauce thickens.',
+            'Stir in freshly chopped parsley and adjust seasoning.',
+            'Toss the cooked pasta in the sauce and combine well.',
+            'Serve hot with an optional drizzle of olive oil and fresh parsley.'
+          ],
+          title: 'Arrabbiata Pasta',
+          brief: 'Arrabbiata is a classic Italian pasta dish known for its spicy tomato sauce made with garlic, chilli, and tomatoes. Best served with penne or ziti pasta.',
+          ingredients: ['penne or ziti', 'canned tomatoes', 'garlic', 'cayenne pepper', 'chilli flakes', 'parsley', 'black pepper', 'kosher salt', 'white sugar', 'olive oil'],
+          preptime: 30,
+          type: false,
+          trending: true
+        },
+        {
+          id: 11,
+          img: '/assets/PIZZA_BURGER.jpg',
+          category: 'Main course',
+          comment: [
+            'Season the ground beef with Italian seasoning and form into 4 burger patties.',
+            'Grill or pan-fry the patties until cooked to your liking.',
+            'In a separate pan, heat the marinara sauce and add pizza seasoning for extra flavor.',
+            'Toast the hamburger buns with butter until golden brown.',
+            'Assemble the burger by placing a slice of mozzarella cheese on each patty, followed by some pepperoni and marinara sauce.',
+            'Place the patties on the toasted buns and top with more marinara sauce if desired.',
+            'Serve hot with your favorite pizza toppings.'
+          ],
+          title: 'The Ultimate Pizza Burger',
+          brief: 'The Pizza Burger combines the juicy goodness of a burger with the bold flavors of pizza, making it a perfect fusion dish. Customize it with your favorite pizza toppings!',
+          ingredients: ['ground beef', 'pepperoni', 'marinara sauce', 'Italian seasoning', 'pizza seasoning', 'hamburger buns', 'butter', 'mozzarella cheese'],
+          preptime: 25,
+          type: false,
+          trending: false
+        },
+        {
+          id: 12,
+          img: '/assets/SPINACH_LASAGNA.jpg',
+          category: 'Main course',
+          comment: [
+            'Preheat the oven to 375°F (190°C).',
+            'Cook the lasagna noodles according to package instructions and drain.',
+            'Thaw and drain the frozen spinach, squeezing out excess water.',
+            'Layer a baking dish with marinara sauce, lasagna noodles, spinach, and a mix of mozzarella and parmesan cheese.',
+            'Repeat layers until all ingredients are used.',
+            'Cover with foil and bake for 30 minutes, then uncover and bake for an additional 15 minutes until the cheese is golden and bubbly.',
+            'Let it rest for 10 minutes before serving.'
+          ],
+          title: 'Spinach Lasagna',
+          brief: 'This Spinach Lasagna is rich with three cheeses and packed with spinach, making it a family favorite for weeknight dinners or gatherings.',
+          ingredients: ['spinach', 'marinara sauce', 'lasagna noodles', 'mozzarella cheese', 'parmesan cheese'],
+          preptime: 50,
+          type: false,
+          trending: true
+        },
+        {
+          id: 13,
+          img: '/assets/MUFFALETTA.jpg',
+          category: 'Main course',
+          comment: [
+            'Prepare the olive salad by mixing black olives, green olives, pepperoncini, roasted red peppers, olive oil, and red wine vinegar with dried basil, oregano, garlic powder, salt, and pepper.',
+            'Cut the bread in half horizontally and spread the olive salad on both halves.',
+            'Layer the bottom half with Genoa salami, ham, mortadella, mozzarella, and provolone cheese.',
+            'Place the top half of the bread over the layered meats and cheese.',
+            'Press down and wrap the sandwich tightly in plastic wrap.',
+            'Let the sandwich sit for at least 30 minutes to allow the flavors to meld before cutting and serving.'
+          ],
+          title: 'Muffaletta Sandwich',
+          brief: 'This Muffaletta recipe brings the ultimate New Orleans sandwich to your kitchen, loaded with Italian meats, cheese, and a spicy homemade olive salad.',
+          ingredients: ['genoa salami', 'ham', 'mortadella', 'mozzarella cheese', 'provolone cheese', 'black olives', 'green olives', 'pepperoncini peppers', 'roasted red peppers', 'basil', 'oregano', 'garlic powder', 'salt and pepper', 'olive oil', 'red wine vinegar', 'Italian bread or muffaletta bread'],
+          preptime: 30,
+          type: false,
+          trending: false
+        },
+        {
+          id: 14,
+          img: '/assets/YAKI_UDON.jpg',
+          category: 'Quick & Easy',
+          comment: [
+            'Cook the udon noodles according to the package instructions, then drain and set aside.',
+            'In a hot pan, sauté the garlic, scallions, and shitake mushrooms until fragrant and slightly browned.',
+            'Add the baby bok choy and cook until wilted.',
+            'In a small bowl, whisk together the dark and light soy sauce, oyster sauce, mirin, honey or agave, and sriracha.',
+            'Add the sauce mixture to the pan along with the cooked udon noodles.',
+            'Toss everything together and stir-fry for a couple of minutes until the noodles are well coated and heated through.',
+            'Serve hot, garnished with extra scallions if desired.'
+          ],
+          title: 'Yaki Udon',
+          brief: 'Yaki Udon is a quick and easy stir-fry dish made with chewy udon noodles, fresh vegetables, and a savory sauce. Ready in just 15 minutes!',
+          ingredients: ['baby bok choy', 'garlic', 'scallions', 'shitake mushrooms', 'honey or agave', 'mirin', 'vegetarian oyster sauce', 'dark soy sauce', 'light soy sauce', 'sriracha', 'udon noodles'],
+          preptime: 15,
+          type: false,
+          trending: true
+        },
+        {
+          id: 15,
+          img: '/assets/PANEER_KATHI_ROLL.jpg',
+          category: 'Quick & Easy',
+          comment: [
+            'In a bowl, combine whole wheat flour with water, a pinch of salt, and knead to form a soft dough. Let it rest for 15 minutes.',
+            'In a pan, heat vegetable oil and sauté onions until translucent. Add ginger-garlic paste, chopped tomatoes, and spices (garam masala, red chili powder, turmeric, salt, and cumin). Cook until tomatoes soften.',
+            'Add crumbled paneer and mix well. Cook for a few minutes until the paneer is heated through.',
+            'Divide the dough into small balls and roll them out into thin rotis. Cook each roti on a hot skillet until golden on both sides.',
+            'To assemble, place a roti on a plate, add the paneer mixture, and top with fresh lettuce, coriander leaves, green chilies, and lemon wedges.',
+            'Roll the roti tightly around the filling and secure with onion rings if desired. Serve immediately.'
+          ],
+          title: 'Paneer Kathi Roll',
+          brief: 'Paneer Kathi Rolls feature spicy paneer wrapped in soft roti, making a delicious and filling street food option that’s easy to prepare at home.',
+          ingredients: ['fresh coriander leaves', 'green chilies', 'lemon wedges', 'lettuce', 'onion', 'tomato', 'ginger-garlic paste', 'mint chutney', 'garam masala', 'red chili powder', 'salt', 'turmeric powder', 'whole wheat flour', 'vegetable oil', 'cumin powder', 'cumin seeds', 'onion rings', 'paneer', 'water'],
+          preptime: 30,
+          type: false,
+          trending: true
+        },
+        {
+          id: 16,
+          img: '/assets/SPICY_GARLIC_SHRIMP_NOODLES.jpg',
+          category: 'Quick & Easy',
+          comment: [
+            'Cook the pasta according to package instructions, then drain and set aside.',
+            'In a large pan, heat cooking oil and add minced garlic. Sauté until fragrant.',
+            'Add shrimp and cook until they turn pink and opaque, about 2-3 minutes.',
+            'Stir in sliced serrano peppers and green onions, cooking for another minute.',
+            'In a small bowl, mix together fish sauce, soy sauce, gochugaru, cornstarch, black pepper, salt, and sake or water.',
+            'Pour the sauce over the shrimp and stir to combine, cooking for an additional 2 minutes.',
+            'Add the cooked pasta to the pan, tossing everything together until well combined.',
+            'Finish with a dollop of unsalted butter and drizzle with sesame oil and seeds before serving.'
+          ],
+          title: 'Spicy Garlic Shrimp Noodles',
+          brief: 'This Spicy Garlic Shrimp Noodles recipe combines succulent shrimp with noodles in a flavorful garlic sauce, making it a quick and delicious meal.',
+          ingredients: ['jumbo shrimp', 'garlic', 'green onions', 'serrano pepper', 'fish sauce', 'soy sauce', 'dried pasta', 'black pepper', 'cornstarch', 'gochugaru', 'salt', 'cooking oil', 'sesame oil', 'unsalted butter', 'sake or water', 'maesilaek'],
+          preptime: 25,
+          type: false,
+          trending: true
+        },
+        {
+          id: 17,
+          img: '/assets/CILANTRO_LIME_AVOCADO_TOAST.jpg',
+          category: 'Quick & Easy',
+          comment: [
+            'Toast the whole wheat bread slices until golden brown.',
+            'In a bowl, mash the avocado with fresh lime juice, salt, and cracked black pepper to taste.',
+            'Spread the mashed avocado evenly on the toasted bread.',
+            'Top with halved cherry tomatoes, finely chopped red onion, and chopped cilantro.',
+            'Drizzle with honey and extra virgin olive oil before serving.'
+          ],
+          title: 'Cilantro Lime Avocado Toast',
+          brief: 'This Cilantro Lime Avocado Toast is a fresh and tasty starter perfect for weekends, featuring creamy avocado topped with vibrant ingredients.',
+          ingredients: ['large avocado', 'cherry tomatoes', 'fresh cilantro', 'red onion', 'honey', 'fresh lime juice', 'cracked black pepper', 'salt', 'extra virgin olive oil', 'whole wheat bread'],
+          preptime: 10,
+          type: false,
+          trending: true
+        },
+        {
+          id: 18,
+          img: '/assets/LAYERED_CHOCOLATE_CHEESECAKE.jpg',
+          category: 'Dessert',
+          comment: [
+            'In a bowl, mix Oreo cookie crumbs with melted unsalted butter until well combined.',
+            'Press the mixture into the bottom of a springform pan to form the crust.',
+            'In a microwave-safe bowl, melt bittersweet chocolate and let it cool slightly.',
+            'In a mixing bowl, beat the cream cheese, granulated sugar, powdered sugar, and vanilla extract until smooth and creamy.',
+            'Fold the melted chocolate into the cream cheese mixture until fully incorporated.',
+            'Spread half of the chocolate cheesecake filling over the Oreo crust, smoothing it out.',
+            'Chill for about 15 minutes, then spread the remaining filling on top.',
+            'Refrigerate for at least 4 hours or until set before serving.'
+          ],
+          title: 'Layered Chocolate Cheesecake with Oreo Crust - No Bake',
+          brief: 'This Layered Chocolate Cheesecake with Oreo Crust is a rich and creamy dessert that requires no baking, perfect for any occasion.',
+          ingredients: ['bittersweet chocolate', 'granulated sugar', 'powdered sugar', 'vanilla extract', 'Oreo cookie crumbs', 'unsalted butter', 'cream cheese'],
+          preptime: 25,
+          type: false,
+          trending: false
+        },
+        {
+          id: 19,
+          img: '/assets/CHOCOLATE_CAKE_ROLL.jpg',
+          category: 'Dessert',
+          comment: [
+            'Preheat your oven to 350°F (175°C) and line a jelly roll pan with parchment paper.',
+            'In a mixing bowl, beat the eggs and granulated sugar until light and fluffy.',
+            'Sift together flour, baking powder, cocoa powder, and salt; fold into the egg mixture gently.',
+            'Spread the batter evenly in the prepared pan and bake for 12-15 minutes until set.',
+            'While the cake is baking, prepare a clean kitchen towel dusted with powdered sugar.',
+            'Once baked, remove the cake from the oven, invert it onto the towel, and carefully peel off the parchment paper.',
+            'Roll the cake with the towel while it’s still warm and let it cool completely.',
+            'For the filling, beat cream cheese and double cream with powdered sugar and vanilla until smooth.',
+            'Unroll the cooled cake, spread the filling evenly, and then roll it back up without the towel.',
+            'Chill in the refrigerator for a few hours before slicing and serving.'
+          ],
+          title: 'Chocolate Cake Roll',
+          brief: 'The Chocolate Cake Roll is a delightful dessert that appears complex but is simple to make, perfect for impressing chocolate lovers.',
+          ingredients: ['large eggs', 'corn syrup', 'all-purpose flour', 'baking powder', 'good quality chocolate', 'granulated sugar', 'powdered sugar', 'salt', 'pure vanilla', 'unsalted butter', 'cream cheese', 'double cream', 'Dutch-process cocoa'],
+          preptime: 30,
+          type: false,
+          trending: true
+        },
+        {
+          id: 20,
+          img: '/assets/COFFEE_PANNA_COTTA.jpg',
+          category: 'Dessert',
+          comment: [
+            'In a saucepan, heat the liquid cream, coffee, and sugar until warm, then remove from heat.',
+            'Soak the gelatin sheets in cold water for about 5 minutes, then add them to the warm cream mixture until dissolved.',
+            'Stir in the vanilla extract and pour the mixture into pudding molds.',
+            'Refrigerate for at least 4 hours or until set.',
+            'For the cocoa sauce, combine sugar, water, cocoa powder, lemon juice, instant coffee, and a pinch of salt in a saucepan.',
+            'Heat until the mixture thickens slightly, then let it cool.',
+            'To serve, unmold the panna cotta and drizzle with cocoa sauce.'
+          ],
+          title: 'Coffee Panna Cotta with Cocoa Sauce',
+          brief: 'This Coffee Panna Cotta with Cocoa Sauce is a stunning dessert that elevates the flavor of coffee, complemented by a rich cocoa sauce.',
+          ingredients: ['liquid cream', 'coffee', 'sugar', 'gelatin sheets', 'vanilla extract', 'sugar', 'water', 'unsweetened cocoa powder', 'lemon juice', 'instant coffee', 'salt'],
+          preptime: 30,
+          type: false,
+          trending: true
+        },
+        {
+          id: 21,
+          img: '/assets/HEALTHY_LEMONADE.jpg',
+          category: 'Drinks',
+          comment: [
+            'Juice the fresh lemons to extract the juice.',
+            'In a pitcher, combine the lemon juice, honey, and water, adjusting sweetness to taste.',
+            'Add ice and lemon slices for a refreshing presentation.',
+            'Stir well and serve chilled.'
+          ],
+          title: 'Healthy Lemonade',
+          brief: 'This Healthy Lemonade is a refreshing drink made with fresh lemons and honey, perfect for a natural, sugar-free beverage option.',
+          ingredients: ['ice', 'fresh lemons', 'honey'],
+          preptime: 10,
+          type: false,
+          trending: false
+        },
+        {
+          id: 22,
+          img: '/assets/VIRGIN_STRAWBERRY_DAIQUIRI.jpg',
+          category: 'Drinks',
+          comment: [
+            'In a blender, combine the frozen strawberries, fresh strawberries, lime juice, and simple syrup.',
+            'Blend until smooth and adjust sweetness as desired.',
+            'Serve immediately in chilled glasses with lime wedges for garnish.',
+            'Enjoy this refreshing drink on a hot summer day!'
+          ],
+          title: 'Virgin Strawberry Daiquiri',
+          brief: 'This Virgin Strawberry Daiquiri is a delicious non-alcoholic frozen drink, perfect for summer parties and family gatherings.',
+          ingredients: ['fresh lime', 'frozen strawberries', 'fresh strawberries', 'freshly squeezed lime juice', 'simple syrup'],
+          preptime: 10,
+          type: false,
+          trending: false
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 
+        
+        
+        
+   
 
 
 

@@ -9,6 +9,9 @@ const PostItems = () => {
     <main id="main">
         <section id="posts" className="posts">
             <div className="container">
+                <div className="filtre">
+                    <h3>Category</h3>
+                </div>
                 <div className="row">
                     {items && items.length > 0 ? (
                         items.map((item)=>(
