@@ -503,7 +503,251 @@ export const postItems = [
           preptime: 10,
           type: false,
           trending: false
+        },
+        {
+          id: 23,
+          img: '/assets/CREAMY_TOMATO_PASTA.jpg',
+          category: 'Quick & Easy',
+          comment: [
+            'Cook the penne pasta according to package instructions.',
+            'In a pan, sauté minced garlic in butter until fragrant.',
+            'Add tomato paste and sauce, stir well.',
+            'Pour in heavy cream and season with salt and black pepper.',
+            'Simmer until the sauce thickens.',
+            'Mix in cooked pasta and top with grated parmesan cheese.',
+            'Garnish with fresh parsley and serve.'
+          ],
+          title: 'Creamy Tomato Pasta',
+          brief: 'This Creamy Tomato Pasta is a simple and delicious meal made from scratch with a rich and silky smooth cream and tomato-based sauce. Ready in under 30 minutes using easy-to-find ingredients.',
+          ingredients: [
+            '3 cloves Garlic',
+            '1 tbsp Parsley, fresh',
+            '2 tbsp Tomato paste',
+            '1 (15 ounce) can Tomato sauce',
+            '8 oz Penne pasta',
+            '1/4 tsp Black pepper, ground',
+            '1/2 tsp Salt',
+            '3 tbsp Butter',
+            '1/2 cup Heavy cream',
+            '1/2 cup Parmesan cheese, grated'
+          ],
+          preptime: 30,
+          type: false,
+          trending: false
+        },
+        {
+          id: 24,
+          img: '/assets/SOPA_DE_FIDEO.jpg',
+          category: 'Quick & Easy',
+          comment: [
+            'Heat olive oil in a large pot and sauté the garlic until fragrant.',
+            'Add the fideo pasta and cook until lightly browned.',
+            'Blend tomatoes, cilantro, and oregano in a blender until smooth.',
+            'Pour the tomato mixture into the pot, stir and cook for a few minutes.',
+            'Add the broth, cumin, and salt, bring to a boil.',
+            'Simmer until the pasta is tender, about 10 minutes.',
+            'Serve hot, garnished with fresh cilantro.'
+          ],
+          title: 'Sopa de Fideo',
+          brief: 'An authentic Mexican Sopa de Fideo made with tomatoes, noodles, garlic, and broth. A quick, easy, and delicious soup loved by both kids and adults.',
+          ingredients: [
+            '1/3 cup Cilantro',
+            '2 cloves Garlic',
+            '1 tbsp Mexican oregano, fresh',
+            '1 (28-ounce) can Tomatoes, whole',
+            '1 qt Chicken broth or vegetable broth',
+            '1 (7-ounce) package Fideo pasta, cut',
+            '1 tsp Kosher salt',
+            '7/16 cup Olive oil',
+            '1 tsp Cumin, ground'
+          ],
+          preptime: 20,
+          type: false,
+          trending: false
+        },
+        {
+          id: 25,
+          img: '/assets/SHRIMP_LO_MEIN.jpg',
+          category: 'Quick & Easy',
+          comment: [
+            'Cook the noodles according to package instructions and set aside.',
+            'Heat vegetable oil in a pan, then sauté garlic, ginger, and shrimp until shrimp turns pink.',
+            'Add cabbage, carrots, and red bell pepper, and stir-fry for a few minutes.',
+            'Mix in hoisin sauce, soy sauce, sesame oil, and brown sugar.',
+            'Toss the noodles in the sauce mixture until well coated.',
+            'Garnish with sesame seeds and serve hot.'
+          ],
+          title: 'Shrimp Lo Mein',
+          brief: 'This Shrimp Lo Mein recipe combines juicy shrimp, tender vegetables, and noodles mixed in a flavorful lo mein sauce. A quick and easy meal, perfect for any night of the week.',
+          ingredients: [
+            '8 oz Shrimp',
+            '1 cup Cabbage',
+            '1/4 cup Carrots',
+            '2 cloves Garlic',
+            '1 tsp Garlic, dried',
+            '2 tsp Ginger, dried',
+            '1/2 cup Red bell pepper',
+            '2 tbsp Hoisin sauce',
+            '1/4 cup Soy sauce',
+            '4 oz Noodles',
+            '1 tsp Brown sugar',
+            '1 Some sesame',
+            '1 tsp Sesame oil',
+            '1 tbsp Vegetable or olive oil'
+          ],
+          preptime: 25,
+          type: false,
+          trending: false
+        },
+        {
+          id: 26,
+          img: '/assets/OMELETTE_WITH_AVOCADO.jpg',
+          category: 'Quick & Easy',
+          comment: [
+            'Whisk the eggs with a splash of milk, garlic salt, and pepper.',
+            'Heat ghee in a pan and sauté mushrooms with red chili flakes until tender.',
+            'Add spinach and cook until wilted.',
+            'Pour the egg mixture into the pan and cook until the omelette starts to set.',
+            'Sprinkle feta cheese on top and fold the omelette in half.',
+            'Serve with half an avocado on the side.'
+          ],
+          title: 'Omelette with Avocado',
+          brief: 'A quick and flavorful omelette with garlicky mushrooms, spinach, and feta, served with fresh avocado. Perfect for a simple, healthy meal.',
+          ingredients: [
+            '1/2 Avocado',
+            '1/2 cup Mushrooms',
+            '1/4 tsp Red chili flakes',
+            '1 handful Spinach',
+            '2 Eggs',
+            'Garlic salt',
+            'Pepper',
+            '1 tbsp Feta',
+            '2 tbsp Ghee',
+            '1 splash Milk'
+          ],
+          preptime: 15,
+          type: false,
+          trending: false
+        },
+        {
+          id: 27,
+          img: '/assets/ROASTED_RED_PEPPER_ROMESCO.jpg',
+          category: 'Quick & Easy',
+          comment: [
+            'In a blender, combine roasted red peppers, roma tomatoes, garlic, and almonds.',
+            'Add dried basil, olive oil, red wine vinegar, salt, and pepper.',
+            'Blend until smooth and creamy.',
+            'Adjust seasoning to taste and serve with your favorite dish or use as a dip.'
+          ],
+          title: 'Roasted Red Pepper Romesco Sauce',
+          brief: 'A vegan and gluten-free Roasted Red Pepper Romesco Sauce, perfect for weeknight meals. This versatile sauce can be used for pasta, dipping, or as a topping.',
+          ingredients: [
+            '2 tsp Basil, dried',
+            '1 clove Garlic',
+            '2 Roma tomatoes',
+            '1 tsp Pepper',
+            '1 12oz jar Red peppers, roasted',
+            '1 1/2 tsp Salt',
+            '2 tbsp Olive oil',
+            '1/4 cup Red wine vinegar',
+            '1 cup Almonds'
+          ],
+          preptime: 10,
+          type: true,
+          trending: false
+        },
+        {
+          id: 28,
+          img: '/assets/HUEVOS_RANCHEROS_TOSTADAS.jpg',
+          category: 'Quick & Easy',
+          comment: [
+            'Warm the refried beans in a pan and spread them evenly on the tostada tortillas.',
+            'In a separate pan, fry the eggs until the whites are set but the yolks are still runny.',
+            'Top each tostada with a fried egg.',
+            'Add sliced avocado, chopped lettuce, and diced tomatoes.',
+            'Crumble queso fresco on top and serve immediately.'
+          ],
+          title: '10-Minute Huevos Rancheros Breakfast Tostadas',
+          brief: 'Quick and easy vegetarian Huevos Rancheros Breakfast Tostadas, perfect for breakfast, lunch, or dinner. Ready in just 10 minutes.',
+          ingredients: [
+            '1 Avocado',
+            '1 cup Lettuce',
+            '1/2 cup Tomatoes',
+            '4 Eggs',
+            '1 Package herdez refried beans',
+            '4 Tostada tortillas',
+            '2 oz Queso fresco'
+          ],
+          preptime: 10,
+          type: true,
+          trending: false
+        },
+        {
+          id: 29,
+          img: '/assets/BANANA_PANCAKES.jpg',
+          category: 'Dessert',
+          comment: [
+            'In a bowl, mash the banana until smooth.',
+            'Whisk in the egg, buttermilk, and canola oil.',
+            'In a separate bowl, combine the flour, baking powder, and sugar.',
+            'Gradually mix the dry ingredients into the wet ingredients until just combined.',
+            'Fold in chocolate chips if desired.',
+            'Heat a pan over medium heat and pour batter to form pancakes.',
+            'Cook until bubbles form on the surface, then flip and cook until golden brown.'
+          ],
+          title: 'Banana Pancakes',
+          brief: 'Easy banana pancakes that are a fantastic change from the usual buttermilk pancakes. Perfect for a delicious family breakfast!',
+          ingredients: [
+            '1 Banana, medium very ripe',
+            '1 Egg, large',
+            '1 1/2 cups All-purpose flour',
+            '2 1/2 tsp Baking powder',
+            '1 Chocolate chips',
+            '1 tbsp Granulated sugar',
+            '2 tbsp Canola oil',
+            '1 cup Buttermilk'
+          ],
+          preptime: 35,
+          type: true,
+          trending: true
+        },
+        {
+          id: 30,
+          img: '/assets/GARLIC_BASIL_BUTTER_PASTA.jpg',
+          category: 'Quick & Easy',
+          comment: [
+            'Cook the bucatini pasta according to package instructions until al dente.',
+            'In a large pan, melt the salted butter over medium heat until it starts to brown.',
+            'Add minced garlic, cherry tomatoes, and red pepper flakes, and sauté until the tomatoes soften.',
+            'Stir in fresh basil, freshly cracked black pepper, and olive oil.',
+            'Toss the cooked pasta with the sauce and sprinkle with pecorino cheese before serving.'
+          ],
+          title: '20 Minute Garlic Basil Butter Pasta',
+          brief: 'A quick and flavorful Garlic Basil Brown Butter Pasta with cherry tomatoes, fresh basil, and pecorino cheese. Ready in just 20 minutes!',
+          ingredients: [
+            '1 cup Basil, fresh',
+            '2 cups Cherry tomatoes',
+            '2 cloves Garlic',
+            '1 lb Bucatini pasta',
+            '1 1/2 tsp Black pepper, freshly cracked',
+            'Kosher salt',
+            'Red pepper flakes',
+            '2 tbsp Olive oil, extra virgin',
+            '6 tbsp Butter, salted',
+            '1/2 cup Pecorino cheese'
+          ],
+          preptime: 20,
+          type: true,
+          trending: false
         }
+        
+        
+        
+        
+        
+        
+        
+        
         
         
         

@@ -146,7 +146,7 @@ const PostItem = ({ params }: { params: { id: number } }) => {
                     <div className="video-post">
                         <a
                         target='_blank'
-                        href="https://www.youtube.com/watch?v=NJuxjSplSII&ab_channel=ChoumichaChafay"
+                        href="https://www.youtube.com/watch?v=Kes2fk-Nuwo&ab_channel=GordonRamsay"
                         className='link-video'>
                         <span className="bi-play-fill"></span>
                         <img
