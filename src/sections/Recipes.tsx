@@ -55,7 +55,7 @@ export const Recipes = () => {
                     {
                       items && items.length> 0
                       && items.filter((item) => item.trending).map((item, index) => (
-                        <TrendingPost key={item.id} index={index} item={item}/>
+                        <TrendingPost key={String(item.id)} index={index} item={item}/>
                       ))
                     }
                   </ul>
