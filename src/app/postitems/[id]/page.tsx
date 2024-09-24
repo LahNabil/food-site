@@ -22,7 +22,7 @@ interface Post {
 
 const PostItem = ({ params }: { params: { id: number } }) => {
   const [item, setItem] = useState<Post | null>(null);
-  const [items, setItems] = useState(postItems);
+  const [items] = useState(postItems);
   const postId = Number(params.id); // Récupérer l'ID à partir des params
   const tabsData= [
     {id: 1, name: 'popular', active: true},
