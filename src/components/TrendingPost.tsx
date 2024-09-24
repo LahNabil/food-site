@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export const TrendingPost = ({item, index,} : {
     item: 
-        {id:string;
+        {id:number;
         title: string;
         category: string;  
     }
