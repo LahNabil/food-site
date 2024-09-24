@@ -1,54 +1,111 @@
-#main_contact{
+#main_contact {
     background-image: url("/assets/bg_image_contact.jpg");
-    height: 600px;
+    height: 100vh; /* Ajuster pour s'adapter à la hauteur de l'écran */
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     background-position: center center;
     margin-top: 3%;
 }
-.sous-titre{
+
+.sous-titre {
     font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
-.container_contact{
+
+/* Conteneur principal */
+.container_contact {
     padding: 5%;
 }
-.email{
-    height: 100px;
-}
-.text-email{
-    font-weight: bold;
 
-}
-.container_email{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    margin-left: 25%;
-    flex-direction: column;
-    margin-top: 20px;
-}
-.text_contact{
+/* Texte de contact */
+.text_contact {
     margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
-
+    text-align: center;
 }
+
+/* Médias sociaux */
 .social-media {
     display: flex;
-    justify-content: center; /* Centre horizontalement */
-    align-items: center;     /* Centre verticalement */
-    flex-wrap: wrap;         /* Si tu veux que les éléments s'ajustent en fonction de l'espace */
-              /* Fait en sorte que le conteneur occupe toute la hauteur de la page */
-    margin: 0;               /* Supprime les marges inutiles */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
 }
-.social-element{
+
+.social-element {
     height: 100px;
     width: auto;
-
+    margin: 0.5rem; /* Espacement entre les icônes */
 }
-.elements{
+
+.elements {
     padding-left: 5%;
 }
 
+/* Email */
+.container_email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Prend toute la largeur pour mobile */
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.text-email {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+/* Media queries pour rendre la page responsive */
+@media (max-width: 768px) {
+    .text_contact {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .social-element {
+        height: 80px; /* Réduire la taille des icônes sur les petits écrans */
+    }
+
+    .container_email {
+        width: 90%; /* Prendre presque toute la largeur pour les petits écrans */
+        margin-left: 0;
+    }
+
+    #main_contact {
+        height: auto; /* Permettre au contenu de s'ajuster en fonction de l'écran */
+        margin-top: 10%;
+    }
+
+    .sous-titre {
+        font-size: 2rem;
+    }
+
+    .text-email {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .sous-titre {
+        font-size: 1.5rem;
+    }
+
+    .text_contact {
+        font-size: 0.9rem;
+    }
+
+    .social-element {
+        height: 60px; /* Réduire davantage les icônes pour très petits écrans */
+    }
+
+    .text-email {
+        font-size: 0.9rem;
+    }
+}
