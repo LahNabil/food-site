@@ -1,7 +1,7 @@
 "use client";
 
 import { postItems } from '@/data/data';
-import React, { useState, useEffect, use } from 'react';
+import React, { useState, useEffect} from 'react';
 import './style.css';
 import Image from 'next/image';
 import { SidePostItem } from '@/components/SidePostItem';
@@ -67,15 +67,8 @@ const PostItem = ({ params }: { params: { id: number } }) => {
                     {item.brief && item.brief.substring(1)}
                 </p>
                 <figure className='my-4'>
-                    <img src={item.img} alt='photo_recipe' className='img-fluid' />
-                    
-                    {/* <Image
-                     src={item.img}
-                     alt='photo_recipe'
-                     className='img-fluid'
-                     height={100}
-                     width={100}
-                     layout="responsive" /> */}
+                    <Image height={500} width={820} src={item.img} alt='photo_recipe' className='img-fluid' />
+                   
                 <figcaption>
                   <div className="infos_comment">
                     <h2>Steps:</h2>
@@ -149,7 +142,8 @@ const PostItem = ({ params }: { params: { id: number } }) => {
                         href="https://www.youtube.com/watch?v=Kes2fk-Nuwo&ab_channel=GordonRamsay"
                         className='link-video'>
                         <span className="bi-play-fill"></span>
-                        <img
+                        <Image
+                        height={100} width={100}
                         src='/assets/photo3.jpg'
                         alt="photo_video_recipe"
                         className='img-fluid'

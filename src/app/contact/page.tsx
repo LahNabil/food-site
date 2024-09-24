@@ -3,15 +3,10 @@
 import React from 'react'
 import "./contact.css"
 import { contact_sci } from '@/data/data';
+import Image from 'next/image';
 
 const Contact = () => {
-//   const [on, setOn]= useState(false);
-//   const handleToggleMenu = () => {
-//     setOn(!on);
-//     let body: HTMLElement | any = document.querySelector('body');
-//     body.classList.toggle('mobile-nav-active');
 
-// };
   return (
     <main id='main_contact'>
       <div className="container_contact">
@@ -29,7 +24,7 @@ const Contact = () => {
             .slice(0,-1)
             .map((sci)=>(
               <div className="elements" key={sci.id}>
-                <a href={sci.link} target='_blank'><img src={sci.img} className='social-element' alt='image_social_facebook_instagram'/></a>
+                <a href={sci.link} target='_blank'><Image src={sci.img} className='social-element' height={100} width={100} alt='image_social_facebook_instagram'/></a>
               </div>
             ))
           }
@@ -45,7 +40,7 @@ const Contact = () => {
           </div> */}
         </div>
         <div className="container_email">
-            <img src='./assets/email-logo.png' alt='logo_mail' className='email'/>
+            <Image src='/assets/email-logo.png' height={100} width={100} alt='logo_mail' className='email'/>
             <span className="text-email">
               <p>nabillh.business@gmail.com</p>
             </span>

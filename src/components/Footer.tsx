@@ -11,7 +11,7 @@ export const Footer = () => {
         <div className="description-footer">
           <h3>Cook it Easy</h3>
           Discover delicious and easy-to-make recipes for every taste and occasion.
-          Explore our articles, follow simple steps, and enjoy homemade meals. Whether you're a
+          Explore our articles, follow simple steps, and enjoy homemade meals. Whether you&apos;re a
           beginner or a seasoned cook, find inspiration and make cooking a delightful part of your daily
           routine. Enjoy cooking with us!
           </div>

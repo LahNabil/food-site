@@ -1,6 +1,7 @@
 import React from 'react'
 import './PostItemOne.css';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const PostItemOne = ({large, item}:{
     
@@ -8,21 +9,21 @@ export const PostItemOne = ({large, item}:{
     item: {
         id: number,
         img: string,
-          category: string,
-          comment: string[],
-          title: string,
-          brief: string
-          ingredients: string[],
-          preptime: number,
-          type: boolean,
-          trending: boolean
+        category: string,
+        comment: string[],
+        title: string,
+        brief: string
+        ingredients: string[],
+        preptime: number,
+        type: boolean,
+        trending: boolean
     }
 }) => {
   return (
     
     <div className={`post-entry-1 ${large ? 'lg' : undefined}`}>
         <Link href={`postitems/${item.id}`}>
-            <img src={`${item.img}`} alt='recipe_food' className='img-fluid'/>
+            <Image src={`${item.img}`} alt='recipe_food' width={290} height={100} className='img-fluid'/>
         </Link>
         <div className="post-meta">
             <span className="date">{item.category} {item.preptime} min</span>

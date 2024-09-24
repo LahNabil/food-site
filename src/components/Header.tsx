@@ -3,14 +3,16 @@ import React, { useState } from 'react'
 import './Header.css';
 import { Nav } from './Nav';
 import { Sci } from './Sci';
+import Image from 'next/image';
 
 export const Header = () => {
     const [on, setOn]= useState(false);
     const handleToggleMenu = () => {
         setOn(!on);
-        let body: HTMLElement | any = document.querySelector('body');
-        body.classList.toggle('mobile-nav-active');
-
+        const body: HTMLElement | null = document.querySelector('body'); // Précision du type
+        if (body) {
+            body.classList.toggle('mobile-nav-active');
+        }
     };
 
   return (
@@ -19,7 +21,7 @@ export const Header = () => {
         <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
         
             <a href='/' className='d-flex'>
-            <img src='/assets/logo_cook_it.png' alt='cook t easy' className='img_logo' style={{ width: '90px', height: 'auto' }} />
+            <Image src='/assets/logo_cook_it.png' alt='cook t easy' className='img_logo'  width={90} height={90} />
                 <h1 className='title_header'>Cook it Easy</h1>
             </a>
             

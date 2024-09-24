@@ -46,22 +46,22 @@ export const scis = [
 export const contact_sci = [
     {
         id:1,
-        img: './assets/facebook-logo.png',
+        img: '/assets/facebook-logo.png',
         link: 'https://web.facebook.com/profile.php?id=61566508671453',
     },
     {
         id:2,
-        img: './assets/instagram-logo.png',
+        img: '/assets/instagram-logo.png',
         name: 'https://www.instagram.com/',
     },
     {
         id:3,
-        img: './assets/tiktok-logo.png',
+        img: '/assets/tiktok-logo.png',
         link: 'https://tiktok.com',
     },
     {
         id:4,
-        img: './assets/email-logo.png',
+        img: '/assets/email-logo.png',
         link: '',
     },
 ]
