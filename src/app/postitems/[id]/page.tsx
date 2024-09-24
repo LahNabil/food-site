@@ -69,16 +69,14 @@ const PostItem = ({ params }: { params: { id: number } }) => {
                 <figure className='my-4'>
                     <Image height={500} width={820} src={item.img} alt='photo_recipe' className='img-fluid' />
                    
-                <figcaption>
+                <figcaption className='fig_caption'>
                   <div className="infos_comment">
                     <h2>Steps:</h2>
                     <ol>
                     {item.comment.map((step, index)=>(
                       <li key={index}>{step}</li>
                     ))}
-
                     </ol>
-                     
                   </div>
                   <div className="infos_ingrédients">
                   <h2>Ingredients:</h2>
