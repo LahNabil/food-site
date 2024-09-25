@@ -25,16 +25,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <script
+      async
+      src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_ADSENSE_PID}`}
+      crossOrigin="anonymous"
+      ></script>
+      <meta name="google-adsense-account" content={process.env.NEXT_PUBLIC_ADSENSE_PID}></meta>
+
       <Head>
         <link rel="icon" href="/favicon.ico"/>    
         
       </Head>
       <body className={ebGaramond.className}>
         <Header/>
-        <Script
-          async
-          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_ADSENSE_PID}`}
-          crossOrigin="anonymous"></Script>
         {children}
         <Footer/>
         
