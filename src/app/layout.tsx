@@ -25,13 +25,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-      <script async
-       src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9987360970722260"
-       crossOrigin="anonymous"></script>
-      </head>
       <Head>
         <link rel="icon" href="/favicon.ico"/>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9987360970722260"
+          crossOrigin="anonymous">
+        </script>
       </Head>
       <body className={ebGaramond.className}>
         <Header/>
