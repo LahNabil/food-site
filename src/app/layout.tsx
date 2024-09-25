@@ -9,6 +9,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import Head from "next/head";
 import AdSence from "@/components/AdSence";
+import Script from "next/script";
 
 
 const ebGaramond = EB_Garamond({subsets: ['latin']});
@@ -26,17 +27,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <link rel="icon" href="/favicon.ico"/>
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9987360970722260"
-          crossOrigin="anonymous">
-        </script>
+        <link rel="icon" href="/favicon.ico"/>    
+        
       </Head>
       <body className={ebGaramond.className}>
         <Header/>
         {children}
         <Footer/>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9987360970722260"
+          crossOrigin="anonymous"/>
       </body>
     </html>
   );
