@@ -28,16 +28,6 @@ const Contact = () => {
               </div>
             ))
           }
-          
-
-        {/* <div className="position_relative">
-                <Sci/>
-                {
-                    on ? (
-                        <i className='bi bi-x mobile-nav-toggle' onClick={handleToggleMenu}></i>
-                    ) : ( <i className='bi bi-list mobile-nav-toggle' onClick={handleToggleMenu}></i>)
-                }
-          </div> */}
         </div>
         <div className="container_email">
             <Image src='/assets/email-logo.png' height={100} width={100} alt='logo_mail' className='email'/>

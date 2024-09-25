@@ -8,6 +8,7 @@ import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import Head from "next/head";
+import AdSence from "@/components/AdSence";
 
 
 const ebGaramond = EB_Garamond({subsets: ['latin']});
@@ -24,6 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <AdSence pId={process.env.NEXT_PUBLIC_ADSENSE_PID || ""}/>
+      </head>
       <Head>
         <link rel="icon" href="/favicon.ico"/>
       </Head>
