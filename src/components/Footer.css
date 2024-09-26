@@ -3,11 +3,11 @@
     flex-direction: row;
     justify-content: space-between;
     
-    padding: 5%;
-    padding-left: 10%;
 }
 .privacy{
     text-align: center;
+    margin-top: 20px;
+   
 }
 a {
     text-decoration: none;
@@ -25,6 +25,8 @@ a {
 .container-foooter{
     background-color: #555d67;
     color: azure;
+    padding: 3%;
+    padding-left: 10%;
 
 }
 

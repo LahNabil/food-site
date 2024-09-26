@@ -41,8 +41,6 @@ export const Footer = () => {
       </div>
       <div className="privacy">
         <p>@ 2024 Cook It Easy | <a href='/policy'>Policy</a></p>
-        
-        
       </div>
       </div>
     </footer>
