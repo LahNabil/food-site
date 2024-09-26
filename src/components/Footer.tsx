@@ -7,6 +7,7 @@ import Link from 'next/link';
 export const Footer = () => {
   return (
     <footer>
+      <div className="container-foooter">
       <div className="container-footer">
         <div className="description-footer">
           <h3>Cook it Easy</h3>
@@ -37,6 +38,12 @@ export const Footer = () => {
           <li>Drinks</li>
         </ul>    
         </div>
+      </div>
+      <div className="privacy">
+        <p>@ 2024 Cook It Easy | <a href='/policy'>Policy</a></p>
+        
+        
+      </div>
       </div>
     </footer>
   )

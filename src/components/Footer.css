@@ -2,10 +2,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #555d67;
-    color: azure;
+    
     padding: 5%;
     padding-left: 10%;
+}
+.privacy{
+    text-align: center;
 }
 a {
     text-decoration: none;
@@ -19,6 +21,11 @@ a {
 .description-footer {
     flex: 1;
     padding-right: 20px; /* Pas de guillemets autour de 20px */
+}
+.container-foooter{
+    background-color: #555d67;
+    color: azure;
+
 }
 
 .navigation-footer {

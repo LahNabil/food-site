@@ -9,7 +9,7 @@ export const navs = [
     },
     {
         id:2,
-        name: "PostItems",
+        name: "Recipes",
         link: "/postitems",
         active: true
     },
