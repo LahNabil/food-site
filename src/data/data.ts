@@ -99,295 +99,319 @@ export const heroSlides = [
 ]
 
 export const postItems = [
-        {
-          id: 1,
-          img: '/assets/PANUOZZO.jpg',
-          category: 'Main course',
-          comment: [
-            'Cut the flatbread in half and lightly toast it.',
-            'Fill with ham, cheese, and grilled vegetables.',
-            'Heat in the oven for 5 minutes until the cheese melts.',
-            'Serve hot.'
-          ],
-          title: 'PANUOZZO Sandwich',
-          brief: 'Panuozzo is an Italian sandwich made of flatbread filled with ham, cheese, and grilled vegetables. A quick and tasty meal.',
-          ingredients: ['flatbread', 'ham', 'cheese', 'grilled vegetables'],
-          preptime: 20,
-          type: false,
-          trending: true,
-        },
-        {
-          id: 2,
-          img: '/assets/smoky_vegan.jpg',
-          category: 'Main course',
-          comment: [
-            'Cut the vegetables into pieces and roast them in the oven with olive oil.',
-            'Grill the smoked tofu and mix it with the roasted vegetables.',
-            'Add herbs and serve with a sauce of your choice.'
-          ],
-          title: 'SMOKY VEGAN',
-          brief: 'A flavorful vegan dish combining roasted vegetables and smoked tofu with a smoky taste.',
-          ingredients: ['roasted vegetables', 'smoked tofu', 'herbs'],
-          preptime: 25,
-          type: true,
-          trending: false,
-        },
-        {
-          id: 3,
-          img: '/assets/Curried_Sausages.jpg',
-          category: 'Main course',
-          comment: [
-            'Cook the sausages in a pan.',
-            'Add chopped vegetables and sauté.',
-            'Mix with curry and spices, then simmer for 20 minutes.',
-            'Serve with rice.'
-          ],
-          title: 'CURRIED SAUSAGE',
-          brief: 'A spicy dish with sausages simmered in a flavorful curry sauce, perfect for a comforting dinner.',
-          ingredients: ['sausages', 'curry', 'vegetables', 'spices'],
-          preptime: 40,
-          type: false,
-          trending: false,
-        },
-        {
-          id: 4,
-          img: '/assets/spicy_beef.jpg',
-          category: 'Main course',
-          comment: [
-            'Cook the udon noodles according to the instructions.',
-            'Sauté beef with vegetables in a pan, then add a spicy sauce.',
-            'Mix everything with the udon noodles and serve hot.'
-          ],
-          title: 'SPICY VEGETABLE BEEF UDON NOODLES',
-          brief: 'A spicy dish combining thick udon noodles, tender beef, and crunchy vegetables.',
-          ingredients: ['udon noodles', 'beef', 'vegetables', 'spicy sauce'],
-          preptime: 30,
-          type: false,
-          trending: false,
-        },
-        {
-          id: 5,
-          img: '/assets/green_soop.jpg',
-          category: 'Quick & Easy',
-          comment: [
-            'Boil green vegetables (spinach, broccoli, peas) for 10 minutes.',
-            'Blend everything until smooth.',
-            'Add herbs before serving.'
-          ],
-          title: 'CALMING GREEN SOUP',
-          brief: 'A calming green soup, packed with fresh vegetables, perfect for a light and healthy meal.',
-          ingredients: ['spinach', 'broccoli', 'peas', 'herbs'],
-          preptime: 15,
-          type: true,
-          trending: false,
-        },
-        {
-          id: 6,
-          img: '/assets/kale_chicken_salade.jpg',
-          category: 'Main course',
-          comment: [
-            'Cook the chicken and let it cool.',
-            'Cut it into pieces and mix with green vegetables (lettuce, cucumber, avocado).',
-            'Add dressing and serve chilled.'
-          ],
-          title: 'GREEN CHICKEN SALAD',
-          brief: 'A healthy and nourishing chicken salad topped with fresh green vegetables, perfect for a light lunch.',
-          ingredients: ['chicken', 'green salad', 'cucumbers', 'avocado'],
-          preptime: 20,
-          type: false,
-          trending: true,
-        },
-        {
-          id: 7,
-          img: '/assets/sesame_chicken.jpg',
-          category: 'Main course',
-          comment: [
-            'Cook chicken pieces in a pan with soy sauce and honey.',
-            'Add sesame seeds and let it simmer until the sauce thickens.',
-            'Serve with rice.'
-          ],
-          title: 'SESAME CHICKEN',
-          brief: 'Popular Asian dish, featuring chicken coated in a sweet and spicy sauce, topped with sesame seeds.',
-          ingredients: ['chicken', 'soy sauce', 'honey', 'sesame seeds'],
-          preptime: 30,
-          type: false,
-          trending: false,
-        },
-        {
-          id: 8,
-          img: '/assets/Backed_chicken.jpg',
-          category: 'Main course',
-          comment: [
-            'Preheat the oven to 200°C.',
-            'Season chicken drumsticks with spices and olive oil.',
-            'Bake for 35 minutes until golden and crispy.'
-          ],
-          title: 'BAKED CHICKEN DRUMSTICKS',
-          brief: 'Oven-baked chicken drumsticks, flavorful and crispy, perfect for a quick and delicious dinner.',
-          ingredients: ['chicken drumsticks', 'spices', 'olive oil'],
-          preptime: 35,
-          type: false,
-          trending: true,
-        },
-        {
-          id: 9,
-          img: '/assets/BUTTER_CHICKEN.jpg',
-          category: 'Main course',
-          comment: [
-            'Marinate the chicken with yogurt, lemon juice, and spices for at least 30 minutes.',
-            'Cook the marinated chicken in a pan until lightly browned.',
-            'In another pan, sauté onions, garlic, and ginger. Add tomatoes and cook until soft.',
-            'Blend the tomato mixture into a smooth sauce and return it to the pan.',
-            'Add butter, cream, and spices to the sauce and simmer.',
-            'Add the cooked chicken to the sauce and simmer for 10-15 minutes.',
-            'Serve hot with basmati rice or garlic naan.'
-          ],
-          title: 'Butter Chicken (Murgh Makhani)',
-          brief: 'Butter Chicken is a creamy and flavorful Indian curry, rich with spices and best enjoyed with basmati rice or garlic naan.',
-          ingredients: ['chicken', 'yogurt', 'lemon juice', 'spices', 'onions', 'garlic', 'ginger', 'tomatoes', 'butter', 'cream'],
-          preptime: 45,
-          type: false,
-          trending: true
-        },
-        {
-          id: 10,
-          img: '/assets/ARRABBIATA_PASTA.jpg',
-          category: 'Main course',
-          comment: [
-            'Cook the pasta in salted boiling water until al dente. Drain and set aside.',
-            'Heat olive oil in a pan and sauté the garlic and cayenne pepper until fragrant.',
-            'Add the canned tomatoes, chilli flakes, sugar, black pepper, and kosher salt. Simmer for 15-20 minutes.',
-            'Mash the tomatoes with a fork to break them up, then simmer until the sauce thickens.',
-            'Stir in freshly chopped parsley and adjust seasoning.',
-            'Toss the cooked pasta in the sauce and combine well.',
-            'Serve hot with an optional drizzle of olive oil and fresh parsley.'
-          ],
-          title: 'Arrabbiata Pasta',
-          brief: 'Arrabbiata is a classic Italian pasta dish known for its spicy tomato sauce made with garlic, chilli, and tomatoes. Best served with penne or ziti pasta.',
-          ingredients: ['penne or ziti', 'canned tomatoes', 'garlic', 'cayenne pepper', 'chilli flakes', 'parsley', 'black pepper', 'kosher salt', 'white sugar', 'olive oil'],
-          preptime: 30,
-          type: false,
-          trending: true
-        },
-        {
-          id: 11,
-          img: '/assets/PIZZA_BURGER.jpg',
-          category: 'Main course',
-          comment: [
-            'Season the ground beef with Italian seasoning and form into 4 burger patties.',
-            'Grill or pan-fry the patties until cooked to your liking.',
-            'In a separate pan, heat the marinara sauce and add pizza seasoning for extra flavor.',
-            'Toast the hamburger buns with butter until golden brown.',
-            'Assemble the burger by placing a slice of mozzarella cheese on each patty, followed by some pepperoni and marinara sauce.',
-            'Place the patties on the toasted buns and top with more marinara sauce if desired.',
-            'Serve hot with your favorite pizza toppings.'
-          ],
-          title: 'The Ultimate Pizza Burger',
-          brief: 'The Pizza Burger combines the juicy goodness of a burger with the bold flavors of pizza, making it a perfect fusion dish. Customize it with your favorite pizza toppings!',
-          ingredients: ['ground beef', 'pepperoni', 'marinara sauce', 'Italian seasoning', 'pizza seasoning', 'hamburger buns', 'butter', 'mozzarella cheese'],
-          preptime: 25,
-          type: false,
-          trending: false
-        },
-        {
-          id: 12,
-          img: '/assets/SPINACH_LASAGNA.jpg',
-          category: 'Main course',
-          comment: [
-            'Preheat the oven to 375°F (190°C).',
-            'Cook the lasagna noodles according to package instructions and drain.',
-            'Thaw and drain the frozen spinach, squeezing out excess water.',
-            'Layer a baking dish with marinara sauce, lasagna noodles, spinach, and a mix of mozzarella and parmesan cheese.',
-            'Repeat layers until all ingredients are used.',
-            'Cover with foil and bake for 30 minutes, then uncover and bake for an additional 15 minutes until the cheese is golden and bubbly.',
-            'Let it rest for 10 minutes before serving.'
-          ],
-          title: 'Spinach Lasagna',
-          brief: 'This Spinach Lasagna is rich with three cheeses and packed with spinach, making it a family favorite for weeknight dinners or gatherings.',
-          ingredients: ['spinach', 'marinara sauce', 'lasagna noodles', 'mozzarella cheese', 'parmesan cheese'],
-          preptime: 50,
-          type: false,
-          trending: true
-        },
-        {
-          id: 13,
-          img: '/assets/MUFFALETTA.jpg',
-          category: 'Main course',
-          comment: [
-            'Prepare the olive salad by mixing black olives, green olives, pepperoncini, roasted red peppers, olive oil, and red wine vinegar with dried basil, oregano, garlic powder, salt, and pepper.',
-            'Cut the bread in half horizontally and spread the olive salad on both halves.',
-            'Layer the bottom half with Genoa salami, ham, mortadella, mozzarella, and provolone cheese.',
-            'Place the top half of the bread over the layered meats and cheese.',
-            'Press down and wrap the sandwich tightly in plastic wrap.',
-            'Let the sandwich sit for at least 30 minutes to allow the flavors to meld before cutting and serving.'
-          ],
-          title: 'Muffaletta Sandwich',
-          brief: 'This Muffaletta recipe brings the ultimate New Orleans sandwich to your kitchen, loaded with Italian meats, cheese, and a spicy homemade olive salad.',
-          ingredients: ['genoa salami', 'ham', 'mortadella', 'mozzarella cheese', 'provolone cheese', 'black olives', 'green olives', 'pepperoncini peppers', 'roasted red peppers', 'basil', 'oregano', 'garlic powder', 'salt and pepper', 'olive oil', 'red wine vinegar', 'Italian bread or muffaletta bread'],
-          preptime: 30,
-          type: false,
-          trending: false
-        },
-        {
-          id: 14,
-          img: '/assets/YAKI_UDON.jpg',
-          category: 'Quick & Easy',
-          comment: [
-            'Cook the udon noodles according to the package instructions, then drain and set aside.',
-            'In a hot pan, sauté the garlic, scallions, and shitake mushrooms until fragrant and slightly browned.',
-            'Add the baby bok choy and cook until wilted.',
-            'In a small bowl, whisk together the dark and light soy sauce, oyster sauce, mirin, honey or agave, and sriracha.',
-            'Add the sauce mixture to the pan along with the cooked udon noodles.',
-            'Toss everything together and stir-fry for a couple of minutes until the noodles are well coated and heated through.',
-            'Serve hot, garnished with extra scallions if desired.'
-          ],
-          title: 'Yaki Udon',
-          brief: 'Yaki Udon is a quick and easy stir-fry dish made with chewy udon noodles, fresh vegetables, and a savory sauce. Ready in just 15 minutes!',
-          ingredients: ['baby bok choy', 'garlic', 'scallions', 'shitake mushrooms', 'honey or agave', 'mirin', 'vegetarian oyster sauce', 'dark soy sauce', 'light soy sauce', 'sriracha', 'udon noodles'],
-          preptime: 15,
-          type: false,
-          trending: true
-        },
-        {
-          id: 15,
-          img: '/assets/PANEER_KATHI_ROLL.jpg',
-          category: 'Quick & Easy',
-          comment: [
-            'In a bowl, combine whole wheat flour with water, a pinch of salt, and knead to form a soft dough. Let it rest for 15 minutes.',
-            'In a pan, heat vegetable oil and sauté onions until translucent. Add ginger-garlic paste, chopped tomatoes, and spices (garam masala, red chili powder, turmeric, salt, and cumin). Cook until tomatoes soften.',
-            'Add crumbled paneer and mix well. Cook for a few minutes until the paneer is heated through.',
-            'Divide the dough into small balls and roll them out into thin rotis. Cook each roti on a hot skillet until golden on both sides.',
-            'To assemble, place a roti on a plate, add the paneer mixture, and top with fresh lettuce, coriander leaves, green chilies, and lemon wedges.',
-            'Roll the roti tightly around the filling and secure with onion rings if desired. Serve immediately.'
-          ],
-          title: 'Paneer Kathi Roll',
-          brief: 'Paneer Kathi Rolls feature spicy paneer wrapped in soft roti, making a delicious and filling street food option that’s easy to prepare at home.',
-          ingredients: ['fresh coriander leaves', 'green chilies', 'lemon wedges', 'lettuce', 'onion', 'tomato', 'ginger-garlic paste', 'mint chutney', 'garam masala', 'red chili powder', 'salt', 'turmeric powder', 'whole wheat flour', 'vegetable oil', 'cumin powder', 'cumin seeds', 'onion rings', 'paneer', 'water'],
-          preptime: 30,
-          type: false,
-          trending: true
-        },
-        {
-          id: 16,
-          img: '/assets/SPICY_GARLIC_SHRIMP_NOODLES.jpg',
-          category: 'Quick & Easy',
-          comment: [
-            'Cook the pasta according to package instructions, then drain and set aside.',
-            'In a large pan, heat cooking oil and add minced garlic. Sauté until fragrant.',
-            'Add shrimp and cook until they turn pink and opaque, about 2-3 minutes.',
-            'Stir in sliced serrano peppers and green onions, cooking for another minute.',
-            'In a small bowl, mix together fish sauce, soy sauce, gochugaru, cornstarch, black pepper, salt, and sake or water.',
-            'Pour the sauce over the shrimp and stir to combine, cooking for an additional 2 minutes.',
-            'Add the cooked pasta to the pan, tossing everything together until well combined.',
-            'Finish with a dollop of unsalted butter and drizzle with sesame oil and seeds before serving.'
-          ],
-          title: 'Spicy Garlic Shrimp Noodles',
-          brief: 'This Spicy Garlic Shrimp Noodles recipe combines succulent shrimp with noodles in a flavorful garlic sauce, making it a quick and delicious meal.',
-          ingredients: ['jumbo shrimp', 'garlic', 'green onions', 'serrano pepper', 'fish sauce', 'soy sauce', 'dried pasta', 'black pepper', 'cornstarch', 'gochugaru', 'salt', 'cooking oil', 'sesame oil', 'unsalted butter', 'sake or water', 'maesilaek'],
-          preptime: 25,
-          type: false,
-          trending: true
-        },
+  {
+    id: 1,
+    img: '/assets/PANUOZZO.jpg',
+    category: 'Main course',
+    comment: [
+      'Cut the flatbread in half horizontally to create two sandwich halves. Lightly brush the inside with olive oil and toast it until golden brown and crispy.',
+      'Grill your vegetables (such as bell peppers, zucchini, and eggplant) with a drizzle of olive oil until soft and lightly charred.',
+      'Layer the ham and cheese inside the flatbread along with the grilled vegetables.',
+      'Place the sandwich in the oven and heat it for 5-7 minutes, or until the cheese melts and the flavors meld together.',
+      'Serve hot, optionally with a side of salad or potato wedges.'
+    ],
+    title: 'PANUOZZO Sandwich',
+    brief: 'Panuozzo is a popular Italian sandwich from the Campania region. This dish features a toasted flatbread filled with ham, cheese, and grilled vegetables, perfect for a quick meal packed with flavor.',
+    ingredients: ['flatbread', 'ham', 'cheese', 'grilled vegetables', 'olive oil'],
+    preptime: 20,
+    type: false,
+    trending: true,
+    tips: 'For a vegetarian version, replace the ham with grilled tofu or a vegetarian deli slice. You can also add a bit of pesto or hot sauce for extra flavor.'
+  },
+  {
+    id: 2,
+    img: '/assets/smoky_vegan.jpg',
+    category: 'Main course',
+    comment: [
+      'Cut the vegetables (such as carrots, zucchini, and bell peppers) into even pieces and roast them in the oven at 200°C (400°F) with olive oil for about 20 minutes, or until tender and slightly crispy.',
+      'Grill the smoked tofu until it’s golden and slightly crispy on the outside.',
+      'Mix the roasted vegetables and grilled tofu in a large bowl. Add fresh herbs (like parsley or cilantro) and season with salt and pepper.',
+      'Serve with a sauce of your choice, such as tahini dressing or a smoky barbecue sauce.'
+    ],
+    title: 'SMOKY VEGAN',
+    brief: 'A delicious and smoky vegan dish that combines roasted vegetables and grilled smoked tofu, offering a rich and hearty flavor. It’s perfect for those who enjoy bold, plant-based meals.',
+    ingredients: ['roasted vegetables', 'smoked tofu', 'fresh herbs', 'olive oil'],
+    preptime: 25,
+    type: true,
+    trending: false,
+    tips: 'For a spicier kick, add chili flakes to the tofu while grilling. You can also serve this dish with quinoa or couscous for a more filling meal.'
+  },
+  {
+    id: 3,
+    img: '/assets/Curried_Sausages.jpg',
+    category: 'Main course',
+    comment: [
+      'Heat a large pan over medium heat and cook the sausages until browned on all sides. Remove from the pan and set aside.',
+      'In the same pan, add chopped vegetables (such as onions, bell peppers, and tomatoes) and sauté until softened.',
+      'Add curry powder, cumin, and other spices to the vegetables and cook for an additional minute to release the flavors.',
+      'Return the sausages to the pan, add some water or broth, and let everything simmer for 20 minutes until the sauce thickens and the sausages are fully cooked through.',
+      'Serve with a side of rice or naan bread for a complete meal.'
+    ],
+    title: 'CURRIED SAUSAGE',
+    brief: 'Curried sausages is a comforting dish where flavorful sausages are simmered in a rich, spiced curry sauce. It’s a warming dinner option that pairs perfectly with rice or naan bread.',
+    ingredients: ['sausages', 'curry powder', 'chopped vegetables', 'spices', 'rice'],
+    preptime: 40,
+    type: false,
+    trending: false,
+    tips: 'For a creamier sauce, stir in a spoonful of coconut milk towards the end of the cooking process. You can also adjust the spice level by adding more or less curry powder.'
+  }
+,  
+{
+  id: 4,
+  img: '/assets/spicy_beef.jpg',
+  category: 'Main course',
+  comment: [
+    'Cook the udon noodles according to the package instructions. Drain and set aside, keeping them warm.',
+    'In a large pan or wok, heat some oil over medium-high heat. Add thinly sliced beef and stir-fry until browned on all sides.',
+    'Add vegetables (such as bell peppers, carrots, and bok choy) to the pan and sauté until they are tender but still crisp, about 3-5 minutes.',
+    'Pour in a spicy sauce made of soy sauce, chili paste, and a bit of honey for sweetness. Let everything cook together for another 2-3 minutes until the flavors meld.',
+    'Toss the cooked udon noodles into the pan and mix everything together until the noodles are evenly coated with the sauce and ingredients are well combined.',
+    'Serve hot, garnished with chopped scallions and sesame seeds for added texture.'
+  ],
+  title: 'SPICY VEGETABLE BEEF UDON NOODLES',
+  brief: 'This spicy and flavorful dish combines thick, chewy udon noodles with tender beef and crunchy vegetables, all coated in a rich and spicy sauce. It’s a perfect dish for noodle lovers looking for a kick of heat.',
+  ingredients: ['udon noodles', 'beef', 'vegetables', 'spicy sauce', 'soy sauce', 'chili paste', 'honey'],
+  preptime: 30,
+  type: false,
+  trending: false,
+  tips: 'For extra spice, add some chili flakes or Sriracha sauce to the dish. You can also swap out the beef for chicken or tofu for a different protein option.'
+},
+{
+  id: 5,
+  img: '/assets/green_soop.jpg',
+  category: 'Quick & Easy',
+  comment: [
+    'In a large pot, bring salted water to a boil. Add green vegetables like spinach, broccoli, and peas and cook for 10 minutes or until tender.',
+    'Carefully transfer the cooked vegetables to a blender, reserving some of the cooking water.',
+    'Blend the vegetables until smooth, adding a little bit of the cooking water at a time to achieve the desired soup consistency.',
+    'Season with salt, pepper, and a squeeze of lemon juice for brightness. You can also stir in a dollop of cream or yogurt for a creamier texture.',
+    'Serve the soup hot, garnished with fresh herbs such as parsley or basil for added flavor.'
+  ],
+  title: 'CALMING GREEN SOUP',
+  brief: 'This vibrant green soup is packed with nutritious vegetables like spinach, broccoli, and peas. It’s light, refreshing, and perfect for a quick, healthy meal.',
+  ingredients: ['spinach', 'broccoli', 'peas', 'fresh herbs', 'lemon juice', 'salt', 'pepper'],
+  preptime: 15,
+  type: true,
+  trending: false,
+  tips: 'For added texture, you can serve the soup with crunchy croutons or a slice of toasted bread. This soup also pairs well with a drizzle of olive oil or a sprinkle of grated Parmesan cheese.'
+},
+
+{
+  id: 6,
+  img: '/assets/kale_chicken_salade.jpg',
+  category: 'Main course',
+  comment: [
+    'Season the chicken breasts and cook them on a grill or in a pan until golden and fully cooked through. Allow the chicken to cool slightly.',
+    'Slice the chicken into bite-sized pieces and mix it with a variety of fresh green vegetables like lettuce, cucumber, and avocado for a crisp, refreshing base.',
+    'Drizzle the salad with a light dressing of your choice (e.g., lemon vinaigrette or olive oil and balsamic) and toss to coat evenly.',
+    'Serve the salad chilled or at room temperature for a light and nutritious meal.'
+  ],
+  title: 'GREEN CHICKEN SALAD',
+  brief: 'This healthy and refreshing green chicken salad is a perfect choice for a light lunch, packed with nutritious ingredients and topped with a zesty dressing.',
+  ingredients: ['chicken breasts', 'lettuce', 'cucumber', 'avocado', 'dressing (lemon vinaigrette or olive oil)'],
+  preptime: 20,
+  type: false,
+  trending: true,
+  tips: 'For added crunch, top the salad with toasted nuts or seeds. You can also substitute grilled chicken with baked or poached chicken for a different texture.'
+},
+{
+  id: 7,
+  img: '/assets/sesame_chicken.jpg',
+  category: 'Main course',
+  comment: [
+    'Cut the chicken into bite-sized pieces and season with salt and pepper. In a large pan, heat some oil and cook the chicken until browned on all sides.',
+    'Add soy sauce and honey to the pan, stirring to coat the chicken with the sweet and savory sauce. Let it simmer until the sauce thickens and caramelizes slightly.',
+    'Stir in sesame seeds and cook for another 1-2 minutes until the seeds are toasted and aromatic.',
+    'Serve the sesame chicken with a side of fluffy steamed rice, garnished with chopped green onions for a burst of freshness.'
+  ],
+  title: 'SESAME CHICKEN',
+  brief: 'Sesame chicken is a popular Asian dish featuring tender chicken pieces coated in a sweet and savory sesame sauce, perfect for pairing with rice.',
+  ingredients: ['chicken', 'soy sauce', 'honey', 'sesame seeds', 'green onions'],
+  preptime: 30,
+  type: false,
+  trending: false,
+  tips: 'For added heat, sprinkle some chili flakes or drizzle with sriracha before serving. You can also substitute honey with maple syrup or agave for a different sweetness.'
+},
+{
+  id: 8,
+  img: '/assets/Backed_chicken.jpg',
+  category: 'Main course',
+  comment: [
+    'Preheat the oven to 200°C (400°F) and line a baking tray with parchment paper.',
+    'In a large bowl, toss the chicken drumsticks with olive oil and a mix of your favorite spices, such as paprika, garlic powder, and thyme. Make sure the drumsticks are evenly coated.',
+    'Place the drumsticks on the baking tray, leaving space between them, and bake for 35-40 minutes, turning halfway through. The chicken should be golden and crispy on the outside and cooked through on the inside.',
+    'Serve hot with a side of roasted vegetables or mashed potatoes for a hearty meal.'
+  ],
+  title: 'BAKED CHICKEN DRUMSTICKS',
+  brief: 'Oven-baked chicken drumsticks that are crispy on the outside and juicy on the inside, seasoned with a flavorful mix of spices.',
+  ingredients: ['chicken drumsticks', 'olive oil', 'paprika', 'garlic powder', 'thyme'],
+  preptime: 35,
+  type: false,
+  trending: true,
+  tips: 'For an extra crispy finish, broil the chicken for the last 5 minutes of baking. You can also marinate the drumsticks overnight for more intense flavors.'
+},
+{
+  id: 9,
+  img: '/assets/BUTTER_CHICKEN.jpg',
+  category: 'Main course',
+  comment: [
+    'In a large bowl, combine yogurt, lemon juice, and a blend of spices like garam masala, cumin, and turmeric. Marinate the chicken in this mixture for at least 30 minutes (or overnight for best results).',
+    'Heat a pan over medium heat and cook the marinated chicken until lightly browned. Set aside.',
+    'In the same pan, sauté onions, garlic, and ginger until fragrant. Add chopped tomatoes and cook until they soften and break down.',
+    'Blend the tomato mixture into a smooth sauce using an immersion blender or regular blender, then return it to the pan.',
+    'Stir in butter and cream, along with more spices (such as paprika and coriander), and let the sauce simmer for a few minutes.',
+    'Add the cooked chicken to the sauce and simmer for another 10-15 minutes, allowing the flavors to meld together.',
+    'Serve the butter chicken hot with basmati rice or garlic naan, garnished with fresh cilantro.'
+  ],
+  title: 'Butter Chicken (Murgh Makhani)',
+  brief: 'Butter chicken is a rich and creamy Indian curry made with tender marinated chicken, a tomato-based sauce, and a blend of aromatic spices. Best enjoyed with rice or naan.',
+  ingredients: ['chicken', 'yogurt', 'lemon juice', 'garam masala', 'cumin', 'turmeric', 'onions', 'garlic', 'ginger', 'tomatoes', 'butter', 'cream'],
+  preptime: 45,
+  type: false,
+  trending: true,
+  tips: 'For a smoky flavor, grill the chicken before adding it to the sauce. You can also add a pinch of fenugreek leaves for an authentic touch.'
+},
+{
+  id: 10,
+  img: '/assets/ARRABBIATA_PASTA.jpg',
+  category: 'Main course',
+  comment: [
+    'Cook the pasta in a large pot of salted boiling water until al dente, according to the package instructions. Drain and set aside, reserving a cup of pasta water.',
+    'In a large pan, heat olive oil over medium heat and sauté minced garlic and cayenne pepper until fragrant and golden, being careful not to burn the garlic.',
+    'Add canned tomatoes to the pan, along with chili flakes, a pinch of sugar, black pepper, and kosher salt. Let the sauce simmer for 15-20 minutes, stirring occasionally.',
+    'Mash the tomatoes with a fork or use an immersion blender to break them up, creating a chunky but smooth sauce. Adjust the thickness with the reserved pasta water, if needed.',
+    'Stir in freshly chopped parsley and check the seasoning. Toss the cooked pasta in the sauce until well coated.',
+    'Serve hot, garnished with a drizzle of olive oil, extra chili flakes for heat, and more fresh parsley.'
+  ],
+  title: 'Arrabbiata Pasta',
+  brief: 'Arrabbiata is a classic Italian pasta dish known for its fiery tomato sauce, made with garlic, chili, and tomatoes. It pairs best with penne or ziti pasta and is perfect for spice lovers.',
+  ingredients: ['penne or ziti', 'canned tomatoes', 'garlic', 'cayenne pepper', 'chili flakes', 'parsley', 'black pepper', 'kosher salt', 'sugar', 'olive oil'],
+  preptime: 30,
+  type: false,
+  trending: true,
+  tips: 'For added richness, you can stir in some Parmesan cheese or a splash of cream. Serve with crusty garlic bread for a complete meal.'
+},
+
+{
+  id: 11,
+  img: '/assets/PIZZA_BURGER.jpg',
+  category: 'Main course',
+  comment: [
+    'Season the ground beef with Italian seasoning and form into 4 burger patties.',
+    'Grill or pan-fry the patties until cooked to your liking.',
+    'In a separate pan, heat the marinara sauce and add pizza seasoning for extra flavor.',
+    'Toast the hamburger buns with butter until golden brown.',
+    'Assemble the burger by placing a slice of mozzarella cheese on each patty, followed by some pepperoni and marinara sauce.',
+    'Place the patties on the toasted buns and top with more marinara sauce if desired.',
+    'Serve hot with your favorite pizza toppings.'
+  ],
+  title: 'The Ultimate Pizza Burger',
+  brief: 'The Pizza Burger combines the juicy goodness of a burger with the bold flavors of pizza, making it a perfect fusion dish. Customize it with your favorite pizza toppings!',
+  ingredients: ['ground beef', 'pepperoni', 'marinara sauce', 'Italian seasoning', 'pizza seasoning', 'hamburger buns', 'butter', 'mozzarella cheese'],
+  preptime: 25,
+  type: false,
+  trending: false
+},
+{
+  id: 12,
+  img: '/assets/SPINACH_LASAGNA.jpg',
+  category: 'Main course',
+  comment: [
+    'Preheat the oven to 375°F (190°C).',
+    'Cook the lasagna noodles according to package instructions and drain.',
+    'Thaw and drain the frozen spinach, squeezing out excess water.',
+    'Layer a baking dish with marinara sauce, lasagna noodles, spinach, and a mix of mozzarella and parmesan cheese.',
+    'Repeat layers until all ingredients are used.',
+    'Cover with foil and bake for 30 minutes, then uncover and bake for an additional 15 minutes until the cheese is golden and bubbly.',
+    'Let it rest for 10 minutes before serving.'
+  ],
+  title: 'Spinach Lasagna',
+  brief: 'This Spinach Lasagna is rich with three cheeses and packed with spinach, making it a family favorite for weeknight dinners or gatherings.',
+  ingredients: ['spinach', 'marinara sauce', 'lasagna noodles', 'mozzarella cheese', 'parmesan cheese'],
+  preptime: 50,
+  type: false,
+  trending: true
+},
+{
+  id: 13,
+  img: '/assets/MUFFALETTA.jpg',
+  category: 'Main course',
+  comment: [
+    'Prepare the olive salad by mixing black olives, green olives, pepperoncini, roasted red peppers, olive oil, and red wine vinegar with dried basil, oregano, garlic powder, salt, and pepper.',
+    'Cut the bread in half horizontally and spread the olive salad on both halves.',
+    'Layer the bottom half with Genoa salami, ham, mortadella, mozzarella, and provolone cheese.',
+    'Place the top half of the bread over the layered meats and cheese.',
+    'Press down and wrap the sandwich tightly in plastic wrap.',
+    'Let the sandwich sit for at least 30 minutes to allow the flavors to meld before cutting and serving.'
+  ],
+  title: 'Muffaletta Sandwich',
+  brief: 'This Muffaletta recipe brings the ultimate New Orleans sandwich to your kitchen, loaded with Italian meats, cheese, and a spicy homemade olive salad.',
+  ingredients: ['genoa salami', 'ham', 'mortadella', 'mozzarella cheese', 'provolone cheese', 'black olives', 'green olives', 'pepperoncini peppers', 'roasted red peppers', 'basil', 'oregano', 'garlic powder', 'salt and pepper', 'olive oil', 'red wine vinegar', 'Italian bread or muffaletta bread'],
+  preptime: 30,
+  type: false,
+  trending: false
+},
+{
+  id: 14,
+  img: '/assets/YAKI_UDON.jpg',
+  category: 'Quick & Easy',
+  comment: [
+    'Cook the udon noodles according to the package instructions, then drain and set aside.',
+    'In a hot pan, sauté the garlic, scallions, and shitake mushrooms until fragrant and slightly browned.',
+    'Add the baby bok choy and cook until wilted.',
+    'In a small bowl, whisk together the dark and light soy sauce, oyster sauce, mirin, honey or agave, and sriracha.',
+    'Add the sauce mixture to the pan along with the cooked udon noodles.',
+    'Toss everything together and stir-fry for a couple of minutes until the noodles are well coated and heated through.',
+    'Serve hot, garnished with extra scallions if desired.'
+  ],
+  title: 'Yaki Udon',
+  brief: 'Yaki Udon is a quick and easy stir-fry dish made with chewy udon noodles, fresh vegetables, and a savory sauce. Ready in just 15 minutes!',
+  ingredients: ['baby bok choy', 'garlic', 'scallions', 'shitake mushrooms', 'honey or agave', 'mirin', 'vegetarian oyster sauce', 'dark soy sauce', 'light soy sauce', 'sriracha', 'udon noodles'],
+  preptime: 15,
+  type: false,
+  trending: true
+},
+{
+  id: 15,
+  img: '/assets/PANEER_KATHI_ROLL.jpg',
+  category: 'Quick & Easy',
+  comment: [
+    'In a bowl, combine whole wheat flour with water, a pinch of salt, and knead to form a soft dough. Let it rest for 15 minutes.',
+    'In a pan, heat vegetable oil and sauté onions until translucent. Add ginger-garlic paste, chopped tomatoes, and spices (garam masala, red chili powder, turmeric, salt, and cumin). Cook until tomatoes soften.',
+    'Add crumbled paneer and mix well. Cook for a few minutes until the paneer is heated through.',
+    'Divide the dough into small balls and roll them out into thin rotis. Cook each roti on a hot skillet until golden on both sides.',
+    'To assemble, place a roti on a plate, add the paneer mixture, and top with fresh lettuce, coriander leaves, green chilies, and lemon wedges.',
+    'Roll the roti tightly around the filling and secure with onion rings if desired. Serve immediately.'
+  ],
+  title: 'Paneer Kathi Roll',
+  brief: 'Paneer Kathi Rolls feature spicy paneer wrapped in soft roti, making a delicious and filling street food option that’s easy to prepare at home.',
+  ingredients: ['fresh coriander leaves', 'green chilies', 'lemon wedges', 'lettuce', 'onion', 'tomato', 'ginger-garlic paste', 'mint chutney', 'garam masala', 'red chili powder', 'salt', 'turmeric powder', 'whole wheat flour', 'vegetable oil', 'cumin powder', 'cumin seeds', 'onion rings', 'paneer', 'water'],
+  preptime: 30,
+  type: false,
+  trending: true
+},
+{
+  id: 16,
+  img: '/assets/SPICY_GARLIC_SHRIMP_NOODLES.jpg',
+  category: 'Quick & Easy',
+  comment: [
+    'Cook the pasta according to package instructions, then drain and set aside.',
+    'In a large pan, heat cooking oil and add minced garlic. Sauté until fragrant.',
+    'Add shrimp and cook until they turn pink and opaque, about 2-3 minutes.',
+    'Stir in sliced serrano peppers and green onions, cooking for another minute.',
+    'In a small bowl, mix together fish sauce, soy sauce, gochugaru, cornstarch, black pepper, salt, and sake or water.',
+    'Pour the sauce over the shrimp and stir to combine, cooking for an additional 2 minutes.',
+    'Add the cooked pasta to the pan, tossing everything together until well combined.',
+    'Finish with a dollop of unsalted butter and drizzle with sesame oil and seeds before serving.'
+  ],
+  title: 'Spicy Garlic Shrimp Noodles',
+  brief: 'This Spicy Garlic Shrimp Noodles recipe combines succulent shrimp with noodles in a flavorful garlic sauce, making it a quick and delicious meal.',
+  ingredients: ['jumbo shrimp', 'garlic', 'green onions', 'serrano pepper', 'fish sauce', 'soy sauce', 'dried pasta', 'black pepper', 'cornstarch', 'gochugaru', 'salt', 'cooking oil', 'sesame oil', 'unsalted butter', 'sake or water', 'maesilaek'],
+  preptime: 25,
+  type: false,
+  trending: true
+},
+
         {
           id: 17,
           img: '/assets/CILANTRO_LIME_AVOCADO_TOAST.jpg',

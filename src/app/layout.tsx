@@ -10,6 +10,7 @@ import { Footer } from "@/components/Footer";
 import Head from "next/head";
 import Script from "next/script";
 import { GoogleAnalytics } from '@next/third-parties/google'
+import CookieBanner from "@/components/CookieBanner";
 
 const ebGaramond = EB_Garamond({ subsets: ['latin'] });
 
@@ -38,6 +39,7 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
         {children}
+        {/* <CookieBanner/> */}
         <Footer />
       </body>
       <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID as string}/>
