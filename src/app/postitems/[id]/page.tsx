@@ -18,11 +18,16 @@ interface Post {
   type: boolean;
   trending: boolean;
 }
+interface Params {
+  id: string;
+}
 
-const PostItem = ({ params }: { params: { id: string } }) => {
+
+const PostItem = ({ params }: { params: Params }) => {
   const [item, setItem] = useState<Post | null>(null);
   const [items] = useState(postItems);
-  const postId = params.id; // Convert `id` to a number
+
+  const postId = params.id
   const tabsData = [
     { id: 1, name: 'popular', active: true },
     { id: 2, name: 'trending', active: false }
