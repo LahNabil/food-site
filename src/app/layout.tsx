@@ -5,11 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'aos/dist/aos.css';
 import "./variables.css";
 import "./globals.css";
-import { Header } from "@/components/Header";
-import { Footer } from "@/components/Footer";
-import Head from "next/head";
-import Script from "next/script";
-import { GoogleAnalytics } from '@next/third-parties/google'
+import { GoogleTagManager } from '@next/third-parties/google' 
 
 const ebGaramond = EB_Garamond({ subsets: ['latin'] });
 
@@ -25,23 +21,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-        <link rel="icon" href="/favicon.ico" />
-        <meta name="google-adsense-account" content={process.env.NEXT_PUBLIC_ADSENSE_PID} />
-      </Head>
-      
-      <body className={ebGaramond.className}>
-        <Header />
-        <Script
-          async
-          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_ADSENSE_PID}`}
-          crossOrigin="anonymous"
-        />
-        {children}
-        {/* <CookieBanner/> */}
-        <Footer />
-      </body>
-      <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID as string}/>
+      <GoogleTagManager gtmId="GTM-WBT745PF" />
+      <body>
+      <noscript>
+        <iframe 
+        src="https://www.googletagmanager.com/ns.html?id=GTM-WBT745PF"
+        height="0"
+        width="0"
+        style={{ display: "none", visibility: "hidden" }}>
+        </iframe>
+      </noscript>
+        {children}</body>
     </html>
   );
 }
