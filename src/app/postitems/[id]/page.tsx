@@ -7,7 +7,7 @@ import Image from 'next/image';
 import { SidePostItem } from '@/components/SidePostItem';
 
 interface Post {
-  id: number;
+  id: string;
   img: string;
   category: string;
   comment: string[];
@@ -22,7 +22,7 @@ interface Post {
 const PostItem = ({ params }: { params: { id: string } }) => {
   const [item, setItem] = useState<Post | null>(null);
   const [items] = useState(postItems);
-  const postId = Number(params.id); // Convert `id` to a number
+  const postId = params.id; // Convert `id` to a number
   const tabsData = [
     { id: 1, name: 'popular', active: true },
     { id: 2, name: 'trending', active: false }

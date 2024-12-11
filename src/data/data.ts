@@ -100,7 +100,7 @@ export const heroSlides = [
 
 export const postItems = [
   {
-    id: 1,
+    id: '1',
     img: '/assets/PANUOZZO.jpg',
     category: 'Main course',
     comment: [
@@ -119,7 +119,7 @@ export const postItems = [
     tips: 'For a vegetarian version, replace the ham with grilled tofu or a vegetarian deli slice. You can also add a bit of pesto or hot sauce for extra flavor.'
   },
   {
-    id: 2,
+    id: '2',
     img: '/assets/smoky_vegan.jpg',
     category: 'Main course',
     comment: [
@@ -137,7 +137,7 @@ export const postItems = [
     tips: 'For a spicier kick, add chili flakes to the tofu while grilling. You can also serve this dish with quinoa or couscous for a more filling meal.'
   },
   {
-    id: 3,
+    id: '3',
     img: '/assets/Curried_Sausages.jpg',
     category: 'Main course',
     comment: [
@@ -157,7 +157,7 @@ export const postItems = [
   }
 ,  
 {
-  id: 4,
+  id: '4',
   img: '/assets/spicy_beef.jpg',
   category: 'Main course',
   comment: [
@@ -177,7 +177,7 @@ export const postItems = [
   tips: 'For extra spice, add some chili flakes or Sriracha sauce to the dish. You can also swap out the beef for chicken or tofu for a different protein option.'
 },
 {
-  id: 5,
+  id: '5',
   img: '/assets/green_soop.jpg',
   category: 'Quick & Easy',
   comment: [
@@ -197,7 +197,7 @@ export const postItems = [
 },
 
 {
-  id: 6,
+  id: '6',
   img: '/assets/kale_chicken_salade.jpg',
   category: 'Main course',
   comment: [
@@ -215,7 +215,7 @@ export const postItems = [
   tips: 'For added crunch, top the salad with toasted nuts or seeds. You can also substitute grilled chicken with baked or poached chicken for a different texture.'
 },
 {
-  id: 7,
+  id: '7',
   img: '/assets/sesame_chicken.jpg',
   category: 'Main course',
   comment: [
@@ -233,7 +233,7 @@ export const postItems = [
   tips: 'For added heat, sprinkle some chili flakes or drizzle with sriracha before serving. You can also substitute honey with maple syrup or agave for a different sweetness.'
 },
 {
-  id: 8,
+  id: '8',
   img: '/assets/Backed_chicken.jpg',
   category: 'Main course',
   comment: [
@@ -251,7 +251,7 @@ export const postItems = [
   tips: 'For an extra crispy finish, broil the chicken for the last 5 minutes of baking. You can also marinate the drumsticks overnight for more intense flavors.'
 },
 {
-  id: 9,
+  id: '9',
   img: '/assets/BUTTER_CHICKEN.jpg',
   category: 'Main course',
   comment: [
@@ -272,7 +272,7 @@ export const postItems = [
   tips: 'For a smoky flavor, grill the chicken before adding it to the sauce. You can also add a pinch of fenugreek leaves for an authentic touch.'
 },
 {
-  id: 10,
+  id: '10',
   img: '/assets/ARRABBIATA_PASTA.jpg',
   category: 'Main course',
   comment: [
@@ -293,7 +293,7 @@ export const postItems = [
 },
 
 {
-  id: 11,
+  id: '11',
   img: '/assets/PIZZA_BURGER.jpg',
   category: 'Main course',
   comment: [
@@ -313,7 +313,7 @@ export const postItems = [
   trending: false
 },
 {
-  id: 12,
+  id: '12',
   img: '/assets/SPINACH_LASAGNA.jpg',
   category: 'Main course',
   comment: [
@@ -333,7 +333,7 @@ export const postItems = [
   trending: true
 },
 {
-  id: 13,
+  id: '13',
   img: '/assets/MUFFALETTA.jpg',
   category: 'Main course',
   comment: [
@@ -352,7 +352,7 @@ export const postItems = [
   trending: false
 },
 {
-  id: 14,
+  id: '14',
   img: '/assets/YAKI_UDON.jpg',
   category: 'Quick & Easy',
   comment: [
@@ -372,7 +372,7 @@ export const postItems = [
   trending: true
 },
 {
-  id: 15,
+  id: '15',
   img: '/assets/PANEER_KATHI_ROLL.jpg',
   category: 'Quick & Easy',
   comment: [
@@ -391,7 +391,7 @@ export const postItems = [
   trending: true
 },
 {
-  id: 16,
+  id: '16',
   img: '/assets/SPICY_GARLIC_SHRIMP_NOODLES.jpg',
   category: 'Quick & Easy',
   comment: [
@@ -413,7 +413,7 @@ export const postItems = [
 },
 
         {
-          id: 17,
+          id: '17',
           img: '/assets/CILANTRO_LIME_AVOCADO_TOAST.jpg',
           category: 'Quick & Easy',
           comment: [
@@ -431,7 +431,7 @@ export const postItems = [
           trending: true
         },
         {
-          id: 18,
+          id: '18',
           img: '/assets/LAYERED_CHOCOLATE_CHEESECAKE.jpg',
           category: 'Dessert',
           comment: [
@@ -452,7 +452,7 @@ export const postItems = [
           trending: false
         },
         {
-          id: 19,
+          id: '19',
           img: '/assets/CHOCOLATE_CAKE_ROLL.jpg',
           category: 'Dessert',
           comment: [
@@ -475,7 +475,7 @@ export const postItems = [
           trending: true
         },
         {
-          id: 20,
+          id: '20',
           img: '/assets/COFFEE_PANNA_COTTA.jpg',
           category: 'Dessert',
           comment: [
@@ -495,7 +495,7 @@ export const postItems = [
           trending: true
         },
         {
-          id: 21,
+          id: '21',
           img: '/assets/HEALTHY_LEMONADE.jpg',
           category: 'Drinks',
           comment: [
@@ -512,7 +512,7 @@ export const postItems = [
           trending: false
         },
         {
-          id: 22,
+          id: '22',
           img: '/assets/VIRGIN_STRAWBERRY_DAIQUIRI.jpg',
           category: 'Drinks',
           comment: [
@@ -529,7 +529,7 @@ export const postItems = [
           trending: false
         },
         {
-          id: 23,
+          id: '23',
           img: '/assets/CREAMY_TOMATO_PASTA.jpg',
           category: 'Quick & Easy',
           comment: [
@@ -560,7 +560,7 @@ export const postItems = [
           trending: false
         },
         {
-          id: 24,
+          id: '24',
           img: '/assets/SOPA_DE_FIDEO.jpg',
           category: 'Quick & Easy',
           comment: [
@@ -590,7 +590,7 @@ export const postItems = [
           trending: false
         },
         {
-          id: 25,
+          id: '25',
           img: '/assets/SHRIMP_LO_MEIN.jpg',
           category: 'Quick & Easy',
           comment: [
@@ -624,7 +624,7 @@ export const postItems = [
           trending: false
         },
         {
-          id: 26,
+          id: '26',
           img: '/assets/OMELETTE_WITH_AVOCADO.jpg',
           category: 'Quick & Easy',
           comment: [
@@ -654,7 +654,7 @@ export const postItems = [
           trending: false
         },
         {
-          id: 27,
+          id: '27',
           img: '/assets/ROASTED_RED_PEPPER_ROMESCO.jpg',
           category: 'Quick & Easy',
           comment: [
@@ -681,7 +681,7 @@ export const postItems = [
           trending: false
         },
         {
-          id: 28,
+          id: '28',
           img: '/assets/HUEVOS_RANCHEROS_TOSTADAS.jpg',
           category: 'Quick & Easy',
           comment: [
@@ -707,7 +707,7 @@ export const postItems = [
           trending: false
         },
         {
-          id: 29,
+          id: '29',
           img: '/assets/BANANA_PANCAKES.jpg',
           category: 'Dessert',
           comment: [
@@ -736,7 +736,7 @@ export const postItems = [
           trending: true
         },
         {
-          id: 30,
+          id: '30',
           img: '/assets/GARLIC_BASIL_BUTTER_PASTA.jpg',
           category: 'Quick & Easy',
           comment: [
