@@ -5,6 +5,7 @@ import React, { useState, useEffect } from 'react';
 import './style.css';
 import Image from 'next/image';
 import { SidePostItem } from '@/components/SidePostItem';
+import { useParams } from 'next/navigation'; // Import useParams
 
 interface Post {
   id: string;
@@ -18,19 +19,15 @@ interface Post {
   type: boolean;
   trending: boolean;
 }
-interface Params {
-  id: string;
-}
 
-
-const PostItem = ({ params }: { params: Params }) => {
+const PostItem = () => {
+  const { id } = useParams(); // Get the dynamic parameter using useParams
   const [item, setItem] = useState<Post | null>(null);
   const [items] = useState(postItems);
 
-  const postId = params.id
   const tabsData = [
     { id: 1, name: 'popular', active: true },
-    { id: 2, name: 'trending', active: false }
+    { id: 2, name: 'trending', active: false },
   ];
   const [tabs, setTabs] = useState(tabsData);
 
@@ -45,11 +42,13 @@ const PostItem = ({ params }: { params: Params }) => {
   };
 
   useEffect(() => {
-    const foundItem = postItems.find(post => post.id === postId); // Find the post by ID
-    if (foundItem) {
-      setItem(foundItem);
+    if (id) {
+      const foundItem = postItems.find(post => post.id === id); // Find the post by ID
+      if (foundItem) {
+        setItem(foundItem);
+      }
     }
-  }, [postId]);
+  }, [id]);
 
   if (!item) {
     return <div>Loading...</div>;
@@ -111,9 +110,7 @@ const PostItem = ({ params }: { params: Params }) => {
                   {tabs.map(tab => (
                     <li className="nav-item" key={tab.id}>
                       <button
-                        className={`nav-link ${
-                          tab.active ? 'active' : undefined
-                        }`}
+                        className={`nav-link ${tab.active ? 'active' : undefined}`}
                         onClick={() => handleTabActive(tab.id)}
                       >
                         {tab.name}
@@ -122,27 +119,15 @@ const PostItem = ({ params }: { params: Params }) => {
                   ))}
                 </ul>
                 <div className="tab-content">
-                  <div
-                    className={`tab-pane fade ${
-                      tabs[0].active ? 'show active' : ''
-                    }`}
-                  >
-                    {items
-                      .slice(0, 6)
-                      .map(item => (
-                        <SidePostItem key={item.id} item={item} />
-                      ))}
+                  <div className={`tab-pane fade ${tabs[0].active ? 'show active' : ''}`}>
+                    {items.slice(0, 6).map(item => (
+                      <SidePostItem key={item.id} item={item} />
+                    ))}
                   </div>
-                  <div
-                    className={`tab-pane fade ${
-                      tabs[1].active ? 'show active' : ''
-                    }`}
-                  >
-                    {items
-                      .filter(item => item.trending)
-                      .map(item => (
-                        <SidePostItem key={item.id} item={item} />
-                      ))}
+                  <div className={`tab-pane fade ${tabs[1].active ? 'show active' : ''}`}>
+                    {items.filter(item => item.trending).map(item => (
+                      <SidePostItem key={item.id} item={item} />
+                    ))}
                   </div>
                 </div>
               </div>
