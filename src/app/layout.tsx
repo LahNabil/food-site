@@ -8,6 +8,7 @@ import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import Head from "next/head";
+import { GoogleTagManager } from '@next/third-parties/google' 
 
 
 const ebGaramond = EB_Garamond({subsets: ['latin']});
@@ -24,10 +25,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <GoogleTagManager gtmId="GTM-WBT745PF" />
       <Head>
         <link rel="icon" href="/favicon.ico"/>
       </Head>
       <body className={ebGaramond.className}>
+        <noscript>
+          <iframe
+           src="https://www.googletagmanager.com/ns.html?id=GTM-WBT745PF"
+           height="0"
+           width="0"
+           style={{display:"none",visibility:"hidden"}}>
+          </iframe>
+        </noscript>
         <Header/>
         {children}
         <Footer/>
