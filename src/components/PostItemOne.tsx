@@ -7,7 +7,7 @@ export const PostItemOne = ({large, item}:{
     
     large: boolean;
     item: {
-        id: string,
+        id: number,
         img: string,
         category: string,
         comment: string[],

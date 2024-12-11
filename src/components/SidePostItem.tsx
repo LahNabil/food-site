@@ -4,7 +4,7 @@ import React from 'react'
 
 
 export const SidePostItem = ({item}: {item: {
-    id: string,
+    id: number,
     img: string;
     category: string;
     title: string;
