@@ -3,7 +3,7 @@ import type { MetadataRoute } from 'next'
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: 'https://www.fastcookiteasy.com', // Add your domain here
+      url: 'https://www.fastcookiteasy.com', 
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 1,
@@ -16,6 +16,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: 'https://www.fastcookiteasy.com/postitems',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.5,
+    },
+    {
+      url: 'https://www.fastcookiteasy.com/contact',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.5,
