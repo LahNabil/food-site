@@ -824,7 +824,7 @@ export const postItems = [
         {
           id: 33,
           img: '/assets/CHOCOLATE_LAVA_CAKE.png',
-          category: 'Desserts',
+          category: 'Dessert',
           comment: [
             'Preheat the oven to 400°F (200°C) and grease ramekins with butter.',
             'Melt chocolate and butter together until smooth.',
