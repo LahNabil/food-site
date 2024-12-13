@@ -26,5 +26,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.5,
     },
+    {
+      url: 'https://www.fastcookiteasy.com/ads.txt',
+      lastModified: new Date(),
+      priority: 0.5,
+    }
   ]
 }
