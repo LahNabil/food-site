@@ -26,7 +26,7 @@ const PostItem = () => {
   const postId = id ? Number(id) : null; // Ensure 'id' is available before converting
   const [item, setItem] = useState<Post | null>(null);
   const [items] = useState(postItems);
-  // const postId = Number(params.id); // Récupérer l'ID à partir des params
+ 
   const tabsData= [
     {id: 1, name: 'popular', active: true},
     {id: 2, name: 'trending', active: false}

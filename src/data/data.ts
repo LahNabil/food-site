@@ -763,7 +763,176 @@ export const postItems = [
           preptime: 20,
           type: true,
           trending: false
+        },
+        {
+          id: 31,
+          img: '/assets/Lemon_Honey_Glazed_Chicken.jpeg',
+          category: 'Main course',
+          comment: [
+            'Season the chicken breasts with salt and pepper.',
+            'In a large skillet, heat olive oil over medium heat and sear the chicken on both sides until golden brown.',
+            'Remove the chicken and set aside. In the same skillet, add garlic and cook until fragrant.',
+            'Stir in honey, lemon juice, chicken broth, and fresh thyme. Bring to a simmer.',
+            'Return the chicken to the skillet and cook until the sauce thickens and the chicken is fully cooked.',
+            'Serve with a garnish of lemon slices and fresh thyme.'
+          ],
+          title: 'Lemon Honey Glazed Chicken',
+          brief: 'A tangy and sweet Lemon Honey Glazed Chicken, perfect for a healthy and flavorful meal. Ready in under 30 minutes!',
+          ingredients: [
+            '4 Chicken breasts',
+            '2 cloves Garlic, minced',
+            '1/4 cup Honey',
+            '1/4 cup Lemon juice, freshly squeezed',
+            '1/2 cup Chicken broth',
+            '1 tbsp Olive oil',
+            '1 tsp Fresh thyme leaves',
+            'Salt and pepper, to taste',
+            'Lemon slices, for garnish'
+          ],
+          preptime: 30,
+          type: true,
+          trending: true
+        },
+        {
+          id: 32,
+          img: '/assets/CREAMY_MUSHROOM_SOUP.png',
+          category: 'Quick & Easy',
+          comment: [
+            'In a large pot, melt butter over medium heat and sauté onions and garlic until translucent.',
+            'Add mushrooms and cook until golden brown.',
+            'Stir in flour and cook for 1 minute, then slowly add vegetable broth, stirring to combine.',
+            'Bring to a boil, then reduce heat and simmer until slightly thickened.',
+            'Stir in heavy cream and season with salt and pepper to taste. Blend until smooth, if desired.'
+          ],
+          title: 'Creamy Mushroom Soup',
+          brief: 'A rich and velvety mushroom soup made with fresh mushrooms, cream, and savory seasonings. Perfect for a cozy meal!',
+          ingredients: [
+            '1 lb Mushrooms, sliced',
+            '1 Onion, chopped',
+            '2 cloves Garlic, minced',
+            '4 tbsp Butter',
+            '2 tbsp Flour',
+            '4 cups Vegetable broth',
+            '1 cup Heavy cream',
+            'Salt and pepper, to taste',
+            'Fresh parsley, for garnish'
+          ],
+          preptime: 25,
+          type: true,
+          trending: false
+        },
+        {
+          id: 33,
+          img: '/assets/CHOCOLATE_LAVA_CAKE.png',
+          category: 'Desserts',
+          comment: [
+            'Preheat the oven to 400°F (200°C) and grease ramekins with butter.',
+            'Melt chocolate and butter together until smooth.',
+            'In a separate bowl, whisk eggs, egg yolks, and sugar until pale and fluffy.',
+            'Fold the chocolate mixture into the eggs, then add flour and mix until combined.',
+            'Pour the batter into ramekins and bake for 12 minutes. Serve warm with ice cream.'
+          ],
+          title: 'Chocolate Lava Cake',
+          brief: 'A decadent and gooey chocolate dessert with a molten center. Simple to make and perfect for special occasions.',
+          ingredients: [
+            '4 oz Dark chocolate',
+            '1/2 cup Butter',
+            '2 Eggs',
+            '2 Egg yolks',
+            '1/4 cup Sugar',
+            '1/4 cup Flour',
+            'Ice cream, for serving'
+          ],
+          preptime: 20,
+          type: true,
+          trending: true
+        },
+        {
+          id: 34,
+          img: '/assets/VEGAN_BUDDHA_BOWL.jpg',
+          category: 'Main course',
+          comment: [
+            'Cook quinoa according to package instructions and set aside.',
+            'Roast sweet potatoes and chickpeas with olive oil, paprika, salt, and pepper until golden.',
+            'Assemble the bowl with quinoa, roasted sweet potatoes, chickpeas, avocado slices, and fresh greens.',
+            'Drizzle with tahini dressing and sprinkle with sesame seeds before serving.'
+          ],
+          title: 'Vegan Buddha Bowl',
+          brief: 'A colorful and nutritious Buddha bowl with quinoa, roasted vegetables, and creamy tahini dressing. Ideal for a healthy lunch!',
+          ingredients: [
+            '1 cup Quinoa',
+            '1 Sweet potato, diced',
+            '1 can Chickpeas, drained and rinsed',
+            '1 Avocado, sliced',
+            '2 cups Mixed greens',
+            '2 tbsp Olive oil',
+            '1 tsp Paprika',
+            'Salt and pepper, to taste',
+            '2 tbsp Tahini',
+            '1 tsp Sesame seeds'
+          ],
+          preptime: 30,
+          type: true,
+          trending: false
+        },
+        {
+          id: 35,
+          img: '/assets/GRILLED_SHRIMP_TACOS.jpg',
+          category: 'Main course',
+          comment: [
+            'Season shrimp with chili powder, cumin, garlic powder, salt, and pepper.',
+            'Grill the shrimp over medium heat until pink and slightly charred.',
+            'Warm tortillas and fill with shrimp, shredded cabbage, and sliced avocado.',
+            'Top with a drizzle of lime crema and garnish with fresh cilantro.'
+          ],
+          title: 'Grilled Shrimp Tacos',
+          brief: 'Flavorful grilled shrimp tacos with a zesty lime crema and fresh toppings. A light and delicious dinner option!',
+          ingredients: [
+            '1 lb Shrimp, peeled and deveined',
+            '1 tsp Chili powder',
+            '1/2 tsp Cumin',
+            '1/2 tsp Garlic powder',
+            '1 cup Cabbage, shredded',
+            '1 Avocado, sliced',
+            '6 Corn tortillas',
+            '1/2 cup Sour cream',
+            '1 Lime, juiced',
+            'Fresh cilantro, for garnish'
+          ],
+          preptime: 20,
+          type: true,
+          trending: true
+        },
+        {
+          id: 36,
+          img: '/assets/CAPRESE_SALAD.jpg',
+          category: 'Quick & Easy',
+          comment: [
+            'Slice the tomatoes and mozzarella into even rounds.',
+            'Arrange the tomato and mozzarella slices on a plate, alternating them.',
+            'Tuck fresh basil leaves between the slices and drizzle with olive oil and balsamic glaze.',
+            'Sprinkle with salt and freshly cracked pepper before serving.'
+          ],
+          title: 'Caprese Salad',
+          brief: 'A classic Italian salad featuring ripe tomatoes, fresh mozzarella, and basil, drizzled with olive oil and balsamic glaze.',
+          ingredients: [
+            '2 Tomatoes, ripe',
+            '8 oz Fresh mozzarella',
+            '1/4 cup Fresh basil leaves',
+            '2 tbsp Olive oil',
+            '1 tbsp Balsamic glaze',
+            'Salt and pepper, to taste'
+          ],
+          preptime: 10,
+          type: true,
+          trending: false
         }
+        
+        
+        
+        
+        
+        
         
         
         
