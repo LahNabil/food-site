@@ -733,7 +733,7 @@ export const postItems = [
           ],
           preptime: 35,
           type: true,
-          trending: true
+          trending: false
         },
         {
           id: 30,
@@ -791,7 +791,7 @@ export const postItems = [
           ],
           preptime: 30,
           type: true,
-          trending: true
+          trending: false
         },
         {
           id: 32,
@@ -845,7 +845,7 @@ export const postItems = [
           ],
           preptime: 20,
           type: true,
-          trending: true
+          trending: false
         },
         {
           id: 34,
