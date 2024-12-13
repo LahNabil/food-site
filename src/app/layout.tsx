@@ -9,6 +9,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import Head from "next/head";
 import { GoogleTagManager } from '@next/third-parties/google' 
+import Script from "next/script";
 
 
 const ebGaramond = EB_Garamond({subsets: ['latin']});
@@ -57,6 +58,7 @@ export default function RootLayout({
       <GoogleTagManager gtmId="GTM-WBT745PF" />
       <Head>
         <link rel="icon" href="/favicon.ico"/>
+        <meta name="google-adsense-account" content={process.env.NEXT_PUBLIC_ADSENSE_PID} />
       </Head>
       <body className={ebGaramond.className}>
         <noscript>
@@ -68,6 +70,11 @@ export default function RootLayout({
           </iframe>
         </noscript>
         <Header/>
+        <Script
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_ADSENSE_PID}`}
+          crossOrigin="anonymous"
+        />
         {children}
         <Footer/>
       </body>
