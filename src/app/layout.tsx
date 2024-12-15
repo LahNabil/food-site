@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     siteName: "Cook it Easy",
     images: [
       {
-        url: "https://www.facebook.com/photo/?fbid=122093558594550289&set=a.122093558630550289", 
+        url: "/assets/opengraph-image.png", 
         width: 1200,
         height: 630,
         alt: "Cook it Easy - Quick and Delicious Recipes",
