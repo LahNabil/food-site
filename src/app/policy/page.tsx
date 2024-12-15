@@ -1,5 +1,10 @@
 import React from 'react'
 import './policy.css'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: "Privacy Policy"
+}
 
 const Policy = () => {
   return (

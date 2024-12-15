@@ -1,10 +1,13 @@
-// app/about/page.js
 
-"use client"; // Si c'est un composant côté client
+import { Metadata } from 'next';
 import './about.css'
 import Image from 'next/image'
 
 import React from 'react';
+
+export const metadata: Metadata = {
+  title: "About"
+}
 
 const AboutPage = () => {
   return (

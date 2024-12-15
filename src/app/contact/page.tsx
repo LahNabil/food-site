@@ -1,9 +1,12 @@
-"use client";
-
 import React from 'react'
 import "./contact.css"
 import { contact_sci } from '@/data/data';
 import Image from 'next/image';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Contact"
+}
 
 const Contact = () => {
 

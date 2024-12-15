@@ -1,5 +1,10 @@
 import React from 'react'
 import './disclaimer.css'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: "Disclaimer"
+}
 
 const Disclaimer = () => {
   return (
