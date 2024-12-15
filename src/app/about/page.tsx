@@ -25,13 +25,13 @@ const AboutPage = () => {
 With each post, we aim to bring a sense of joy and accomplishment to cooking, showing that great meals don’t have to be complicated. From busy weeknight dinners to indulgent weekend treats, &quot;Cook it Easy&quot; is your companion in the kitchen, making cooking fun and approachable for everyone. </div>
         </div>
         <div className="cont" style={{display: 'flex', margin: '3%'}}>
-          <div className='left'>
+          <div className='left' style={{ paddingTop:'7%'}}>
           <h2>Mission & Vision</h2>
           At &quot;Cook it Easy&quot;, our mission is simple: to make cooking accessible, enjoyable, and rewarding for all. We believe that everyone, regardless of their experience level, can create delicious dishes with the right guidance. Our vision is to become the go-to platform for anyone seeking easy-to-follow recipes, creative meal ideas, and expert cooking tips. We strive to cultivate a community where food lovers can connect, share, and inspire one another, transforming everyday meals into extraordinary experiences.
 
 We are passionate about bringing out the chef in everyone, and our content reflects that. Whether you&apos;re a beginner or an experienced cook, we offer something for everyone—from one-pot meals and quick fixes to gourmet creations. With &quot;Cook it Easy&quot;, your kitchen becomes a place of endless possibilities.</div>
           <div className="right">
-          <Image src="/assets/about_us_photo.jpg" alt="Mission_vision_food_recipe" width={500} height={400} className='img-right' />
+          <Image src="/assets/about_image_ab.png" alt="Mission_vision_food_recipe" width={500} height={300} className='img-right' />
           </div>
         </div>
       
