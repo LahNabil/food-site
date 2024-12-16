@@ -5,7 +5,7 @@
   import './style.css';
   import Image from 'next/image';
   import { SidePostItem } from '@/components/SidePostItem';
-  import { useParams } from 'next/navigation';
+  import { notFound, useParams } from 'next/navigation';
 
 
   interface Post {
@@ -23,7 +23,6 @@
 
   const PostItem = () => {
     const { title } = useParams(); 
-    // const postId = id ? Number(id) : null;
     const [item, setItem] = useState<Post | null>(null);
     const [items] = useState(postItems);
     
@@ -45,9 +44,11 @@
       if(typeof title === 'string'){
         const decodedTitle = title.replace(/-/g, ' ');
         const foundItem = postItems.find(post =>
-           post.title.toLowerCase() === decodedTitle.toLowerCase()); // Chercher le post avec cet ID
+           post.title.toLowerCase() === decodedTitle.toLowerCase());
       if (foundItem) {
         setItem(foundItem);
+      } else {
+        notFound();
       }
       }
     }, [title]);
