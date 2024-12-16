@@ -40,7 +40,7 @@ export const Footer = () => {
         </div>
       </div>
       <div className="privacy">
-        <p>@ 2024 Cook It Easy | <a href='/policy'>Privacy Policy</a> | <a href='/terms'>Terms of use</a> | <a href='/disclaimer'>Disclaimer</a></p>
+        <p>@ 2024 Cook It Easy | <Link href='/policy'>Privacy Policy</Link> | <Link href='/terms'>Terms of use</Link> | <Link href='/disclaimer'>Disclaimer</Link></p>
       </div>
       </div>
     </footer>
