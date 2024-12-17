@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+    .col-lg-4 {
+      display: flex; /* Active Flexbox */
+      flex-direction: column; /* Pour gérer le contenu verticalement si nécessaire */
+      align-items: center; /* Centre horizontalement */
+      justify-content: center; /* Centre verticalement */
+      text-align: center; /* Aligne le texte au centre si applicable */
+    }
+  }
+  

@@ -4,6 +4,7 @@ import { postItems } from '@/data/data'; // Suppose that you have a data file co
 import AOS from 'aos';
 import { PostItemOne } from '@/components/PostItemOne';
 import { TrendingPost } from '@/components/TrendingPost';
+import "./posts.css"
 
 export const Recipes = () => {
   const [items] = useState(postItems); 
