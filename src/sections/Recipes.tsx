@@ -6,7 +6,7 @@ import { PostItemOne } from '@/components/PostItemOne';
 import { TrendingPost } from '@/components/TrendingPost';
 
 export const Recipes = () => {
-  const [items] = useState(postItems); // Assign postItems directly
+  const [items] = useState(postItems); 
 
   useEffect(() => {
     AOS.init({

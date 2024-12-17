@@ -28,7 +28,7 @@ const PostItems = () => {
       <section id="posts" className="posts">
         <div className="container">
           <div className="filter">
-            <h3>Filter By Category</h3>
+            <h3>Search By Type</h3>
             <select value={selectedCategory} onChange={handleCategoryChange}>
               {categories.map(category => (
                 <option key={category} value={category}>

@@ -10,6 +10,7 @@
     margin: 0;
     font-size: 1.5rem; /* Ajuste la taille du titre */
     color: #333; /* Couleur plus foncée pour le titre */
+    
   }
   
   /* Style pour le select */
@@ -17,8 +18,8 @@
     padding: 10px 15px;
     font-size: 1rem;
     border-radius: 25px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
+    background-color: #f8f4f4;
+    border: 1px solid #e7d9f7;
     appearance: none; /* Enlève le style par défaut du navigateur */
     -webkit-appearance: none;
     -moz-appearance: none;
