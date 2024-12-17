@@ -21,7 +21,7 @@ export const Header = () => {
         <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
         
             <a href='/' className='d-flex'>
-            <Image src='/assets/logo_cook_it.png' alt='cook t easy' className='img_logo'  width={90} height={90} />
+            <Image src='/assets/logo_fast_cook_it.png' alt='cook it easy' className='img_logo'  width={140} height={150} />
                 <h1 className='title_header'>Cook it Easy</h1>
             </a>
             

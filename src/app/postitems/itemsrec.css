@@ -39,7 +39,7 @@
   }
   
   .filter select:focus {
-    border-color: #333; /* Bordure lors de la sélection */
+    border-color: #e7dede; /* Bordure lors de la sélection */
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
   }
   
