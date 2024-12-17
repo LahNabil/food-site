@@ -691,7 +691,7 @@ export const postItems = [
             'Add sliced avocado, chopped lettuce, and diced tomatoes.',
             'Crumble queso fresco on top and serve immediately.'
           ],
-          title: '10-Minute Huevos Rancheros Breakfast Tostadas',
+          title: '10 Minute Huevos Rancheros Breakfast Tostadas',
           brief: 'Quick and easy vegetarian Huevos Rancheros Breakfast Tostadas, perfect for breakfast, lunch, or dinner. Ready in just 10 minutes.',
           ingredients: [
             '1 Avocado',
