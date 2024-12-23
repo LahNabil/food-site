@@ -7,10 +7,12 @@ import AsideTab from '@/components/AsideTab';
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
 
+// Defining Params interface for the dynamic route params
 interface Params {
   title: string;
 }
 
+// generateMetadata function to provide metadata asynchronously
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
   const decodedTitle = params.title.replace(/-/g, ' '); 
   const foundItem = postItems.find((post) =>
@@ -33,6 +35,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   };
 }
 
+
 export const generateStaticParams = () => {
   const paths = postItems.map((post) => ({
     title: post.title.toLowerCase().replace(/\s+/g, '-'), 
@@ -40,6 +43,7 @@ export const generateStaticParams = () => {
 
   return paths;
 };
+
 
 const PostItem = ({ params }: { params: Params }) => {
   const decodedTitle = params.title.replace(/-/g, ' '); 
