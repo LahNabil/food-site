@@ -4,36 +4,37 @@ import SubHeader from '@/components/SubHeader';
 import { notFound } from 'next/navigation';
 import "../../itemsrec.css"
 
+// Define Params type as a Promise
+type Params = Promise<{ category: string }>;
+
+// Generate static parameters for categories
 export const generateStaticParams = () => {
-  // Extract unique categories from postItems and format them with hyphens
   const categories = [...new Set(postItems.map((post) => post.category))];
 
-  // Create paths with hyphenated categories
   const paths = categories.map((category) => ({
-    category: category.toLowerCase().replace(/\s+/g, '-').replace(/&/g, 'and'), // Replace spaces and special characters
+    category: category.toLowerCase().replace(/\s+/g, '-').replace(/&/g, 'and'),
   }));
 
   return paths;
 };
 
-
-const CategoryPage = async ({ params }: { params: { category: string } }) => {
+// The CategoryPage component with async params handling
+const CategoryPage = async ({ params }: { params: Params }) => {
+  const { category } = await params; // Await the params to resolve
+  const decodedCategory = category.replace(/-/g, ' ').replace(/and/g, '&');
   
-  const decodedCategory = params.category.replace(/-/g, ' ').replace(/and/g, '&');
   const filteredItems = postItems.filter((post) =>
-    post.category.toLowerCase() === decodedCategory.toLowerCase() 
+    post.category.toLowerCase() === decodedCategory.toLowerCase()
   );
 
-  
   if (filteredItems.length === 0) {
     notFound();
-    return null; 
+    return null;
   }
 
   return (
     <main id="main">
-      
-      <SubHeader/>
+      <SubHeader />
       
       <section id="posts" className="posts">
         <div className="container">
@@ -41,12 +42,11 @@ const CategoryPage = async ({ params }: { params: { category: string } }) => {
             {filteredItems.length > 0 ? (
               filteredItems.map((item) => (
                 <div className="col-lg-3 col-md-6" key={item.id}>
-                  
                   <PostItemOne large={false} item={item} />
                 </div>
               ))
             ) : (
-              <p>No posts available for this category.</p> 
+              <p>No posts available for this category.</p>
             )}
           </div>
         </div>
@@ -54,6 +54,5 @@ const CategoryPage = async ({ params }: { params: { category: string } }) => {
     </main>
   );
 };
-
 
 export default CategoryPage;
