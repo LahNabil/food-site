@@ -31,7 +31,7 @@ With each post, we aim to bring a sense of joy and accomplishment to cooking, sh
 
 We are passionate about bringing out the chef in everyone, and our content reflects that. Whether you&apos;re a beginner or an experienced cook, we offer something for everyone—from one-pot meals and quick fixes to gourmet creations. With &quot;Cook it Easy&quot;, your kitchen becomes a place of endless possibilities.</div>
           <div className="right">
-          <Image src="/assets/about_image_ab.png" alt="Mission_vision_food_recipe" width={500} height={300} className='img-right' />
+          <Image src="/assets/image_about_logo.png" alt="Mission_vision_food_recipe" width={500} height={300} className='img-right' />
           </div>
         </div>
       

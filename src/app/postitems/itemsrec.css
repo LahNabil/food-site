@@ -1,45 +1,23 @@
-.filter {
-    display: flex;
-    justify-content: space-between; /* Permet de séparer les deux éléments */
-    align-items: center; /* Aligner les éléments verticalement */
-    margin-bottom: 20px; /* Ajoute un espace sous le filtre */
+/* Default styles for larger screens (desktop/tablet) */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Items align to the left by default */
+}
+
+.col-lg-3, .col-md-6 {
+  width: 25%; /* For larger screens, display items in 4 columns */
+  padding: 10px;
+}
+
+/* Styles for smaller screens (mobile) */
+@media screen and (max-width: 768px) {
+  .row {
+    justify-content: center; /* Center the items horizontally */
   }
-  
-  /* Style pour le h3 */
-  .filter h3 {
-    margin: 0;
-    font-size: 1.5rem; /* Ajuste la taille du titre */
-    color: #333; /* Couleur plus foncée pour le titre */
-    
+
+  .col-lg-3, .col-md-6 {
+    width: 100%; /* Make each item take full width on mobile */
+    text-align: center; /* Center the text inside each column */
   }
-  
-  /* Style pour le select */
-  .filter select {
-    padding: 10px 15px;
-    font-size: 1rem;
-    border-radius: 25px;
-    background-color: #f8f4f4;
-    border: 1px solid #e7d9f7;
-    appearance: none; /* Enlève le style par défaut du navigateur */
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    position: relative;
-    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDE2IDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEuNzUgMkgxNC4yNUwxLjA2OTMgNi4yMjVDMC45MzMyOSA2LjU1MTg1IDEtNyAxLjI1LTdIMTUuNzVDMTYuMDAwNCA3IDE2LjA2NjggNi41NTIyNSAxNS45MzA3IDYuMjI1TDEuNzUgMiIgZmlsbD0iIzY2NiIvPjwvc3ZnPg==');
-    background-repeat: no-repeat;
-    background-position: right 10px center;
-    background-size: 10px;
-    width: 200px; /* Ajuste la largeur du select */
-    outline: none;
-    cursor: pointer;
-    transition: border-color 0.3s;
-  }
-  
-  .filter select:hover {
-    border-color: #888; /* Couleur de bordure au hover */
-  }
-  
-  .filter select:focus {
-    border-color: #e7dede; /* Bordure lors de la sélection */
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
-  }
-  
+}

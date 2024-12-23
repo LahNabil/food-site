@@ -1,168 +1,114 @@
-  "use client";
+import { postItems } from '@/data/data';
+import React from 'react';
+import './style.css';
+import Image from 'next/image';
+import SideVideo from '@/components/SideVideo';
+import AsideTab from '@/components/AsideTab';
+import { notFound } from 'next/navigation';
+import { Metadata } from 'next';
 
-  import { postItems } from '@/data/data';
-  import React, { useState, useEffect} from 'react';
-  import './style.css';
-  import Image from 'next/image';
-  import { SidePostItem } from '@/components/SidePostItem';
-  import { notFound, useParams } from 'next/navigation';
-
-
-  interface Post {
-    id: number;
-    img: string;
-    category: string;
-    comment: string[];
-    title: string;
-    brief: string;
-    ingredients: string[];
-    preptime: number;
-    type: boolean;
-    trending: boolean;
-  }
-
-  const PostItem = () => {
-    const { title } = useParams(); 
-    const [item, setItem] = useState<Post | null>(null);
-    const [items] = useState(postItems);
-    
-    const tabsData= [
-      {id: 1, name: 'popular', active: true},
-      {id: 2, name: 'trending', active: false}
-    ]
-    const[tabs, setTabs]= useState(tabsData);
-
-    const handleTabActive = (id:number):void=>{
-      setTabs(tabsData.map(tab=>{
-          tab.active= false;
-          if(tab.id === id) tab.active = true;
-          return tab;
-      }))
-    };
-
-    useEffect(() => {
-      if(typeof title === 'string'){
-        const decodedTitle = title.replace(/-/g, ' ');
-        const foundItem = postItems.find(post =>
-           post.title.toLowerCase() === decodedTitle.toLowerCase());
-      if (foundItem) {
-        setItem(foundItem);
-      } else {
-        notFound();
-      }
-      }
-    }, [title]);
-
-    if (!item) {
-      return <div>Loading...</div>;
+export async function generateMetadata({ params }: { params: { title: string } }): Promise<Metadata> {
+  const decodedTitle = params.title.replace(/-/g, ' '); 
+  const foundItem = postItems.find((post) =>
+    post.title.toLowerCase() === decodedTitle.toLowerCase()
+  );
+  return{
+    title: foundItem?.title,
+    description: foundItem?.brief,
+    openGraph: {
+      images: [
+        {
+          url: foundItem?.img || "/assets/opengraph-image.png", 
+          width: 1200,
+          height: 630,
+          alt: foundItem?.brief,
+        }
+      ]
     }
 
-    return (
-      <main id="main" style={{ margin: '100px' }}>
-        <section className="single-post-content">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-9 post-content">
-                <div className="single-post">
-                  <div className="post-meta">
-                    <span className="date">{item.category}</span>
-                  </div>
-                  <h1 className="mb-5">{item.title}</h1>
-                  <p>
-                      <span className="firstcharacter">
-                          {item.brief && item.brief.charAt(0)}
-                      </span>
-                      {item.brief && item.brief.substring(1)}
-                  </p>
-                  <figure className='my-4'>
-                      <Image height={500} width={820} src={item.img} alt='photo_recipe' className='img-fluid' />
-                    
-                  <figcaption className='fig_caption'>
+  }
+  
+}
+
+
+
+export const generateStaticParams = () => {
+  const paths = postItems.map((post) => ({
+    title: post.title.toLowerCase().replace(/\s+/g, '-'), 
+  }));
+
+  return paths;
+};
+
+const PostItem = ({ params }: { params: { title: string } }) => {
+  const decodedTitle = params.title.replace(/-/g, ' '); 
+  const foundItem = postItems.find((post) =>
+    post.title.toLowerCase() === decodedTitle.toLowerCase()
+  );
+
+  if (!foundItem) {
+    notFound(); // Trigger a 404 error when post is not found
+    return null; // Return null because Next.js will handle the 404 page automatically
+  }
+
+  return (
+    <main id="main" style={{ margin: '100px' }}>
+      <section className="single-post-content">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-9 post-content">
+              <div className="single-post">
+                <div className="post-meta">
+                  <span className="date">{foundItem.category}</span>
+                </div>
+                <h1 className="mb-5">{foundItem.title}</h1>
+                <p>
+                  <span className="firstcharacter">
+                    {foundItem.brief && foundItem.brief.charAt(0)}
+                  </span>
+                  {foundItem.brief && foundItem.brief.substring(1)}
+                </p>
+                <figure className="my-4">
+                  <Image
+                    height={500}
+                    width={820}
+                    src={foundItem.img}
+                    alt="photo_recipe"
+                    className="img-fluid"
+                  />
+                  <figcaption className="fig_caption">
                     <div className="infos_comment">
                       <h2>Steps:</h2>
                       <ol>
-                      {item.comment.map((step, index)=>(
-                        <li key={index}>{step}</li>
-                      ))}
+                        {foundItem.comment.map((step, index) => (
+                          <li key={index}>{step}</li>
+                        ))}
                       </ol>
                     </div>
                     <div className="infos_ingrédients">
-                    <h2>Ingredients:</h2>
-                    <ol>
-                    {item.ingredients.map((ingredient, index)=>(
-                      <li key={index}>{ingredient}</li>
-
-                    ))}
-                    </ol>
+                      <h2>Ingredients:</h2>
+                      <ol>
+                        {foundItem.ingredients.map((ingredient, index) => (
+                          <li key={index}>{ingredient}</li>
+                        ))}
+                      </ol>
                     </div>
                     <div className="infos_duration">
-                      Duration: {item.preptime} min
+                      Duration: {foundItem.preptime} min
                     </div>
-                    
-                </figcaption>
+                  </figcaption>
                 </figure>
-                </div>
-              </div>
-              <div className="col-md-3">
-                  <div className="aside-block">
-                      <ul className='nav nav-pills custom-tab-nav mb-4'>
-                      {tabs.map(tab=>(
-                          <li className='nav-item' key={tab.id}>
-                          <button
-                          className={`nav-link ${
-                              tab.active ? 'active' : undefined
-                          }`}
-                          onClick={()=> handleTabActive(tab.id)}
-                          >{tab.name}</button>
-                          </li>
-                      ))}
-                      </ul>
-                      <div className="tab-content">
-                          <div className={`tab-pane fade ${
-                              tabs[0].active ? 'show active' : ''
-                          }`}>
-                              {items.slice(0,6)
-                              .map(item=>(
-                                  <SidePostItem key={item.id} item={item}/>
-                              ))
-                              }
-                          </div>
-                          <div className={`tab-pane fade ${
-                              tabs[1].active ? 'show active' : ''
-                          }`}>
-                              {items
-                              .filter(item=> item.trending)
-                              // .slice(6,12)
-                              .map(item=>(
-                                  <SidePostItem key={item.id} item={item}/>
-                              ))
-                              }
-                          </div>
-                      </div>
-                  </div>
-                  <div className="aside-block">
-                      <h3 className="aside-title">Video</h3>
-                      <div className="video-post">
-                          <a
-                          target='_blank'
-                          href="https://www.youtube.com/watch?v=Kes2fk-Nuwo&ab_channel=GordonRamsay"
-                          className='link-video'>
-                          <span className="bi-play-fill"></span>
-                          <Image
-                          height={100} width={100}
-                          src='/assets/photo3.jpg'
-                          alt="photo_video_recipe"
-                          className='img-fluid'
-                          />
-                          </a>
-                      </div>
-                  </div>
               </div>
             </div>
+            <div className="col-md-3">
+              <AsideTab />
+              <SideVideo />
+            </div>
           </div>
-        </section>
-      </main>
-    );
-  };
+        </div>
+      </section>
+    </main>
+  );
+};
 
-  export default PostItem;
+export default PostItem;

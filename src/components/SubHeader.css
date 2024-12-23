@@ -1,0 +1,55 @@
+/* SubHeader Styles */
+.subheader {
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 7%;
+  }
+  
+  /* Categories List - Desktop View */
+  .categories-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Spacing between items */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  .categories-list li {
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .categories-list li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .categories-list li a:hover {
+    color: #007bff;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .subheader {
+      padding: 10px;
+    }
+  
+    .categories-list {
+      flex-direction: column; 
+      align-items: center;
+      gap: 10px;
+      margin-top: 15%; /* Reduced gap for smaller screens */
+    }
+  
+    .categories-list li {
+      font-size: 14px; /* Slightly smaller font for mobile */
+    }
+  }
+  
