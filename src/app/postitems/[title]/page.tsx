@@ -7,12 +7,17 @@ import AsideTab from '@/components/AsideTab';
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
 
-export async function generateMetadata({ params }: { params: { title: string } }): Promise<Metadata> {
+interface Params {
+  title: string;
+}
+
+export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
   const decodedTitle = params.title.replace(/-/g, ' '); 
   const foundItem = postItems.find((post) =>
     post.title.toLowerCase() === decodedTitle.toLowerCase()
   );
-  return{
+
+  return {
     title: foundItem?.title || "Recipes Title",
     description: foundItem?.brief || "Food description",
     openGraph: {
@@ -25,12 +30,8 @@ export async function generateMetadata({ params }: { params: { title: string } }
         }
       ]
     }
-
-  }
-  
+  };
 }
-
-
 
 export const generateStaticParams = () => {
   const paths = postItems.map((post) => ({
@@ -40,7 +41,7 @@ export const generateStaticParams = () => {
   return paths;
 };
 
-const PostItem = ({ params }: { params: { title: string } }) => {
+const PostItem = ({ params }: { params: Params }) => {
   const decodedTitle = params.title.replace(/-/g, ' '); 
   const foundItem = postItems.find((post) =>
     post.title.toLowerCase() === decodedTitle.toLowerCase()
