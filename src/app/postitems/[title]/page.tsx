@@ -13,15 +13,15 @@ export async function generateMetadata({ params }: { params: { title: string } }
     post.title.toLowerCase() === decodedTitle.toLowerCase()
   );
   return{
-    title: foundItem?.title,
-    description: foundItem?.brief,
+    title: foundItem?.title || "Recipes Title",
+    description: foundItem?.brief || "Food description",
     openGraph: {
       images: [
         {
           url: foundItem?.img || "/assets/opengraph-image.png", 
           width: 1200,
           height: 630,
-          alt: foundItem?.brief,
+          alt: foundItem?.brief || "Food & Recipe description",
         }
       ]
     }
@@ -47,8 +47,8 @@ const PostItem = ({ params }: { params: { title: string } }) => {
   );
 
   if (!foundItem) {
-    notFound(); // Trigger a 404 error when post is not found
-    return null; // Return null because Next.js will handle the 404 page automatically
+    notFound(); 
+    return null; 
   }
 
   return (
