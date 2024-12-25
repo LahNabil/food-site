@@ -33,6 +33,9 @@ export const metadata: Metadata = {
     template: "%s - Cook it Easy "
   },
   description: "Explore quick and easy recipes to create delicious meals effortlessly. Perfect for beginners and food lovers, with simple step-by-step guides for every dish.",
+  alternates: {
+    canonical: "https://www.fastcookiteasy.com"
+  },
   openGraph: {
     title: "Cook it Easy - Quick and Delicious Recipes",
     description: "Discover easy and quick recipes to cook delicious meals in no time. Cook it Easy provides simple step-by-step guides for tasty dishes, perfect for beginners and food enthusiasts alike.",
@@ -63,7 +66,6 @@ export default function RootLayout({
       <Head>
         <link rel="icon" href="/favicon.ico"/>
         <meta name="google-adsense-account" content={process.env.NEXT_PUBLIC_ADSENSE_PID} />
-        <link rel="canonical" key="canonical" href="https://www.fastcookiteasy.com" />
       </Head>
       <body className={ebGaramond.className}>
         <noscript>
