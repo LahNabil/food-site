@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import React from 'react';
 
-// Helper function to format the title into a URL-friendly string
+
 const formatTitleForUrl = (title: string): string => {
-  return title.trim().replace(/\s+/g, '-').toLowerCase(); // Replaces spaces with '-', and makes it lowercase
+  return title.trim().replace(/\s+/g, '-').toLowerCase(); 
 };
 
 export const SidePostItem = ({ item }: { 

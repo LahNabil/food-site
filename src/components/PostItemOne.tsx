@@ -22,7 +22,7 @@ export const PostItemOne = ({large, item}:{
   return (
     
     <div className={`post-entry-1 ${large ? 'lg' : undefined}`}>
-        <Link href={`/postitems/${item.title.replace(/\s+/g, '-')}`}>
+        <Link href={`/postitems/${item.title.replace(/\s+/g, '-').toLowerCase()}`}>
             <Image src={`${item.img}`} alt='recipe_food' width={290} height={100} className='img-fluid'/>
         </Link>
         <div className="post-meta">
