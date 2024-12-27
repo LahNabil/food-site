@@ -965,7 +965,7 @@ export const postItems = [
         },
         {
           id: 37,
-          img: '/assets/mango-desserts.webp', // Updated with a placeholder for an actual image file
+          img: '/assets/mango-desserts.webp',
           category: 'Dessert',
           comment: [
             'Peel and slice ripe mangoes into cubes or slices.',
@@ -986,7 +986,34 @@ export const postItems = [
           preptime: 10,
           type: true,
           trending: false
+        },
+        {
+          id: 38,
+          img: '/assets/chinese-mango-pudding.webp',
+          category: 'Dessert',
+          comment: [
+            'Peel and dice ripe mangoes into cubes.',
+            'Blend the mangoes with sugar, coconut milk, and a dash of vanilla.',
+            'Pour the mixture into molds and refrigerate until set.',
+            'Serve with a garnish of fresh mango slices and a drizzle of cream.'
+          ],
+          title: 'Traditional Chinese Mango Pudding Recipe to Try at Home',
+          brief: 'Satisfy your cravings with creamy mango desserts! Try recipes like mango and cream or traditional Chinese mango pudding today.',
+          description: 'Chinese mango pudding is a beloved and iconic dessert in many Asian cultures, celebrated for its smooth, creamy texture and vibrant mango flavor. This easy-to-make recipe combines perfectly ripe mangoes with coconut milk, sugar, and a hint of vanilla, creating a velvety pudding that melts in your mouth. After chilling, the pudding sets into a firm yet smooth consistency, offering a refreshing and cooling treat. Whether served as a light dessert after a meal or enjoyed as a snack on a warm day, this mango pudding is a favorite among mango enthusiasts. For an added touch of sweetness and beauty, serve it topped with fresh mango slices, making it not only delicious but visually appealing. This tropical dessert is sure to become a go-to favorite in your recipe collection, perfect for family gatherings, special occasions, or just a sweet indulgence to satisfy your cravings. Chinese mango pudding is not only a delicious dessert but also a versatile dish that can be enjoyed in various ways. It can be customized by adding other tropical fruits like lychee or coconut flakes for a new twist. Some variations even include a layer of tapioca pearls, giving the pudding a unique texture. Whether you are hosting a dinner party or just craving a light and refreshing dessert, this mango pudding is sure to impress your guests with its exotic flavors. Additionally, mangoes are packed with vitamins, making this dessert a somewhat healthy indulgence. By preparing it at home, you can adjust the sweetness to your liking and avoid the added preservatives often found in store-bought versions. This makes homemade Chinese mango pudding a great option for those looking to enjoy an authentic, fresh treat',
+          ingredients: [
+            '2 ripe mangoes, peeled and diced',
+            '1/2 cup coconut milk',
+            '1/4 cup sugar (adjust to taste)',
+            '1/2 tsp vanilla extract',
+            '1/4 cup water (for dissolving agar-agar)',
+            '1 tsp agar-agar powder',
+            'Fresh mango slices for garnish'
+          ],
+          preptime: 15,
+          type: true,
+          trending: false
         }
+        
         
         
         
