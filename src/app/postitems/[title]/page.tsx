@@ -7,7 +7,7 @@ import AsideTab from '@/components/AsideTab';
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
 
-// Define Params type as a Promise
+
 type Params = Promise<{ title: string }>;
 
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
@@ -69,6 +69,9 @@ const PostItem = async ({ params }: { params: Params }) => {
                     {foundItem.brief && foundItem.brief.charAt(0)}
                   </span>
                   {foundItem.brief && foundItem.brief.substring(1)}
+                </p>
+                <p>
+                  {foundItem.description}
                 </p>
                 <figure className="my-4">
                   <Image

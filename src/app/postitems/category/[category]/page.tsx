@@ -4,10 +4,8 @@ import SubHeader from '@/components/SubHeader';
 import { notFound } from 'next/navigation';
 import "../../itemsrec.css"
 
-// Define Params type as a Promise
-type Params = Promise<{ category: string }>;
 
-// Generate static parameters for categories
+type Params = Promise<{ category: string }>;
 export const generateStaticParams = () => {
   const categories = [...new Set(postItems.map((post) => post.category))];
 
@@ -18,7 +16,6 @@ export const generateStaticParams = () => {
   return paths;
 };
 
-// The CategoryPage component with async params handling
 const CategoryPage = async ({ params }: { params: Params }) => {
   const { category } = await params; // Await the params to resolve
   const decodedCategory = category.replace(/-/g, ' ').replace(/and/g, '&');

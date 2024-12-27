@@ -112,6 +112,7 @@ export const postItems = [
     ],
     title: 'PANUOZZO Sandwich',
     brief: 'Panuozzo is a popular Italian sandwich from the Campania region. This dish features a toasted flatbread filled with ham, cheese, and grilled vegetables, perfect for a quick meal packed with flavor.',
+    description:'',
     ingredients: ['flatbread', 'ham', 'cheese', 'grilled vegetables', 'olive oil'],
     preptime: 20,
     type: false,
@@ -130,6 +131,7 @@ export const postItems = [
     ],
     title: 'SMOKY VEGAN',
     brief: 'A delicious and smoky vegan dish that combines roasted vegetables and grilled smoked tofu, offering a rich and hearty flavor. It’s perfect for those who enjoy bold, plant-based meals.',
+    description:'',
     ingredients: ['roasted vegetables', 'smoked tofu', 'fresh herbs', 'olive oil'],
     preptime: 25,
     type: true,
@@ -149,6 +151,7 @@ export const postItems = [
     ],
     title: 'CURRIED SAUSAGE',
     brief: 'Curried sausages is a comforting dish where flavorful sausages are simmered in a rich, spiced curry sauce. It’s a warming dinner option that pairs perfectly with rice or naan bread.',
+    description:'',
     ingredients: ['sausages', 'curry powder', 'chopped vegetables', 'spices', 'rice'],
     preptime: 40,
     type: false,
@@ -170,6 +173,7 @@ export const postItems = [
   ],
   title: 'SPICY VEGETABLE BEEF UDON NOODLES',
   brief: 'This spicy and flavorful dish combines thick, chewy udon noodles with tender beef and crunchy vegetables, all coated in a rich and spicy sauce. It’s a perfect dish for noodle lovers looking for a kick of heat.',
+  description:'',
   ingredients: ['udon noodles', 'beef', 'vegetables', 'spicy sauce', 'soy sauce', 'chili paste', 'honey'],
   preptime: 30,
   type: false,
@@ -189,6 +193,7 @@ export const postItems = [
   ],
   title: 'CALMING GREEN SOUP',
   brief: 'This vibrant green soup is packed with nutritious vegetables like spinach, broccoli, and peas. It’s light, refreshing, and perfect for a quick, healthy meal.',
+  description:'',
   ingredients: ['spinach', 'broccoli', 'peas', 'fresh herbs', 'lemon juice', 'salt', 'pepper'],
   preptime: 15,
   type: true,
@@ -208,6 +213,7 @@ export const postItems = [
   ],
   title: 'GREEN CHICKEN SALAD',
   brief: 'This healthy and refreshing green chicken salad is a perfect choice for a light lunch, packed with nutritious ingredients and topped with a zesty dressing.',
+  description:'',
   ingredients: ['chicken breasts', 'lettuce', 'cucumber', 'avocado', 'dressing (lemon vinaigrette or olive oil)'],
   preptime: 20,
   type: false,
@@ -226,6 +232,7 @@ export const postItems = [
   ],
   title: 'SESAME CHICKEN',
   brief: 'Sesame chicken is a popular Asian dish featuring tender chicken pieces coated in a sweet and savory sesame sauce, perfect for pairing with rice.',
+  description:'',
   ingredients: ['chicken', 'soy sauce', 'honey', 'sesame seeds', 'green onions'],
   preptime: 30,
   type: false,
@@ -244,6 +251,7 @@ export const postItems = [
   ],
   title: 'BAKED CHICKEN DRUMSTICKS',
   brief: 'Oven-baked chicken drumsticks that are crispy on the outside and juicy on the inside, seasoned with a flavorful mix of spices.',
+  description:'',
   ingredients: ['chicken drumsticks', 'olive oil', 'paprika', 'garlic powder', 'thyme'],
   preptime: 35,
   type: false,
@@ -265,6 +273,7 @@ export const postItems = [
   ],
   title: 'Butter Chicken (Murgh Makhani)',
   brief: 'Butter chicken is a rich and creamy Indian curry made with tender marinated chicken, a tomato-based sauce, and a blend of aromatic spices. Best enjoyed with rice or naan.',
+  description:'',
   ingredients: ['chicken', 'yogurt', 'lemon juice', 'garam masala', 'cumin', 'turmeric', 'onions', 'garlic', 'ginger', 'tomatoes', 'butter', 'cream'],
   preptime: 45,
   type: false,
@@ -285,6 +294,7 @@ export const postItems = [
   ],
   title: 'Arrabbiata Pasta',
   brief: 'Arrabbiata is a classic Italian pasta dish known for its fiery tomato sauce, made with garlic, chili, and tomatoes. It pairs best with penne or ziti pasta and is perfect for spice lovers.',
+  description:'',
   ingredients: ['penne or ziti', 'canned tomatoes', 'garlic', 'cayenne pepper', 'chili flakes', 'parsley', 'black pepper', 'kosher salt', 'sugar', 'olive oil'],
   preptime: 30,
   type: false,
@@ -307,6 +317,7 @@ export const postItems = [
   ],
   title: 'The Ultimate Pizza Burger',
   brief: 'The Pizza Burger combines the juicy goodness of a burger with the bold flavors of pizza, making it a perfect fusion dish. Customize it with your favorite pizza toppings!',
+  description:'',
   ingredients: ['ground beef', 'pepperoni', 'marinara sauce', 'Italian seasoning', 'pizza seasoning', 'hamburger buns', 'butter', 'mozzarella cheese'],
   preptime: 25,
   type: false,
@@ -327,6 +338,7 @@ export const postItems = [
   ],
   title: 'Spinach Lasagna',
   brief: 'This Spinach Lasagna is rich with three cheeses and packed with spinach, making it a family favorite for weeknight dinners or gatherings.',
+  description:'',
   ingredients: ['spinach', 'marinara sauce', 'lasagna noodles', 'mozzarella cheese', 'parmesan cheese'],
   preptime: 50,
   type: false,
@@ -346,6 +358,7 @@ export const postItems = [
   ],
   title: 'Muffaletta Sandwich',
   brief: 'This Muffaletta recipe brings the ultimate New Orleans sandwich to your kitchen, loaded with Italian meats, cheese, and a spicy homemade olive salad.',
+  description:'',
   ingredients: ['genoa salami', 'ham', 'mortadella', 'mozzarella cheese', 'provolone cheese', 'black olives', 'green olives', 'pepperoncini peppers', 'roasted red peppers', 'basil', 'oregano', 'garlic powder', 'salt and pepper', 'olive oil', 'red wine vinegar', 'Italian bread or muffaletta bread'],
   preptime: 30,
   type: false,
@@ -366,6 +379,7 @@ export const postItems = [
   ],
   title: 'Yaki Udon',
   brief: 'Yaki Udon is a quick and easy stir-fry dish made with chewy udon noodles, fresh vegetables, and a savory sauce. Ready in just 15 minutes!',
+  description:'',
   ingredients: ['baby bok choy', 'garlic', 'scallions', 'shitake mushrooms', 'honey or agave', 'mirin', 'vegetarian oyster sauce', 'dark soy sauce', 'light soy sauce', 'sriracha', 'udon noodles'],
   preptime: 15,
   type: false,
@@ -385,6 +399,7 @@ export const postItems = [
   ],
   title: 'Paneer Kathi Roll',
   brief: 'Paneer Kathi Rolls feature spicy paneer wrapped in soft roti, making a delicious and filling street food option that’s easy to prepare at home.',
+  description:'',
   ingredients: ['fresh coriander leaves', 'green chilies', 'lemon wedges', 'lettuce', 'onion', 'tomato', 'ginger-garlic paste', 'mint chutney', 'garam masala', 'red chili powder', 'salt', 'turmeric powder', 'whole wheat flour', 'vegetable oil', 'cumin powder', 'cumin seeds', 'onion rings', 'paneer', 'water'],
   preptime: 30,
   type: false,
@@ -406,6 +421,7 @@ export const postItems = [
   ],
   title: 'Spicy Garlic Shrimp Noodles',
   brief: 'This Spicy Garlic Shrimp Noodles recipe combines succulent shrimp with noodles in a flavorful garlic sauce, making it a quick and delicious meal.',
+  description:'',
   ingredients: ['jumbo shrimp', 'garlic', 'green onions', 'serrano pepper', 'fish sauce', 'soy sauce', 'dried pasta', 'black pepper', 'cornstarch', 'gochugaru', 'salt', 'cooking oil', 'sesame oil', 'unsalted butter', 'sake or water', 'maesilaek'],
   preptime: 25,
   type: false,
@@ -425,6 +441,7 @@ export const postItems = [
           ],
           title: 'Cilantro Lime Avocado Toast',
           brief: 'This Cilantro Lime Avocado Toast is a fresh and tasty starter perfect for weekends, featuring creamy avocado topped with vibrant ingredients.',
+          description:'',
           ingredients: ['large avocado', 'cherry tomatoes', 'fresh cilantro', 'red onion', 'honey', 'fresh lime juice', 'cracked black pepper', 'salt', 'extra virgin olive oil', 'whole wheat bread'],
           preptime: 10,
           type: false,
@@ -446,6 +463,7 @@ export const postItems = [
           ],
           title: 'Layered Chocolate Cheesecake with Oreo Crust - No Bake',
           brief: 'This Layered Chocolate Cheesecake with Oreo Crust is a rich and creamy dessert that requires no baking, perfect for any occasion.',
+          description:'',
           ingredients: ['bittersweet chocolate', 'granulated sugar', 'powdered sugar', 'vanilla extract', 'Oreo cookie crumbs', 'unsalted butter', 'cream cheese'],
           preptime: 25,
           type: false,
@@ -469,6 +487,7 @@ export const postItems = [
           ],
           title: 'Chocolate Cake Roll',
           brief: 'The Chocolate Cake Roll is a delightful dessert that appears complex but is simple to make, perfect for impressing chocolate lovers.',
+          description:'',
           ingredients: ['large eggs', 'corn syrup', 'all-purpose flour', 'baking powder', 'good quality chocolate', 'granulated sugar', 'powdered sugar', 'salt', 'pure vanilla', 'unsalted butter', 'cream cheese', 'double cream', 'Dutch-process cocoa'],
           preptime: 30,
           type: false,
@@ -489,6 +508,7 @@ export const postItems = [
           ],
           title: 'Coffee Panna Cotta with Cocoa Sauce',
           brief: 'This Coffee Panna Cotta with Cocoa Sauce is a stunning dessert that elevates the flavor of coffee, complemented by a rich cocoa sauce.',
+          description:'',
           ingredients: ['liquid cream', 'coffee', 'sugar', 'gelatin sheets', 'vanilla extract', 'sugar', 'water', 'unsweetened cocoa powder', 'lemon juice', 'instant coffee', 'salt'],
           preptime: 30,
           type: false,
@@ -506,6 +526,7 @@ export const postItems = [
           ],
           title: 'Healthy Lemonade',
           brief: 'This Healthy Lemonade is a refreshing drink made with fresh lemons and honey, perfect for a natural, sugar-free beverage option.',
+          description:'',
           ingredients: ['ice', 'fresh lemons', 'honey'],
           preptime: 10,
           type: false,
@@ -523,6 +544,7 @@ export const postItems = [
           ],
           title: 'Virgin Strawberry Daiquiri',
           brief: 'This Virgin Strawberry Daiquiri is a delicious non-alcoholic frozen drink, perfect for summer parties and family gatherings.',
+          description:'',
           ingredients: ['fresh lime', 'frozen strawberries', 'fresh strawberries', 'freshly squeezed lime juice', 'simple syrup'],
           preptime: 10,
           type: false,
@@ -543,6 +565,7 @@ export const postItems = [
           ],
           title: 'Creamy Tomato Pasta',
           brief: 'This Creamy Tomato Pasta is a simple and delicious meal made from scratch with a rich and silky smooth cream and tomato-based sauce. Ready in under 30 minutes using easy-to-find ingredients.',
+          description:'',
           ingredients: [
             '3 cloves Garlic',
             '1 tbsp Parsley, fresh',
@@ -574,6 +597,7 @@ export const postItems = [
           ],
           title: 'Sopa de Fideo',
           brief: 'An authentic Mexican Sopa de Fideo made with tomatoes, noodles, garlic, and broth. A quick, easy, and delicious soup loved by both kids and adults.',
+          description:'',
           ingredients: [
             '1/3 cup Cilantro',
             '2 cloves Garlic',
@@ -603,6 +627,7 @@ export const postItems = [
           ],
           title: 'Shrimp Lo Mein',
           brief: 'This Shrimp Lo Mein recipe combines juicy shrimp, tender vegetables, and noodles mixed in a flavorful lo mein sauce. A quick and easy meal, perfect for any night of the week.',
+          description:'',
           ingredients: [
             '8 oz Shrimp',
             '1 cup Cabbage',
@@ -637,6 +662,7 @@ export const postItems = [
           ],
           title: 'Omelette with Avocado',
           brief: 'A quick and flavorful omelette with garlicky mushrooms, spinach, and feta, served with fresh avocado. Perfect for a simple, healthy meal.',
+          description:'',
           ingredients: [
             '1/2 Avocado',
             '1/2 cup Mushrooms',
@@ -665,6 +691,7 @@ export const postItems = [
           ],
           title: 'Roasted Red Pepper Romesco Sauce',
           brief: 'A vegan and gluten-free Roasted Red Pepper Romesco Sauce, perfect for weeknight meals. This versatile sauce can be used for pasta, dipping, or as a topping.',
+          description:'',
           ingredients: [
             '2 tsp Basil, dried',
             '1 clove Garlic',
@@ -693,6 +720,7 @@ export const postItems = [
           ],
           title: '10 Minute Huevos Rancheros Breakfast Tostadas',
           brief: 'Quick and easy vegetarian Huevos Rancheros Breakfast Tostadas, perfect for breakfast, lunch, or dinner. Ready in just 10 minutes.',
+          description:'',
           ingredients: [
             '1 Avocado',
             '1 cup Lettuce',
@@ -721,6 +749,7 @@ export const postItems = [
           ],
           title: 'Banana Pancakes',
           brief: 'Easy banana pancakes that are a fantastic change from the usual buttermilk pancakes. Perfect for a delicious family breakfast!',
+          description:'',
           ingredients: [
             '1 Banana, medium very ripe',
             '1 Egg, large',
@@ -748,6 +777,7 @@ export const postItems = [
           ],
           title: '20 Minute Garlic Basil Butter Pasta',
           brief: 'A quick and flavorful Garlic Basil Brown Butter Pasta with cherry tomatoes, fresh basil, and pecorino cheese. Ready in just 20 minutes!',
+          description:'',
           ingredients: [
             '1 cup Basil, fresh',
             '2 cups Cherry tomatoes',
@@ -778,6 +808,7 @@ export const postItems = [
           ],
           title: 'Lemon Honey Glazed Chicken',
           brief: 'A tangy and sweet Lemon Honey Glazed Chicken, perfect for a healthy and flavorful meal. Ready in under 30 minutes!',
+          description:'',
           ingredients: [
             '4 Chicken breasts',
             '2 cloves Garlic, minced',
@@ -806,6 +837,7 @@ export const postItems = [
           ],
           title: 'Creamy Mushroom Soup',
           brief: 'A rich and velvety mushroom soup made with fresh mushrooms, cream, and savory seasonings. Perfect for a cozy meal!',
+          description:'',
           ingredients: [
             '1 lb Mushrooms, sliced',
             '1 Onion, chopped',
@@ -834,6 +866,7 @@ export const postItems = [
           ],
           title: 'Chocolate Lava Cake',
           brief: 'A decadent and gooey chocolate dessert with a molten center. Simple to make and perfect for special occasions.',
+          description:'',
           ingredients: [
             '4 oz Dark chocolate',
             '1/2 cup Butter',
@@ -859,6 +892,7 @@ export const postItems = [
           ],
           title: 'Vegan Buddha Bowl',
           brief: 'A colorful and nutritious Buddha bowl with quinoa, roasted vegetables, and creamy tahini dressing. Ideal for a healthy lunch!',
+          description:'',
           ingredients: [
             '1 cup Quinoa',
             '1 Sweet potato, diced',
@@ -887,6 +921,7 @@ export const postItems = [
           ],
           title: 'Grilled Shrimp Tacos',
           brief: 'Flavorful grilled shrimp tacos with a zesty lime crema and fresh toppings. A light and delicious dinner option!',
+          description:'',
           ingredients: [
             '1 lb Shrimp, peeled and deveined',
             '1 tsp Chili powder',
@@ -915,6 +950,7 @@ export const postItems = [
           ],
           title: 'Caprese Salad',
           brief: 'A classic Italian salad featuring ripe tomatoes, fresh mozzarella, and basil, drizzled with olive oil and balsamic glaze.',
+          description:'',
           ingredients: [
             '2 Tomatoes, ripe',
             '8 oz Fresh mozzarella',
@@ -926,7 +962,32 @@ export const postItems = [
           preptime: 10,
           type: true,
           trending: false
+        },
+        {
+          id: 37,
+          img: '/assets/mango-desserts.webp', // Updated with a placeholder for an actual image file
+          category: 'Dessert',
+          comment: [
+            'Peel and slice ripe mangoes into cubes or slices.',
+            'Prepare a creamy base using condensed milk, cream, or pudding mix.',
+            'Layer mangoes and cream in a dish, or mix together for a quick treat.',
+            'Chill in the refrigerator before serving for a refreshing mango dessert.'
+          ],
+          title: 'How to Make a Delicious Mango Dessert Recipe in Minutes',
+          brief: 'Discover the best mango dessert recipes, including mango pudding, mango and cream delights, and traditional Chinese mango pudding. Perfect for mango lovers!',
+          description: 'Mango desserts are the perfect way to satisfy your sweet tooth while enjoying the tropical goodness of fresh mangoes. In this guide, we will show you how to create a simple and delicious mango dessert in just a few minutes. Mangoes are not only delicious but also rich in vitamins and antioxidants, making them a healthy and versatile ingredient for desserts. Whether it is a creamy mango pudding, a layered mango and cream parfait, or even a no-bake mango mousse, these recipes are sure to impress your family and friends.',
+          ingredients: [
+            '2 ripe mangoes, peeled and diced',
+            '1 cup heavy cream',
+            '1/2 cup sweetened condensed milk',
+            '1/4 cup granulated sugar (optional)',
+            'Fresh mint or basil leaves for garnish'
+          ],
+          preptime: 10,
+          type: 'dessert',
+          trending: false
         }
+        
         
         
         

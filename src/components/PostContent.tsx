@@ -13,6 +13,7 @@ interface Post {
   comment: string[];
   title: string;
   brief: string;
+  description: string;
   ingredients: string[];
   preptime: number;
   type: boolean;
@@ -70,6 +71,7 @@ const PostContent = () => {
                   <span className="firstcharacter">{item.brief.charAt(0)}</span>
                   {item.brief.substring(1)}
                 </p>
+                <p>{item.description}</p>
                 <figure className="my-4">
                   <Image
                     height={500}
