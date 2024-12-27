@@ -984,7 +984,7 @@ export const postItems = [
             'Fresh mint or basil leaves for garnish'
           ],
           preptime: 10,
-          type: 'dessert',
+          type: true,
           trending: false
         }
         

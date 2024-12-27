@@ -12,7 +12,8 @@ export const PostItemOne = ({large, item}:{
         category: string,
         comment: string[],
         title: string,
-        brief: string
+        brief: string,
+        description: string,
         ingredients: string[],
         preptime: number,
         type: boolean,
