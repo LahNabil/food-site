@@ -13,8 +13,6 @@ export default function HeroSlide({
             title: string;
             brief: string;
             id: number;
-            link: string;
-
     }
 
 }){
