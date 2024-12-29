@@ -7,8 +7,12 @@
 
 @media (max-width: 768px) {
   .post-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 1px;
+    padding-right: 2px;
+  }
+  .infos_comment ol {
+    padding-left: 0px;
+    width: 120%;
   }
 }
 
@@ -31,10 +35,11 @@
 
 @media (max-width: 1255px) {
   .post-content figure {
-    min-width: auto;
+    min-width: 100%;
     left: auto !important;
     transform: none;
   }
+  
 }
 
 .post-content figure figcaption {
@@ -111,4 +116,7 @@
 
 .aside-tags li {
   display: inline-block;
+}
+.infos_comment{
+  width: 80%;
 }

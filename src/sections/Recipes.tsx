@@ -44,7 +44,7 @@ export const Recipes = () => {
                   .filter(
                     (item) => !item.trending
                   )
-                  .slice(3, 6)
+                  .slice(3,7)
                   .map((item, index) => (
                     <PostItemOne key={index} large={false} item={item} />
                   ))} 
@@ -55,7 +55,10 @@ export const Recipes = () => {
                   <ul className='trending-post'>
                     {
                       items && items.length> 0
-                      && items.filter((item) => item.trending).map((item, index) => (
+                      && 
+                      items.filter((item) => item.trending)
+                      .slice(0,9)
+                      .map((item, index) => (
                         <TrendingPost key={item.id} index={index} item={item}/>
                       ))
                     }

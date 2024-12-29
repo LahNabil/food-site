@@ -69,39 +69,36 @@ export const heroSlides = [
   
     {
         id:1,
-        bgImg: '/assets/kale_chicken_salade.jpg',
+        bgImg: '/assets/kale_chicken_salade.webp',
         title: 'GREEN CHICKEN SALAD',
         brief: 'A healthy and nourishing chicken salad topped with fresh green vegetables, perfect for a light lunch.',
-        link: '/postitems/6'
+        
     },
     {
         id:2,
-        bgImg: '/assets/Backed_chicken.jpg',
+        bgImg: '/assets/Backed_chicken.webp',
         title: 'BAKED CHICKEN DRUMSTICKS',
         brief: 'Oven-baked chicken drumsticks, flavorful and crispy, perfect for a quick and delicious dinner.',
-        link: '/postitems/8'
     },
     {
         id:3,
-        bgImg: '/assets/sesame_chicken.jpg',
+        bgImg: '/assets/sesame_chicken.webp',
         title: 'SESAME CHICKEN',
         brief: 'Popular Asian dish, featuring chicken coated in a sweet and spicy sauce, topped with sesame seeds.',
-        link: '/postitems/7'
     },
     {
       
         id:4,
-        bgImg: '/assets/CILANTRO_LIME_AVOCADO_TOAST.jpg',
+        bgImg: '/assets/CILANTRO_LIME_AVOCADO_TOAST.webp',
         title: 'Cilantro Lime Avocado Toast',
         brief: 'This Cilantro Lime Avocado Toast is a fresh and tasty starter perfect for weekends, featuring creamy avocado topped with vibrant ingredients.',
-        link: '/postitems/17'
     },
 ]
 
 export const postItems = [
   {
     id: 1,
-    img: '/assets/PANUOZZO.jpg',
+    img: '/assets/PANUOZZO.webp',
     category: 'Main course',
     comment: [
       'Cut the flatbread in half horizontally to create two sandwich halves. Lightly brush the inside with olive oil and toast it until golden brown and crispy.',
@@ -121,7 +118,7 @@ export const postItems = [
   },
   {
     id: 2,
-    img: '/assets/smoky_vegan.jpg',
+    img: '/assets/smoky_vegan.webp',
     category: 'Main course',
     comment: [
       'Cut the vegetables (such as carrots, zucchini, and bell peppers) into even pieces and roast them in the oven at 200°C (400°F) with olive oil for about 20 minutes, or until tender and slightly crispy.',
@@ -140,7 +137,7 @@ export const postItems = [
   },
   {
     id: 3,
-    img: '/assets/Curried_Sausages.jpg',
+    img: '/assets/Curried_Sausages.webp',
     category: 'Main course',
     comment: [
       'Heat a large pan over medium heat and cook the sausages until browned on all sides. Remove from the pan and set aside.',
@@ -161,7 +158,7 @@ export const postItems = [
 ,  
 {
   id: 4,
-  img: '/assets/spicy_beef.jpg',
+  img: '/assets/spicy_beef.webp',
   category: 'Main course',
   comment: [
     'Cook the udon noodles according to the package instructions. Drain and set aside, keeping them warm.',
@@ -182,7 +179,7 @@ export const postItems = [
 },
 {
   id: 5,
-  img: '/assets/green_soop.jpg',
+  img: '/assets/green_soop.webp',
   category: 'Quick & Easy',
   comment: [
     'In a large pot, bring salted water to a boil. Add green vegetables like spinach, broccoli, and peas and cook for 10 minutes or until tender.',
@@ -203,7 +200,7 @@ export const postItems = [
 
 {
   id: 6,
-  img: '/assets/kale_chicken_salade.jpg',
+  img: '/assets/kale_chicken_salade.webp',
   category: 'Main course',
   comment: [
     'Season the chicken breasts and cook them on a grill or in a pan until golden and fully cooked through. Allow the chicken to cool slightly.',
@@ -222,7 +219,7 @@ export const postItems = [
 },
 {
   id: 7,
-  img: '/assets/sesame_chicken.jpg',
+  img: '/assets/sesame_chicken.webp',
   category: 'Main course',
   comment: [
     'Cut the chicken into bite-sized pieces and season with salt and pepper. In a large pan, heat some oil and cook the chicken until browned on all sides.',
@@ -241,7 +238,7 @@ export const postItems = [
 },
 {
   id: 8,
-  img: '/assets/Backed_chicken.jpg',
+  img: '/assets/Backed_chicken.webp',
   category: 'Main course',
   comment: [
     'Preheat the oven to 200°C (400°F) and line a baking tray with parchment paper.',
@@ -260,7 +257,7 @@ export const postItems = [
 },
 {
   id: 9,
-  img: '/assets/BUTTER_CHICKEN.jpg',
+  img: '/assets/BUTTER_CHICKEN.webp',
   category: 'Main course',
   comment: [
     'In a large bowl, combine yogurt, lemon juice, and a blend of spices like garam masala, cumin, and turmeric. Marinate the chicken in this mixture for at least 30 minutes (or overnight for best results).',
@@ -282,7 +279,7 @@ export const postItems = [
 },
 {
   id: 10,
-  img: '/assets/ARRABBIATA_PASTA.jpg',
+  img: '/assets/ARRABBIATA_PASTA.webp',
   category: 'Main course',
   comment: [
     'Cook the pasta in a large pot of salted boiling water until al dente, according to the package instructions. Drain and set aside, reserving a cup of pasta water.',
@@ -304,7 +301,7 @@ export const postItems = [
 
 {
   id: 11,
-  img: '/assets/PIZZA_BURGER.jpg',
+  img: '/assets/PIZZA_BURGER.webp',
   category: 'Main course',
   comment: [
     'Season the ground beef with Italian seasoning and form into 4 burger patties.',
@@ -325,7 +322,7 @@ export const postItems = [
 },
 {
   id: 12,
-  img: '/assets/SPINACH_LASAGNA.jpg',
+  img: '/assets/SPINACH_LASAGNA.webp',
   category: 'Main course',
   comment: [
     'Preheat the oven to 375°F (190°C).',
@@ -346,7 +343,7 @@ export const postItems = [
 },
 {
   id: 13,
-  img: '/assets/MUFFALETTA.jpg',
+  img: '/assets/MUFFALETTA.webp',
   category: 'Main course',
   comment: [
     'Prepare the olive salad by mixing black olives, green olives, pepperoncini, roasted red peppers, olive oil, and red wine vinegar with dried basil, oregano, garlic powder, salt, and pepper.',
@@ -366,7 +363,7 @@ export const postItems = [
 },
 {
   id: 14,
-  img: '/assets/YAKI_UDON.jpg',
+  img: '/assets/YAKI_UDON.webp',
   category: 'Quick & Easy',
   comment: [
     'Cook the udon noodles according to the package instructions, then drain and set aside.',
@@ -387,7 +384,7 @@ export const postItems = [
 },
 {
   id: 15,
-  img: '/assets/PANEER_KATHI_ROLL.jpg',
+  img: '/assets/PANEER_KATHI_ROLL.webp',
   category: 'Quick & Easy',
   comment: [
     'In a bowl, combine whole wheat flour with water, a pinch of salt, and knead to form a soft dough. Let it rest for 15 minutes.',
@@ -407,7 +404,7 @@ export const postItems = [
 },
 {
   id: 16,
-  img: '/assets/SPICY_GARLIC_SHRIMP_NOODLES.jpg',
+  img: '/assets/SPICY_GARLIC_SHRIMP_NOODLES.webp',
   category: 'Quick & Easy',
   comment: [
     'Cook the pasta according to package instructions, then drain and set aside.',
@@ -427,31 +424,30 @@ export const postItems = [
   type: false,
   trending: true
 },
-
-        {
-          id: 17,
-          img: '/assets/CILANTRO_LIME_AVOCADO_TOAST.jpg',
-          category: 'Quick & Easy',
-          comment: [
+{
+  id: 17,
+  img: '/assets/CILANTRO_LIME_AVOCADO_TOAST.webp',
+  category: 'Quick & Easy',
+  comment: [
             'Toast the whole wheat bread slices until golden brown.',
             'In a bowl, mash the avocado with fresh lime juice, salt, and cracked black pepper to taste.',
             'Spread the mashed avocado evenly on the toasted bread.',
             'Top with halved cherry tomatoes, finely chopped red onion, and chopped cilantro.',
             'Drizzle with honey and extra virgin olive oil before serving.'
           ],
-          title: 'Cilantro Lime Avocado Toast',
-          brief: 'This Cilantro Lime Avocado Toast is a fresh and tasty starter perfect for weekends, featuring creamy avocado topped with vibrant ingredients.',
-          description:'',
-          ingredients: ['large avocado', 'cherry tomatoes', 'fresh cilantro', 'red onion', 'honey', 'fresh lime juice', 'cracked black pepper', 'salt', 'extra virgin olive oil', 'whole wheat bread'],
-          preptime: 10,
-          type: false,
-          trending: true
-        },
-        {
-          id: 18,
-          img: '/assets/LAYERED_CHOCOLATE_CHEESECAKE.jpg',
-          category: 'Dessert',
-          comment: [
+  title: 'Cilantro Lime Avocado Toast',
+  brief: 'This Cilantro Lime Avocado Toast is a fresh and tasty starter perfect for weekends, featuring creamy avocado topped with vibrant ingredients.',
+  description:'',
+  ingredients: ['large avocado', 'cherry tomatoes', 'fresh cilantro', 'red onion', 'honey', 'fresh lime juice', 'cracked black pepper', 'salt', 'extra virgin olive oil', 'whole wheat bread'],
+  preptime: 10,
+  type: false,
+  trending: true
+  },
+  {
+    id: 18,
+    img: '/assets/LAYERED_CHOCOLATE_CHEESECAKE.webp',
+    category: 'Dessert',
+    comment: [
             'In a bowl, mix Oreo cookie crumbs with melted unsalted butter until well combined.',
             'Press the mixture into the bottom of a springform pan to form the crust.',
             'In a microwave-safe bowl, melt bittersweet chocolate and let it cool slightly.',
@@ -461,19 +457,19 @@ export const postItems = [
             'Chill for about 15 minutes, then spread the remaining filling on top.',
             'Refrigerate for at least 4 hours or until set before serving.'
           ],
-          title: 'Layered Chocolate Cheesecake with Oreo Crust - No Bake',
-          brief: 'This Layered Chocolate Cheesecake with Oreo Crust is a rich and creamy dessert that requires no baking, perfect for any occasion.',
-          description:'',
-          ingredients: ['bittersweet chocolate', 'granulated sugar', 'powdered sugar', 'vanilla extract', 'Oreo cookie crumbs', 'unsalted butter', 'cream cheese'],
-          preptime: 25,
-          type: false,
-          trending: false
-        },
-        {
-          id: 19,
-          img: '/assets/CHOCOLATE_CAKE_ROLL.jpg',
-          category: 'Dessert',
-          comment: [
+    title: 'Layered Chocolate Cheesecake with Oreo Crust - No Bake',
+    brief: 'This Layered Chocolate Cheesecake with Oreo Crust is a rich and creamy dessert that requires no baking, perfect for any occasion.',
+    description:'',
+    ingredients: ['bittersweet chocolate', 'granulated sugar', 'powdered sugar', 'vanilla extract', 'Oreo cookie crumbs', 'unsalted butter', 'cream cheese'],
+    preptime: 25,
+    type: false,
+    trending: false
+  },
+  {
+    id: 19,
+    img: '/assets/CHOCOLATE_CAKE_ROLL.webp',
+    category: 'Dessert',
+    comment: [
             'Preheat your oven to 350°F (175°C) and line a jelly roll pan with parchment paper.',
             'In a mixing bowl, beat the eggs and granulated sugar until light and fluffy.',
             'Sift together flour, baking powder, cocoa powder, and salt; fold into the egg mixture gently.',
@@ -485,19 +481,19 @@ export const postItems = [
             'Unroll the cooled cake, spread the filling evenly, and then roll it back up without the towel.',
             'Chill in the refrigerator for a few hours before slicing and serving.'
           ],
-          title: 'Chocolate Cake Roll',
-          brief: 'The Chocolate Cake Roll is a delightful dessert that appears complex but is simple to make, perfect for impressing chocolate lovers.',
-          description:'',
-          ingredients: ['large eggs', 'corn syrup', 'all-purpose flour', 'baking powder', 'good quality chocolate', 'granulated sugar', 'powdered sugar', 'salt', 'pure vanilla', 'unsalted butter', 'cream cheese', 'double cream', 'Dutch-process cocoa'],
-          preptime: 30,
-          type: false,
-          trending: true
-        },
-        {
-          id: 20,
-          img: '/assets/COFFEE_PANNA_COTTA.jpg',
-          category: 'Dessert',
-          comment: [
+    title: 'Chocolate Cake Roll',
+    brief: 'The Chocolate Cake Roll is a delightful dessert that appears complex but is simple to make, perfect for impressing chocolate lovers.',
+    description:'',
+    ingredients: ['large eggs', 'corn syrup', 'all-purpose flour', 'baking powder', 'good quality chocolate', 'granulated sugar', 'powdered sugar', 'salt', 'pure vanilla', 'unsalted butter', 'cream cheese', 'double cream', 'Dutch-process cocoa'],
+    preptime: 30,
+    type: false,
+    trending: true
+  },
+  {
+    id: 20,
+    img: '/assets/COFFEE_PANNA_COTTA.webp',
+    category: 'Dessert',
+    comment: [
             'In a saucepan, heat the liquid cream, coffee, and sugar until warm, then remove from heat.',
             'Soak the gelatin sheets in cold water for about 5 minutes, then add them to the warm cream mixture until dissolved.',
             'Stir in the vanilla extract and pour the mixture into pudding molds.',
@@ -506,55 +502,55 @@ export const postItems = [
             'Heat until the mixture thickens slightly, then let it cool.',
             'To serve, unmold the panna cotta and drizzle with cocoa sauce.'
           ],
-          title: 'Coffee Panna Cotta with Cocoa Sauce',
-          brief: 'This Coffee Panna Cotta with Cocoa Sauce is a stunning dessert that elevates the flavor of coffee, complemented by a rich cocoa sauce.',
-          description:'',
-          ingredients: ['liquid cream', 'coffee', 'sugar', 'gelatin sheets', 'vanilla extract', 'sugar', 'water', 'unsweetened cocoa powder', 'lemon juice', 'instant coffee', 'salt'],
-          preptime: 30,
-          type: false,
-          trending: true
-        },
-        {
-          id: 21,
-          img: '/assets/HEALTHY_LEMONADE.jpg',
-          category: 'Drinks',
-          comment: [
+    title: 'Coffee Panna Cotta with Cocoa Sauce',
+    brief: 'This Coffee Panna Cotta with Cocoa Sauce is a stunning dessert that elevates the flavor of coffee, complemented by a rich cocoa sauce.',
+    description:'',
+    ingredients: ['liquid cream', 'coffee', 'sugar', 'gelatin sheets', 'vanilla extract', 'sugar', 'water', 'unsweetened cocoa powder', 'lemon juice', 'instant coffee', 'salt'],
+    preptime: 30,
+    type: false,
+    trending: true
+   },
+   {
+    id: 21,
+    img: '/assets/HEALTHY_LEMONADE.webp',
+    category: 'Drinks',
+    comment: [
             'Juice the fresh lemons to extract the juice.',
             'In a pitcher, combine the lemon juice, honey, and water, adjusting sweetness to taste.',
             'Add ice and lemon slices for a refreshing presentation.',
             'Stir well and serve chilled.'
           ],
-          title: 'Healthy Lemonade',
-          brief: 'This Healthy Lemonade is a refreshing drink made with fresh lemons and honey, perfect for a natural, sugar-free beverage option.',
-          description:'',
-          ingredients: ['ice', 'fresh lemons', 'honey'],
-          preptime: 10,
-          type: false,
-          trending: false
-        },
-        {
-          id: 22,
-          img: '/assets/VIRGIN_STRAWBERRY_DAIQUIRI.jpg',
-          category: 'Drinks',
-          comment: [
+    title: 'Healthy Lemonade',
+    brief: 'This Healthy Lemonade is a refreshing drink made with fresh lemons and honey, perfect for a natural, sugar-free beverage option.',
+    description:'',
+    ingredients: ['ice', 'fresh lemons', 'honey'],
+    preptime: 10,
+    type: false,
+    trending: false
+  },
+  {
+    id: 22,
+    img: '/assets/VIRGIN_STRAWBERRY_DAIQUIRI.webp',
+    category: 'Drinks',
+    comment: [
             'In a blender, combine the frozen strawberries, fresh strawberries, lime juice, and simple syrup.',
             'Blend until smooth and adjust sweetness as desired.',
             'Serve immediately in chilled glasses with lime wedges for garnish.',
             'Enjoy this refreshing drink on a hot summer day!'
           ],
-          title: 'Virgin Strawberry Daiquiri',
-          brief: 'This Virgin Strawberry Daiquiri is a delicious non-alcoholic frozen drink, perfect for summer parties and family gatherings.',
-          description:'',
-          ingredients: ['fresh lime', 'frozen strawberries', 'fresh strawberries', 'freshly squeezed lime juice', 'simple syrup'],
-          preptime: 10,
-          type: false,
-          trending: false
-        },
-        {
-          id: 23,
-          img: '/assets/CREAMY_TOMATO_PASTA.jpg',
-          category: 'Quick & Easy',
-          comment: [
+    title: 'Virgin Strawberry Daiquiri',
+    brief: 'This Virgin Strawberry Daiquiri is a delicious non-alcoholic frozen drink, perfect for summer parties and family gatherings.',
+    description:'',
+    ingredients: ['fresh lime', 'frozen strawberries', 'fresh strawberries', 'freshly squeezed lime juice', 'simple syrup'],
+    preptime: 10,
+    type: false,
+    trending: false
+  },
+  {
+    id: 23,
+    img: '/assets/CREAMY_TOMATO_PASTA.webp',
+    category: 'Quick & Easy',
+    comment: [
             'Cook the penne pasta according to package instructions.',
             'In a pan, sauté minced garlic in butter until fragrant.',
             'Add tomato paste and sauce, stir well.',
@@ -563,10 +559,10 @@ export const postItems = [
             'Mix in cooked pasta and top with grated parmesan cheese.',
             'Garnish with fresh parsley and serve.'
           ],
-          title: 'Creamy Tomato Pasta',
-          brief: 'This Creamy Tomato Pasta is a simple and delicious meal made from scratch with a rich and silky smooth cream and tomato-based sauce. Ready in under 30 minutes using easy-to-find ingredients.',
-          description:'',
-          ingredients: [
+    title: 'Creamy Tomato Pasta',
+    brief: 'This Creamy Tomato Pasta is a simple and delicious meal made from scratch with a rich and silky smooth cream and tomato-based sauce. Ready in under 30 minutes using easy-to-find ingredients.',
+    description:'',
+    ingredients: [
             '3 cloves Garlic',
             '1 tbsp Parsley, fresh',
             '2 tbsp Tomato paste',
@@ -578,15 +574,15 @@ export const postItems = [
             '1/2 cup Heavy cream',
             '1/2 cup Parmesan cheese, grated'
           ],
-          preptime: 30,
-          type: false,
-          trending: false
-        },
-        {
-          id: 24,
-          img: '/assets/SOPA_DE_FIDEO.jpg',
-          category: 'Quick & Easy',
-          comment: [
+    preptime: 30,
+    type: false,
+    trending: false
+  },
+  {
+    id: 24,
+    img: '/assets/SOPA_DE_FIDEO.webp',
+    category: 'Quick & Easy',
+    comment: [
             'Heat olive oil in a large pot and sauté the garlic until fragrant.',
             'Add the fideo pasta and cook until lightly browned.',
             'Blend tomatoes, cilantro, and oregano in a blender until smooth.',
@@ -595,10 +591,10 @@ export const postItems = [
             'Simmer until the pasta is tender, about 10 minutes.',
             'Serve hot, garnished with fresh cilantro.'
           ],
-          title: 'Sopa de Fideo',
-          brief: 'An authentic Mexican Sopa de Fideo made with tomatoes, noodles, garlic, and broth. A quick, easy, and delicious soup loved by both kids and adults.',
-          description:'',
-          ingredients: [
+    title: 'Sopa de Fideo',
+    brief: 'An authentic Mexican Sopa de Fideo made with tomatoes, noodles, garlic, and broth. A quick, easy, and delicious soup loved by both kids and adults.',
+    description:'',
+    ingredients: [
             '1/3 cup Cilantro',
             '2 cloves Garlic',
             '1 tbsp Mexican oregano, fresh',
@@ -609,15 +605,15 @@ export const postItems = [
             '7/16 cup Olive oil',
             '1 tsp Cumin, ground'
           ],
-          preptime: 20,
-          type: false,
-          trending: false
-        },
-        {
-          id: 25,
-          img: '/assets/SHRIMP_LO_MEIN.jpg',
-          category: 'Quick & Easy',
-          comment: [
+    preptime: 20,
+    type: false,
+    trending: false
+  },
+  {
+    id: 25,
+    img: '/assets/SHRIMP_LO_MEIN.webp',
+    category: 'Quick & Easy',
+    comment: [
             'Cook the noodles according to package instructions and set aside.',
             'Heat vegetable oil in a pan, then sauté garlic, ginger, and shrimp until shrimp turns pink.',
             'Add cabbage, carrots, and red bell pepper, and stir-fry for a few minutes.',
@@ -625,10 +621,10 @@ export const postItems = [
             'Toss the noodles in the sauce mixture until well coated.',
             'Garnish with sesame seeds and serve hot.'
           ],
-          title: 'Shrimp Lo Mein',
-          brief: 'This Shrimp Lo Mein recipe combines juicy shrimp, tender vegetables, and noodles mixed in a flavorful lo mein sauce. A quick and easy meal, perfect for any night of the week.',
-          description:'',
-          ingredients: [
+    title: 'Shrimp Lo Mein',
+    brief: 'This Shrimp Lo Mein recipe combines juicy shrimp, tender vegetables, and noodles mixed in a flavorful lo mein sauce. A quick and easy meal, perfect for any night of the week.',
+    description:'',
+    ingredients: [
             '8 oz Shrimp',
             '1 cup Cabbage',
             '1/4 cup Carrots',
@@ -644,15 +640,15 @@ export const postItems = [
             '1 tsp Sesame oil',
             '1 tbsp Vegetable or olive oil'
           ],
-          preptime: 25,
-          type: false,
-          trending: false
-        },
-        {
-          id: 26,
-          img: '/assets/OMELETTE_WITH_AVOCADO.jpg',
-          category: 'Quick & Easy',
-          comment: [
+    preptime: 25,
+    type: false,
+    trending: false
+  },
+  {
+    id: 26,
+    img: '/assets/OMELETTE_WITH_AVOCADO.webp',
+    category: 'Quick & Easy',
+    comment: [
             'Whisk the eggs with a splash of milk, garlic salt, and pepper.',
             'Heat ghee in a pan and sauté mushrooms with red chili flakes until tender.',
             'Add spinach and cook until wilted.',
@@ -660,10 +656,10 @@ export const postItems = [
             'Sprinkle feta cheese on top and fold the omelette in half.',
             'Serve with half an avocado on the side.'
           ],
-          title: 'Omelette with Avocado',
-          brief: 'A quick and flavorful omelette with garlicky mushrooms, spinach, and feta, served with fresh avocado. Perfect for a simple, healthy meal.',
-          description:'',
-          ingredients: [
+    title: 'Omelette with Avocado',
+    brief: 'A quick and flavorful omelette with garlicky mushrooms, spinach, and feta, served with fresh avocado. Perfect for a simple, healthy meal.',
+    description:'',
+    ingredients: [
             '1/2 Avocado',
             '1/2 cup Mushrooms',
             '1/4 tsp Red chili flakes',
@@ -675,24 +671,24 @@ export const postItems = [
             '2 tbsp Ghee',
             '1 splash Milk'
           ],
-          preptime: 15,
-          type: false,
-          trending: false
-        },
-        {
-          id: 27,
-          img: '/assets/ROASTED_RED_PEPPER_ROMESCO.jpg',
-          category: 'Quick & Easy',
-          comment: [
+    preptime: 15,
+    type: false,
+    trending: false
+  },
+  {
+    id: 27,
+    img: '/assets/ROASTED_RED_PEPPER_ROMESCO.webp',
+    category: 'Quick & Easy',
+    comment: [
             'In a blender, combine roasted red peppers, roma tomatoes, garlic, and almonds.',
             'Add dried basil, olive oil, red wine vinegar, salt, and pepper.',
             'Blend until smooth and creamy.',
             'Adjust seasoning to taste and serve with your favorite dish or use as a dip.'
           ],
-          title: 'Roasted Red Pepper Romesco Sauce',
-          brief: 'A vegan and gluten-free Roasted Red Pepper Romesco Sauce, perfect for weeknight meals. This versatile sauce can be used for pasta, dipping, or as a topping.',
-          description:'',
-          ingredients: [
+    title: 'Roasted Red Pepper Romesco Sauce',
+    brief: 'A vegan and gluten-free Roasted Red Pepper Romesco Sauce, perfect for weeknight meals. This versatile sauce can be used for pasta, dipping, or as a topping.',
+    description:'',
+    ingredients: [
             '2 tsp Basil, dried',
             '1 clove Garlic',
             '2 Roma tomatoes',
@@ -703,25 +699,25 @@ export const postItems = [
             '1/4 cup Red wine vinegar',
             '1 cup Almonds'
           ],
-          preptime: 10,
-          type: true,
-          trending: false
-        },
-        {
-          id: 28,
-          img: '/assets/HUEVOS_RANCHEROS_TOSTADAS.jpg',
-          category: 'Quick & Easy',
-          comment: [
+    preptime: 10,
+    type: true,
+    trending: false
+  },
+  {
+    id: 28,
+    img: '/assets/HUEVOS_RANCHEROS_TOSTADAS.webp',
+    category: 'Quick & Easy',
+    comment: [
             'Warm the refried beans in a pan and spread them evenly on the tostada tortillas.',
             'In a separate pan, fry the eggs until the whites are set but the yolks are still runny.',
             'Top each tostada with a fried egg.',
             'Add sliced avocado, chopped lettuce, and diced tomatoes.',
             'Crumble queso fresco on top and serve immediately.'
           ],
-          title: '10 Minute Huevos Rancheros Breakfast Tostadas',
-          brief: 'Quick and easy vegetarian Huevos Rancheros Breakfast Tostadas, perfect for breakfast, lunch, or dinner. Ready in just 10 minutes.',
-          description:'',
-          ingredients: [
+    title: '10 Minute Huevos Rancheros Breakfast Tostadas',
+    brief: 'Quick and easy vegetarian Huevos Rancheros Breakfast Tostadas, perfect for breakfast, lunch, or dinner. Ready in just 10 minutes.',
+    description:'',
+    ingredients: [
             '1 Avocado',
             '1 cup Lettuce',
             '1/2 cup Tomatoes',
@@ -730,15 +726,15 @@ export const postItems = [
             '4 Tostada tortillas',
             '2 oz Queso fresco'
           ],
-          preptime: 10,
-          type: true,
-          trending: false
-        },
-        {
-          id: 29,
-          img: '/assets/BANANA_PANCAKES.jpg',
-          category: 'Dessert',
-          comment: [
+    preptime: 10,
+    type: true,
+    trending: false
+  },
+  {
+    id: 29,
+    img: '/assets/BANANA_PANCAKES.webp',
+    category: 'Dessert',
+    comment: [
             'In a bowl, mash the banana until smooth.',
             'Whisk in the egg, buttermilk, and canola oil.',
             'In a separate bowl, combine the flour, baking powder, and sugar.',
@@ -747,10 +743,10 @@ export const postItems = [
             'Heat a pan over medium heat and pour batter to form pancakes.',
             'Cook until bubbles form on the surface, then flip and cook until golden brown.'
           ],
-          title: 'Banana Pancakes',
-          brief: 'Easy banana pancakes that are a fantastic change from the usual buttermilk pancakes. Perfect for a delicious family breakfast!',
-          description:'',
-          ingredients: [
+    title: 'Banana Pancakes',
+    brief: 'Easy banana pancakes that are a fantastic change from the usual buttermilk pancakes. Perfect for a delicious family breakfast!',
+    description:'',
+    ingredients: [
             '1 Banana, medium very ripe',
             '1 Egg, large',
             '1 1/2 cups All-purpose flour',
@@ -760,25 +756,25 @@ export const postItems = [
             '2 tbsp Canola oil',
             '1 cup Buttermilk'
           ],
-          preptime: 35,
-          type: true,
-          trending: false
-        },
-        {
-          id: 30,
-          img: '/assets/GARLIC_BASIL_BUTTER_PASTA.jpg',
-          category: 'Quick & Easy',
-          comment: [
+    preptime: 35,
+    type: true,
+    trending: false
+  },
+  {
+    id: 30,
+    img: '/assets/GARLIC_BASIL_BUTTER_PASTA.webp',
+    category: 'Quick & Easy',
+    comment: [
             'Cook the bucatini pasta according to package instructions until al dente.',
             'In a large pan, melt the salted butter over medium heat until it starts to brown.',
             'Add minced garlic, cherry tomatoes, and red pepper flakes, and sauté until the tomatoes soften.',
             'Stir in fresh basil, freshly cracked black pepper, and olive oil.',
             'Toss the cooked pasta with the sauce and sprinkle with pecorino cheese before serving.'
           ],
-          title: '20 Minute Garlic Basil Butter Pasta',
-          brief: 'A quick and flavorful Garlic Basil Brown Butter Pasta with cherry tomatoes, fresh basil, and pecorino cheese. Ready in just 20 minutes!',
-          description:'',
-          ingredients: [
+    title: '20 Minute Garlic Basil Butter Pasta',
+    brief: 'A quick and flavorful Garlic Basil Brown Butter Pasta with cherry tomatoes, fresh basil, and pecorino cheese. Ready in just 20 minutes!',
+    description:'',
+    ingredients: [
             '1 cup Basil, fresh',
             '2 cups Cherry tomatoes',
             '2 cloves Garlic',
@@ -790,15 +786,15 @@ export const postItems = [
             '6 tbsp Butter, salted',
             '1/2 cup Pecorino cheese'
           ],
-          preptime: 20,
-          type: true,
-          trending: false
-        },
-        {
-          id: 31,
-          img: '/assets/Lemon_Honey_Glazed_Chicken.jpeg',
-          category: 'Main course',
-          comment: [
+    preptime: 20,
+    type: true,
+    trending: false
+  },
+  {
+    id: 31,
+    img: '/assets/Lemon_Honey_Glazed_Chicken.webp',
+    category: 'Main course',
+    comment: [
             'Season the chicken breasts with salt and pepper.',
             'In a large skillet, heat olive oil over medium heat and sear the chicken on both sides until golden brown.',
             'Remove the chicken and set aside. In the same skillet, add garlic and cook until fragrant.',
@@ -806,10 +802,10 @@ export const postItems = [
             'Return the chicken to the skillet and cook until the sauce thickens and the chicken is fully cooked.',
             'Serve with a garnish of lemon slices and fresh thyme.'
           ],
-          title: 'Lemon Honey Glazed Chicken',
-          brief: 'A tangy and sweet Lemon Honey Glazed Chicken, perfect for a healthy and flavorful meal. Ready in under 30 minutes!',
-          description:'',
-          ingredients: [
+    title: 'Lemon Honey Glazed Chicken',
+    brief: 'A tangy and sweet Lemon Honey Glazed Chicken, perfect for a healthy and flavorful meal. Ready in under 30 minutes!',
+    description:'',
+    ingredients: [
             '4 Chicken breasts',
             '2 cloves Garlic, minced',
             '1/4 cup Honey',
@@ -820,25 +816,25 @@ export const postItems = [
             'Salt and pepper, to taste',
             'Lemon slices, for garnish'
           ],
-          preptime: 30,
-          type: true,
-          trending: false
-        },
-        {
-          id: 32,
-          img: '/assets/CREAMY_MUSHROOM_SOUP.png',
-          category: 'Quick & Easy',
-          comment: [
+    preptime: 30,
+    type: true,
+    trending: false
+  },
+  {
+    id: 32,
+    img: '/assets/CREAMY_MUSHROOM_SOUP.webp',
+    category: 'Quick & Easy',
+    comment: [
             'In a large pot, melt butter over medium heat and sauté onions and garlic until translucent.',
             'Add mushrooms and cook until golden brown.',
             'Stir in flour and cook for 1 minute, then slowly add vegetable broth, stirring to combine.',
             'Bring to a boil, then reduce heat and simmer until slightly thickened.',
             'Stir in heavy cream and season with salt and pepper to taste. Blend until smooth, if desired.'
           ],
-          title: 'Creamy Mushroom Soup',
-          brief: 'A rich and velvety mushroom soup made with fresh mushrooms, cream, and savory seasonings. Perfect for a cozy meal!',
-          description:'',
-          ingredients: [
+    title: 'Creamy Mushroom Soup',
+    brief: 'A rich and velvety mushroom soup made with fresh mushrooms, cream, and savory seasonings. Perfect for a cozy meal!',
+    description:'',
+    ingredients: [
             '1 lb Mushrooms, sliced',
             '1 Onion, chopped',
             '2 cloves Garlic, minced',
@@ -849,25 +845,25 @@ export const postItems = [
             'Salt and pepper, to taste',
             'Fresh parsley, for garnish'
           ],
-          preptime: 25,
-          type: true,
-          trending: false
-        },
-        {
-          id: 33,
-          img: '/assets/CHOCOLATE_LAVA_CAKE.png',
-          category: 'Dessert',
-          comment: [
+    preptime: 25,
+    type: true,
+    trending: false
+  },
+  {
+    id: 33,
+    img: '/assets/CHOCOLATE_LAVA_CAKE.webp',
+    category: 'Dessert',
+    comment: [
             'Preheat the oven to 400°F (200°C) and grease ramekins with butter.',
             'Melt chocolate and butter together until smooth.',
             'In a separate bowl, whisk eggs, egg yolks, and sugar until pale and fluffy.',
             'Fold the chocolate mixture into the eggs, then add flour and mix until combined.',
             'Pour the batter into ramekins and bake for 12 minutes. Serve warm with ice cream.'
           ],
-          title: 'Chocolate Lava Cake',
-          brief: 'A decadent and gooey chocolate dessert with a molten center. Simple to make and perfect for special occasions.',
-          description:'',
-          ingredients: [
+    title: 'Chocolate Lava Cake',
+    brief: 'A decadent and gooey chocolate dessert with a molten center. Simple to make and perfect for special occasions.',
+    description:'',
+    ingredients: [
             '4 oz Dark chocolate',
             '1/2 cup Butter',
             '2 Eggs',
@@ -876,24 +872,24 @@ export const postItems = [
             '1/4 cup Flour',
             'Ice cream, for serving'
           ],
-          preptime: 20,
-          type: true,
-          trending: false
-        },
-        {
-          id: 34,
-          img: '/assets/VEGAN_BUDDHA_BOWL.jpg',
-          category: 'Main course',
-          comment: [
+    preptime: 20,
+    type: true,
+    trending: false
+  },
+  {
+    id: 34,
+    img: '/assets/VEGAN_BUDDHA_BOWL.webp',
+    category: 'Main course',
+    comment: [
             'Cook quinoa according to package instructions and set aside.',
             'Roast sweet potatoes and chickpeas with olive oil, paprika, salt, and pepper until golden.',
             'Assemble the bowl with quinoa, roasted sweet potatoes, chickpeas, avocado slices, and fresh greens.',
             'Drizzle with tahini dressing and sprinkle with sesame seeds before serving.'
           ],
-          title: 'Vegan Buddha Bowl',
-          brief: 'A colorful and nutritious Buddha bowl with quinoa, roasted vegetables, and creamy tahini dressing. Ideal for a healthy lunch!',
-          description:'',
-          ingredients: [
+    title: 'Vegan Buddha Bowl',
+    brief: 'A colorful and nutritious Buddha bowl with quinoa, roasted vegetables, and creamy tahini dressing. Ideal for a healthy lunch!',
+    description:'',
+    ingredients: [
             '1 cup Quinoa',
             '1 Sweet potato, diced',
             '1 can Chickpeas, drained and rinsed',
@@ -905,24 +901,24 @@ export const postItems = [
             '2 tbsp Tahini',
             '1 tsp Sesame seeds'
           ],
-          preptime: 30,
-          type: true,
-          trending: false
-        },
-        {
-          id: 35,
-          img: '/assets/GRILLED_SHRIMP_TACOS.jpg',
-          category: 'Main course',
-          comment: [
+    preptime: 30,
+    type: true,
+    trending: false
+  },
+  {
+    id: 35,
+    img: '/assets/GRILLED_SHRIMP_TACOS.webp',
+    category: 'Main course',
+    comment: [
             'Season shrimp with chili powder, cumin, garlic powder, salt, and pepper.',
             'Grill the shrimp over medium heat until pink and slightly charred.',
             'Warm tortillas and fill with shrimp, shredded cabbage, and sliced avocado.',
             'Top with a drizzle of lime crema and garnish with fresh cilantro.'
           ],
-          title: 'Grilled Shrimp Tacos',
-          brief: 'Flavorful grilled shrimp tacos with a zesty lime crema and fresh toppings. A light and delicious dinner option!',
-          description:'',
-          ingredients: [
+    title: 'Grilled Shrimp Tacos',
+    brief: 'Flavorful grilled shrimp tacos with a zesty lime crema and fresh toppings. A light and delicious dinner option!',
+    description:'',
+    ingredients: [
             '1 lb Shrimp, peeled and deveined',
             '1 tsp Chili powder',
             '1/2 tsp Cumin',
@@ -934,24 +930,24 @@ export const postItems = [
             '1 Lime, juiced',
             'Fresh cilantro, for garnish'
           ],
-          preptime: 20,
-          type: true,
-          trending: true
-        },
-        {
-          id: 36,
-          img: '/assets/CAPRESE_SALAD.jpg',
-          category: 'Quick & Easy',
-          comment: [
+    preptime: 20,
+    type: true,
+    trending: true
+  },
+  {
+    id: 36,
+    img: '/assets/CAPRESE_SALAD.webp',
+    category: 'Quick & Easy',
+    comment: [
             'Slice the tomatoes and mozzarella into even rounds.',
             'Arrange the tomato and mozzarella slices on a plate, alternating them.',
             'Tuck fresh basil leaves between the slices and drizzle with olive oil and balsamic glaze.',
             'Sprinkle with salt and freshly cracked pepper before serving.'
           ],
-          title: 'Caprese Salad',
-          brief: 'A classic Italian salad featuring ripe tomatoes, fresh mozzarella, and basil, drizzled with olive oil and balsamic glaze.',
-          description:'',
-          ingredients: [
+    title: 'Caprese Salad',
+    brief: 'A classic Italian salad featuring ripe tomatoes, fresh mozzarella, and basil, drizzled with olive oil and balsamic glaze.',
+    description:'',
+    ingredients: [
             '2 Tomatoes, ripe',
             '8 oz Fresh mozzarella',
             '1/4 cup Fresh basil leaves',
@@ -959,48 +955,48 @@ export const postItems = [
             '1 tbsp Balsamic glaze',
             'Salt and pepper, to taste'
           ],
-          preptime: 10,
-          type: true,
-          trending: false
-        },
-        {
-          id: 37,
-          img: '/assets/mango-desserts.webp',
-          category: 'Dessert',
-          comment: [
+    preptime: 10,
+    type: true,
+    trending: false
+  },
+  {
+    id: 37,
+    img: '/assets/mango-desserts.webp',
+    category: 'Dessert',
+    comment: [
             'Peel and slice ripe mangoes into cubes or slices.',
             'Prepare a creamy base using condensed milk, cream, or pudding mix.',
             'Layer mangoes and cream in a dish, or mix together for a quick treat.',
             'Chill in the refrigerator before serving for a refreshing mango dessert.'
           ],
-          title: 'How to Make a Delicious Mango Dessert Recipe in Minutes',
-          brief: 'Discover the best mango dessert recipes, including mango pudding, mango and cream delights, and traditional Chinese mango pudding. Perfect for mango lovers!',
-          description: 'Mango desserts are the perfect way to satisfy your sweet tooth while enjoying the tropical goodness of fresh mangoes. In this guide, we will show you how to create a simple and delicious mango dessert in just a few minutes. Mangoes are not only delicious but also rich in vitamins and antioxidants, making them a healthy and versatile ingredient for desserts. Whether it is a creamy mango pudding, a layered mango and cream parfait, or even a no-bake mango mousse, these recipes are sure to impress your family and friends.',
-          ingredients: [
+    title: 'How to Make a Delicious Mango Dessert Recipe in Minutes',
+    brief: 'Discover the best mango dessert recipes, including mango pudding, mango and cream delights, and traditional Chinese mango pudding. Perfect for mango lovers!',
+    description: 'Mango desserts are the perfect way to satisfy your sweet tooth while enjoying the tropical goodness of fresh mangoes. In this guide, we will show you how to create a simple and delicious mango dessert in just a few minutes. Mangoes are not only delicious but also rich in vitamins and antioxidants, making them a healthy and versatile ingredient for desserts. Whether it is a creamy mango pudding, a layered mango and cream parfait, or even a no-bake mango mousse, these recipes are sure to impress your family and friends.',
+    ingredients: [
             '2 ripe mangoes, peeled and diced',
             '1 cup heavy cream',
             '1/2 cup sweetened condensed milk',
             '1/4 cup granulated sugar (optional)',
             'Fresh mint or basil leaves for garnish'
           ],
-          preptime: 10,
-          type: true,
-          trending: false
-        },
-        {
-          id: 38,
-          img: '/assets/chinese-mango-pudding.webp',
-          category: 'Dessert',
-          comment: [
+    preptime: 10,
+    type: true,
+    trending: false
+  },
+  {
+    id: 38,
+    img: '/assets/chinese-mango-pudding.webp',
+    category: 'Dessert',
+    comment: [
             'Peel and dice ripe mangoes into cubes.',
             'Blend the mangoes with sugar, coconut milk, and a dash of vanilla.',
             'Pour the mixture into molds and refrigerate until set.',
             'Serve with a garnish of fresh mango slices and a drizzle of cream.'
           ],
-          title: 'Traditional Chinese Mango Pudding Recipe to Try at Home',
-          brief: 'Satisfy your cravings with creamy mango desserts! Try recipes like mango and cream or traditional Chinese mango pudding today.',
-          description: 'Chinese mango pudding is a beloved and iconic dessert in many Asian cultures, celebrated for its smooth, creamy texture and vibrant mango flavor. This easy-to-make recipe combines perfectly ripe mangoes with coconut milk, sugar, and a hint of vanilla, creating a velvety pudding that melts in your mouth. After chilling, the pudding sets into a firm yet smooth consistency, offering a refreshing and cooling treat. Whether served as a light dessert after a meal or enjoyed as a snack on a warm day, this mango pudding is a favorite among mango enthusiasts. For an added touch of sweetness and beauty, serve it topped with fresh mango slices, making it not only delicious but visually appealing. This tropical dessert is sure to become a go-to favorite in your recipe collection, perfect for family gatherings, special occasions, or just a sweet indulgence to satisfy your cravings. Chinese mango pudding is not only a delicious dessert but also a versatile dish that can be enjoyed in various ways. It can be customized by adding other tropical fruits like lychee or coconut flakes for a new twist. Some variations even include a layer of tapioca pearls, giving the pudding a unique texture. Whether you are hosting a dinner party or just craving a light and refreshing dessert, this mango pudding is sure to impress your guests with its exotic flavors. Additionally, mangoes are packed with vitamins, making this dessert a somewhat healthy indulgence. By preparing it at home, you can adjust the sweetness to your liking and avoid the added preservatives often found in store-bought versions. This makes homemade Chinese mango pudding a great option for those looking to enjoy an authentic, fresh treat',
-          ingredients: [
+    title: 'Traditional Chinese Mango Pudding Recipe to Try at Home',
+    brief: 'Satisfy your cravings with creamy mango desserts! Try recipes like mango and cream or traditional Chinese mango pudding today.',
+    description: 'Chinese mango pudding is a beloved and iconic dessert in many Asian cultures, celebrated for its smooth, creamy texture and vibrant mango flavor. This easy-to-make recipe combines perfectly ripe mangoes with coconut milk, sugar, and a hint of vanilla, creating a velvety pudding that melts in your mouth. After chilling, the pudding sets into a firm yet smooth consistency, offering a refreshing and cooling treat. Whether served as a light dessert after a meal or enjoyed as a snack on a warm day, this mango pudding is a favorite among mango enthusiasts. For an added touch of sweetness and beauty, serve it topped with fresh mango slices, making it not only delicious but visually appealing. This tropical dessert is sure to become a go-to favorite in your recipe collection, perfect for family gatherings, special occasions, or just a sweet indulgence to satisfy your cravings. Chinese mango pudding is not only a delicious dessert but also a versatile dish that can be enjoyed in various ways. It can be customized by adding other tropical fruits like lychee or coconut flakes for a new twist. Some variations even include a layer of tapioca pearls, giving the pudding a unique texture. Whether you are hosting a dinner party or just craving a light and refreshing dessert, this mango pudding is sure to impress your guests with its exotic flavors. Additionally, mangoes are packed with vitamins, making this dessert a somewhat healthy indulgence. By preparing it at home, you can adjust the sweetness to your liking and avoid the added preservatives often found in store-bought versions. This makes homemade Chinese mango pudding a great option for those looking to enjoy an authentic, fresh treat',
+    ingredients: [
             '2 ripe mangoes, peeled and diced',
             '1/2 cup coconut milk',
             '1/4 cup sugar (adjust to taste)',
@@ -1009,10 +1005,10 @@ export const postItems = [
             '1 tsp agar-agar powder',
             'Fresh mango slices for garnish'
           ],
-          preptime: 15,
-          type: true,
-          trending: false
-        }
+    preptime: 15,
+    type: true,
+    trending: false
+  }
         
         
         
