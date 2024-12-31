@@ -6,6 +6,7 @@ import SideVideo from '@/components/SideVideo';
 import AsideTab from '@/components/AsideTab';
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
+import ReactMarkdown from 'react-markdown';
 
 
 type Params = Promise<{ title: string }>;
@@ -70,9 +71,6 @@ const PostItem = async ({ params }: { params: Params }) => {
                   </span>
                   {foundItem.brief && foundItem.brief.substring(1)}
                 </p>
-                <p>
-                  {foundItem.description}
-                </p>
                 <figure className="my-4">
                   <Image
                     height={500}
@@ -83,7 +81,8 @@ const PostItem = async ({ params }: { params: Params }) => {
                   />
                   <figcaption className="fig_caption">
                     <div className="infos_comment">
-                      <h2>Steps:</h2>
+                      {foundItem.description && <ReactMarkdown>{foundItem.description}</ReactMarkdown>}
+                      <h3>Steps:</h3>
                       <ol>
                         {foundItem.comment.map((step, index) => (
                           <li key={index}>{step}</li>
@@ -91,7 +90,7 @@ const PostItem = async ({ params }: { params: Params }) => {
                       </ol>
                     </div>
                     <div className="infos_ingrédients">
-                      <h2>Ingredients:</h2>
+                      <h3>Ingredients:</h3>
                       <ol>
                         {foundItem.ingredients.map((ingredient, index) => (
                           <li key={index}>{ingredient}</li>
