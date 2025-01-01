@@ -75,6 +75,7 @@ const PostItem = async ({ params }: { params: Params }) => {
                   <Image
                     height={500}
                     width={820}
+                    loading="lazy" 
                     src={foundItem.img}
                     alt={foundItem?.alte || "food_photo"}
                     className="img-fluid"

@@ -77,6 +77,7 @@ const PostContent = () => {
                     height={500}
                     width={820}
                     src={item.img}
+                    loading="lazy" 
                     alt="photo_recipe"
                     className="img-fluid"
                   />
@@ -124,7 +125,7 @@ const PostContent = () => {
                   >
                     {postItems.slice(0, 6).map(item => (
                       <div key={item.id} className="side-post-item">
-                        <Image src={item.img} alt={item.title} />
+                        <Image src={item.img} alt={item.title} loading="lazy"  />
                         <h4>{item.title}</h4>
                       </div>
                     ))}
@@ -136,7 +137,7 @@ const PostContent = () => {
                       .filter(item => item.trending)
                       .map(item => (
                         <div key={item.id} className="side-post-item">
-                          <Image src={item.img} alt={item.title} />
+                          <Image src={item.img} alt={item.title} loading="lazy"  />
                           <h4>{item.title}</h4>
                         </div>
                       ))}
@@ -155,6 +156,7 @@ const PostContent = () => {
                     <Image
                       height={100}
                       width={100}
+                      loading="lazy" 
                       src="/assets/photo3.jpg"
                       alt="photo_video_recipe"
                       className="img-fluid"

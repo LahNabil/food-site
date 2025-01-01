@@ -25,7 +25,7 @@ export const PostItemOne = ({large, item}:{
     
     <div className={`post-entry-1 ${large ? 'lg' : undefined}`}>
         <Link href={`/postitems/${item.title.replace(/\s+/g, '-').toLowerCase()}`}>
-            <Image src={`${item.img}`} alt={`${item.alte}`} width={290} height={100} className='img-fluid'/>
+            <Image src={`${item.img}`} alt={`${item.alte}`} width={290} height={100} loading="lazy"  className='img-fluid'/>
         </Link>
         <div className="post-meta">
             <span className="date">{item.category} {item.preptime} min</span>
