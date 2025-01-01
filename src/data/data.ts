@@ -99,6 +99,7 @@ export const postItems = [
   {
     id: 1,
     img: '/assets/PANUOZZO.webp',
+    alte: 'Panuozzo Sandwich: A delicious Italian-inspired grilled sandwich with ham, melted cheese, and roasted vegetables, served in toasted flatbread.',
     category: 'Main course',
     comment: [
       'Cut the flatbread in half horizontally to create two sandwich halves. Lightly brush the inside with olive oil and toast it until golden brown and crispy.',
@@ -161,6 +162,7 @@ Do not forget to experiment with different fillings and toppings to make this sa
     id: 2,
     img: '/assets/smoky_vegan.webp',
     category: 'Main course',
+    alte:'Smoky Vegan Dish: A hearty and flavorful plant-based meal featuring roasted vegetables, grilled smoked tofu, and fresh herbs, served with a creamy tahini or smoky barbecue sauce.',
     comment: [
       'Cut the vegetables (such as carrots, zucchini, and bell peppers) into even pieces and roast them in the oven at 200°C (400°F) with olive oil for about 20 minutes, or until tender and slightly crispy.',
       'Grill the smoked tofu until it’s golden and slightly crispy on the outside.',
@@ -249,6 +251,7 @@ Ready to dive into this smoky, plant-based delight? Gather your ingredients and 
     id: 3,
     img: '/assets/Curried_Sausages.webp',
     category: 'Main course',
+    alte: 'Curried Sausages: A savory and aromatic dish featuring browned sausages simmered in a rich curry sauce with onions, bell peppers, and tomatoes, served with rice or naan bread.',
     comment: [
       'Heat a large pan over medium heat and cook the sausages until browned on all sides. Remove from the pan and set aside.',
       'In the same pan, add chopped vegetables (such as onions, bell peppers, and tomatoes) and sauté until softened.',
@@ -322,6 +325,7 @@ Explore more recipes on our blog and find your next kitchen favorite. Let’s ma
   id: 4,
   img: '/assets/spicy_beef.webp',
   category: 'Main course',
+  alte: 'Spicy Vegetable Beef Udon Noodles: A bold and flavorful stir-fry featuring tender beef, fresh vegetables, and chewy udon noodles tossed in a spicy soy-chili sauce, garnished with scallions and sesame seeds.',
   comment: [
     'Cook the udon noodles concurring to the bundle enlightening. Deplete and set aside, keeping them warm. ',
     'Warm up a bit of oil in a large skillet or wok over medium-high heat. Add the thinly sliced beef and stir-fry it until it’s evenly browned on all sides.',
@@ -409,6 +413,7 @@ For more recipes that pack a punch, explore our blog and discover your next favo
   id: 5,
   img: '/assets/green_soop.webp',
   category: 'Quick & Easy',
+  alte: 'Calming Green Soup: A vibrant and nourishing blend of spinach, broccoli, and peas, blended to a smooth consistency and seasoned with lemon juice, topped with fresh herbs for a refreshing finish.',
   comment: [
     'In a large pot, bring salted water to a boil. Add green vegetables like spinach, broccoli, and peas, and cook for about 10 minutes or until they’re tender.',
     'Carefully transfer the cooked vegetables to a blender, reserving some of the cooking water.',
@@ -488,6 +493,7 @@ Ready to embrace the vibrant flavors of greens in a comforting soup? Try this ea
   id: 6,
   img: '/assets/kale_chicken_salade.webp',
   category: 'Main course',
+  alte: 'Green Chicken Salad: A fresh and nutritious salad featuring grilled chicken, crisp lettuce, cucumber, and creamy avocado, tossed with a light lemon vinaigrette for a refreshing meal.',
   comment: [
     'Season the chicken breasts and cook them on a grill or in a pan until golden and fully cooked through. Allow the chicken to cool slightly.',
     'Slice the chicken into bite-sized pieces and mix it with a variety of fresh green vegetables like lettuce, cucumber, and avocado for a crisp, refreshing base.',
@@ -620,6 +626,7 @@ So, why wait? Gather your ingredients, fire up the grill, and treat yourself to 
   id: 7,
   img: '/assets/sesame_chicken.webp',
   category: 'Main course',
+  alte: 'Sesame Chicken: Tender, bite-sized chicken pieces coated in a sweet and savory soy-honey glaze, topped with toasted sesame seeds and served with steamed rice, garnished with green onions.',
   comment: [
     'Cut the chicken into bite-sized pieces and season with salt and pepper. In a large pan, heat some oil and cook the chicken until browned on all sides.',
     'Add soy sauce and honey to the pan, stirring to coat the chicken with the sweet and savory sauce. Let it simmer until the sauce thickens and caramelizes slightly.',
@@ -759,6 +766,7 @@ Indulge in the joy of cooking and savor every bite of this classic Sesame Chicke
   id: 8,
   img: '/assets/Backed_chicken.webp',
   category: 'Main course',
+  alte: 'Baked Chicken Drumsticks: Juicy and flavorful chicken drumsticks coated with a blend of paprika, garlic powder, and thyme, baked to golden perfection and served with roasted vegetables or mashed potatoes.',
   comment: [
     'Preheat the oven to 200°C (400°F) and line a baking tray with parchment paper.',
     'In a large bowl, toss the chicken drumsticks with olive oil and a mix of your favorite spices, such as paprika, garlic powder, and thyme. Make sure the drumsticks are evenly coated.',
@@ -903,6 +911,7 @@ Enjoy the crispy, juicy goodness of this classic dish—you’ll find yourself c
   id: 9,
   img: '/assets/BUTTER_CHICKEN.webp',
   category: 'Main course',
+  alte: 'Butter Chicken (Murgh Makhani): A rich and creamy Indian curry featuring tender chicken marinated in yogurt and spices, simmered in a velvety tomato-butter sauce, served with basmati rice or garlic naan, garnished with fresh cilantro.',
   comment: [
     'In a large bowl, combine yogurt, lemon juice, and a blend of spices like garam masala, cumin, and turmeric. Marinate the chicken in this mixture for at least 30 minutes (or overnight for best results).',
     'Heat a pan over medium heat and cook the marinated chicken until lightly browned. Set aside.',
@@ -1045,6 +1054,7 @@ So, gather your ingredients, get ready to enjoy the vibrant flavors of Indian cu
   id: 10,
   img: '/assets/ARRABBIATA_PASTA.webp',
   category: 'Main course',
+  alte: 'Arrabbiata Pasta: A spicy and flavorful Italian dish featuring al dente pasta tossed in a fiery tomato sauce with garlic, chili flakes, and fresh parsley, garnished with a drizzle of olive oil.',
   comment: [
     'Cook the pasta in a large pot of salted boiling water until al dente, according to the package instructions. Drain and set aside, reserving a cup of pasta water.',
     'In a large pan, heat olive oil over medium heat and sauté minced garlic and cayenne pepper until fragrant and golden, being careful not to burn the garlic.',
@@ -1152,6 +1162,7 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
   id: 11,
   img: '/assets/PIZZA_BURGER.webp',
   category: 'Main course',
+  alte: 'The Ultimate Pizza Burger: A mouthwatering fusion of juicy beef patties, melted mozzarella, pepperoni, and zesty marinara sauce, served on a buttery toasted bun for the perfect pizza-burger combo.',
   comment: [
     'Season the ground beef with Italian seasoning and form into 4 burger patties.',
     'Grill or pan-fry the patties until cooked to your liking.',
@@ -1173,6 +1184,7 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
   id: 12,
   img: '/assets/SPINACH_LASAGNA.webp',
   category: 'Main course',
+  alte: 'Spinach Lasagna: A comforting and cheesy Italian classic layered with tender lasagna noodles, fresh spinach, rich marinara sauce, and a blend of mozzarella and parmesan cheese, baked to golden perfection.',
   comment: [
     'Preheat the oven to 375°F (190°C).',
     'Cook the lasagna noodles according to package instructions and drain.',
@@ -1194,6 +1206,7 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
   id: 13,
   img: '/assets/MUFFALETTA.webp',
   category: 'Main course',
+  alte: 'Muffaletta Sandwich: A hearty and flavorful New Orleans classic featuring layers of Genoa salami, ham, mortadella, mozzarella, and provolone, topped with a zesty olive salad, served on a crusty Italian loaf.',
   comment: [
     'Prepare the olive salad by mixing black olives, green olives, pepperoncini, roasted red peppers, olive oil, and red wine vinegar with dried basil, oregano, garlic powder, salt, and pepper.',
     'Cut the bread in half horizontally and spread the olive salad on both halves.',
@@ -1213,6 +1226,7 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
 {
   id: 14,
   img: '/assets/YAKI_UDON.webp',
+  alte: 'Yaki Udon: A quick and savory Japanese stir-fry featuring chewy udon noodles, sautéed garlic, scallions, shitake mushrooms, and baby bok choy, tossed in a flavorful soy-based sauce.',
   category: 'Quick & Easy',
   comment: [
     'Cook the udon noodles according to the package instructions, then drain and set aside.',
@@ -1234,6 +1248,7 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
 {
   id: 15,
   img: '/assets/PANEER_KATHI_ROLL.webp',
+  alte: 'Paneer Kathi Roll: A quick and flavorful Indian street food featuring spiced crumbled paneer wrapped in a soft whole wheat roti, topped with fresh lettuce, coriander, and a squeeze of lemon.',
   category: 'Quick & Easy',
   comment: [
     'In a bowl, combine whole wheat flour with water, a pinch of salt, and knead to form a soft dough. Let it rest for 15 minutes.',
@@ -1255,6 +1270,7 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
   id: 16,
   img: '/assets/SPICY_GARLIC_SHRIMP_NOODLES.webp',
   category: 'Quick & Easy',
+  alte: 'Spicy Garlic Shrimp Noodles: A quick and zesty dish featuring tender shrimp, al dente noodles, and a bold sauce made with garlic, serrano peppers, and soy sauce, finished with a drizzle of sesame oil and seeds.',
   comment: [
     'Cook the pasta according to package instructions, then drain and set aside.',
     'In a large pan, heat cooking oil and add minced garlic. Sauté until fragrant.',
@@ -1277,6 +1293,7 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
   id: 17,
   img: '/assets/CILANTRO_LIME_AVOCADO_TOAST.webp',
   category: 'Quick & Easy',
+  alte: 'Cilantro Lime Avocado Toast: A fresh and vibrant breakfast or snack featuring creamy mashed avocado on whole wheat toast, topped with cherry tomatoes, red onion, cilantro, and a drizzle of honey and olive oil.',
   comment: [
             'Toast the whole wheat bread slices until golden brown.',
             'In a bowl, mash the avocado with fresh lime juice, salt, and cracked black pepper to taste.',
@@ -1296,6 +1313,7 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
     id: 18,
     img: '/assets/LAYERED_CHOCOLATE_CHEESECAKE.webp',
     category: 'Dessert',
+    alte: 'Layered Chocolate Cheesecake with Oreo Crust: A decadent no-bake dessert featuring a rich Oreo cookie crust and smooth, creamy chocolate cheesecake layers, perfect for any occasion.',
     comment: [
             'In a bowl, mix Oreo cookie crumbs with melted unsalted butter until well combined.',
             'Press the mixture into the bottom of a springform pan to form the crust.',
@@ -1318,6 +1336,7 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
     id: 19,
     img: '/assets/CHOCOLATE_CAKE_ROLL.webp',
     category: 'Dessert',
+    alte: 'Chocolate Cake Roll: A decadent and elegant dessert featuring a light and fluffy chocolate sponge cake rolled with a creamy, sweet filling, perfect for any special occasion.',
     comment: [
             'Preheat your oven to 350°F (175°C) and line a jelly roll pan with parchment paper.',
             'In a mixing bowl, beat the eggs and granulated sugar until light and fluffy.',
@@ -1341,6 +1360,7 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
   {
     id: 20,
     img: '/assets/COFFEE_PANNA_COTTA.webp',
+    alte: 'Coffee Panna Cotta with Cocoa Sauce: A silky and indulgent Italian dessert featuring creamy coffee-infused panna cotta topped with a rich and velvety cocoa sauce.',
     category: 'Dessert',
     comment: [
             'In a saucepan, heat the liquid cream, coffee, and sugar until warm, then remove from heat.',
@@ -1363,6 +1383,7 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
     id: 21,
     img: '/assets/HEALTHY_LEMONADE.webp',
     category: 'Drinks',
+    alte: 'Healthy Lemonade: A refreshing and natural drink made with fresh lemon juice, honey, and water, served chilled with ice and lemon slices for a revitalizing treat.',
     comment: [
             'Juice the fresh lemons to extract the juice.',
             'In a pitcher, combine the lemon juice, honey, and water, adjusting sweetness to taste.',
@@ -1381,6 +1402,7 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
     id: 22,
     img: '/assets/VIRGIN_STRAWBERRY_DAIQUIRI.webp',
     category: 'Drinks',
+    alte: 'Virgin Strawberry Daiquiri: A refreshing and fruity non-alcoholic drink made with blended strawberries, lime juice, and simple syrup, served chilled with lime wedges for a perfect summer treat.',
     comment: [
             'In a blender, combine the frozen strawberries, fresh strawberries, lime juice, and simple syrup.',
             'Blend until smooth and adjust sweetness as desired.',
@@ -1399,6 +1421,7 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
     id: 23,
     img: '/assets/CREAMY_TOMATO_PASTA.webp',
     category: 'Quick & Easy',
+    alte: 'Creamy Tomato Pasta: A quick and comforting dish featuring penne pasta tossed in a rich and velvety tomato cream sauce, topped with grated parmesan cheese and fresh parsley.',
     comment: [
             'Cook the penne pasta according to package instructions.',
             'In a pan, sauté minced garlic in butter until fragrant.',
@@ -1431,6 +1454,7 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
     id: 24,
     img: '/assets/SOPA_DE_FIDEO.webp',
     category: 'Quick & Easy',
+    alte: 'Sopa de Fideo: A comforting and flavorful Mexican noodle soup made with toasted fideo pasta, a rich tomato-cilantro broth, and aromatic spices, garnished with fresh cilantro.',
     comment: [
             'Heat olive oil in a large pot and sauté the garlic until fragrant.',
             'Add the fideo pasta and cook until lightly browned.',
@@ -1462,6 +1486,7 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
     id: 25,
     img: '/assets/SHRIMP_LO_MEIN.webp',
     category: 'Quick & Easy',
+    alte: 'Shrimp Lo Mein: A quick and savory stir-fry featuring tender shrimp, fresh vegetables, and noodles tossed in a flavorful hoisin-soy sauce, garnished with sesame seeds.',
     comment: [
             'Cook the noodles according to package instructions and set aside.',
             'Heat vegetable oil in a pan, then sauté garlic, ginger, and shrimp until shrimp turns pink.',
@@ -1497,6 +1522,7 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
     id: 26,
     img: '/assets/OMELETTE_WITH_AVOCADO.webp',
     category: 'Quick & Easy',
+    alte: 'Omelette with Avocado: A quick and nutritious breakfast featuring a fluffy omelette filled with sautéed mushrooms, spinach, and feta cheese, served with creamy avocado on the side.',
     comment: [
             'Whisk the eggs with a splash of milk, garlic salt, and pepper.',
             'Heat ghee in a pan and sauté mushrooms with red chili flakes until tender.',
@@ -1528,6 +1554,7 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
     id: 27,
     img: '/assets/ROASTED_RED_PEPPER_ROMESCO.webp',
     category: 'Quick & Easy',
+    alte: 'Roasted Red Pepper Romesco Sauce: A vibrant and versatile Spanish sauce made with roasted red peppers, tomatoes, garlic, and almonds, blended to a smooth and creamy consistency.',
     comment: [
             'In a blender, combine roasted red peppers, roma tomatoes, garlic, and almonds.',
             'Add dried basil, olive oil, red wine vinegar, salt, and pepper.',
@@ -1556,6 +1583,7 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
     id: 28,
     img: '/assets/HUEVOS_RANCHEROS_TOSTADAS.webp',
     category: 'Quick & Easy',
+    alte: '10 Minute Huevos Rancheros Breakfast Tostadas: A quick and flavorful Mexican breakfast featuring crispy tostadas topped with refried beans, fried eggs, avocado, lettuce, tomatoes, and crumbled queso fresco.',
     comment: [
             'Warm the refried beans in a pan and spread them evenly on the tostada tortillas.',
             'In a separate pan, fry the eggs until the whites are set but the yolks are still runny.',
@@ -1583,6 +1611,7 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
     id: 29,
     img: '/assets/BANANA_PANCAKES.webp',
     category: 'Dessert',
+    alte: 'Banana Pancakes: Fluffy and sweet pancakes made with ripe bananas, buttermilk, and a hint of vanilla, optionally studded with chocolate chips for a decadent breakfast treat.',
     comment: [
             'In a bowl, mash the banana until smooth.',
             'Whisk in the egg, buttermilk, and canola oil.',
@@ -1613,6 +1642,7 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
     id: 30,
     img: '/assets/GARLIC_BASIL_BUTTER_PASTA.webp',
     category: 'Quick & Easy',
+    alte: '20 Minute Garlic Basil Butter Pasta: A quick and flavorful dish featuring al dente bucatini pasta tossed in a rich browned butter sauce with garlic, cherry tomatoes, fresh basil, and a sprinkle of pecorino cheese.',
     comment: [
             'Cook the bucatini pasta according to package instructions until al dente.',
             'In a large pan, melt the salted butter over medium heat until it starts to brown.',
@@ -1643,6 +1673,7 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
     id: 31,
     img: '/assets/Lemon_Honey_Glazed_Chicken.webp',
     category: 'Main course',
+    alte: 'Lemon Honey Glazed Chicken: A succulent and flavorful main course featuring tender chicken breasts coated in a sweet and tangy lemon-honey glaze, garnished with fresh thyme and lemon slices.',
     comment: [
             'Season the chicken breasts with salt and pepper.',
             'In a large skillet, heat olive oil over medium heat and sear the chicken on both sides until golden brown.',
@@ -1673,6 +1704,7 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
     id: 32,
     img: '/assets/CREAMY_MUSHROOM_SOUP.webp',
     category: 'Quick & Easy',
+    alte: 'Creamy Mushroom Soup: A rich and velvety soup made with sautéed mushrooms, onions, and garlic, blended to perfection with vegetable broth and a touch of heavy cream for a comforting meal.',
     comment: [
             'In a large pot, melt butter over medium heat and sauté onions and garlic until translucent.',
             'Add mushrooms and cook until golden brown.',
@@ -1702,6 +1734,7 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
     id: 33,
     img: '/assets/CHOCOLATE_LAVA_CAKE.webp',
     category: 'Dessert',
+    alte: 'Chocolate Lava Cake: A decadent dessert featuring a warm, gooey chocolate center encased in a moist cake, perfect when served with a scoop of ice cream for an indulgent treat.',
     comment: [
             'Preheat the oven to 400°F (200°C) and grease ramekins with butter.',
             'Melt chocolate and butter together until smooth.',
@@ -1729,6 +1762,7 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
     id: 34,
     img: '/assets/VEGAN_BUDDHA_BOWL.webp',
     category: 'Main course',
+    alte: 'Vegan Buddha Bowl: A nourishing and colorful meal featuring quinoa, roasted sweet potatoes, chickpeas, avocado, and fresh greens, drizzled with creamy tahini dressing and sprinkled with sesame seeds.',
     comment: [
             'Cook quinoa according to package instructions and set aside.',
             'Roast sweet potatoes and chickpeas with olive oil, paprika, salt, and pepper until golden.',
@@ -1758,6 +1792,7 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
     id: 35,
     img: '/assets/GRILLED_SHRIMP_TACOS.webp',
     category: 'Main course',
+    alte: 'Grilled Shrimp Tacos: Flavorful and fresh tacos filled with grilled shrimp, shredded cabbage, creamy avocado, and a zesty lime crema, garnished with cilantro for a perfect summer meal.',
     comment: [
             'Season shrimp with chili powder, cumin, garlic powder, salt, and pepper.',
             'Grill the shrimp over medium heat until pink and slightly charred.',
@@ -1787,6 +1822,7 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
     id: 36,
     img: '/assets/CAPRESE_SALAD.webp',
     category: 'Quick & Easy',
+    alte: 'Caprese Salad: A classic Italian dish featuring fresh tomato and mozzarella slices layered with basil leaves, drizzled with olive oil and balsamic glaze, and seasoned with salt and pepper.',
     comment: [
             'Slice the tomatoes and mozzarella into even rounds.',
             'Arrange the tomato and mozzarella slices on a plate, alternating them.',
@@ -1812,6 +1848,7 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
     id: 37,
     img: '/assets/mango-desserts.webp',
     category: 'Dessert',
+    alte: 'Delicious Mango Dessert: A quick and refreshing treat featuring ripe mangoes layered or mixed with a creamy base of condensed milk or pudding, perfect for a sweet and satisfying dessert.',
     comment: [
             'Peel and slice ripe mangoes into cubes or slices.',
             'Prepare a creamy base using condensed milk, cream, or pudding mix.',
@@ -1836,6 +1873,7 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
     id: 38,
     img: '/assets/chinese-mango-pudding.webp',
     category: 'Dessert',
+    alte: 'Traditional Chinese Mango Pudding: A creamy and refreshing dessert made with ripe mangoes, coconut milk, and a hint of vanilla, served chilled with fresh mango slices and a drizzle of cream.',
     comment: [
             'Peel and dice ripe mangoes into cubes.',
             'Blend the mangoes with sugar, coconut milk, and a dash of vanilla.',

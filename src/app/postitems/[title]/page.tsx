@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
           url: foundItem?.img || "/assets/opengraph-image.png", 
           width: 1200,
           height: 630,
-          alt: foundItem?.brief || "Food & Recipe description",
+          alt: foundItem?.alte || "Food & Recipe description",
         }
       ]
     }
@@ -76,7 +76,7 @@ const PostItem = async ({ params }: { params: Params }) => {
                     height={500}
                     width={820}
                     src={foundItem.img}
-                    alt="photo_recipe"
+                    alt={foundItem?.alte || "food_photo"}
                     className="img-fluid"
                   />
                   <figcaption className="fig_caption">
