@@ -20,6 +20,7 @@ export const Recipes = () => {
 
   return (
     <section id='posts' className='posts'>
+      
       <div className="container">
         <div className="row g-5">
           <div className="col-lg-4">

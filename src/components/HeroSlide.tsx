@@ -21,9 +21,11 @@ export default function HeroSlide({
     style={{backgroundImage: `url(${slide.bgImg})`}}
     >
         <div className="img-bg-inner">
+          
             <h2>{slide.title}</h2>
             <p>{slide.brief}</p>
         </div>
     </Link>
+    
   )
 }
