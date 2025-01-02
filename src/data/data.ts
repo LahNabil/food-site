@@ -69,27 +69,27 @@ export const heroSlides = [
   
     {
         id:1,
-        bgImg: '/assets/kale_chicken_salade.webp',
+        bgImg: '/assets/kale-chicken-salade.webp',
         title: 'GREEN CHICKEN SALAD',
         brief: 'A healthy and nourishing chicken salad topped with fresh green vegetables, perfect for a light lunch.',
         
     },
     {
         id:2,
-        bgImg: '/assets/Backed_chicken.webp',
+        bgImg: '/assets/backed-chicken.webp',
         title: 'BAKED CHICKEN DRUMSTICKS',
         brief: 'Oven-baked chicken drumsticks, flavorful and crispy, perfect for a quick and delicious dinner.',
     },
     {
         id:3,
-        bgImg: '/assets/sesame_chicken.webp',
+        bgImg: '/assets/sesame-chicken.webp',
         title: 'SESAME CHICKEN',
         brief: 'Popular Asian dish, featuring chicken coated in a sweet and spicy sauce, topped with sesame seeds.',
     },
     {
       
         id:4,
-        bgImg: '/assets/CILANTRO_LIME_AVOCADO_TOAST.webp',
+        bgImg: '/assets/cilantro-lime-avocado-toast.webp',
         title: 'Cilantro Lime Avocado Toast',
         brief: 'This Cilantro Lime Avocado Toast is a fresh and tasty starter perfect for weekends, featuring creamy avocado topped with vibrant ingredients.',
     },
