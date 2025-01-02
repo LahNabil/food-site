@@ -78,6 +78,7 @@ const PostItem = async ({ params }: { params: Params }) => {
                     loading="lazy" 
                     src={foundItem.img}
                     alt={foundItem?.alte || "food_photo"}
+                    title={foundItem.title}
                     className="img-fluid"
                   />
                   <figcaption className="fig_caption">

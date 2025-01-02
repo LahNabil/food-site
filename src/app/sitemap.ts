@@ -15,13 +15,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: 'https://www.fastcookiteasy.com/postitems',
+      url: 'https://www.fastcookiteasy.com/contact',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.5,
     },
     {
-      url: 'https://www.fastcookiteasy.com/contact',
+      url: 'https://www.fastcookiteasy.com/postitems',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.5,
@@ -74,7 +74,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.5,
     },
     {
-      url: 'https://www.fastcookiteasy.com/postitems/drinks',
+      url: 'https://www.fastcookiteasy.com/postitems/category/drinks',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.5,

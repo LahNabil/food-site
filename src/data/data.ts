@@ -98,7 +98,7 @@ export const heroSlides = [
 export const postItems = [
   {
     id: 1,
-    img: '/assets/PANUOZZO.webp',
+    img: '/assets/panuozzo.webp',
     alte: 'Panuozzo Sandwich: A delicious Italian-inspired grilled sandwich with ham, melted cheese, and roasted vegetables, served in toasted flatbread.',
     category: 'Main course',
     comment: [
@@ -160,7 +160,7 @@ Do not forget to experiment with different fillings and toppings to make this sa
   },
   {
     id: 2,
-    img: '/assets/smoky_vegan.webp',
+    img: '/assets/smoky-vegan.webp',
     category: 'Main course',
     alte:'Smoky Vegan Dish: A hearty and flavorful plant-based meal featuring roasted vegetables, grilled smoked tofu, and fresh herbs, served with a creamy tahini or smoky barbecue sauce.',
     comment: [
@@ -249,7 +249,7 @@ Ready to dive into this smoky, plant-based delight? Gather your ingredients and 
   },
   {
     id: 3,
-    img: '/assets/Curried_Sausages.webp',
+    img: '/assets/curried-sausages.webp',
     category: 'Main course',
     alte: 'Curried Sausages: A savory and aromatic dish featuring browned sausages simmered in a rich curry sauce with onions, bell peppers, and tomatoes, served with rice or naan bread.',
     comment: [
@@ -323,7 +323,7 @@ Explore more recipes on our blog and find your next kitchen favorite. Let’s ma
   },  
 {
   id: 4,
-  img: '/assets/spicy_beef.webp',
+  img: '/assets/spicy-beef.webp',
   category: 'Main course',
   alte: 'Spicy Vegetable Beef Udon Noodles: A bold and flavorful stir-fry featuring tender beef, fresh vegetables, and chewy udon noodles tossed in a spicy soy-chili sauce, garnished with scallions and sesame seeds.',
   comment: [
@@ -411,7 +411,7 @@ For more recipes that pack a punch, explore our blog and discover your next favo
 },
 {
   id: 5,
-  img: '/assets/green_soop.webp',
+  img: '/assets/green-soop.webp',
   category: 'Quick & Easy',
   alte: 'Calming Green Soup: A vibrant and nourishing blend of spinach, broccoli, and peas, blended to a smooth consistency and seasoned with lemon juice, topped with fresh herbs for a refreshing finish.',
   comment: [
@@ -491,7 +491,7 @@ Ready to embrace the vibrant flavors of greens in a comforting soup? Try this ea
 
 {
   id: 6,
-  img: '/assets/kale_chicken_salade.webp',
+  img: '/assets/kale-chicken-salade.webp',
   category: 'Main course',
   alte: 'Green Chicken Salad: A fresh and nutritious salad featuring grilled chicken, crisp lettuce, cucumber, and creamy avocado, tossed with a light lemon vinaigrette for a refreshing meal.',
   comment: [
@@ -624,7 +624,7 @@ So, why wait? Gather your ingredients, fire up the grill, and treat yourself to 
 },
 {
   id: 7,
-  img: '/assets/sesame_chicken.webp',
+  img: '/assets/sesame-chicken.webp',
   category: 'Main course',
   alte: 'Sesame Chicken: Tender, bite-sized chicken pieces coated in a sweet and savory soy-honey glaze, topped with toasted sesame seeds and served with steamed rice, garnished with green onions.',
   comment: [
@@ -764,7 +764,7 @@ Indulge in the joy of cooking and savor every bite of this classic Sesame Chicke
 },
 {
   id: 8,
-  img: '/assets/Backed_chicken.webp',
+  img: '/assets/backed-chicken.webp',
   category: 'Main course',
   alte: 'Baked Chicken Drumsticks: Juicy and flavorful chicken drumsticks coated with a blend of paprika, garlic powder, and thyme, baked to golden perfection and served with roasted vegetables or mashed potatoes.',
   comment: [
@@ -909,7 +909,7 @@ Enjoy the crispy, juicy goodness of this classic dish—you’ll find yourself c
 },
 {
   id: 9,
-  img: '/assets/BUTTER_CHICKEN.webp',
+  img: '/assets/butter-chicken.webp',
   category: 'Main course',
   alte: 'Butter Chicken (Murgh Makhani): A rich and creamy Indian curry featuring tender chicken marinated in yogurt and spices, simmered in a velvety tomato-butter sauce, served with basmati rice or garlic naan, garnished with fresh cilantro.',
   comment: [
@@ -1052,7 +1052,7 @@ So, gather your ingredients, get ready to enjoy the vibrant flavors of Indian cu
 },
 {
   id: 10,
-  img: '/assets/ARRABBIATA_PASTA.webp',
+  img: '/assets/arrabbiata-pasta.webp',
   category: 'Main course',
   alte: 'Arrabbiata Pasta: A spicy and flavorful Italian dish featuring al dente pasta tossed in a fiery tomato sauce with garlic, chili flakes, and fresh parsley, garnished with a drizzle of olive oil.',
   comment: [
@@ -1160,7 +1160,7 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
 
 {
   id: 11,
-  img: '/assets/PIZZA_BURGER.webp',
+  img: '/assets/pizza-burger.webp',
   category: 'Main course',
   alte: 'The Ultimate Pizza Burger: A mouthwatering fusion of juicy beef patties, melted mozzarella, pepperoni, and zesty marinara sauce, served on a buttery toasted bun for the perfect pizza-burger combo.',
   comment: [
@@ -1307,7 +1307,7 @@ Ready to impress your family and friends? Grab your ingredients and start cookin
 },
 {
   id: 12,
-  img: '/assets/SPINACH_LASAGNA.webp',
+  img: '/assets/spinach-lasagna.webp',
   category: 'Main course',
   alte: 'Spinach Lasagna: A comforting and cheesy Italian classic layered with tender lasagna noodles, fresh spinach, rich marinara sauce, and a blend of mozzarella and parmesan cheese, baked to golden perfection.',
   comment: [
@@ -1453,7 +1453,7 @@ Ready to try this recipe? Gather your ingredients and start layering your Spinac
 },
 {
   id: 13,
-  img: '/assets/MUFFALETTA.webp',
+  img: '/assets/muffaletta.webp',
   category: 'Main course',
   alte: 'Muffaletta Sandwich: A hearty and flavorful New Orleans classic featuring layers of Genoa salami, ham, mortadella, mozzarella, and provolone, topped with a zesty olive salad, served on a crusty Italian loaf.',
   comment: [
@@ -1599,7 +1599,7 @@ Ready to make this iconic sandwich? Gather your ingredients and start assembling
 },
 {
   id: 14,
-  img: '/assets/YAKI_UDON.webp',
+  img: '/assets/yaki-udon.webp',
   alte: 'Yaki Udon: A quick and savory Japanese stir-fry featuring chewy udon noodles, sautéed garlic, scallions, shitake mushrooms, and baby bok choy, tossed in a flavorful soy-based sauce.',
   category: 'Quick & Easy',
   comment: [
@@ -1743,7 +1743,7 @@ Ready to whip up this delicious dish? Grab your ingredients and start cooking Ya
 },
 {
   id: 15,
-  img: '/assets/PANEER_KATHI_ROLL.webp',
+  img: '/assets/paneer-kathi-roll.webp',
   alte: 'Paneer Kathi Roll: A quick and flavorful Indian street food featuring spiced crumbled paneer wrapped in a soft whole wheat roti, topped with fresh lettuce, coriander, and a squeeze of lemon.',
   category: 'Quick & Easy',
   comment: [
@@ -1886,7 +1886,7 @@ Ready to make this delicious dish? Grab your ingredients and start cooking Panee
 },
 {
   id: 16,
-  img: '/assets/SPICY_GARLIC_SHRIMP_NOODLES.webp',
+  img: '/assets/spicy-garlic-shrimp-noodles.webp',
   category: 'Quick & Easy',
   alte: 'Spicy Garlic Shrimp Noodles: A quick and zesty dish featuring tender shrimp, al dente noodles, and a bold sauce made with garlic, serrano peppers, and soy sauce, finished with a drizzle of sesame oil and seeds.',
   comment: [
@@ -2040,7 +2040,7 @@ Ready to make this delicious dish? Grab your ingredients and start cooking Spicy
 },
 {
   id: 17,
-  img: '/assets/CILANTRO_LIME_AVOCADO_TOAST.webp',
+  img: '/assets/cilantro-lime-avocado-toast.webp',
   category: 'Quick & Easy',
   alte: 'Cilantro Lime Avocado Toast: A fresh and vibrant breakfast or snack featuring creamy mashed avocado on whole wheat toast, topped with cherry tomatoes, red onion, cilantro, and a drizzle of honey and olive oil.',
   comment: [
@@ -2060,7 +2060,7 @@ Ready to make this delicious dish? Grab your ingredients and start cooking Spicy
   },
   {
     id: 18,
-    img: '/assets/LAYERED_CHOCOLATE_CHEESECAKE.webp',
+    img: '/assets/layered-chocolate-cheesecake.webp',
     category: 'Dessert',
     alte: 'Layered Chocolate Cheesecake with Oreo Crust: A decadent no-bake dessert featuring a rich Oreo cookie crust and smooth, creamy chocolate cheesecake layers, perfect for any occasion.',
     comment: [
@@ -2073,7 +2073,7 @@ Ready to make this delicious dish? Grab your ingredients and start cooking Spicy
             'Chill for about 15 minutes, then spread the remaining filling on top.',
             'Refrigerate for at least 4 hours or until set before serving.'
           ],
-    title: 'Layered Chocolate Cheesecake with Oreo Crust - No Bake',
+    title: 'Layered Chocolate Cheesecake with Oreo Crust No Bake',
     brief: 'This Layered Chocolate Cheesecake with Oreo Crust is a rich and creamy dessert that requires no baking, perfect for any occasion.',
     description:'',
     ingredients: ['bittersweet chocolate', 'granulated sugar', 'powdered sugar', 'vanilla extract', 'Oreo cookie crumbs', 'unsalted butter', 'cream cheese'],
@@ -2083,7 +2083,7 @@ Ready to make this delicious dish? Grab your ingredients and start cooking Spicy
   },
   {
     id: 19,
-    img: '/assets/CHOCOLATE_CAKE_ROLL.webp',
+    img: '/assets/chocolate-cake-roll.webp',
     category: 'Dessert',
     alte: 'Chocolate Cake Roll: A decadent and elegant dessert featuring a light and fluffy chocolate sponge cake rolled with a creamy, sweet filling, perfect for any special occasion.',
     comment: [
@@ -2108,7 +2108,7 @@ Ready to make this delicious dish? Grab your ingredients and start cooking Spicy
   },
   {
     id: 20,
-    img: '/assets/COFFEE_PANNA_COTTA.webp',
+    img: '/assets/coffee-panna-cotta.webp',
     alte: 'Coffee Panna Cotta with Cocoa Sauce: A silky and indulgent Italian dessert featuring creamy coffee-infused panna cotta topped with a rich and velvety cocoa sauce.',
     category: 'Dessert',
     comment: [
@@ -2130,7 +2130,7 @@ Ready to make this delicious dish? Grab your ingredients and start cooking Spicy
    },
    {
     id: 21,
-    img: '/assets/HEALTHY_LEMONADE.webp',
+    img: '/assets/healthy-lemonade.webp',
     category: 'Drinks',
     alte: 'Healthy Lemonade: A refreshing and natural drink made with fresh lemon juice, honey, and water, served chilled with ice and lemon slices for a revitalizing treat.',
     comment: [
@@ -2149,7 +2149,7 @@ Ready to make this delicious dish? Grab your ingredients and start cooking Spicy
   },
   {
     id: 22,
-    img: '/assets/VIRGIN_STRAWBERRY_DAIQUIRI.webp',
+    img: '/assets/virgin-strawberry-daiquiri.webp',
     category: 'Drinks',
     alte: 'Virgin Strawberry Daiquiri: A refreshing and fruity non-alcoholic drink made with blended strawberries, lime juice, and simple syrup, served chilled with lime wedges for a perfect summer treat.',
     comment: [
@@ -2168,7 +2168,7 @@ Ready to make this delicious dish? Grab your ingredients and start cooking Spicy
   },
   {
     id: 23,
-    img: '/assets/CREAMY_TOMATO_PASTA.webp',
+    img: '/assets/creamy-tomato-pasta.webp',
     category: 'Quick & Easy',
     alte: 'Creamy Tomato Pasta: A quick and comforting dish featuring penne pasta tossed in a rich and velvety tomato cream sauce, topped with grated parmesan cheese and fresh parsley.',
     comment: [
@@ -2201,7 +2201,7 @@ Ready to make this delicious dish? Grab your ingredients and start cooking Spicy
   },
   {
     id: 24,
-    img: '/assets/SOPA_DE_FIDEO.webp',
+    img: '/assets/sopa-de-fideo.webp',
     category: 'Quick & Easy',
     alte: 'Sopa de Fideo: A comforting and flavorful Mexican noodle soup made with toasted fideo pasta, a rich tomato-cilantro broth, and aromatic spices, garnished with fresh cilantro.',
     comment: [
@@ -2233,7 +2233,7 @@ Ready to make this delicious dish? Grab your ingredients and start cooking Spicy
   },
   {
     id: 25,
-    img: '/assets/SHRIMP_LO_MEIN.webp',
+    img: '/assets/shrimp-lo-mein.webp',
     category: 'Quick & Easy',
     alte: 'Shrimp Lo Mein: A quick and savory stir-fry featuring tender shrimp, fresh vegetables, and noodles tossed in a flavorful hoisin-soy sauce, garnished with sesame seeds.',
     comment: [
@@ -2269,7 +2269,7 @@ Ready to make this delicious dish? Grab your ingredients and start cooking Spicy
   },
   {
     id: 26,
-    img: '/assets/OMELETTE_WITH_AVOCADO.webp',
+    img: '/assets/omelette-with-avocado.webp',
     category: 'Quick & Easy',
     alte: 'Omelette with Avocado: A quick and nutritious breakfast featuring a fluffy omelette filled with sautéed mushrooms, spinach, and feta cheese, served with creamy avocado on the side.',
     comment: [
@@ -2301,7 +2301,7 @@ Ready to make this delicious dish? Grab your ingredients and start cooking Spicy
   },
   {
     id: 27,
-    img: '/assets/ROASTED_RED_PEPPER_ROMESCO.webp',
+    img: '/assets/roasted-red-pepper-romesco.webp',
     category: 'Quick & Easy',
     alte: 'Roasted Red Pepper Romesco Sauce: A vibrant and versatile Spanish sauce made with roasted red peppers, tomatoes, garlic, and almonds, blended to a smooth and creamy consistency.',
     comment: [
@@ -2330,7 +2330,7 @@ Ready to make this delicious dish? Grab your ingredients and start cooking Spicy
   },
   {
     id: 28,
-    img: '/assets/HUEVOS_RANCHEROS_TOSTADAS.webp',
+    img: '/assets/huevos-rancheros-tostadas.webp',
     category: 'Quick & Easy',
     alte: '10 Minute Huevos Rancheros Breakfast Tostadas: A quick and flavorful Mexican breakfast featuring crispy tostadas topped with refried beans, fried eggs, avocado, lettuce, tomatoes, and crumbled queso fresco.',
     comment: [
@@ -2358,7 +2358,7 @@ Ready to make this delicious dish? Grab your ingredients and start cooking Spicy
   },
   {
     id: 29,
-    img: '/assets/BANANA_PANCAKES.webp',
+    img: '/assets/banana-pancakes.webp',
     category: 'Dessert',
     alte: 'Banana Pancakes: Fluffy and sweet pancakes made with ripe bananas, buttermilk, and a hint of vanilla, optionally studded with chocolate chips for a decadent breakfast treat.',
     comment: [
@@ -2389,7 +2389,7 @@ Ready to make this delicious dish? Grab your ingredients and start cooking Spicy
   },
   {
     id: 30,
-    img: '/assets/GARLIC_BASIL_BUTTER_PASTA.webp',
+    img: '/assets/garlic-basil-butter-pasta.webp',
     category: 'Quick & Easy',
     alte: '20 Minute Garlic Basil Butter Pasta: A quick and flavorful dish featuring al dente bucatini pasta tossed in a rich browned butter sauce with garlic, cherry tomatoes, fresh basil, and a sprinkle of pecorino cheese.',
     comment: [
@@ -2420,7 +2420,7 @@ Ready to make this delicious dish? Grab your ingredients and start cooking Spicy
   },
   {
     id: 31,
-    img: '/assets/Lemon_Honey_Glazed_Chicken.webp',
+    img: '/assets/lemon-honey-glazed-chicken.webp',
     category: 'Main course',
     alte: 'Lemon Honey Glazed Chicken: A succulent and flavorful main course featuring tender chicken breasts coated in a sweet and tangy lemon-honey glaze, garnished with fresh thyme and lemon slices.',
     comment: [
@@ -2451,7 +2451,7 @@ Ready to make this delicious dish? Grab your ingredients and start cooking Spicy
   },
   {
     id: 32,
-    img: '/assets/CREAMY_MUSHROOM_SOUP.webp',
+    img: '/assets/creamy-mushroom-soup.webp',
     category: 'Quick & Easy',
     alte: 'Creamy Mushroom Soup: A rich and velvety soup made with sautéed mushrooms, onions, and garlic, blended to perfection with vegetable broth and a touch of heavy cream for a comforting meal.',
     comment: [
@@ -2481,7 +2481,7 @@ Ready to make this delicious dish? Grab your ingredients and start cooking Spicy
   },
   {
     id: 33,
-    img: '/assets/CHOCOLATE_LAVA_CAKE.webp',
+    img: '/assets/chocolate-lava-cake.webp',
     category: 'Dessert',
     alte: 'Chocolate Lava Cake: A decadent dessert featuring a warm, gooey chocolate center encased in a moist cake, perfect when served with a scoop of ice cream for an indulgent treat.',
     comment: [
@@ -2509,7 +2509,7 @@ Ready to make this delicious dish? Grab your ingredients and start cooking Spicy
   },
   {
     id: 34,
-    img: '/assets/VEGAN_BUDDHA_BOWL.webp',
+    img: '/assets/vegan-buddha-bowl.webp',
     category: 'Main course',
     alte: 'Vegan Buddha Bowl: A nourishing and colorful meal featuring quinoa, roasted sweet potatoes, chickpeas, avocado, and fresh greens, drizzled with creamy tahini dressing and sprinkled with sesame seeds.',
     comment: [
@@ -2539,7 +2539,7 @@ Ready to make this delicious dish? Grab your ingredients and start cooking Spicy
   },
   {
     id: 35,
-    img: '/assets/GRILLED_SHRIMP_TACOS.webp',
+    img: '/assets/grilled-shrimp-tacos.webp',
     category: 'Main course',
     alte: 'Grilled Shrimp Tacos: Flavorful and fresh tacos filled with grilled shrimp, shredded cabbage, creamy avocado, and a zesty lime crema, garnished with cilantro for a perfect summer meal.',
     comment: [
@@ -2569,7 +2569,7 @@ Ready to make this delicious dish? Grab your ingredients and start cooking Spicy
   },
   {
     id: 36,
-    img: '/assets/CAPRESE_SALAD.webp',
+    img: '/assets/caprese-salad.webp',
     category: 'Quick & Easy',
     alte: 'Caprese Salad: A classic Italian dish featuring fresh tomato and mozzarella slices layered with basil leaves, drizzled with olive oil and balsamic glaze, and seasoned with salt and pepper.',
     comment: [

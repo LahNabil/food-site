@@ -9,6 +9,7 @@ import './style.css';
 interface Post {
   id: number;
   img: string;
+  alte: string;
   category: string;
   comment: string[];
   title: string;
@@ -78,7 +79,8 @@ const PostContent = () => {
                     width={820}
                     src={item.img}
                     loading="lazy" 
-                    alt="photo_recipe"
+                    alt={item.alte}
+                    title={item.title}
                     className="img-fluid"
                   />
                   <figcaption className="fig_caption">
@@ -125,7 +127,7 @@ const PostContent = () => {
                   >
                     {postItems.slice(0, 6).map(item => (
                       <div key={item.id} className="side-post-item">
-                        <Image src={item.img} alt={item.title} loading="lazy"  />
+                        <Image src={item.img} alt={item.alte} title={item.title} loading="lazy"  />
                         <h4>{item.title}</h4>
                       </div>
                     ))}
@@ -137,7 +139,7 @@ const PostContent = () => {
                       .filter(item => item.trending)
                       .map(item => (
                         <div key={item.id} className="side-post-item">
-                          <Image src={item.img} alt={item.title} loading="lazy"  />
+                          <Image src={item.img} alt={item.title} loading="lazy" title={item.title}  />
                           <h4>{item.title}</h4>
                         </div>
                       ))}
