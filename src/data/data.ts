@@ -98,7 +98,7 @@ export const heroSlides = [
 export const postItems = [
   {
     id: 1,
-    img: '/assets/panuozzo.webp',
+    img: '/assets/panuozo.webp', 
     alte: 'Panuozzo Sandwich: A delicious Italian-inspired grilled sandwich with ham, melted cheese, and roasted vegetables, served in toasted flatbread.',
     category: 'Main course',
     comment: [
@@ -1453,7 +1453,7 @@ Ready to try this recipe? Gather your ingredients and start layering your Spinac
 },
 {
   id: 13,
-  img: '/assets/muffaletta.webp',
+  img: '/assets/mufaletta.webp',
   category: 'Main course',
   alte: 'Muffaletta Sandwich: A hearty and flavorful New Orleans classic featuring layers of Genoa salami, ham, mortadella, mozzarella, and provolone, topped with a zesty olive salad, served on a crusty Italian loaf.',
   comment: [
