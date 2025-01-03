@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     title: foundItem?.title || "Recipes Title",
     description: foundItem?.brief || "Food description",
     alternates: {
-      canonical: `https://www.fastcookiteasy.com/${decodedTitle.toLowerCase().replace(/\s+/g, '-')}`
+      canonical: `https://www.fastcookiteasy.com/postitems/${decodedTitle.toLowerCase().replace(/\s+/g, '-')}`
     },
     openGraph: {
       images: [
