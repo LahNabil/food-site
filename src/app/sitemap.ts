@@ -1,47 +1,48 @@
 import type { MetadataRoute } from 'next'
+import { postItems } from '@/data/data';
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  return [
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const staticPages = [
     {
       url: 'https://www.fastcookiteasy.com', 
       lastModified: new Date(),
-      changeFrequency: 'monthly',
+      changeFrequency: 'monthly' as const,
       priority: 1,
     },
     {
       url: 'https://www.fastcookiteasy.com/about',
       lastModified: new Date(),
-      changeFrequency: 'yearly',
-      priority: 0.8,
+      changeFrequency: 'yearly' as const,
+      priority: 0.5,
     },
     {
       url: 'https://www.fastcookiteasy.com/contact',
       lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.8,
+      changeFrequency: 'weekly' as const,
+      priority: 0.5,
     },
     {
       url: 'https://www.fastcookiteasy.com/postitems',
       lastModified: new Date(),
-      changeFrequency: 'weekly',
+      changeFrequency: 'weekly' as const,
       priority: 0.8,
     },
     {
       url: 'https://www.fastcookiteasy.com/policy',
       lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
+      changeFrequency: 'weekly' as const,
+      priority: 0.3,
     },
     {
       url: 'https://www.fastcookiteasy.com/terms',
       lastModified: new Date(),
-      changeFrequency: 'weekly',
+      changeFrequency: 'weekly' as const,
       priority: 0.3,
     },
     {
       url: 'https://www.fastcookiteasy.com/disclaimer',
       lastModified: new Date(),
-      changeFrequency: 'weekly',
+      changeFrequency: 'weekly' as const,
       priority: 0.3,
     },
     {
@@ -52,243 +53,33 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: 'https://www.fastcookiteasy.com/postitems/category/quick-and-easy',
       lastModified: new Date(),
-      changeFrequency: 'weekly',
+      changeFrequency: 'weekly' as const,
       priority: 0.8,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/category/quick-and-easy',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
     },
     {
       url: 'https://www.fastcookiteasy.com/postitems/category/main-course',
       lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
+      changeFrequency: 'weekly'as const,
+      priority: 0.8,
     },
     {
       url: 'https://www.fastcookiteasy.com/postitems/category/dessert',
       lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
+      changeFrequency: 'weekly'as const,
+      priority: 0.8,
     },
     {
       url: 'https://www.fastcookiteasy.com/postitems/category/drinks',
       lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
     },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/SMOKY-VEGAN',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/CURRIED-SAUSAGE',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/SPICY-VEGETABLE-BEEF-UDON-NOODLES',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/CALMING-GREEN-SOUP',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/GREEN-CHICKEN-SALAD',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/SESAME-CHICKEN',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/BAKED-CHICKEN-DRUMSTICKS',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/Butter-Chicken-(Murgh Makhani)',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/Arrabbiata-Pasta',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/The-Ultimate-Pizza-Burger',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/Spinach-Lasagna',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/Muffaletta-Sandwich',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/Shrimp-Lo-Mein',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/Yaki-Udon',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/Sopa-de-Fideo',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/Creamy-Tomato-Pasta',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/Virgin-Strawberry-Daiquiri',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/Healthy-Lemonade',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/Coffee-Panna-Cotta-with-Cocoa-Sauce',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/Chocolate-Cake-Roll',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/Layered-Chocolate-Cheesecake-with-Oreo-Crust---No-Bake',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/Cilantro-Lime-Avocado-Toast',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/Spicy-Garlic-Shrimp-Noodles',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/Paneer-Kathi-Roll',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/Omelette-with-Avocado',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/Roasted-Red-Pepper-Romesco-Sauce',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/10-Minute-Huevos-Rancheros-Breakfast-Tostadas',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/Banana-Pancakes',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/20-Minute-Garlic-Basil-Butter-Pasta',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/Lemon-Honey-Glazed-Chicken',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/Creamy-Mushroom-Soup',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/Chocolate-Lava-Cake',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/Vegan-Buddha-Bowl',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/Grilled-Shrimp-Tacos',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://www.fastcookiteasy.com/postitems/Caprese-Salad',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
-    
-  ]
+  ];
+  const foundItems = postItems.map((post)=>({
+    url: `https://www.fastcookiteasy.com/postitems/${post.title.replace(/\s+/g, '-').toLowerCase()}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }));
+  return [...staticPages, ...foundItems];
 }
