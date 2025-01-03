@@ -17,6 +17,13 @@ const getH1Title = (decodedCategory: string): string => {
   const lowerCaseCategory = decodedCategory.toLowerCase();
   return categoryTitles[lowerCaseCategory] || `${decodedCategory} Recipes`;
 };
+const slugify = (str: string): string => {
+  return str
+    .toLowerCase() // Convert to lowercase
+    .replace(/&/g, 'and') // Replace "&" with "and"
+    .replace(/\s+/g, '-') // Replace spaces with hyphens
+    .replace(/[^\w-]+/g, ''); // Remove special characters
+};
 
 type Params = { category: string };
 
@@ -28,12 +35,18 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   const filteredItems = postItems.filter((post) =>
     post.category.toLowerCase() === decodedCategory.toLowerCase()
   );
+  const slugifiedCategory = slugify(category); // Convert "Main Course" to "main-course"
+  const canonicalUrl = `https://www.fastcookiteasy.com/postitems/category/${slugifiedCategory}`;
+
 
   return {
     title: `${decodedCategory} Recipes`,
     description: filteredItems.length > 0
       ? `Discover easy and quick recipes for every occasion. Perfect for busy days or beginners, explore simple yet delicious meals from the ${decodedCategory} category!`
       : "Explore a variety of recipes across different categories.",
+    alternates: {
+      canonical: canonicalUrl
+    },
     openGraph: {
       images: [
         {

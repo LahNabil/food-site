@@ -4,8 +4,18 @@ import { contact_sci } from '@/data/data';
 import Image from 'next/image';
 import { Metadata } from 'next';
 
-export const metadata: Metadata = {
-  title: "Contact"
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: "Contact Us",
+    description: "Get in touch with FastCookItEasy. We'd love to hear from you!",
+    alternates: {
+      canonical: "https://www.fastcookiteasy.com/contact",
+    },
+    openGraph: {
+      title: "Contact Us",
+      description: "Get in touch with FastCookItEasy. We'd love to hear from you!",
+    },
+  };
 }
 
 const Contact = () => {

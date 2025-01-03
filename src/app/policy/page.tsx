@@ -2,8 +2,18 @@ import React from 'react'
 import './policy.css'
 import { Metadata } from 'next'
 
-export const metadata: Metadata = {
-  title: "Privacy Policy"
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: "Privacy Policy",
+    description: "Read our privacy policy to understand how we protect your data.",
+    alternates: {
+      canonical: "https://www.fastcookiteasy.com/policy",
+    },
+    openGraph: {
+      title: "Privacy Policy",
+      description: "Read our privacy policy to understand how we protect your data.",
+    },
+  };
 }
 
 const Policy = () => {

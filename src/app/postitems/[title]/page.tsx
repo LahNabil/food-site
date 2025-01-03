@@ -12,7 +12,7 @@ import ReactMarkdown from 'react-markdown';
 type Params = Promise<{ title: string }>;
 
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
-  const { title } = await params; // Await the params to resolve
+  const { title } = await params; 
   const decodedTitle = title.replace(/-/g, ' '); 
   const foundItem = postItems.find((post) =>
     post.title.toLowerCase() === decodedTitle.toLowerCase()
@@ -21,6 +21,9 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   return {
     title: foundItem?.title || "Recipes Title",
     description: foundItem?.brief || "Food description",
+    alternates: {
+      canonical: `https://www.fastcookiteasy.com/${decodedTitle.toLowerCase().replace(/\s+/g, '-')}`
+    },
     openGraph: {
       images: [
         {

@@ -2,8 +2,18 @@ import React from 'react'
 import './disclaimer.css'
 import { Metadata } from 'next'
 
-export const metadata: Metadata = {
-  title: "Disclaimer"
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: "Disclaimer",
+    description: "Read our disclaimer to understand the limitations of liability for the use of our website.",
+    alternates: {
+      canonical: "https://www.fastcookiteasy.com/disclaimer",
+    },
+    openGraph: {
+      title: "Disclaimer - FastCookItEasy",
+      description: "Read our disclaimer to understand the limitations of liability for the use of our website.",
+    },
+  };
 }
 
 const Disclaimer = () => {

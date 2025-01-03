@@ -4,10 +4,15 @@ import { postItems } from '@/data/data';
 import React from 'react';
 import './itemsrec.css';
 import SubHeader from '@/components/SubHeader';
+import { Helmet } from 'react-helmet';
 
 const PostItems = () => {
+  const canonicalUrl = "https://www.fastcookiteasy.com/postitems";
   return (
     <main id="main">
+      <Helmet>
+        <link rel="canonical" href={canonicalUrl} />
+      </Helmet>
       <SubHeader />
       <h1 className='main-title'>Explore All Recipes – Quick, Easy, and Delicious Meals for Every Occasion</h1>
       <section id="posts" className="posts">

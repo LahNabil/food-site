@@ -5,8 +5,18 @@ import Image from 'next/image'
 
 import React from 'react';
 
-export const metadata: Metadata = {
-  title: "About"
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: "About Us",
+    description: "Learn more about FastCookItEasy and our mission to provide quick and easy recipes for everyone.",
+    alternates: {
+      canonical: "https://www.fastcookiteasy.com/about",
+    },
+    openGraph: {
+      title: "About Us - Cook It Easy",
+      description: "Learn more about FastCookItEasy and our mission to provide quick and easy recipes for everyone.",
+    },
+  };
 }
 
 const AboutPage = () => {

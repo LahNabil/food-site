@@ -2,9 +2,20 @@ import React from 'react'
 import './terms.css'
 import { Metadata } from 'next'
 
-export const metadata: Metadata = {
-  title: "Terms of Use"
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: "Terms of Use",
+    description: "Read our terms of use to understand the rules for using our website.",
+    alternates: {
+      canonical: "https://www.fastcookiteasy.com/terms",
+    },
+    openGraph: {
+      title: "Terms of Use",
+      description: "Read our terms of use to understand the rules for using our website.",
+    },
+  };
 }
+
 
 const Terms = () => {
   return (
