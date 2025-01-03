@@ -15,16 +15,15 @@ const categoryTitles: Record<string, string> = {
 
 const getH1Title = (decodedCategory: string): string => {
   const lowerCaseCategory = decodedCategory.toLowerCase();
-
   return categoryTitles[lowerCaseCategory] || `${decodedCategory} Recipes`;
 };
 
 type Params = { category: string };
 
-export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
   const { category } = await params;
   const decodedCategory = category.replace(/-/g, ' ').replace(/and/g, '&');
-  
+
   // Find the category's related items
   const filteredItems = postItems.filter((post) =>
     post.category.toLowerCase() === decodedCategory.toLowerCase()
@@ -32,8 +31,8 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
 
   return {
     title: `${decodedCategory} Recipes`,
-    description: filteredItems.length > 0 
-      ? `Discover easy and quick recipes for every occasion. Perfect for busy days or beginners, explore simple yet delicious meals from the ${decodedCategory} category!` 
+    description: filteredItems.length > 0
+      ? `Discover easy and quick recipes for every occasion. Perfect for busy days or beginners, explore simple yet delicious meals from the ${decodedCategory} category!`
       : "Explore a variety of recipes across different categories.",
     openGraph: {
       images: [
@@ -42,26 +41,23 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
           width: 1200,
           height: 630,
           alt: filteredItems.length > 0 ? filteredItems[0].brief : "Recipe category description",
-        }
-      ]
-    }
+        },
+      ],
+    },
   };
 }
 
 export const generateStaticParams = (): Params[] => {
   const categories = [...new Set(postItems.map((post) => post.category))];
-
-  const paths = categories.map((category) => ({
+  return categories.map((category) => ({
     category: category.toLowerCase().replace(/\s+/g, '-').replace(/&/g, 'and'),
   }));
-
-  return paths;
 };
 
-const CategoryPage = async ({ params }: { params: Params }) => {
-  const { category } = params;
+const CategoryPage = async ({ params }: { params: Promise<Params> }) => {
+  const { category } = await params;
   const decodedCategory = category.replace(/-/g, ' ').replace(/and/g, '&');
-  
+
   const filteredItems = postItems.filter((post) =>
     post.category.toLowerCase() === decodedCategory.toLowerCase()
   );
@@ -77,7 +73,7 @@ const CategoryPage = async ({ params }: { params: Params }) => {
   return (
     <main id="main">
       <SubHeader />
-      <h1 className='main-title'>{h1Title}</h1>
+      <h1 className="main-title">{h1Title}</h1>
       <section id="posts" className="posts">
         <div className="container">
           <div className="row">
