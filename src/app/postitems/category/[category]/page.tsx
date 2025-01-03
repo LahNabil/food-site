@@ -13,17 +13,16 @@ const categoryTitles: Record<string, string> = {
   "drinks": "Drink Recipes – Refreshing Beverages for Every Occasion",
 };
 
-// Helper function to get the H1 title for a category
 const getH1Title = (decodedCategory: string): string => {
-  // Convert decodedCategory to lowercase to match the keys in categoryTitles
   const lowerCaseCategory = decodedCategory.toLowerCase();
 
-  // Return the corresponding title or a fallback title
   return categoryTitles[lowerCaseCategory] || `${decodedCategory} Recipes`;
 };
 
-export async function generateMetadata({ params }: { params: { category: string } }): Promise<Metadata> {
-  const { category } = params;
+type Params = { category: string };
+
+export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
+  const { category } = await params;
   const decodedCategory = category.replace(/-/g, ' ').replace(/and/g, '&');
   
   // Find the category's related items
@@ -49,7 +48,7 @@ export async function generateMetadata({ params }: { params: { category: string 
   };
 }
 
-export const generateStaticParams = (): { category: string }[] => {
+export const generateStaticParams = (): Params[] => {
   const categories = [...new Set(postItems.map((post) => post.category))];
 
   const paths = categories.map((category) => ({
@@ -59,7 +58,7 @@ export const generateStaticParams = (): { category: string }[] => {
   return paths;
 };
 
-const CategoryPage = ({ params }: { params: { category: string } }) => {
+const CategoryPage = async ({ params }: { params: Params }) => {
   const { category } = params;
   const decodedCategory = category.replace(/-/g, ' ').replace(/and/g, '&');
   
