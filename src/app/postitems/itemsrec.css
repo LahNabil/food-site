@@ -1,23 +1,33 @@
-/* Default styles for larger screens (desktop/tablet) */
+
 .row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start; /* Items align to the left by default */
+  justify-content: flex-start; 
+}
+.posts{
+  padding-top: 1%;
+}
+.main-title {
+  text-align: center; 
+  font-size: 24px;
+  margin: 0 auto; 
+  padding: 10px; 
+  width: fit-content; 
+  font-family: "Dancing Script", serif;  
 }
 
 .col-lg-3, .col-md-6 {
-  width: 25%; /* For larger screens, display items in 4 columns */
+  width: 25%; 
   padding: 10px;
 }
 
-/* Styles for smaller screens (mobile) */
 @media screen and (max-width: 768px) {
   .row {
-    justify-content: center; /* Center the items horizontally */
+    justify-content: center; 
   }
 
   .col-lg-3, .col-md-6 {
-    width: 100%; /* Make each item take full width on mobile */
-    text-align: center; /* Center the text inside each column */
+    width: 100%; 
+    text-align: center; 
   }
 }

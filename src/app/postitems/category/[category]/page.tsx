@@ -5,10 +5,27 @@ import { notFound } from 'next/navigation';
 import "../../itemsrec.css";
 import { Metadata } from 'next';
 
+// Define H1 titles for each category
+const categoryTitles: Record<string, string> = {
+  "quick & easy": "Quick and Easy Recipes – Simple Meals for Busy Days",
+  "main course": "Main Course Recipes – Hearty and Satisfying Dishes for Every Meal",
+  "dessert": "Dessert Recipes – Sweet Treats and Indulgent Delights",
+  "drinks": "Drink Recipes – Refreshing Beverages for Every Occasion",
+};
 
-type Params = Promise<{ category: string }>;
+// Helper function to get the H1 title for a category
+const getH1Title = (decodedCategory: string): string => {
+  // Convert decodedCategory to lowercase to match the keys in categoryTitles
+  const lowerCaseCategory = decodedCategory.toLowerCase();
+
+  // Return the corresponding title or a fallback title
+  return categoryTitles[lowerCaseCategory] || `${decodedCategory} Recipes`;
+};
+
+type Params = { category: string };
+
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
-  const { category } = await params; // Await the params to resolve
+  const { category } = params;
   const decodedCategory = category.replace(/-/g, ' ').replace(/and/g, '&');
   
   // Find the category's related items
@@ -19,9 +36,9 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   return {
     title: `${decodedCategory} Recipes`,
     description: filteredItems.length > 0 
-  ? `Discover easy and quick recipes for every occasion. Perfect for busy days or beginners, explore simple yet delicious meals from the ${decodedCategory} category!` 
-  : "Explore a variety of recipes across different categories.",
-      openGraph: {
+      ? `Discover easy and quick recipes for every occasion. Perfect for busy days or beginners, explore simple yet delicious meals from the ${decodedCategory} category!` 
+      : "Explore a variety of recipes across different categories.",
+    openGraph: {
       images: [
         {
           url: filteredItems.length > 0 ? filteredItems[0].img : "/assets/opengraph-image.png",
@@ -33,7 +50,8 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     }
   };
 }
-export const generateStaticParams = () => {
+
+export const generateStaticParams = (): Params[] => {
   const categories = [...new Set(postItems.map((post) => post.category))];
 
   const paths = categories.map((category) => ({
@@ -44,7 +62,7 @@ export const generateStaticParams = () => {
 };
 
 const CategoryPage = async ({ params }: { params: Params }) => {
-  const { category } = await params; // Await the params to resolve
+  const { category } = params;
   const decodedCategory = category.replace(/-/g, ' ').replace(/and/g, '&');
   
   const filteredItems = postItems.filter((post) =>
@@ -56,10 +74,13 @@ const CategoryPage = async ({ params }: { params: Params }) => {
     return null;
   }
 
+  // Get the H1 title for the current category
+  const h1Title = getH1Title(decodedCategory);
+
   return (
     <main id="main">
       <SubHeader />
-      
+      <h1 className='main-title'>{h1Title}</h1>
       <section id="posts" className="posts">
         <div className="container">
           <div className="row">

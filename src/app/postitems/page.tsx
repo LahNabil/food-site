@@ -9,6 +9,7 @@ const PostItems = () => {
   return (
     <main id="main">
       <SubHeader />
+      <h1 className='main-title'>Explore All Recipes – Quick, Easy, and Delicious Meals for Every Occasion</h1>
       <section id="posts" className="posts">
         <div className="container">
           <div className="filter">
