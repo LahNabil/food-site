@@ -22,9 +22,7 @@ const getH1Title = (decodedCategory: string): string => {
   return categoryTitles[lowerCaseCategory] || `${decodedCategory} Recipes`;
 };
 
-type Params = { category: string };
-
-export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: { category: string } }): Promise<Metadata> {
   const { category } = params;
   const decodedCategory = category.replace(/-/g, ' ').replace(/and/g, '&');
   
@@ -51,7 +49,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   };
 }
 
-export const generateStaticParams = (): Params[] => {
+export const generateStaticParams = (): { category: string }[] => {
   const categories = [...new Set(postItems.map((post) => post.category))];
 
   const paths = categories.map((category) => ({
@@ -61,7 +59,7 @@ export const generateStaticParams = (): Params[] => {
   return paths;
 };
 
-const CategoryPage = async ({ params }: { params: Params }) => {
+const CategoryPage = ({ params }: { params: { category: string } }) => {
   const { category } = params;
   const decodedCategory = category.replace(/-/g, ' ').replace(/and/g, '&');
   
