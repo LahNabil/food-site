@@ -35,7 +35,7 @@ export const scis = [
     {
         id:2,
         icon: 'bi-instagram',
-        link: 'https://www.instagram.com/',
+        link: 'https://instagram.com',
     },
     {
         id:3,
@@ -52,7 +52,7 @@ export const contact_sci = [
     {
         id:2,
         img: '/assets/instagram-logo.png',
-        name: 'https://www.instagram.com/',
+        link: 'https://www.instagram.com/',
     },
     {
         id:3,

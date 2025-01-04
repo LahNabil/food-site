@@ -3,6 +3,7 @@ import "./contact.css"
 import { contact_sci } from '@/data/data';
 import Image from 'next/image';
 import { Metadata } from 'next';
+import Link from 'next/link';
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
@@ -19,6 +20,7 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 const Contact = () => {
+  console.log('contact_sci array:', contact_sci);
 
   return (
     <main id='main_contact'>
@@ -37,7 +39,7 @@ const Contact = () => {
             .slice(0,-1)
             .map((sci)=>(
               <div className="elements" key={sci.id}>
-                <a href={sci.link} target='_blank'><Image src={sci.img} className='social-element' height={100} width={100} loading="lazy"  alt='image_social_facebook_instagram'/></a>
+                <Link href={sci.link ?? "#"} target='_blank'><Image src={sci.img} className='social-element' height={100} width={100} loading="lazy"  alt='image_social_facebook_instagram'/></Link>
               </div>
             ))
           }
