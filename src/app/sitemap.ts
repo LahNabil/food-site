@@ -80,6 +80,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     lastModified: new Date(),
     changeFrequency: 'monthly' as const,
     priority: 0.7,
+    images: [`https://www.fastcookiteasy.com${post.img}`],
   }));
   return [...staticPages, ...foundItems];
 }
