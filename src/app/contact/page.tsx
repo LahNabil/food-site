@@ -20,8 +20,6 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 const Contact = () => {
-  console.log('contact_sci array:', contact_sci);
-
   return (
     <main id='main_contact'>
       <div className="container_contact">
