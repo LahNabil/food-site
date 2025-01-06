@@ -28,7 +28,7 @@ export default function HeroSlide({
             style={{ objectFit: 'cover' }}
             quality={75}
             priority={false}
-            loading='lazy'
+            loading='eager'
           />
         </div>
         <div style={{ position: 'relative', zIndex: 2, color: 'white', margin: '5%',width:'500px'}}>
