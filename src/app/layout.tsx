@@ -13,7 +13,7 @@ import Script from "next/script";
 
 
 const ebGaramond = EB_Garamond({subsets: ['latin']});
-const dancingScript = Dancing_Script({ subsets: ['latin'] });
+export const dancingScript = Dancing_Script({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.fastcookiteasy.com"),
