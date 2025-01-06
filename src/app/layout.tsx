@@ -84,7 +84,6 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
         {children}
-        <h1 className={dancingScript.className}>Titre avec Dancing Script</h1>
         <Footer/>
       </body>
     </html>
