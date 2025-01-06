@@ -31,16 +31,19 @@ export const scis = [
         id:1,
         icon: 'bi-facebook',
         link: 'https://web.facebook.com/profile.php?id=61566508671453',
+        alte: 'logo_facebook'
     },
     {
         id:2,
         icon: 'bi-instagram',
         link: 'https://instagram.com',
+        alte: 'logo_instagram'
     },
     {
         id:3,
         icon: 'bi-tiktok',
         link: 'https://tiktok.com',
+        alte: 'logo_tiktok'
     },
 ]
 export const contact_sci = [

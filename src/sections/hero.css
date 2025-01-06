@@ -65,6 +65,13 @@
     margin-bottom: 50px;
   }
 }
+@media (max-width: 767px) {
+  [data-aos] {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
 
 .img-bg .img-bg-inner h2,
 .img-bg .img-bg-inner p {
