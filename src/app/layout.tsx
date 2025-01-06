@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import {EB_Garamond} from "next/font/google";
+import {EB_Garamond, Dancing_Script} from "next/font/google";
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'aos/dist/aos.css'
@@ -13,6 +13,7 @@ import Script from "next/script";
 
 
 const ebGaramond = EB_Garamond({subsets: ['latin']});
+const dancingScript = Dancing_Script({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.fastcookiteasy.com"),
@@ -83,6 +84,7 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
         {children}
+        <h1 className={dancingScript.className}>Titre avec Dancing Script</h1>
         <Footer/>
       </body>
     </html>
