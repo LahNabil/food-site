@@ -27,7 +27,7 @@ export default function HeroSlide({
             fill
             style={{ objectFit: 'cover' }}
             quality={75}
-            priority={false}
+            priority={true}
             loading='eager'
           />
         </div>
