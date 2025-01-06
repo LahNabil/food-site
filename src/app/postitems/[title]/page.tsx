@@ -25,14 +25,17 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
       canonical: `https://www.fastcookiteasy.com/postitems/${decodedTitle.toLowerCase().replace(/\s+/g, '-')}`
     },
     openGraph: {
+      url: `https://www.fastcookiteasy.com/postitems/${decodedTitle.toLowerCase().replace(/\s+/g, '-')}`,
       images: [
         {
-          url: foundItem?.img || "/assets/opengraph-image.png", 
+          url: `https://www.fastcookiteasy.com${foundItem?.img}` || "/assets/opengraph-image.png", 
           width: 1200,
           height: 630,
           alt: foundItem?.alte || "Food & Recipe description",
         }
-      ]
+      ],
+      type: "article",
+      siteName: "Cook it Easy",
     }
   };
 }
