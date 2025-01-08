@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+import './PostItemOne.css';
 
 
 const formatTitleForUrl = (title: string): string => {
@@ -24,11 +25,10 @@ export const SidePostItem = ({ item }: {
       <div className="post-meta">
         <span className="date">{item.category}</span>
       </div>
-      <h2 className="mb-2">
-        <Link href={`/postitems/${formatTitleForUrl(item.title)}`}>
-          {item.title}
-        </Link>
-      </h2>
+      <Link href={`/postitems/${formatTitleForUrl(item.title)}`}>
+        <h4>{item.title}</h4>
+      </Link>
+      
       {item.preptime && (
         <span className="author mb-3 d-block">{item.preptime} min</span>
       )}
