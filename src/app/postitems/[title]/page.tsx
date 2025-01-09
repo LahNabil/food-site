@@ -61,7 +61,7 @@ const PostItem = async ({ params }: { params: Params }) => {
   }
 
   return (
-    <main id="main" style={{ margin: '100px' }}>
+    <main id="main">
       <section className="single-post-content">
         <div className="container">
           <div className="row">

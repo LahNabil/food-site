@@ -1,4 +1,6 @@
-
+#main{
+  margin: 7%;
+}
 
 .post-content {
   padding-left: 10%;
@@ -6,9 +8,14 @@
 }
 
 @media (max-width: 768px) {
+  #main{
+    margin: 10%;
+  }
   .post-content {
-    padding-left: 1px;
-    padding-right: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+  
+    
   }
   .infos_comment ol {
     padding-left: 0px;
