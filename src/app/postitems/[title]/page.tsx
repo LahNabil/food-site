@@ -7,6 +7,8 @@ import AsideTab from '@/components/AsideTab';
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
 import ReactMarkdown from 'react-markdown';
+import Script from 'next/script';
+import { Recipe, WithContext } from 'schema-dts';
 
 
 type Params = Promise<{ title: string }>;
@@ -59,9 +61,27 @@ const PostItem = async ({ params }: { params: Params }) => {
     notFound(); 
     return null; 
   }
+  const schemaData: WithContext<Recipe> = {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": foundItem.title,
+    "image": `https://www.fastcookiteasy.com${foundItem.img}`,
+    "description": foundItem.brief,
+    "prepTime": `PT${foundItem.preptime}M`,
+    "recipeIngredient": foundItem.ingredients,
+    "recipeInstructions": foundItem.comment.map((step) => ({
+      "@type": "HowToStep",
+      "text": step,
+    })),
+  };
 
   return (
     <main id="main">
+    <Script
+        id="recipe-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
       <section className="single-post-content">
         <div className="container">
           <div className="row">
