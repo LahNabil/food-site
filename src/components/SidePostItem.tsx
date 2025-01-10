@@ -2,15 +2,11 @@ import Link from 'next/link';
 import React from 'react';
 import './PostItemOne.css';
 
-
-const formatTitleForUrl = (title: string): string => {
-  return title.trim().replace(/\s+/g, '-').toLowerCase(); 
-};
-
 export const SidePostItem = ({ item }: { 
   item: { 
     id: number; 
     img: string; 
+    lien: string;
     category: string; 
     title: string; 
     brief: string; 
@@ -25,7 +21,7 @@ export const SidePostItem = ({ item }: {
       <div className="post-meta">
         <span className="date">{item.category}</span>
       </div>
-      <Link href={`/postitems/${formatTitleForUrl(item.title)}`}>
+      <Link href={`/postitems/${item.lien}`}>
         <h4>{item.title}</h4>
       </Link>
       

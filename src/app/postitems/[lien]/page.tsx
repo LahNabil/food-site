@@ -11,23 +11,45 @@ import Script from 'next/script';
 import { Recipe, WithContext } from 'schema-dts';
 
 
-type Params = Promise<{ title: string }>;
+type Params = Promise<{ lien: string }>;
 
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
-  const { title } = await params; 
-  const decodedTitle = title.replace(/-/g, ' '); 
+  const { lien } = await params; 
   const foundItem = postItems.find((post) =>
-    post.title.toLowerCase() === decodedTitle.toLowerCase()
+    post.lien === lien 
   );
+
+  if (!foundItem) {
+    return {
+      title: "Recipes Title",
+      description: "Food description",
+      alternates: {
+        canonical: "https://www.fastcookiteasy.com/postitems/default"
+      },
+      openGraph: {
+        url: "https://www.fastcookiteasy.com/postitems/default",
+        images: [
+          {
+            url: "https://www.fastcookiteasy.com/default.jpg", 
+            width: 1200,
+            height: 630,
+            alt: "Food & Recipe description",
+          }
+        ],
+        type: "article",
+        siteName: "Cook it Easy",
+      }
+    };
+  }
 
   return {
     title: foundItem?.title || "Recipes Title",
     description: foundItem?.brief || "Food description",
     alternates: {
-      canonical: `https://www.fastcookiteasy.com/postitems/${decodedTitle.toLowerCase().replace(/\s+/g, '-')}`
+      canonical: `https://www.fastcookiteasy.com/postitems/${foundItem.lien}`
     },
     openGraph: {
-      url: `https://www.fastcookiteasy.com/postitems/${decodedTitle.toLowerCase().replace(/\s+/g, '-')}`,
+      url: `https://www.fastcookiteasy.com/postitems/${foundItem?.lien}`,
       images: [
         {
           url: `https://www.fastcookiteasy.com${foundItem?.img}`, 
@@ -44,17 +66,16 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
 
 export const generateStaticParams = () => {
   const paths = postItems.map((post) => ({
-    title: post.title.toLowerCase().replace(/\s+/g, '-'), 
+    lien: post.lien, 
   }));
 
   return paths;
 };
 
 const PostItem = async ({ params }: { params: Params }) => {
-  const { title } = await params; // Await the params to resolve
-  const decodedTitle = title.replace(/-/g, ' '); 
+  const { lien } = await params; // Await the params to resolve
   const foundItem = postItems.find((post) =>
-    post.title.toLowerCase() === decodedTitle.toLowerCase()
+    post.lien === lien
   );
 
   if (!foundItem) {

@@ -2,9 +2,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
 
-const formatTitleForUrl = (title: string): string => {
-  return title.trim().replace(/\s+/g, '-').toLowerCase();
-};
 
 export default function HeroSlide({
     slide,
@@ -13,12 +10,13 @@ export default function HeroSlide({
             bgImg: string;
             title: string;
             brief: string;
+            lien: string;
             id: number;
     }
 
 }){
   return (
-    <Link href={`/postitems/${formatTitleForUrl(slide.title)}`}>
+    <Link href={`/postitems/${slide.lien}`}>
       <div className="img-bg d-flex align-items-end">
         <div className="background-image-wrapper">
           <Image

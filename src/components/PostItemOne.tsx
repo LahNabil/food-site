@@ -9,6 +9,7 @@ export const PostItemOne = ({large, item}:{
     item: {
         id: number,
         img: string,
+        lien: string,
         alte: string,
         category: string,
         comment: string[],
@@ -24,7 +25,7 @@ export const PostItemOne = ({large, item}:{
   return (
     
     <div className={`post-entry-1 ${large ? 'lg' : undefined}`}>
-        <Link href={`/postitems/${item.title.replace(/\s+/g, '-').toLowerCase()}`}>
+        <Link href={`/postitems/${item.lien}`}>
             <Image 
                 src={item.img}
                 alt={`${item.alte}`}

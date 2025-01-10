@@ -74,6 +74,7 @@ export const heroSlides = [
         id:1,
         bgImg: '/assets/kale-chicken-salade.webp',
         title: 'GREEN CHICKEN SALAD',
+        lien:'kale-chicken-salade',
         brief: 'A healthy and nourishing chicken salad topped with fresh green vegetables, perfect for a light lunch.',
         
     },
@@ -81,19 +82,21 @@ export const heroSlides = [
         id:2,
         bgImg: '/assets/backed-chicken.webp',
         title: 'BAKED CHICKEN DRUMSTICKS',
+        lien:'backed-chicken-drumsticks',
         brief: 'Oven-baked chicken drumsticks, flavorful and crispy, perfect for a quick and delicious dinner.',
     },
     {
         id:3,
         bgImg: '/assets/sesame-chicken.webp',
         title: 'SESAME CHICKEN',
+        lien:'sesame-chicken',
         brief: 'Popular Asian dish, featuring chicken coated in a sweet and spicy sauce, topped with sesame seeds.',
     },
-    {
-      
+    { 
         id:4,
         bgImg: '/assets/cilantro-lime-avocado-toast.webp',
         title: 'Cilantro Lime Avocado Toast',
+        lien:'cilantro-lime-avocado-toast',
         brief: 'This Cilantro Lime Avocado Toast is a fresh and tasty starter perfect for weekends, featuring creamy avocado topped with vibrant ingredients.',
     },
 ]
@@ -112,6 +115,7 @@ export const postItems = [
       'Serve hot, optionally with a side of salad or potato wedges.'
     ],
     title: 'PANUOZZO Sandwich',
+    lien:'panuozo-sandwich',
     brief: 'Panuozzo is a popular Italian sandwich from the Campania region. This dish features a toasted flatbread filled with ham, cheese, and grilled vegetables, perfect for a quick meal packed with flavor.',
     description: `
 ## The Delicious Panuozzo Sandwich: A Flavorful Delight You Can't Miss
@@ -173,6 +177,7 @@ Do not forget to experiment with different fillings and toppings to make this sa
       'Serve with a sauce of your choice, such as tahini dressing or a smoky barbecue sauce.'
     ],
     title: 'SMOKY VEGAN',
+    lien:'smoky-vegan',
     brief: 'A delicious and smoky vegan dish that combines roasted vegetables and grilled smoked tofu, offering a rich and hearty flavor. It’s perfect for those who enjoy bold, plant-based meals.',
     description:`## Smoky Vegan: A Flavorful Plant-Based Meal for Every Occasion
 
@@ -263,6 +268,7 @@ Ready to dive into this smoky, plant-based delight? Gather your ingredients and 
       'Serve with a side of rice or naan bread for a complete meal.'
     ],
     title: 'CURRIED SAUSAGE',
+    lien:'curried-sausages',
     brief: 'Curried sausages is a comforting dish where flavorful sausages are simmered in a rich, spiced curry sauce. It’s a warming dinner option that pairs perfectly with rice or naan bread.',
     description:`## CURRIED SAUSAGES: A FLAVORFUL COMFORT FOOD YOU'LL LOVE  
 
@@ -338,6 +344,7 @@ Explore more recipes on our blog and find your next kitchen favorite. Let’s ma
     'Plate the dish while it’s hot and sprinkle it with chopped scallions and sesame seeds for added flavor and texture.'
   ],
   title: 'SPICY VEGETABLE BEEF UDON NOODLES',
+  lien:'spicy-beef',
   brief: 'This spicy and flavorful dish combines thick, chewy udon noodles with tender beef and crunchy vegetables, all coated in a rich and spicy sauce. It’s a perfect dish for noodle lovers looking for a kick of heat.',
   description:`## SPICY VEGETABLE BEEF UDON NOODLES: A FIERY AND SATISFYING MEAL  
 
@@ -425,6 +432,7 @@ For more recipes that pack a punch, explore our blog and discover your next favo
     'Serve the soup hot, topped with fresh herbs like parsley or basil for an added burst of flavor.'
   ],
   title: 'CALMING GREEN SOUP',
+  lien:'green-soop',
   brief: 'This vibrant green soup is packed with nutritious vegetables like spinach, broccoli, and peas. It’s light, refreshing, and perfect for a quick, healthy meal.',
   description:`## CALMING GREEN SOUP: A BOWL OF FRESHNESS AND COMFORT  
 
@@ -504,6 +512,7 @@ Ready to embrace the vibrant flavors of greens in a comforting soup? Try this ea
     'Serve the salad chilled or at room temperature for a light and nutritious meal.'
   ],
   title: 'GREEN CHICKEN SALAD',
+  lien:'kale-chicken-salade',
   brief: 'This healthy and refreshing green chicken salad is a perfect choice for a light lunch, packed with nutritious ingredients and topped with a zesty dressing.',
   description:`## GREEN CHICKEN SALAD: A REFRESHING MEAL FOR ANY OCCASION  
 
@@ -637,6 +646,7 @@ So, why wait? Gather your ingredients, fire up the grill, and treat yourself to 
     'Serve the sesame chicken with a side of fluffy steamed rice, garnished with chopped green onions for a burst of freshness.'
   ],
   title: 'SESAME CHICKEN',
+  lien:'sesame-chicken',
   brief: 'Sesame chicken is a popular Asian dish featuring tender chicken pieces coated in a sweet and savory sesame sauce, perfect for pairing with rice.',
   description:`## SESAME CHICKEN: A DELICIOUSLY SWEET AND SAVORY CLASSIC  
 
@@ -777,6 +787,7 @@ Indulge in the joy of cooking and savor every bite of this classic Sesame Chicke
     'Serve hot with a side of roasted vegetables or mashed potatoes for a hearty meal.'
   ],
   title: 'BAKED CHICKEN DRUMSTICKS',
+  lien:'backed-chicken-drumsticks',
   brief: 'Oven-baked chicken drumsticks that are crispy on the outside and juicy on the inside, seasoned with a flavorful mix of spices.',
   description:`## BAKED CHICKEN DRUMSTICKS: A SIMPLE AND FLAVORFUL CLASSIC  
 
@@ -925,6 +936,7 @@ Enjoy the crispy, juicy goodness of this classic dish—you’ll find yourself c
     'Serve the butter chicken hot with basmati rice or garlic naan, garnished with fresh cilantro.'
   ],
   title: 'Butter Chicken (Murgh Makhani)',
+  lien:'butter-chicken',
   brief: 'Butter chicken is a rich and creamy Indian curry made with tender marinated chicken, a tomato-based sauce, and a blend of aromatic spices. Best enjoyed with rice or naan.',
   description:`## Butter Chicken (Murgh Makhani): A Creamy, Flavorful Indian Classic  
 
@@ -1067,6 +1079,7 @@ So, gather your ingredients, get ready to enjoy the vibrant flavors of Indian cu
     'Serve hot, garnished with a drizzle of olive oil, extra chili flakes for heat, and more fresh parsley.'
   ],
   title: 'Arrabbiata Pasta',
+  lien:'arrabbiata-pasta',
   brief: 'Arrabbiata is a classic Italian pasta dish known for its fiery tomato sauce, made with garlic, chili, and tomatoes. It pairs best with penne or ziti pasta and is perfect for spice lovers.',
   description:`# Arrabbiata Pasta: A Spicy Italian Classic  
 
@@ -1176,6 +1189,7 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
     'Serve hot with your favorite pizza toppings.'
   ],
   title: 'The Ultimate Pizza Burger',
+  lien:'ultimate-pizza-burger',
   brief: 'The Pizza Burger combines the juicy goodness of a burger with the bold flavors of pizza, making it a perfect fusion dish. Customize it with your favorite pizza toppings!',
   description:`## The Ultimate Pizza Burger: A Bold Fusion of Two Classics  
 
@@ -1323,6 +1337,7 @@ Ready to impress your family and friends? Grab your ingredients and start cookin
     'Let it rest for 10 minutes before serving.'
   ],
   title: 'Spinach Lasagna',
+  lien:'spinach-lasagna',
   brief: 'This Spinach Lasagna is rich with three cheeses and packed with spinach, making it a family favorite for weeknight dinners or gatherings.',
   description:`## Spinach Lasagna: A Comforting Italian Classic  
 
@@ -1468,6 +1483,7 @@ Ready to try this recipe? Gather your ingredients and start layering your Spinac
     'Let the sandwich sit for at least 30 minutes to allow the flavors to meld before cutting and serving.'
   ],
   title: 'Muffaletta Sandwich',
+  lien:'muffaletta-sandwich',
   brief: 'This Muffaletta recipe brings the ultimate New Orleans sandwich to your kitchen, loaded with Italian meats, cheese, and a spicy homemade olive salad.',
   description:`## Muffaletta Sandwich: A Taste of New Orleans  
 
@@ -1615,6 +1631,7 @@ Ready to make this iconic sandwich? Gather your ingredients and start assembling
     'Serve hot, garnished with extra scallions if desired.'
   ],
   title: 'Yaki Udon',
+  lien:'yaki-udon',
   brief: 'Yaki Udon is a quick and easy stir-fry dish made with chewy udon noodles, fresh vegetables, and a savory sauce. Ready in just 15 minutes!',
   description:`## Yaki Udon: A Quick and Savory Japanese Stir-Fry  
 
@@ -1758,6 +1775,7 @@ Ready to whip up this delicious dish? Grab your ingredients and start cooking Ya
     'Roll the roti tightly around the filling and secure with onion rings if desired. Serve immediately.'
   ],
   title: 'Paneer Kathi Roll',
+  lien:'paneer-kathi-roll',
   brief: 'Paneer Kathi Rolls feature spicy paneer wrapped in soft roti, making a delicious and filling street food option that’s easy to prepare at home.',
   description:`## Paneer Kathi Roll: A Flavorful Indian Street Food  
 
@@ -1890,6 +1908,7 @@ Ready to make this delicious dish? Grab your ingredients and start cooking Panee
 {
   id: 16,
   img: '/assets/spicy-garlic-shrimp-noodles.webp',
+  lien:'spicy-garlic-shrimp-noodles',
   category: 'Quick & Easy',
   alte: 'Spicy Garlic Shrimp Noodles: A quick and zesty dish featuring tender shrimp, al dente noodles, and a bold sauce made with garlic, serrano peppers, and soy sauce, finished with a drizzle of sesame oil and seeds.',
   comment: [
@@ -2044,6 +2063,7 @@ Ready to make this delicious dish? Grab your ingredients and start cooking Spicy
 {
   id: 17,
   img: '/assets/cilantro-lime-avocado-toast.webp',
+  lien:'cilantro-lime-avocado-toast',
   category: 'Quick & Easy',
   alte: 'Cilantro Lime Avocado Toast: A fresh and vibrant breakfast or snack featuring creamy mashed avocado on whole wheat toast, topped with cherry tomatoes, red onion, cilantro, and a drizzle of honey and olive oil.',
   comment: [
@@ -2168,6 +2188,7 @@ Ready to make this delicious dish? Grab your ingredients and start cooking Cilan
   {
     id: 18,
     img: '/assets/layered-chocolate-cheesecake.webp',
+    lien:'layered-chocolate-cheesecake',
     category: 'Dessert',
     alte: 'Layered Chocolate Cheesecake with Oreo Crust: A decadent no-bake dessert featuring a rich Oreo cookie crust and smooth, creamy chocolate cheesecake layers, perfect for any occasion.',
     comment: [
@@ -2288,6 +2309,7 @@ Ready to make this delicious dessert? Grab your ingredients and start creating y
   {
     id: 19,
     img: '/assets/chocolate-cake-roll.webp',
+    lien:'chocolate-cake-roll',
     category: 'Dessert',
     alte: 'Chocolate Cake Roll: A decadent and elegant dessert featuring a light and fluffy chocolate sponge cake rolled with a creamy, sweet filling, perfect for any special occasion.',
     comment: [
@@ -2410,6 +2432,7 @@ Ready to make this delicious dessert? Grab your ingredients and start creating y
   {
     id: 20,
     img: '/assets/coffee-panna-cotta.webp',
+    lien:'coffee-panna-cotta',
     alte: 'Coffee Panna Cotta with Cocoa Sauce: A silky and indulgent Italian dessert featuring creamy coffee-infused panna cotta topped with a rich and velvety cocoa sauce.',
     category: 'Dessert',
     comment: [
@@ -2529,6 +2552,7 @@ Ready to make this delicious dessert? Grab your ingredients and start creating y
    {
     id: 21,
     img: '/assets/healthy-lemonade.webp',
+    lien:'healthy-lemonade',
     category: 'Drinks',
     alte: 'Healthy Lemonade: A refreshing and natural drink made with fresh lemon juice, honey, and water, served chilled with ice and lemon slices for a revitalizing treat.',
     comment: [
@@ -2646,6 +2670,7 @@ Ready to make this delicious drink? Grab your ingredients and start creating you
   {
     id: 22,
     img: '/assets/virgin-strawberry-daiquiri.webp',
+    lien:'virgin-strawberry-daiquiri',
     category: 'Drinks',
     alte: 'Virgin Strawberry Daiquiri: A refreshing and fruity non-alcoholic drink made with blended strawberries, lime juice, and simple syrup, served chilled with lime wedges for a perfect summer treat.',
     comment: [
@@ -2763,6 +2788,7 @@ Ready to make this delicious drink? Grab your ingredients and start creating you
   {
     id: 23,
     img: '/assets/creamy-tomato-pasta.webp',
+    lien:'creamy-tomato-pasta',
     category: 'Quick & Easy',
     alte: 'Creamy Tomato Pasta: A quick and comforting dish featuring penne pasta tossed in a rich and velvety tomato cream sauce, topped with grated parmesan cheese and fresh parsley.',
     comment: [
@@ -2893,6 +2919,7 @@ Ready to make this delicious dish? Grab your ingredients and start creating your
   {
     id: 24,
     img: '/assets/sopa-de-fideo.webp',
+    lien:'sopa-de-fideo',
     category: 'Quick & Easy',
     alte: 'Sopa de Fideo: A comforting and flavorful Mexican noodle soup made with toasted fideo pasta, a rich tomato-cilantro broth, and aromatic spices, garnished with fresh cilantro.',
     comment: [
@@ -3023,6 +3050,7 @@ Ready to make this delicious soup? Grab your ingredients and start creating your
   {
     id: 25,
     img: '/assets/shrimp-lo-mein.webp',
+    lien:'shrimp-lo-mein',
     category: 'Quick & Easy',
     alte: 'Shrimp Lo Mein: A quick and savory stir-fry featuring tender shrimp, fresh vegetables, and noodles tossed in a flavorful hoisin-soy sauce, garnished with sesame seeds.',
     comment: [
@@ -3157,6 +3185,7 @@ Ready to make this delicious dish? Grab your ingredients and start creating your
   {
     id: 26,
     img: '/assets/omelette-with-avocado.webp',
+    lien:'omelette-with-avocado',
     category: 'Quick & Easy',
     alte: 'Omelette with Avocado: A quick and nutritious breakfast featuring a fluffy omelette filled with sautéed mushrooms, spinach, and feta cheese, served with creamy avocado on the side.',
     comment: [
@@ -3287,6 +3316,7 @@ Ready to make this delicious dish? Grab your ingredients and start creating your
   {
     id: 27,
     img: '/assets/roasted-red-pepper-romesco.webp',
+    lien:'roasted-red-pepper-romesco',
     category: 'Quick & Easy',
     alte: 'Roasted Red Pepper Romesco Sauce: A vibrant and versatile Spanish sauce made with roasted red peppers, tomatoes, garlic, and almonds, blended to a smooth and creamy consistency.',
     comment: [
@@ -3414,6 +3444,7 @@ Ready to make this delicious sauce? Grab your ingredients and start creating you
   {
     id: 28,
     img: '/assets/huevos-rancheros-tostadas.webp',
+    lien:'huevos-rancheros-tostadas',
     category: 'Quick & Easy',
     alte: '10 Minute Huevos Rancheros Breakfast Tostadas: A quick and flavorful Mexican breakfast featuring crispy tostadas topped with refried beans, fried eggs, avocado, lettuce, tomatoes, and crumbled queso fresco.',
     comment: [
@@ -3540,6 +3571,7 @@ Ready to make this delicious dish? Grab your ingredients and start creating your
   {
     id: 29,
     img: '/assets/banana-pancakes.webp',
+    lien:'banana-pancakes',
     category: 'Dessert',
     alte: 'Banana Pancakes: Fluffy and sweet pancakes made with ripe bananas, buttermilk, and a hint of vanilla, optionally studded with chocolate chips for a decadent breakfast treat.',
     comment: [
@@ -3669,6 +3701,7 @@ Ready to make this delicious dish? Grab your ingredients and start creating your
   {
     id: 30,
     img: '/assets/garlic-basil-butter-pasta.webp',
+    lien:'garlic-basil-butter-pasta',
     category: 'Quick & Easy',
     alte: '20 Minute Garlic Basil Butter Pasta: A quick and flavorful dish featuring al dente bucatini pasta tossed in a rich browned butter sauce with garlic, cherry tomatoes, fresh basil, and a sprinkle of pecorino cheese.',
     comment: [
@@ -3798,6 +3831,7 @@ Ready to make this delicious dish? Grab your ingredients and start creating your
   {
     id: 31,
     img: '/assets/lemon-honey-glazed-chicken.webp',
+    lien:'lemon-honey-glazed-chicken',
     category: 'Main course',
     alte: 'Lemon Honey Glazed Chicken: A succulent and flavorful main course featuring tender chicken breasts coated in a sweet and tangy lemon-honey glaze, garnished with fresh thyme and lemon slices.',
     comment: [
@@ -3927,6 +3961,7 @@ Ready to make this delicious dish? Grab your ingredients and start creating your
   {
     id: 32,
     img: '/assets/creamy-mushroom-soup.webp',
+    lien:'creamy-mushroom-soup',
     category: 'Quick & Easy',
     alte: 'Creamy Mushroom Soup: A rich and velvety soup made with sautéed mushrooms, onions, and garlic, blended to perfection with vegetable broth and a touch of heavy cream for a comforting meal.',
     comment: [
@@ -4055,6 +4090,7 @@ Ready to make this delicious soup? Grab your ingredients and start creating your
   {
     id: 33,
     img: '/assets/chocolate-lava-cake.webp',
+    lien:'chocolate-lava-cake',
     category: 'Dessert',
     alte: 'Chocolate Lava Cake: A decadent dessert featuring a warm, gooey chocolate center encased in a moist cake, perfect when served with a scoop of ice cream for an indulgent treat.',
     comment: [
@@ -4083,6 +4119,7 @@ Ready to make this delicious soup? Grab your ingredients and start creating your
   {
     id: 34,
     img: '/assets/vegan-buddha-bowl.webp',
+    lien:'vegan-buddha-bowl',
     category: 'Main course',
     alte: 'Vegan Buddha Bowl: A nourishing and colorful meal featuring quinoa, roasted sweet potatoes, chickpeas, avocado, and fresh greens, drizzled with creamy tahini dressing and sprinkled with sesame seeds.',
     comment: [
@@ -4113,6 +4150,7 @@ Ready to make this delicious soup? Grab your ingredients and start creating your
   {
     id: 35,
     img: '/assets/grilled-shrimp-tacos.webp',
+    lien:'grilled-shrimp-tacos',
     category: 'Main course',
     alte: 'Grilled Shrimp Tacos: Flavorful and fresh tacos filled with grilled shrimp, shredded cabbage, creamy avocado, and a zesty lime crema, garnished with cilantro for a perfect summer meal.',
     comment: [
@@ -4143,6 +4181,7 @@ Ready to make this delicious soup? Grab your ingredients and start creating your
   {
     id: 36,
     img: '/assets/caprese-salad.webp',
+    lien:'caprese-salad',
     category: 'Quick & Easy',
     alte: 'Caprese Salad: A classic Italian dish featuring fresh tomato and mozzarella slices layered with basil leaves, drizzled with olive oil and balsamic glaze, and seasoned with salt and pepper.',
     comment: [
@@ -4169,6 +4208,7 @@ Ready to make this delicious soup? Grab your ingredients and start creating your
   {
     id: 37,
     img: '/assets/mango-desserts.webp',
+    lien:'mango-desserts',
     category: 'Dessert',
     alte: 'Delicious Mango Dessert: A quick and refreshing treat featuring ripe mangoes layered or mixed with a creamy base of condensed milk or pudding, perfect for a sweet and satisfying dessert.',
     comment: [
@@ -4194,6 +4234,7 @@ Ready to make this delicious soup? Grab your ingredients and start creating your
   {
     id: 38,
     img: '/assets/chinese-mango-pudding.webp',
+    lien:'chinese-mango-pudding',
     category: 'Dessert',
     alte: 'Traditional Chinese Mango Pudding: A creamy and refreshing dessert made with ripe mangoes, coconut milk, and a hint of vanilla, served chilled with fresh mango slices and a drizzle of cream.',
     comment: [

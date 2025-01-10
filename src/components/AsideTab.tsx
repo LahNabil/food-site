@@ -8,6 +8,7 @@ import { postItems } from '@/data/data';
 interface Post {
     id: number;
     img: string;
+    lien: string;
     category: string;
     comment: string[];
     title: string;
@@ -22,7 +23,7 @@ interface Post {
 
 const AsideTab = () => {
 
-    const { title } = useParams(); 
+    const { lien } = useParams(); 
     const [item, setItem] = useState<Post | null>(null);
     const [items] = useState(postItems);
     const tabsData= [
@@ -39,17 +40,17 @@ const AsideTab = () => {
       }))
     };
     useEffect(() => {
-          if(typeof title === 'string'){
-            const decodedTitle = title.replace(/-/g, ' ');
+          if(typeof lien === 'string'){
             const foundItem = postItems.find(post =>
-               post.title.toLowerCase() === decodedTitle.toLowerCase());
+               post.lien === lien
+              );
           if (foundItem) {
             setItem(foundItem);
           } else {
             notFound();
           }
           }
-        }, [title]);
+        }, [lien]);
     
         if (!item) {
           return <div>Loading...</div>;
