@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
       url: `https://www.fastcookiteasy.com/postitems/${decodedTitle.toLowerCase().replace(/\s+/g, '-')}`,
       images: [
         {
-          url: `https://www.fastcookiteasy.com${foundItem?.img}` || "/assets/opengraph-image.png", 
+          url: `https://www.fastcookiteasy.com${foundItem?.img}`, 
           width: 1200,
           height: 630,
           alt: foundItem?.alte || "Food & Recipe description",
@@ -81,11 +81,11 @@ const PostItem = async ({ params }: { params: Params }) => {
                   <Image
                     height={500}
                     width={820}
-                    loading="lazy" 
                     src={foundItem.img}
                     alt={foundItem?.alte || "food_photo"}
                     title={foundItem.title}
                     className="img-fluid"
+                    priority
                   />
                   <figcaption className="fig_caption">
                     <div className="infos_comment">
