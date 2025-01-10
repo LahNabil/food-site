@@ -2,10 +2,6 @@ import React from 'react';
 import './trendingPost.css';
 import Link from 'next/link';
 
-const formatTitleForUrl = (title: string): string => {
-  return title.trim().replace(/\s+/g, '-').toLowerCase(); // Replaces spaces with '-', and makes it lowercase
-};
-
 export const TrendingPost = ({ item, index }: { 
   item: { 
     id: number; 
