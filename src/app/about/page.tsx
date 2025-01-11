@@ -27,15 +27,6 @@ const AboutPage = () => {
     "name": "About Us - Cook it Easy",
     "description": "Learn more about Cook it Easy, your go-to source for delicious and easy-to-make recipes.",
     "url": "https://www.fastcookiteasy.com/about",
-    "mainEntity": {
-      "@type": "Organization",
-      "name": "Cook it Easy",
-      "description": "We are passionate about creating simple, delicious recipes for everyone to enjoy.",
-      "logo": "https://www.fastcookiteasy.com/logo.png",
-      "sameAs": [
-        "https://www.facebook.com/people/Cook-It-Easy/61566508671453/",
-      ]
-    }
   };
   return (
     <main id='main'>
