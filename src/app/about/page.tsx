@@ -33,6 +33,7 @@ const AboutPage = () => {
       <Script
         id="about-schema"
         type="application/ld+json"
+        strategy="beforeInteractive" 
         dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutSchema) }}
       />
       <h1 className='sous-titre' style={{textAlign: 'center'}} >About Us</h1>
