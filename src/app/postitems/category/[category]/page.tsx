@@ -4,6 +4,7 @@ import SubHeader from '@/components/SubHeader';
 import { notFound } from 'next/navigation';
 import "../../itemsrec.css";
 import { Metadata } from 'next';
+import Script from 'next/script';
 
 // Define H1 titles for each category
 const categoryTitles: Record<string, string> = {
@@ -82,9 +83,33 @@ const CategoryPage = async ({ params }: { params: Promise<Params> }) => {
 
   // Get the H1 title for the current category
   const h1Title = getH1Title(decodedCategory);
+  const categorySchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": `${decodedCategory} Recipes`,
+    "description": `Explore a collection of delicious and easy ${decodedCategory.toLowerCase()} recipes. Perfect for every occasion!`,
+    "url": `https://www.fastcookiteasy.com/postitems/category/${slugify(category)}`,
+    "numberOfItems": filteredItems.length,
+    "itemListElement": filteredItems.map((item, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "item": {
+        "@type": "Recipe",
+        "name": item.title,
+        "url": `https://www.fastcookiteasy.com/postitems/${item.lien}`,
+        "image": `https://www.fastcookiteasy.com${item.img}`,
+        "description": item.brief
+      }
+    }))
+  };
 
   return (
     <main id="main">
+      <Script
+        id="category-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(categorySchema) }}
+      />
       <SubHeader />
       <h1 className="main-title">{h1Title}</h1>
       <section id="posts" className="posts">
