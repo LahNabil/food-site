@@ -89,10 +89,17 @@ const PostItem = async ({ params }: { params: Params }) => {
     "image": `https://www.fastcookiteasy.com${foundItem.img}`,
     "description": foundItem.brief,
     "prepTime": `PT${foundItem.preptime}M`,
+    "recipeCategory": foundItem.category,
     "recipeIngredient": foundItem.ingredients,
+    //"keywords": foundItem.keywords?.join(", "), 
+    "author": {
+    "@type": "Person",
+    "name": "Fast Cookit Easy"
+    },
     "recipeInstructions": foundItem.comment.map((step) => ({
       "@type": "HowToStep",
       "text": step,
+      
     })),
   };
 

@@ -43,7 +43,7 @@ export const PostItemOne = ({large, item}:{
             </span>{' '}
         </div>
         <h2>
-            <Link href={`/postitems/${item.title.replace(/\s+/g, '-')}`}>{item.title}</Link>
+            <Link href={`/postitems/${item.lien}`}>{item.title}</Link>
         </h2>
         {large ? (
             <>
