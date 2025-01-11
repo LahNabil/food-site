@@ -2,9 +2,9 @@
 import { Metadata } from 'next';
 import './about.css'
 import Image from 'next/image'
-
 import React from 'react';
 import Script from 'next/script';
+import type { WithContext, AboutPage } from 'schema-dts';
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
@@ -21,12 +21,12 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 const AboutPage = () => {
-  const aboutSchema = {
+  const aboutSchema: WithContext<AboutPage> = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
     "name": "About Us - Cook it Easy",
     "description": "Learn more about Cook it Easy, your go-to source for delicious and easy-to-make recipes.",
-    "url": "https://www.fastcookiteasy.com/about",
+    "url": "https://www.fastcookiteasy.com/about"
   };
   return (
     <main id='main'>
