@@ -4,6 +4,7 @@ import './about.css'
 import Image from 'next/image'
 
 import React from 'react';
+import Script from 'next/script';
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
@@ -20,8 +21,29 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 const AboutPage = () => {
+  const aboutSchema = {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "About Us - Cook it Easy",
+    "description": "Learn more about Cook it Easy, your go-to source for delicious and easy-to-make recipes.",
+    "url": "https://www.fastcookiteasy.com/about",
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "Cook it Easy",
+      "description": "We are passionate about creating simple, delicious recipes for everyone to enjoy.",
+      "logo": "https://www.fastcookiteasy.com/logo.png",
+      "sameAs": [
+        "https://www.facebook.com/people/Cook-It-Easy/61566508671453/",
+      ]
+    }
+  };
   return (
     <main id='main'>
+      <Script
+        id="about-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutSchema) }}
+      />
       <h1 className='sous-titre' style={{textAlign: 'center'}} >About Us</h1>
       <div className="container">
         <div className="cont" style={{display: 'flex', margin: '3%'}}>

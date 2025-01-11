@@ -4,6 +4,7 @@ import { contact_sci } from '@/data/data';
 import Image from 'next/image';
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Script from 'next/script';
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
@@ -20,8 +21,29 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 const Contact = () => {
+  const contactSchema = {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact Us - Cook it Easy",
+    "description": "Get in touch with Cook it Easy for questions, feedback, or collaborations.",
+    "url": "https://www.fastcookiteasy.com/contact",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "nabillh.business@gmail.com",
+      "contactType": "customer service",
+      "availableLanguage": ["English", "French"]
+    },
+    "sameAs": [
+      "https://www.facebook.com/people/Cook-It-Easy/61566508671453/",
+    ]
+  };
   return (
     <main id='main_contact'>
+      <Script
+        id="contact-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(contactSchema) }}
+      />
       <div className="container_contact">
         <h1 className='sous-titre' style={{textAlign: "center"}}>Contact us</h1>
         <div className="text_contact">
