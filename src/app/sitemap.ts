@@ -76,7 +76,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
   ];
   const foundItems = postItems.map((post)=>({
-    url: `https://www.fastcookiteasy.com/postitems/${post.title.replace(/\s+/g, '-').toLowerCase()}`,
+    url: `https://www.fastcookiteasy.com/postitems/${post.lien}`,
     lastModified: new Date(),
     changeFrequency: 'monthly' as const,
     priority: 0.7,
