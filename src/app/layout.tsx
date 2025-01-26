@@ -67,7 +67,7 @@ export default function RootLayout({
       <Head>
         <link rel="icon" href="/favicon.ico"/>
         <meta name="google-adsense-account" content={process.env.NEXT_PUBLIC_ADSENSE_PID} />
-        <meta name="p:domain_verify" content="a81f7e7d9e9f0b671310bb6db2a46c67"/>
+        <meta name="p:domain_verify" content={process.env.NEXT_PUBLIC_PINTEREST_VERIFY_ID}/>
       </Head>
       <body className={ebGaramond.className}>
         <noscript>
