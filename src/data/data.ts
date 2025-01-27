@@ -4745,7 +4745,7 @@ Ready to make this delicious dessert? Grab your ingredients and start creating y
             '1 tsp agar-agar powder',
             'Fresh mango slices for garnish'
           ],
-    preptime: 15,
+    preptime: 16,
     type: true,
     trending: false
   }
