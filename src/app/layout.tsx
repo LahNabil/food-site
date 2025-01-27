@@ -53,6 +53,9 @@ export const metadata: Metadata = {
     locale: "en_US",
     type: "website",
   },
+  other:{
+    "p:domain_verify": "a81f7e7d9e9f0b671310bb6db2a46c67",
+  },
 };
 
 
@@ -67,7 +70,6 @@ export default function RootLayout({
       <Head>
         <link rel="icon" href="/favicon.ico"/>
         <meta name="google-adsense-account" content={process.env.NEXT_PUBLIC_ADSENSE_PID} />
-        <meta name="p:domain_verify" content="a81f7e7d9e9f0b671310bb6db2a46c67" />
       </Head>
       <body className={ebGaramond.className}>
         <noscript>
