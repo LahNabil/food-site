@@ -86,12 +86,15 @@ const PostItem = async ({ params }: { params: Params }) => {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": foundItem.title,
+    "cookTime": `PT${foundItem.preptime}M`,
+    "recipeCuisine": "International",
     "image": `https://www.fastcookiteasy.com${foundItem.img}`,
     "description": foundItem.brief,
     "prepTime": `PT${foundItem.preptime}M`,
     "recipeCategory": foundItem.category,
+    "url": `https://www.fastcookiteasy.com/postitems/${foundItem?.lien}`,
+    "keywords": "recipe, Quick recipe,,Main Course, cook recipe, fast recipe, refreshing, easy recipe",
     "recipeIngredient": foundItem.ingredients,
-    //"keywords": foundItem.keywords?.join(", "), 
     "author": {
     "@type": "Person",
     "name": "Fast Cookit Easy"
