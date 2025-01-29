@@ -82,12 +82,16 @@ const PostItem = async ({ params }: { params: Params }) => {
     notFound(); 
     return null; 
   }
+  const totalTime = foundItem.preptime || 0;
+  const prepTime = Math.round(totalTime / 3);
+  const cookTime = totalTime - prepTime;
   const schemaData: WithContext<Recipe> = {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": foundItem.title,
-    "cookTime": `PT${foundItem.preptime}M`,
+    "cookTime": `PT${cookTime}M`,
     "recipeCuisine": "International",
+    "recipeYield": "3 servings",
     "image": `https://www.fastcookiteasy.com${foundItem.img}`,
     "description": foundItem.brief,
     "prepTime": `PT${foundItem.preptime}M`,
