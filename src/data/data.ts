@@ -4748,7 +4748,129 @@ Ready to make this delicious dessert? Grab your ingredients and start creating y
     preptime: 16,
     type: true,
     trending: false
-  }
+  },
+  {
+   id: 39,
+   img: '/assets/virgin-mojito.webp',
+   lien:'virgin-mojito',
+   category: 'Drinks',
+   alte: 'Virgin Mojito: A refreshing non-alcoholic cocktail made with fresh mint, lime, sugar, and sparkling water, perfect for a cool and zesty drink.',
+   comment: [
+           'Muddle fresh mint leaves and lime wedges with sugar in a glass.',
+           'Fill the glass with ice and top with sparkling water.',
+           'Stir gently to combine all the ingredients.',
+           'Garnish with a sprig of mint and a lime wheel, then serve immediately.'
+         ],
+   title: 'How to Make a Virgin Mojito: A Refreshing Non-Alcoholic Cocktail',
+   brief: 'Learn how to make a Virgin Mojito, a refreshing and zesty non-alcoholic cocktail perfect for any occasion. This easy recipe combines fresh mint, lime, sugar, and sparkling water for a cool and satisfying drink.',
+   description: `## How to Make a Virgin Mojito: A Refreshing Non-Alcoholic Cocktail  
+
+The Virgin Mojito is a delightful and refreshing non-alcoholic cocktail that captures all the zesty, minty flavors of the classic Mojito without the alcohol. Perfect for anyone looking for a cool and satisfying drink, this Virgin Mojito is easy to make and requires just a few simple ingredients. Whether you’re hosting a party, enjoying a sunny afternoon, or simply craving something refreshing, this drink is sure to hit the spot.  
+
+---
+
+### Why You’ll Love This Virgin Mojito  
+
+This Virgin Mojito is a crowd-pleaser for so many reasons:  
+
+- **Refreshing and Light**: The combination of fresh mint, lime, and sparkling water creates a drink that’s both cooling and invigorating.  
+- **Easy to Make**: With just a few ingredients and minimal prep time, this cocktail is perfect for beginners.  
+- **Versatile**: Customize the sweetness or add fruit for a unique twist.  
+- **Non-Alcoholic**: A great option for everyone, including kids, designated drivers, or those avoiding alcohol.  
+
+---
+
+### The Magic of a Virgin Mojito  
+
+What makes this Virgin Mojito so special is its simplicity and the freshness of its ingredients. The **fresh mint leaves** provide a burst of herbal flavor, while the **lime juice** adds a tangy kick. The **sugar** balances the tartness, and the **sparkling water** gives it a fizzy, refreshing finish. Together, these ingredients create a drink that’s both vibrant and satisfying.  
+
+---
+
+### Step-by-Step Recipe: Virgin Mojito  
+
+Here’s how to make the perfect Virgin Mojito at home:  
+
+#### **Ingredients**  
+- 8-10 fresh mint leaves  
+- 1 lime, cut into wedges  
+- 2 teaspoons sugar (adjust to taste)  
+- 1 cup ice cubes  
+- 1 cup sparkling water or club soda  
+- Mint sprig and lime wheel for garnish  
+
+#### **Instructions**  
+1. **Muddle the Mint and Lime**: In a sturdy glass, add the mint leaves, lime wedges, and sugar. Use a muddler or the back of a spoon to gently crush the mint and lime, releasing their juices and oils.  
+2. **Add Ice**: Fill the glass with ice cubes.  
+3. **Top with Sparkling Water**: Pour sparkling water or club soda over the ice.  
+4. **Stir Gently**: Use a spoon to mix the ingredients, ensuring the flavors are well combined.  
+5. **Garnish and Serve**: Add a sprig of mint and a lime wheel to the rim of the glass. Serve immediately and enjoy!  
+
+---
+
+### Expert Tips for the Perfect Virgin Mojito  
+
+1. **Use Fresh Ingredients**: Fresh mint and lime juice are key to achieving the best flavor.  
+2. **Adjust Sweetness**: Add more or less sugar depending on your preference.  
+3. **Experiment with Flavors**: Add fruit like strawberries, raspberries, or mango for a fruity twist.  
+4. **Chill Your Glass**: For an extra refreshing drink, chill your glass in the freezer before making the cocktail.  
+5. **Serve Immediately**: Virgin Mojitos are best enjoyed fresh, so serve them right after preparing.  
+
+---
+
+### Creative Variations to Try  
+
+The Virgin Mojito is incredibly versatile. Here are some fun variations to experiment with:  
+
+#### **1. Berry Virgin Mojito**  
+Add a handful of fresh berries (strawberries, raspberries, or blueberries) when muddling for a fruity twist.  
+
+#### **2. Coconut Virgin Mojito**  
+Replace sparkling water with coconut water for a tropical flavor.  
+
+#### **3. Ginger Virgin Mojito**  
+Add a few slices of fresh ginger when muddling for a spicy kick.  
+
+#### **4. Cucumber Virgin Mojito**  
+Include a few slices of cucumber for a cool, refreshing twist.  
+
+#### **5. Pineapple Virgin Mojito**  
+Add a splash of pineapple juice for a sweet and tangy flavor.  
+
+---
+
+### Pairing Your Virgin Mojito  
+
+This refreshing drink pairs well with a variety of foods:  
+
+- **Light Appetizers**: Serve with bruschetta, spring rolls, or shrimp cocktail.  
+- **Spicy Dishes**: The cooling effect of the mojito complements spicy foods like tacos or curry.  
+- **Grilled Meats**: Pair with grilled chicken, fish, or kebabs for a balanced meal.  
+- **Desserts**: Enjoy with light desserts like fruit salad or sorbet.  
+
+---
+
+### Final Thoughts  
+
+The Virgin Mojito is more than just a drink—it’s a refreshing experience that’s perfect for any occasion. With its vibrant flavors and easy preparation, it’s a cocktail that everyone can enjoy. Whether you’re hosting a party, relaxing at home, or looking for a non-alcoholic alternative, this Virgin Mojito is sure to impress.  
+
+So, grab your ingredients, muddle some mint, and enjoy this zesty, refreshing drink. Cheers to a cool and satisfying sip!  
+
+---
+
+**Call to Action**:  
+Ready to make your own Virgin Mojito? Try this easy recipe and share your creations with us on social media. Don’t forget to tag us—we’d love to see your refreshing drinks! 🍹`,
+   ingredients: [
+           '8-10 fresh mint leaves',
+           '1 lime, cut into wedges',
+           '2 teaspoons sugar (adjust to taste)',
+           '1 cup ice cubes',
+           '1 cup sparkling water or club soda',
+           'Mint sprig and lime wheel for garnish'
+         ],
+   preptime: 10,
+   type: false,
+   trending: false
+ }
         
         
         
