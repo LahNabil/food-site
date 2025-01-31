@@ -4870,6 +4870,224 @@ Ready to make your own Virgin Mojito? Try this easy recipe and share your creati
    preptime: 10,
    type: false,
    trending: false
+ },
+ {
+   id: 40,
+   img: '/assets/virgin-pina-colada.webp',
+   lien:'virgin-pina-colada',
+   category: 'Drinks',
+   alte: 'Virgin Piña Colada: A tropical and creamy mocktail made with pineapple juice, coconut milk, and ice, perfect for a refreshing non-alcoholic treat.',
+   comment: [
+           'Blend pineapple juice, coconut milk, and ice until smooth.',
+           'Pour into a chilled glass and garnish with a pineapple slice or cherry.',
+           'Serve immediately for a refreshing tropical mocktail.'
+         ],
+   title: 'The Virgin Piña Colada: A Tropical Mocktail for Everyone',
+   brief: 'Learn how to make a Virgin Piña Colada, a creamy and tropical non-alcoholic mocktail perfect for any occasion. This easy recipe combines pineapple juice, coconut milk, and ice for a refreshing and satisfying drink.',
+   description: `## The Virgin Piña Colada: A Tropical Mocktail for Everyone  
+
+The Virgin Piña Colada is a creamy, tropical mocktail that brings the flavors of a classic Piña Colada to life without the alcohol. Perfect for anyone looking for a refreshing and indulgent drink, this mocktail is made with pineapple juice, coconut milk, and ice, blended to perfection. Whether you’re lounging by the pool, hosting a party, or simply craving a taste of the tropics, this Virgin Piña Colada is sure to transport you to paradise.  
+
+---
+
+### Why You’ll Love This Virgin Piña Colada  
+
+This Virgin Piña Colada is a crowd-pleaser for so many reasons:  
+
+- **Creamy and Refreshing**: The combination of pineapple juice and coconut milk creates a drink that’s both rich and refreshing.  
+- **Easy to Make**: With just a few ingredients and a blender, this mocktail is quick and simple to prepare.  
+- **Versatile**: Customize the sweetness or add fresh fruit for a unique twist.  
+- **Non-Alcoholic**: A great option for everyone, including kids, designated drivers, or those avoiding alcohol.  
+
+---
+
+### The Magic of a Virgin Piña Colada  
+
+What makes this Virgin Piña Colada so special is its tropical flavor and creamy texture. The **pineapple juice** provides a sweet and tangy base, while the **coconut milk** adds richness and a hint of tropical flavor. Blended with ice, this mocktail is smooth, refreshing, and perfect for sipping on a hot day.  
+
+---
+
+### The Origins of the Piña Colada  
+
+The Piña Colada has a rich history that dates back to the 1950s in Puerto Rico. It’s said to have been created by **Ramón “Monchito” Marrero**, a bartender at the Caribe Hilton in San Juan, who wanted to capture the flavors of the island in a single drink. The original recipe included rum, coconut cream, and pineapple juice, but the Virgin Piña Colada offers a non-alcoholic version that’s just as delicious.  
+
+Today, the Piña Colada is celebrated as the national drink of Puerto Rico and is enjoyed worldwide. Its tropical flavors and creamy texture make it a favorite for beach vacations, summer parties, and anytime you need a little escape.  
+
+---
+
+### Tips for Making the Perfect Virgin Piña Colada  
+
+While this mocktail is incredibly simple to make, a few expert tips can take it to the next level:  
+
+1. **Use Fresh Pineapple Juice**: Freshly squeezed pineapple juice will give your mocktail the best flavor.  
+2. **Adjust Sweetness**: Add a teaspoon of sugar or honey if you prefer a sweeter drink.  
+3. **Add Fresh Fruit**: Blend in fresh pineapple chunks or mango for an extra fruity twist.  
+4. **Chill Your Glass**: For an extra refreshing drink, chill your glass in the freezer before serving.  
+5. **Serve Immediately**: Virgin Piña Coladas are best enjoyed fresh, so serve them right after blending.  
+
+---
+
+### Creative Variations to Try  
+
+The Virgin Piña Colada is incredibly versatile. Here are some fun variations to experiment with:  
+
+#### **1. Mango Piña Colada**  
+Add fresh mango chunks to the blender for a tropical mango twist.  
+
+#### **2. Strawberry Piña Colada**  
+Blend in fresh strawberries for a sweet and fruity flavor.  
+
+#### **3. Banana Piña Colada**  
+Add a ripe banana for a creamy and slightly sweet variation.  
+
+#### **4. Spiced Piña Colada**  
+Add a pinch of cinnamon or nutmeg for a warm, spiced flavor.  
+
+#### **5. Green Piña Colada**  
+Blend in a handful of spinach or kale for a healthy, green twist.  
+
+---
+
+### Pairing Your Virgin Piña Colada  
+
+This tropical mocktail pairs well with a variety of foods:  
+
+- **Tropical Dishes**: Serve with grilled shrimp, coconut rice, or tropical fruit salad.  
+- **Light Appetizers**: Pair with spring rolls, bruschetta, or cheese platters.  
+- **Desserts**: Enjoy with coconut macaroons, pineapple upside-down cake, or fruit sorbet.  
+- **Brunch**: Serve alongside pancakes, waffles, or French toast for a tropical brunch experience.  
+
+---
+
+### Final Thoughts  
+
+The Virgin Piña Colada is more than just a drink—it’s a tropical escape in a glass. With its creamy texture, refreshing flavors, and easy preparation, it’s a mocktail that everyone can enjoy. Whether you’re hosting a party, relaxing at home, or looking for a non-alcoholic alternative, this Virgin Piña Colada is sure to impress.  
+
+So, grab your blender, pour yourself a glass, and enjoy this taste of the tropics. Cheers to a cool and satisfying sip!  
+
+---
+
+**Call to Action**:  
+Ready to make your own Virgin Piña Colada? Try this easy recipe and share your creations with us on social media. Don’t forget to tag us—we’d love to see your tropical drinks! 🍍🥥`,
+   ingredients: [
+           '1 cup pineapple juice',
+           '1/2 cup coconut milk (or coconut cream for extra richness)',
+           '1 cup ice cubes',
+           'Pineapple slice or maraschino cherry for garnish'
+         ],
+   preptime: 5,
+   type: false,
+   trending: false
+ },
+ {
+   id: 41,
+   img: '/assets/no-alcohol-espresso-martini.webp',
+   lien:'no-alcohol-espresso-martini',
+   category: 'Drinks',
+   alte: 'No-Alcohol Espresso Martini: A rich and creamy coffee-based mocktail made with espresso, coffee liqueur substitute, and a frothy finish, perfect for coffee lovers.',
+   comment: [
+           'Brew a shot of espresso and let it cool slightly.',
+           'Shake the espresso with coffee liqueur substitute, simple syrup, and ice in a cocktail shaker.',
+           'Strain into a chilled martini glass and top with a frothy foam.',
+           'Garnish with coffee beans and serve immediately.'
+         ],
+   title: 'How to Make a No-Alcohol Espresso Martini: A Coffee Lover’s Dream',
+   brief: 'Learn how to make a No-Alcohol Espresso Martini, a rich and creamy coffee-based mocktail perfect for coffee lovers. This easy recipe combines espresso, coffee liqueur substitute, and a frothy finish for a luxurious drink.',
+   description: `## How to Make a No-Alcohol Espresso Martini: A Coffee Lover’s Dream  
+
+The No-Alcohol Espresso Martini is a sophisticated and indulgent mocktail that brings all the richness of a classic Espresso Martini without the alcohol. Perfect for coffee lovers, this drink combines the bold flavor of espresso with a creamy, frothy finish, making it an ideal pick-me-up for any time of day. Whether you’re hosting a brunch, enjoying a cozy evening, or simply craving a coffee treat, this mocktail is sure to delight.  
+
+---
+
+### Why You’ll Love This No-Alcohol Espresso Martini  
+
+This No-Alcohol Espresso Martini is a must-try for so many reasons:  
+
+- **Rich and Creamy**: The combination of espresso and a frothy finish creates a luxurious texture.  
+- **Easy to Make**: With just a few ingredients and a shaker, this mocktail is quick to prepare.  
+- **Versatile**: Customize the sweetness or add flavored syrups for a unique twist.  
+- **Non-Alcoholic**: A great option for everyone, including designated drivers or those avoiding alcohol.  
+
+---
+
+### The Magic of a No-Alcohol Espresso Martini  
+
+What makes this No-Alcohol Espresso Martini so special is its bold coffee flavor and velvety texture. The **espresso** provides a rich, robust base, while the **coffee liqueur substitute** adds depth and sweetness. Shaken with ice and strained into a chilled glass, this mocktail is topped with a frothy foam that makes every sip feel indulgent.  
+
+---
+
+### The Origins of the Espresso Martini  
+
+The Espresso Martini was invented in the 1980s by legendary bartender **Dick Bradsell** in London. It’s said that a young model walked into his bar and asked for a drink that would “wake me up and then mess me up.” The result was the Espresso Martini, a cocktail that combined vodka, coffee liqueur, and freshly brewed espresso.  
+
+While the original recipe includes alcohol, the No-Alcohol Espresso Martini offers a delicious alternative that captures the same bold flavors and luxurious feel.  
+
+---
+
+### Tips for Making the Perfect No-Alcohol Espresso Martini  
+
+While this mocktail is simple to make, a few expert tips can elevate it to the next level:  
+
+1. **Use Freshly Brewed Espresso**: Freshly brewed espresso will give your mocktail the best flavor. Avoid instant coffee if possible.  
+2. **Chill Your Glass**: For an extra refreshing drink, chill your martini glass in the freezer before serving.  
+3. **Shake Vigorously**: Shake the ingredients well to create a frothy foam on top.  
+4. **Adjust Sweetness**: Add more or less simple syrup depending on your preference.  
+5. **Experiment with Flavors**: Add a splash of vanilla syrup, caramel syrup, or hazelnut syrup for a unique twist.  
+
+---
+
+### Creative Variations to Try  
+
+The No-Alcohol Espresso Martini is incredibly versatile. Here are some fun variations to experiment with:  
+
+#### **1. Vanilla Espresso Martini**  
+Add a splash of vanilla syrup for a sweet and aromatic twist.  
+
+#### **2. Caramel Espresso Martini**  
+Drizzle caramel syrup into the glass or blend it into the drink for a decadent treat.  
+
+#### **3. Mocha Espresso Martini**  
+Add a teaspoon of cocoa powder or chocolate syrup for a rich, chocolatey flavor.  
+
+#### **4. Spiced Espresso Martini**  
+Add a pinch of cinnamon or nutmeg for a warm, spiced flavor.  
+
+#### **5. Coconut Espresso Martini**  
+Use coconut milk or cream for a tropical twist.  
+
+---
+
+### Pairing Your No-Alcohol Espresso Martini  
+
+This coffee-based mocktail pairs well with a variety of foods:  
+
+- **Desserts**: Serve with tiramisu, chocolate cake, or biscotti for a decadent treat.  
+- **Brunch**: Pair with pancakes, waffles, or French toast for a luxurious brunch experience.  
+- **Savory Snacks**: Enjoy with cheese platters, charcuterie boards, or roasted nuts.  
+- **After-Dinner Treat**: Serve as a dessert drink alongside dark chocolate or coffee-flavored desserts.  
+
+---
+
+### Final Thoughts  
+
+The No-Alcohol Espresso Martini is more than just a drink—it’s a luxurious experience that’s perfect for coffee lovers. With its bold flavors, creamy texture, and easy preparation, it’s a mocktail that everyone can enjoy. Whether you’re hosting a party, relaxing at home, or looking for a non-alcoholic alternative, this No-Alcohol Espresso Martini is sure to impress.  
+
+So, grab your shaker, brew some espresso, and enjoy this indulgent coffee treat. Cheers to a rich and satisfying sip!  
+
+---
+
+**Call to Action**:  
+Ready to make your own No-Alcohol Espresso Martini? Try this easy recipe and share your creations with us on social media. Don’t forget to tag us—we’d love to see your coffee masterpieces! ☕✨`,
+   ingredients: [
+           '1 shot freshly brewed espresso (cooled)',
+           '1 oz (30 ml) coffee liqueur substitute (e.g., non-alcoholic coffee syrup)',
+           '1/2 oz (15 ml) simple syrup (adjust to taste)',
+           'Ice cubes',
+           'Coffee beans for garnish'
+         ],
+   preptime: 5,
+   type: false,
+   trending: false
  }
         
         
