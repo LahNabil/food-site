@@ -35,9 +35,9 @@ export const scis = [
     },
     {
         id:2,
-        icon: 'bi-instagram',
-        link: 'https://instagram.com',
-        alte: 'logo_instagram'
+        icon: 'bi-pinterest',
+        link: 'https://www.pinterest.com/cookiteasy_/',
+        alte: 'logo_pinterest'
     },
     {
         id:3,
@@ -5088,6 +5088,310 @@ Ready to make your own No-Alcohol Espresso Martini? Try this easy recipe and sha
    preptime: 5,
    type: false,
    trending: false
+ },
+ {
+   id: 42,
+   img: '/assets/5-minute-drink-recipes.webp',
+   lien:'5-minute-drink-recipes',
+   category: 'Drinks',
+   alte: '5-Minute Drink Recipes for Busy Mornings: Quick and easy drink ideas to kickstart your day, including smoothies, juices, and coffee-based drinks.',
+   comment: [
+           'Choose your favorite recipe from the list.',
+           'Gather the ingredients and blend or mix them quickly.',
+           'Pour into a glass and enjoy your refreshing morning drink.'
+         ],
+   title: '5-Minute Drink Recipes for Busy Mornings',
+   brief: 'Discover 5-minute drink recipes perfect for busy mornings! These quick and easy ideas include smoothies, juices, and coffee-based drinks to help you start your day right.',
+   description: `## 5-Minute Drink Recipes for Busy Mornings  
+
+Mornings can be hectic, but that doesn’t mean you have to skip a refreshing and nutritious drink to kickstart your day. With these **5-Minute Drink Recipes**, you can whip up something delicious and energizing in no time. Whether you’re a fan of smoothies, juices, or coffee-based drinks, these quick recipes are perfect for busy mornings. Let’s dive in and make your mornings a little brighter!  
+
+---
+
+### Why You’ll Love These 5-Minute Drink Recipes  
+
+These drink recipes are designed for speed and simplicity, making them ideal for busy mornings:  
+
+- **Quick and Easy**: Each recipe takes just 5 minutes or less to prepare.  
+- **Nutritious and Energizing**: Packed with vitamins, minerals, and natural energy boosters.  
+- **Customizable**: Adjust ingredients to suit your taste or dietary needs.  
+- **Perfect for On-the-Go**: Portable and easy to enjoy while heading out the door.  
+
+---
+
+### 1. Banana Peanut Butter Smoothie  
+
+This creamy and protein-packed smoothie is perfect for a quick breakfast or snack.  
+
+#### **Ingredients**  
+- 1 ripe banana  
+- 1 tablespoon peanut butter  
+- 1 cup almond milk (or any milk of your choice)  
+- 1/2 cup ice cubes  
+
+#### **Instructions**  
+1. Add all ingredients to a blender.  
+2. Blend until smooth and creamy.  
+3. Pour into a glass and enjoy!  
+
+---
+
+### 2. Green Detox Juice  
+
+Start your day with a refreshing and nutrient-rich green juice.  
+
+#### **Ingredients**  
+- 1 green apple (cored and sliced)  
+- 1 cucumber  
+- 1 handful of spinach  
+- 1/2 lemon (juiced)  
+
+#### **Instructions**  
+1. Run all ingredients through a juicer.  
+2. Stir in the lemon juice.  
+3. Pour into a glass and enjoy immediately.  
+
+---
+
+### 3. Iced Vanilla Latte  
+
+A quick and refreshing coffee drink to satisfy your caffeine cravings.  
+
+#### **Ingredients**  
+- 1 shot of espresso or 1/2 cup strong brewed coffee  
+- 1 cup milk (dairy or plant-based)  
+- 1 teaspoon vanilla syrup  
+- Ice cubes  
+
+#### **Instructions**  
+1. Fill a glass with ice cubes.  
+2. Add the espresso, milk, and vanilla syrup.  
+3. Stir well and enjoy!  
+
+---
+
+### 4. Tropical Pineapple Smoothie  
+
+Transport yourself to a tropical paradise with this fruity and refreshing smoothie.  
+
+#### **Ingredients**  
+- 1 cup pineapple chunks  
+- 1/2 banana  
+- 1/2 cup coconut water  
+- 1/2 cup ice cubes  
+
+#### **Instructions**  
+1. Add all ingredients to a blender.  
+2. Blend until smooth.  
+3. Pour into a glass and enjoy!  
+
+---
+
+### 5. Berry Blast Smoothie  
+
+A vibrant and antioxidant-rich smoothie to fuel your morning.  
+
+#### **Ingredients**  
+- 1/2 cup mixed berries (strawberries, blueberries, raspberries)  
+- 1/2 cup Greek yogurt  
+- 1/2 cup orange juice  
+- 1/2 cup ice cubes  
+
+#### **Instructions**  
+1. Add all ingredients to a blender.  
+2. Blend until smooth.  
+3. Pour into a glass and enjoy!  
+
+---
+
+### Tips for Making the Perfect Morning Drink  
+
+1. **Prep Ahead**: Pre-wash and chop fruits the night before to save time.  
+2. **Use Frozen Fruits**: They act as natural ice cubes and add thickness to smoothies.  
+3. **Invest in a Good Blender**: A high-speed blender makes quick work of smoothies and juices.  
+4. **Customize Sweetness**: Add honey, maple syrup, or dates if you prefer a sweeter drink.  
+5. **Experiment with Flavors**: Mix and match ingredients to create your own unique recipes.  
+
+---
+
+### Final Thoughts  
+
+With these **5-Minute Drink Recipes**, you’ll never have to skip a refreshing and nutritious start to your day. Whether you’re rushing out the door or enjoying a quiet moment at home, these quick and easy drinks are sure to brighten your mornings.  
+
+So, grab your blender or juicer, and start your day with a delicious and energizing drink. Cheers to a productive and refreshing morning!  
+
+---
+
+**Call to Action**:  
+Ready to try these recipes? Pick your favorite and whip up a drink in just 5 minutes! Don’t forget to share your creations on social media and tag us—we’d love to see your morning drink masterpieces! 🥤✨`,
+   ingredients: [
+           '1 ripe banana',
+           '1 tablespoon peanut butter',
+           '1 cup almond milk',
+           '1/2 cup ice cubes',
+           '1 green apple',
+           '1 cucumber',
+           '1 handful of spinach',
+           '1/2 lemon (juiced)',
+           '1 shot of espresso',
+           '1 cup milk',
+           '1 teaspoon vanilla syrup',
+           '1 cup pineapple chunks',
+           '1/2 banana',
+           '1/2 cup coconut water',
+           '1/2 cup mixed berries',
+           '1/2 cup Greek yogurt',
+           '1/2 cup orange juice'
+         ],
+   preptime: 15,
+   type: false,
+   trending: true
+ },
+ {
+   id: 44,
+   img: '/assets/dalgona-coffee.webp',
+   lien:'dalgona-coffee',
+   category: 'Drinks',
+   alte: 'Dalgona Coffee: A creamy whipped coffee drink served over milk, garnished with cocoa powder.',
+   comment: [
+           'Combine instant coffee, sugar, and hot water in a bowl.',
+           'Whip the mixture until thick and creamy.',
+           'Pour milk into a glass and top with the whipped coffee.',
+           'Mix before drinking and enjoy!'
+         ],
+   title: 'Dalgona Coffee: The Viral Whipped Coffee Drink',
+   brief: 'Learn how to make Dalgona Coffee, the viral whipped coffee drink that took the internet by storm! This easy recipe requires just 3 ingredients and delivers a creamy, indulgent coffee experience.',
+   description: `## Dalgona Coffee: The Viral Whipped Coffee Drink  
+
+Dalgona Coffee isn’t just a drink—it’s a cultural phenomenon. Born out of South Korea’s creative kitchen culture and popularized during the 2020 global lockdowns, this whipped coffee sensation became a symbol of resilience, creativity, and connection. With its cloud-like texture, bold coffee flavor, and Instagram-worthy aesthetics, Dalgona Coffee transcended borders, uniting coffee lovers worldwide in a shared moment of joy. In this deep dive, we’ll explore its origins, cultural impact, science, and endless possibilities for customization.  
+
+---
+
+### The Rise of a Global Obsession  
+
+Dalgona Coffee’s viral journey began on South Korean TV shows, where it was praised for its simplicity and visual appeal. The name “Dalgona” pays homage to a traditional Korean honeycomb toffee candy, mirroring the drink’s frothy, airy texture. As lockdowns confined people to their homes, the drink exploded on TikTok and Instagram, with millions sharing their #DalgonaCoffee creations. Its appeal lay in three key factors:  
+
+1. **Accessibility**: No fancy equipment or barista skills required.  
+2. **Creativity**: A blank canvas for personalization, from flavors to presentation.  
+3. **Community**: A shared experience during a time of isolation.  
+
+The trend even sparked friendly debates about its origins, with parallels drawn to India’s *phenti hui coffee* and Greece’s *frappé*. Yet Dalgona Coffee’s minimalist charm and photogenic layers made it a standout star of the pandemic era.  
+
+---
+
+### Why Dalgona Coffee Captured Hearts  
+
+Beyond its visual appeal, Dalgona Coffee resonated deeply with people for several reasons:  
+
+- **Therapeutic Process**: Whipping the coffee by hand became a meditative ritual for many, offering a sense of accomplishment.  
+- **Nostalgia**: For some, it evoked childhood memories of making whipped desserts or playing with textures.  
+- **Democratization of Coffee Culture**: It challenged the idea that premium coffee requires expensive equipment, making café-style drinks accessible to all.  
+- **Global Unity**: From Seoul to São Paulo, people bonded over shared attempts at perfecting the foam.  
+
+---
+
+### The Science of the Perfect Whip  
+
+The magic of Dalgona Coffee lies in its emulsification process. Instant coffee, sugar, and hot water form a stable colloid when whipped, trapping air bubbles to create a meringue-like foam. Key factors for success include:  
+
+- **Instant Coffee’s Role**: The dehydrating agents in instant coffee (like maltodextrin) stabilize the foam.  
+- **Sugar’s Function**: Beyond sweetness, sugar attracts moisture, reinforcing the foam’s structure.  
+- **Temperature**: Hot water dissolves the coffee and sugar efficiently, ensuring a smooth emulsion.  
+
+This scientific trifecta transforms humble ingredients into a velvety cloud that floats effortlessly over milk.  
+
+---
+
+### Dalgona Coffee’s Cultural Legacy  
+
+While the drink’s viral fame has waned, its cultural impact endures:  
+
+- **Culinary Creativity**: It inspired countless spin-offs, from Dalgona desserts to cocktails.  
+- **Economic Boost**: Sales of instant coffee surged, with brands capitalizing on the trend.  
+- **Mental Health Symbol**: For many, mastering Dalgona Coffee became a small victory during uncertain times.  
+- **Cultural Diplomacy**: South Korea’s soft power shone through, introducing global audiences to Korean culinary innovation.  
+
+---
+
+### Creative Variations to Reignite the Trend  
+
+Dalgona Coffee’s versatility makes it ripe for reinvention. Here are 10 innovative twists to keep the trend alive:  
+
+1. **Matcha Dalgona**: Swap coffee for matcha powder for a vibrant green tea version.  
+2. **Chocolate Espresso Fusion**: Blend cocoa powder into the foam for a mocha twist.  
+3. **Vegan Delight**: Use aquafaba (chickpea brine) as a stabilizer for a plant-based foam.  
+4. **Spiced Chai Dalgona**: Infuse the foam with cardamom, cinnamon, and ginger.  
+5. **Fruit-Infused Layers**: Pair the foam with strawberry milk or mango puree.  
+6. **Dalgona Affogato**: Serve over vanilla ice cream for a dessert hybrid.  
+7. **Boozy Upgrade**: Spike the milk with Irish cream or coffee liqueur.  
+8. **Coconut Dream**: Use coconut milk and garnish with toasted coconut flakes.  
+9. **Savory Surprise**: Add a pinch of sea salt or black sesame for depth.  
+10. **Dalgona Latte Art**: Pipe the foam into intricate designs for a barista-worthy finish.  
+
+---
+
+### Pairing Dalgona Coffee with Food  
+
+Elevate your Dalgona experience with these pairing ideas:  
+
+- **Breakfast**: Buttery croissants or flaky pastries balance the coffee’s bitterness.  
+- **Dessert**: Dark chocolate truffles or almond biscotti enhance its richness.  
+- **Savory Snacks**: Salted caramel popcorn or cheese straws create a sweet-salty contrast.  
+
+---
+
+### The Psychology of Viral Food Trends  
+
+Dalgona Coffee offers a case study in why certain foods go viral:  
+
+1. **Visual Appeal**: Photogenic dishes thrive on platforms like Instagram and TikTok.  
+2. **Participatory Culture**: Trends that invite user creativity (e.g., “challenges”) gain traction.  
+3. **Nostalgia + Novelty**: Balancing familiarity (coffee) with novelty (whipped texture) hooks audiences.  
+4. **Low Barrier to Entry**: Trends that require minimal effort or cost spread fastest.  
+
+---
+
+### Dalgona Coffee in Popular Culture  
+
+The drink’s influence extended beyond kitchens:  
+
+- **TV Cameos**: Featured on cooking shows like *MasterChef* and *Nailed It!*.  
+- **Merchandise**: Dalgona-themed mugs, straws, and even phone cases flooded online markets.  
+- **Art Installations**: Some cafes created Dalgona Coffee murals or pop-up experiences.  
+
+---
+
+### The Future of Whipped Coffee  
+
+While the frenzy has cooled, Dalgona Coffee’s legacy persists:  
+
+- **Café Menus**: Many coffee shops now offer permanent Dalgona-inspired drinks.  
+- **Home Rituals**: For some, it remains a cherished morning routine.  
+- **Innovation Hub**: Chefs and mixologists continue reimagining the concept (e.g., Dalgona cocktails).  
+
+---
+
+### Final Thoughts: More Than Just a Drink  
+
+Dalgona Coffee symbolizes how food can transcend nourishment to become a source of connection, creativity, and comfort. It reminded us that joy can be found in simplicity—a frothy cup of coffee, a shared TikTok video, or the quiet satisfaction of mastering a new skill.  
+
+Whether you’re reliving the 2020 nostalgia or discovering it anew, Dalgona Coffee invites you to slow down, whip up something beautiful, and savor the moment.  
+
+---
+
+**Call to Action**:  
+Ready to join the Dalgona revolution? Experiment with flavors, share your creations, and tag us! Let’s keep the whisking spirit alive—one fluffy cup at a time. ☕✨`,
+   ingredients: [
+           '2 tablespoons instant coffee',
+           '2 tablespoons granulated sugar',
+           '2 tablespoons hot water',
+           '1 cup milk (dairy or plant-based)',
+           'Ice cubes (optional)',
+           'Cocoa powder or cinnamon for garnish (optional)'
+         ],
+   preptime: 10,
+   type: false,
+   trending: true
  }
         
         
