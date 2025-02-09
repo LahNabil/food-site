@@ -5391,42 +5391,188 @@ Ready to join the Dalgona revolution? Experiment with flavors, share your creati
          ],
    preptime: 10,
    type: false,
-   trending: true
+   trending: false,
+ },
+ {
+   id: 45,
+   img: '/assets/strawberry-rose-sparkler.webp',
+   lien:'strawberry-rose-sparkler',
+   category: 'Drinks',
+   alte: 'Strawberry Rose Sparkler: A romantic Valentine’s Day cocktail with fresh strawberries, rose syrup, and sparkling wine, garnished with rose petals.',
+   comment: [
+           'Muddle fresh strawberries and rose syrup in a glass.',
+           'Add ice and top with sparkling wine or sparkling water.',
+           'Gently stir and garnish with edible rose petals.',
+           'Serve immediately for a romantic toast.'
+         ],
+   title: 'Strawberry Rose Sparkler: A Romantic Valentine’s Day Drink',
+   brief: 'Learn how to make a Strawberry Rose Sparkler, a romantic and elegant Valentine’s Day cocktail featuring fresh strawberries, floral rose syrup, and bubbly sparkling wine. Perfect for date nights!',
+   description: `## Strawberry Rose Sparkler: A Romantic Valentine’s Day Drink  
+
+The Strawberry Rose Sparkler is more than just a cocktail—it’s a love letter in a glass. Combining the sweetness of ripe strawberries, the delicate floral notes of rose, and the effervescence of sparkling wine, this drink is designed to enchant the senses and set the mood for romance. Whether you’re celebrating Valentine’s Day, an anniversary, or simply a quiet evening with someone special, this elegant cocktail promises to make the moment unforgettable.  
+
+---
+
+### Why the Strawberry Rose Sparkler Embodies Romance  
+
+This drink captures the essence of Valentine’s Day through its ingredients and presentation:  
+
+- **Strawberries**: Symbolizing love and passion, strawberries have been associated with Venus, the Roman goddess of love.  
+- **Rose**: A timeless emblem of romance, rose adds sophistication and a subtle floral aroma.  
+- **Sparkling Wine**: Bubbles signify celebration, making it perfect for toasting to love.  
+- **Visual Drama**: The deep red hue of strawberries paired with rose petals creates a visually stunning drink.  
+
+It’s a harmonious blend of symbolism and flavor, designed to appeal to both the heart and the palate.  
+
+---
+
+### The Cultural History of Romantic Drinks  
+
+Romantic beverages have existed for centuries, often tied to rituals of love and connection:  
+
+- **Ancient Rome**: Couples shared honeyed wine (*mulsum*) during betrothal ceremonies.  
+- **Victorian Era**: Floral-infused cordials like violet and rose were exchanged as tokens of affection.  
+- **Modern Times**: Cocktails like the French 75 or Champagne Cocktail became staples for romantic occasions.  
+
+The Strawberry Rose Sparkler draws from this rich legacy, marrying tradition with contemporary mixology trends.  
+
+---
+
+### The Science of Flavor Pairing: Strawberry + Rose  
+
+What makes this combination so magical?  
+
+1. **Complementary Flavors**: Strawberries’ sweetness balances rose’s subtle bitterness.  
+2. **Aromatic Synergy**: Both ingredients share volatile compounds like geraniol, creating a unified floral-fruity aroma.  
+3. **Texture Contrast**: The creaminess of muddled strawberries contrasts with the crispness of sparkling wine.  
+
+This synergy creates a drink that’s greater than the sum of its parts—a hallmark of great mixology.  
+
+---
+
+### Crafting the Perfect Valentine’s Vibe  
+
+Beyond taste, the Strawberry Rose Sparkler sets a romantic ambiance:  
+
+- **Sensory Appeal**: The sound of bubbling wine, the scent of roses, and the velvety texture of strawberries engage all five senses.  
+- **Presentation**: Serve in coupe glasses for a vintage touch or modern flutes for sleek elegance.  
+- **Garnishes**: Edible rose petals, gold leaf, or heart-shaped strawberry slices add a luxurious finish.  
+
+---
+
+### Creative Variations to Suit Every Couple  
+
+Customize this drink to reflect your unique love story:  
+
+#### **1. Non-Alcoholic "Mocktail" Version**  
+Replace sparkling wine with ginger ale or rose-infused sparkling water.  
+
+#### **2. Spicy Twist**  
+Add a dash of chili-infused syrup for a “love potion with a kick.”  
+
+#### **3. Vegan & Organic**  
+Use organic strawberries and vegan-friendly rose syrup.  
+
+#### **4. Winter Romance**  
+Swap strawberries for pomegranate arils and add a cinnamon stick stirrer.  
+
+#### **5. Tropical Love**  
+Muddle strawberries with coconut water and top with pineapple sparkling wine.  
+
+---
+
+### Pairing with Valentine’s Day Treats  
+
+Elevate your experience with these pairings:  
+
+- **Dark Chocolate Truffles**: Enhances the drink’s berry notes.  
+- **Cheese Board**: Pair with brie or goat cheese for a savory contrast.  
+- **Strawberry Shortcake**: Double down on strawberry flavor.  
+- **Oysters**: A classic aphrodisiac for a luxurious evening.  
+
+---
+
+### The Psychology of Romantic Dining  
+
+Why do drinks like the Strawberry Rose Sparkler resonate so deeply?  
+
+- **Shared Experience**: Making or sipping the drink together fosters connection.  
+- **Nostalgia**: Reminiscent of first dates or special memories.  
+- **Symbolism**: Red hues and floral notes subconsciously signal passion and affection.  
+
+---
+
+### Global Inspirations for Romantic Drinks  
+
+The Strawberry Rose Sparkler borrows from global traditions:  
+
+- **Middle Eastern Rose Sherbet**: A chilled dessert drink with rosewater.  
+- **French *Fraise des Bois* Cocktails**: Wild strawberry-based drinks from Provence.  
+- **Indian *Gulkand* Recipes**: Rose petal jam used in milkshakes and desserts.  
+
+---
+
+### DIY Valentine’s Gift Idea: Sparkler Kits  
+
+Impress your partner with a homemade cocktail kit:  
+
+1. **Packaged Ingredients**: Dried rose buds, rose syrup, and a heart-shaped strawberry slicer.  
+2. **Personalized Note**: Write a love quote or memory on a custom tag.  
+3. **Pairing Suggestions**: Include dark chocolate or a playlist of “your songs.”  
+
+---
+
+### Frequently Asked Questions  
+
+#### **1. Can I use frozen strawberries?**  
+Yes, but thaw them first to release their juices.  
+
+#### **2. Where can I find edible rose petals?**  
+Specialty grocery stores or online retailers like Amazon.  
+
+#### **3. What if I don’t like floral flavors?**  
+Reduce the rose syrup or substitute with vanilla syrup.  
+
+#### **4. Can I batch-make this for a party?**  
+Absolutely! Muddle strawberries in a pitcher and let guests add sparkling wine.  
+
+#### **5. How do I store leftovers?**  
+The drink is best fresh, but strawberry-rose puree keeps refrigerated for 2 days.  
+
+---
+
+### The Role of Color in Romantic Drinks  
+
+Color psychology plays a key role in the Strawberry Rose Sparkler’s appeal:  
+
+- **Red**: Stimulates passion and appetite.  
+- **Pink**: Evokes tenderness and playfulness.  
+- **Gold Accents**: Adds a touch of luxury and celebration.  
+
+---
+
+### Final Thoughts: More Than a Drink  
+
+The Strawberry Rose Sparkler isn’t just a cocktail—it’s an experience. It invites you to slow down, savor the moment, and celebrate love in all its forms. Whether you’re toasting to a decades-long partnership or a new romance, this drink transforms ordinary moments into memories.  
+
+So, raise your glass, clink with your loved one, and let the Strawberry Rose Sparkler remind you that love, like a great cocktail, is worth savoring.  
+
+---
+
+**Call to Action**:  
+Ready to create your own Strawberry Rose Sparkler? Share your Valentine’s Day creations on social media and tag us—we’d love to feature your romantic masterpieces! 💖✨`,
+   ingredients: [
+           '4-5 fresh strawberries (hulled)',
+           '1 oz rose syrup',
+           '4 oz sparkling wine (Prosecco, Champagne, or non-alcoholic alternative)',
+           'Edible rose petals for garnish',
+           'Ice cubes'
+         ],
+   preptime: 5,
+   type: false,
+   trending: false
  }
         
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
-        
-        
-        
-   
-
-
-
-
 
 ]

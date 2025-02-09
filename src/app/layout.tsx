@@ -16,7 +16,7 @@ const ebGaramond = EB_Garamond({subsets: ['latin']});
 export const dancingScript = Dancing_Script({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.fastcookiteasy.com"),
+  metadataBase: new URL("https://fastcookiteasy.com"),
   keywords: [
     "easy recipes",
     "quick meals",
