@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   },
   description: "Explore quick and easy recipes to create delicious meals effortlessly. Perfect for beginners and food lovers, with simple step-by-step guides for every dish.",
   alternates: {
-    canonical: "https://www.fastcookiteasy.com"
+    canonical: "https://fastcookiteasy.com"
   },
   openGraph: {
     title: "Cook it Easy - Quick and Delicious Recipes",
