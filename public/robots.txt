@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.fastcookiteasy.com/sitemap.xml
+Sitemap: https://fastcookiteasy.com/sitemap.xml
