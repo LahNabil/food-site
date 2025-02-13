@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     title: foundItem?.title || "Recipes Title",
     description: foundItem?.brief || "Food description",
     alternates: {
-      canonical: `https://www.fastcookiteasy.com/postitems/${foundItem.lien}`
+      canonical: `https://fastcookiteasy.com/postitems/${foundItem.lien}`
     },
     openGraph: {
       url: `https://www.fastcookiteasy.com/postitems/${foundItem?.lien}`,
