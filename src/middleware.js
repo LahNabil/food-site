@@ -87,7 +87,7 @@ export function middleware(req) {
   if (pathname === "/postitems/layered-chocolate-cheesecake-with-oreo-crust-no-bake") {
     return NextResponse.redirect("https://fastcookiteasy.com/postitems/layered-chocolate-cheesecake", 301); // Permanent Redirect
   }
-  if (pathname === "https://fastcookiteasy.com/postitems/Creamy-Mushroom-Soup") {
+  if (pathname === "/postitems/Creamy-Mushroom-Soup") {
     return NextResponse.redirect("https://fastcookiteasy.com/postitems/creamy-mushroom-soup", 301); // Permanent Redirect
   }
 
