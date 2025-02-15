@@ -97,7 +97,7 @@ const PostItem = async ({ params }: { params: Params }) => {
     "prepTime": `PT${foundItem.preptime}M`,
     "recipeCategory": foundItem.category,
     "url": `https://www.fastcookiteasy.com/postitems/${foundItem?.lien}`,
-    "keywords": "recipe, Quick recipe,,Main Course, cook recipe, fast recipe, refreshing, easy recipe",
+    "keywords": "recipe, Quick recipe,Main Course, cook recipe, fast recipe, refreshing, easy recipe",
     "recipeIngredient": foundItem.ingredients,
     "author": {
     "@type": "Person",
@@ -106,6 +106,8 @@ const PostItem = async ({ params }: { params: Params }) => {
     "recipeInstructions": foundItem.comment.map((step) => ({
       "@type": "HowToStep",
       "text": step,
+      "image": `https://www.fastcookiteasy.com${foundItem.img}`,
+      "url": `https://www.fastcookiteasy.com/postitems/${foundItem?.lien}`,
       
     })),
   };

@@ -80,6 +80,8 @@ const CategoryPage = async ({ params }: { params: Promise<Params> }) => {
     notFound();
     return null;
   }
+  
+  
 
   // Get the H1 title for the current category
   const h1Title = getH1Title(decodedCategory);
