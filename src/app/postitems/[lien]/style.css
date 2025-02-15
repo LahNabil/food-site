@@ -117,6 +117,37 @@
   display: block;
   color: rgba(var(--color-black-rgb), 0.7);
 }
+.faq-section {
+  border: 2px solid #e0e0e0; /* Add a border */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  padding: 20px; /* Add padding inside the border */
+  margin-top: 20px; /* Add space above the FAQ section */
+  background-color: #f9f9f9; /* Optional: Add a light background color */
+}
+
+.faq-section h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.faq-item {
+  margin-bottom: 15px;
+}
+
+.faq-question {
+  font-size: 16px;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+.faq-answer {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+}
+
 
 .aside-links li a:hover,
 .aside-links li a:focus {

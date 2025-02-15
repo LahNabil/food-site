@@ -163,8 +163,22 @@ Do not forget to experiment with different fillings and toppings to make this sa
     preptime: 20,
     type: false,
     trending: true,
-    tips: 'For a vegetarian version, replace the ham with grilled tofu or a vegetarian deli slice. You can also add a bit of pesto or hot sauce for extra flavor.'
-  },
+    tips: 'For a vegetarian version, replace the ham with grilled tofu or a vegetarian deli slice. You can also add a bit of pesto or hot sauce for extra flavor.',
+    faq: [
+      {
+        question: 'Can I use gluten-free flatbread for this recipe?',
+        answer: 'Yes, you can substitute regular flatbread with gluten-free flatbread to make this recipe gluten-free.'
+      },
+      {
+        question: 'What other vegetables can I use?',
+        answer: 'You can use any vegetables you like, such as mushrooms, spinach, or cherry tomatoes.'
+      },
+      {
+        question: 'Can I prepare this sandwich ahead of time?',
+        answer: 'Yes, you can assemble the sandwich and store it in the fridge. Toast it just before serving for the best results.'
+      }
+    ]
+   },
   {
     id: 2,
     img: '/assets/smoky-vegan.webp',
@@ -253,7 +267,21 @@ Ready to dive into this smoky, plant-based delight? Gather your ingredients and 
     preptime: 25,
     type: true,
     trending: false,
-    tips: 'For a spicier kick, add chili flakes to the tofu while grilling. You can also serve this dish with quinoa or couscous for a more filling meal.'
+    tips: 'For a spicier kick, add chili flakes to the tofu while grilling. You can also serve this dish with quinoa or couscous for a more filling meal.',
+    faq: [
+      {
+        question: 'Can I use regular tofu instead of smoked tofu?',
+        answer: 'Yes, you can use regular tofu, but you may need to marinate it in a smoky sauce to achieve a similar flavor.'
+      },
+      {
+        question: 'What sauces pair well with this dish?',
+        answer: 'Tahini dressing, barbecue sauce, or even a spicy peanut sauce work well with this dish.'
+      },
+      {
+        question: 'Can I make this dish ahead of time?',
+        answer: 'Yes, you can roast the vegetables and grill the tofu ahead of time. Reheat and assemble before serving.'
+      }
+    ]
   },
   {
     id: 3,
@@ -328,7 +356,21 @@ Explore more recipes on our blog and find your next kitchen favorite. Let’s ma
     preptime: 40,
     type: false,
     trending: false,
-    tips: 'For a creamier sauce, stir in a spoonful of coconut milk towards the end of the cooking process. You can also adjust the spice level by adding more or less curry powder.'
+    tips: 'For a creamier sauce, stir in a spoonful of coconut milk towards the end of the cooking process. You can also adjust the spice level by adding more or less curry powder.',
+    faq: [
+      {
+        question: 'Can I use plant-based sausages?',
+        answer: 'Yes, you can substitute regular sausages with plant-based sausages for a vegetarian version.'
+      },
+      {
+        question: 'What can I serve with curried sausages?',
+        answer: 'This dish pairs well with rice, naan bread, or even mashed potatoes.'
+      },
+      {
+        question: 'Can I freeze curried sausages?',
+        answer: 'Yes, this dish freezes well. Store it in an airtight container for up to 3 months.'
+      }
+    ]
   },  
 {
   id: 4,
@@ -417,7 +459,21 @@ For more recipes that pack a punch, explore our blog and discover your next favo
   preptime: 30,
   type: false,
   trending: false,
-  tips: 'For extra spice, add some chili flakes or Sriracha sauce to the dish. You can also swap out the beef for chicken or tofu for a different protein option.'
+  tips: 'For extra spice, add some chili flakes or Sriracha sauce to the dish. You can also swap out the beef for chicken or tofu for a different protein option.',
+  faq: [
+   {
+     question: 'Can I use chicken instead of beef?',
+     answer: 'Yes, you can substitute beef with chicken or even tofu for a different protein option.'
+   },
+   {
+     question: 'What vegetables work best in this dish?',
+     answer: 'Bell peppers, carrots, bok choy, and snap peas are great choices, but you can use any vegetables you prefer.'
+   },
+   {
+     question: 'Can I make this dish less spicy?',
+     answer: 'Yes, reduce the amount of chili paste or omit it entirely for a milder version.'
+   }
+ ]
 },
 {
   id: 5,
@@ -497,7 +553,21 @@ Ready to embrace the vibrant flavors of greens in a comforting soup? Try this ea
   preptime: 15,
   type: true,
   trending: false,
-  tips: 'For added texture, you can serve the soup with crunchy croutons or a slice of toasted bread. This soup also pairs well with a drizzle of olive oil or a sprinkle of grated Parmesan cheese.'
+  tips: 'For added texture, you can serve the soup with crunchy croutons or a slice of toasted bread. This soup also pairs well with a drizzle of olive oil or a sprinkle of grated Parmesan cheese.',
+  faq: [
+   {
+     question: 'Can I use frozen vegetables for this soup?',
+     answer: 'Yes, frozen vegetables work well. Just ensure they are fully thawed and drained before blending.'
+   },
+   {
+     question: 'How can I make this soup creamier?',
+     answer: 'Add a splash of cream, coconut milk, or a dollop of yogurt before blending for a creamier texture.'
+   },
+   {
+     question: 'Can I store this soup for later?',
+     answer: 'Yes, store it in an airtight container in the fridge for up to 3 days. Reheat gently on the stove.'
+   }
+ ]
 },
 
 {
@@ -632,7 +702,21 @@ So, why wait? Gather your ingredients, fire up the grill, and treat yourself to 
   preptime: 20,
   type: false,
   trending: true,
-  tips: 'For added crunch, top the salad with toasted nuts or seeds. You can also substitute grilled chicken with baked or poached chicken for a different texture.'
+  tips: 'For added crunch, top the salad with toasted nuts or seeds. You can also substitute grilled chicken with baked or poached chicken for a different texture.',
+  faq: [
+   {
+     question: 'Can I use a different protein instead of chicken?',
+     answer: 'Yes, you can use tofu, shrimp, or even chickpeas as a protein substitute.'
+   },
+   {
+     question: 'What dressing pairs best with this salad?',
+     answer: 'A lemon vinaigrette or a light balsamic dressing works well, but you can use any dressing you prefer.'
+   },
+   {
+     question: 'Can I prepare this salad ahead of time?',
+     answer: 'Yes, but keep the dressing separate until just before serving to keep the greens crisp.'
+   }
+ ]
 },
 {
   id: 7,
@@ -773,7 +857,21 @@ Indulge in the joy of cooking and savor every bite of this classic Sesame Chicke
   preptime: 30,
   type: false,
   trending: false,
-  tips: 'For added heat, sprinkle some chili flakes or drizzle with sriracha before serving. You can also substitute honey with maple syrup or agave for a different sweetness.'
+  tips: 'For added heat, sprinkle some chili flakes or drizzle with sriracha before serving. You can also substitute honey with maple syrup or agave for a different sweetness.',
+  faq: [
+   {
+     question: 'Can I make this dish gluten-free?',
+     answer: 'Yes, use tamari or a gluten-free soy sauce instead of regular soy sauce.'
+   },
+   {
+     question: 'What can I use instead of honey?',
+     answer: 'You can substitute honey with maple syrup, agave, or even brown sugar.'
+   },
+   {
+     question: 'Can I use chicken thighs instead of chicken breasts?',
+     answer: 'Yes, chicken thighs work well and add extra juiciness to the dish.'
+   }
+ ]
 },
 {
   id: 8,
@@ -919,7 +1017,21 @@ Enjoy the crispy, juicy goodness of this classic dish—you’ll find yourself c
   preptime: 35,
   type: false,
   trending: true,
-  tips: 'For an extra crispy finish, broil the chicken for the last 5 minutes of baking. You can also marinate the drumsticks overnight for more intense flavors.'
+  tips: 'For an extra crispy finish, broil the chicken for the last 5 minutes of baking. You can also marinate the drumsticks overnight for more intense flavors.',
+  faq: [
+   {
+     question: 'Can I use boneless chicken for this recipe?',
+     answer: 'Yes, boneless chicken thighs or breasts can be used, but adjust the cooking time accordingly.'
+   },
+   {
+     question: 'What other spices can I use?',
+     answer: 'You can experiment with cayenne pepper, smoked paprika, or Italian seasoning for different flavors.'
+   },
+   {
+     question: 'Can I make this dish ahead of time?',
+     answer: 'Yes, you can marinate the chicken overnight and bake it just before serving.'
+   }
+ ]
 },
 {
   id: 9,
@@ -1063,7 +1175,21 @@ So, gather your ingredients, get ready to enjoy the vibrant flavors of Indian cu
   preptime: 45,
   type: false,
   trending: true,
-  tips: 'For a smoky flavor, grill the chicken before adding it to the sauce. You can also add a pinch of fenugreek leaves for an authentic touch.'
+  tips: 'For a smoky flavor, grill the chicken before adding it to the sauce. You can also add a pinch of fenugreek leaves for an authentic touch.',
+  faq: [
+   {
+     question: 'Can I use coconut milk instead of cream?',
+     answer: 'Yes, coconut milk can be used for a dairy-free version, though it will alter the flavor slightly.'
+   },
+   {
+     question: 'What can I use instead of garam masala?',
+     answer: 'You can use a mix of cumin, coriander, and cinnamon as a substitute for garam masala.'
+   },
+   {
+     question: 'Can I make this dish ahead of time?',
+     answer: 'Yes, butter chicken tastes even better the next day as the flavors deepen. Store it in the fridge and reheat gently.'
+   }
+ ]
 },
 {
   id: 10,
@@ -1171,7 +1297,21 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
   preptime: 30,
   type: false,
   trending: true,
-  tips: 'For added richness, you can stir in some Parmesan cheese or a splash of cream. Serve with crusty garlic bread for a complete meal.'
+  tips: 'For added richness, you can stir in some Parmesan cheese or a splash of cream. Serve with crusty garlic bread for a complete meal.',
+  faq: [
+   {
+     question: 'Can I use fresh tomatoes instead of canned?',
+     answer: 'Yes, you can use fresh tomatoes. Just blanch and peel them before adding to the sauce.'
+   },
+   {
+     question: 'How can I make this dish less spicy?',
+     answer: 'Reduce the amount of cayenne pepper and chili flakes to suit your taste.'
+   },
+   {
+     question: 'Can I add protein to this dish?',
+     answer: 'Yes, grilled chicken, shrimp, or Italian sausage pair well with Arrabbiata Pasta.'
+   }
+ ]
 },
 
 {
@@ -1320,7 +1460,21 @@ Ready to impress your family and friends? Grab your ingredients and start cookin
   ingredients: ['ground beef', 'pepperoni', 'marinara sauce', 'Italian seasoning', 'pizza seasoning', 'hamburger buns', 'butter', 'mozzarella cheese'],
   preptime: 25,
   type: false,
-  trending: false
+  trending: false,
+  faq: [
+   {
+     question: 'Can I use turkey or chicken instead of beef?',
+     answer: 'Yes, you can substitute ground beef with ground turkey or chicken for a lighter option.'
+   },
+   {
+     question: 'What other toppings can I add?',
+     answer: 'You can add mushrooms, olives, bell peppers, or even pineapple for a Hawaiian twist.'
+   },
+   {
+     question: 'Can I make this vegetarian?',
+     answer: 'Yes, use a plant-based patty and skip the pepperoni for a vegetarian version.'
+   }
+ ]
 },
 {
   id: 12,
@@ -1467,7 +1621,21 @@ Ready to try this recipe? Gather your ingredients and start layering your Spinac
   ingredients: ['spinach', 'marinara sauce', 'lasagna noodles', 'mozzarella cheese', 'parmesan cheese'],
   preptime: 50,
   type: false,
-  trending: true
+  trending: true,
+  faq: [
+   {
+     question: 'Can I use fresh spinach instead of frozen?',
+     answer: 'Yes, you can use fresh spinach. Just sauté it lightly before layering.'
+   },
+   {
+     question: 'How can I make this gluten-free?',
+     answer: 'Use gluten-free lasagna noodles and ensure all other ingredients are gluten-free.'
+   },
+   {
+     question: 'Can I freeze this lasagna?',
+     answer: 'Yes, you can freeze it before baking. Just thaw and bake when ready to serve.'
+   }
+ ]
 },
 {
   id: 13,
@@ -1614,7 +1782,21 @@ Ready to make this iconic sandwich? Gather your ingredients and start assembling
   ingredients: ['genoa salami', 'ham', 'mortadella', 'mozzarella cheese', 'provolone cheese', 'black olives', 'green olives', 'pepperoncini peppers', 'roasted red peppers', 'basil', 'oregano', 'garlic powder', 'salt and pepper', 'olive oil', 'red wine vinegar', 'Italian bread or muffaletta bread'],
   preptime: 30,
   type: false,
-  trending: false
+  trending: false,
+  faq: [
+   {
+     question: 'Can I use different meats?',
+     answer: 'Yes, you can substitute with turkey, roast beef, or other deli meats.'
+   },
+   {
+     question: 'How long can I store the olive salad?',
+     answer: 'The olive salad can be stored in the fridge for up to a week.'
+   },
+   {
+     question: 'Can I make this vegetarian?',
+     answer: 'Yes, skip the meats and add grilled vegetables or plant-based deli slices.'
+   }
+ ]
 },
 {
   id: 14,
@@ -1759,7 +1941,21 @@ Ready to whip up this delicious dish? Grab your ingredients and start cooking Ya
   ingredients: ['baby bok choy', 'garlic', 'scallions', 'shitake mushrooms', 'honey or agave', 'mirin', 'vegetarian oyster sauce', 'dark soy sauce', 'light soy sauce', 'sriracha', 'udon noodles'],
   preptime: 15,
   type: false,
-  trending: true
+  trending: true,
+  faq: [
+   {
+     question: 'Can I use other vegetables?',
+     answer: 'Yes, you can add bell peppers, carrots, or zucchini for extra variety.'
+   },
+   {
+     question: 'What can I use instead of udon noodles?',
+     answer: 'You can use soba noodles, rice noodles, or even spaghetti as a substitute.'
+   },
+   {
+     question: 'Can I make this gluten-free?',
+     answer: 'Yes, use gluten-free soy sauce and ensure all other ingredients are gluten-free.'
+   }
+ ]
 },
 {
   id: 15,
@@ -1903,7 +2099,21 @@ Ready to make this delicious dish? Grab your ingredients and start cooking Panee
   ingredients: ['fresh coriander leaves', 'green chilies', 'lemon wedges', 'lettuce', 'onion', 'tomato', 'ginger-garlic paste', 'mint chutney', 'garam masala', 'red chili powder', 'salt', 'turmeric powder', 'whole wheat flour', 'vegetable oil', 'cumin powder', 'cumin seeds', 'onion rings', 'paneer', 'water'],
   preptime: 30,
   type: false,
-  trending: true
+  trending: true,
+  faq: [
+   {
+     question: 'Can I use store-bought roti?',
+     answer: 'Yes, you can use store-bought roti to save time.'
+   },
+   {
+     question: 'How can I make this spicier?',
+     answer: 'Add more green chilies or red chili powder to the paneer mixture.'
+   },
+   {
+     question: 'Can I use tofu instead of paneer?',
+     answer: 'Yes, tofu can be used as a substitute for paneer.'
+   }
+ ]
 },
 {
   id: 16,
@@ -2058,7 +2268,21 @@ Ready to make this delicious dish? Grab your ingredients and start cooking Spicy
   ingredients: ['jumbo shrimp', 'garlic', 'green onions', 'serrano pepper', 'fish sauce', 'soy sauce', 'dried pasta', 'black pepper', 'cornstarch', 'gochugaru', 'salt', 'cooking oil', 'sesame oil', 'unsalted butter', 'sake or water', 'maesilaek'],
   preptime: 25,
   type: false,
-  trending: true
+  trending: true,
+  faq: [
+   {
+     question: 'Can I use frozen shrimp?',
+     answer: 'Yes, you can use frozen shrimp. Just thaw and pat them dry before cooking.'
+   },
+   {
+     question: 'What can I substitute for gochugaru?',
+     answer: 'You can use red pepper flakes or chili powder as a substitute.'
+   },
+   {
+     question: 'Can I make this dish vegetarian?',
+     answer: 'Yes, replace shrimp with tofu or mushrooms for a vegetarian version.'
+   }
+ ]
 },
 {
   id: 17,
@@ -2183,7 +2407,21 @@ Ready to make this delicious dish? Grab your ingredients and start cooking Cilan
   ingredients: ['large avocado', 'cherry tomatoes', 'fresh cilantro', 'red onion', 'honey', 'fresh lime juice', 'cracked black pepper', 'salt', 'extra virgin olive oil', 'whole wheat bread'],
   preptime: 10,
   type: false,
-  trending: true
+  trending: true,
+  faq: [
+   {
+     question: 'Can I use gluten-free bread?',
+     answer: 'Yes, you can use gluten-free bread for a gluten-free version.'
+   },
+   {
+     question: 'What can I substitute for honey?',
+     answer: 'You can use maple syrup or agave as a substitute for honey.'
+   },
+   {
+     question: 'Can I add protein to this toast?',
+     answer: 'Yes, you can add a poached egg or smoked salmon for extra protein.'
+   }
+ ]
   },
   {
     id: 18,
@@ -2304,7 +2542,21 @@ Ready to make this delicious dessert? Grab your ingredients and start creating y
     ingredients: ['bittersweet chocolate', 'granulated sugar', 'powdered sugar', 'vanilla extract', 'Oreo cookie crumbs', 'unsalted butter', 'cream cheese'],
     preptime: 25,
     type: false,
-    trending: false
+    trending: false,
+    faq: [
+      {
+        question: 'Can I use a different type of cookie for the crust?',
+        answer: 'Yes, you can use graham crackers or digestive biscuits as a substitute.'
+      },
+      {
+        question: 'How long can I store this cheesecake?',
+        answer: 'You can store it in the fridge for up to 3 days.'
+      },
+      {
+        question: 'Can I make this gluten-free?',
+        answer: 'Yes, use gluten-free cookies for the crust and ensure all other ingredients are gluten-free.'
+      }
+    ]
   },
   {
     id: 19,
@@ -2427,7 +2679,21 @@ Ready to make this delicious dessert? Grab your ingredients and start creating y
     ingredients: ['large eggs', 'corn syrup', 'all-purpose flour', 'baking powder', 'good quality chocolate', 'granulated sugar', 'powdered sugar', 'salt', 'pure vanilla', 'unsalted butter', 'cream cheese', 'double cream', 'Dutch-process cocoa'],
     preptime: 30,
     type: false,
-    trending: true
+    trending: true,
+    faq: [
+      {
+        question: 'Can I use a different filling?',
+        answer: 'Yes, you can use whipped cream, fruit preserves, or Nutella as a filling.'
+      },
+      {
+        question: 'How do I prevent the cake from cracking?',
+        answer: 'Roll the cake while it’s still warm and use a clean kitchen towel to help it hold its shape.'
+      },
+      {
+        question: 'Can I make this gluten-free?',
+        answer: 'Yes, use gluten-free flour for the cake batter.'
+      }
+    ]
   },
   {
     id: 20,
@@ -2547,7 +2813,21 @@ Ready to make this delicious dessert? Grab your ingredients and start creating y
     ingredients: ['liquid cream', 'coffee', 'sugar', 'gelatin sheets', 'vanilla extract', 'sugar', 'water', 'unsweetened cocoa powder', 'lemon juice', 'instant coffee', 'salt'],
     preptime: 30,
     type: false,
-    trending: true
+    trending: true,
+    faq: [
+      {
+        question: 'Can I use agar-agar instead of gelatin?',
+        answer: 'Yes, agar-agar can be used as a vegetarian substitute for gelatin.'
+      },
+      {
+        question: 'How long can I store this dessert?',
+        answer: 'You can store it in the fridge for up to 3 days.'
+      },
+      {
+        question: 'Can I make this without coffee?',
+        answer: 'Yes, you can omit the coffee for a plain vanilla panna cotta.'
+      }
+    ]
    },
    {
     id: 21,
@@ -2783,7 +3063,21 @@ Ready to make this delicious drink? Grab your ingredients and start creating you
     ingredients: ['fresh lime', 'frozen strawberries', 'fresh strawberries', 'freshly squeezed lime juice', 'simple syrup'],
     preptime: 10,
     type: false,
-    trending: false
+    trending: false,
+    faq: [
+      {
+          question: 'Can I use frozen strawberries instead of fresh ones?',
+          answer: 'Yes, you can use frozen strawberries. In fact, using a combination of fresh and frozen strawberries gives the daiquiri a thicker, smoother texture.'
+      },
+      {
+          question: 'How can I make this drink sweeter?',
+          answer: 'You can adjust the sweetness by adding more simple syrup or a natural sweetener like honey or agave syrup.'
+      },
+      {
+          question: 'Can I make this daiquiri ahead of time?',
+          answer: 'Yes, you can prepare the mixture ahead of time and store it in the refrigerator. Blend it again before serving to ensure a smooth consistency.'
+      }
+  ]
   },
   {
     id: 23,

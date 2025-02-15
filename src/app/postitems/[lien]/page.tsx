@@ -100,9 +100,10 @@ const PostItem = async ({ params }: { params: Params }) => {
     "keywords": "recipe, Quick recipe,Main Course, cook recipe, fast recipe, refreshing, easy recipe",
     "recipeIngredient": foundItem.ingredients,
     "author": {
-    "@type": "Person",
+    "@type": "Organization",
     "name": "Fast Cookit Easy"
     },
+    
     "recipeInstructions": foundItem.comment.map((step) => ({
       "@type": "HowToStep",
       "text": step,
@@ -164,6 +165,18 @@ const PostItem = async ({ params }: { params: Params }) => {
                     </div>
                     <div className="infos_duration">
                       Duration: {foundItem.preptime} min
+                    </div>
+                    <br></br>
+                    <div className="faq-section">
+                      <h3>Frequently Asked Questions</h3>
+                        <div className="faq-list">
+                          {foundItem.faq && foundItem.faq.map((faq, index) => (
+                            <div key={index} className="faq-item">
+                              <h5 className="faq-question">{faq.question}</h5>
+                              <p className="faq-answer">{faq.answer}</p>
+                            </div>
+                                ))}
+                          </div>
                     </div>
                   </figcaption>
                 </figure>
