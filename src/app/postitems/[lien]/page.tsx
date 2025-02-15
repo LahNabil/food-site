@@ -113,13 +113,31 @@ const PostItem = async ({ params }: { params: Params }) => {
     })),
   };
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": foundItem.faq?.map((faq) => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    })) || []
+  };
+
   return (
     <main id="main">
     <Script
         id="recipe-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
+    />
+    <Script
+        id="faq-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+    />
       <section className="single-post-content">
         <div className="container">
           <div className="row">
