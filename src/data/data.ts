@@ -2945,7 +2945,29 @@ Ready to make this delicious drink? Grab your ingredients and start creating you
     ingredients: ['ice', 'fresh lemons', 'honey'],
     preptime: 10,
     type: false,
-    trending: false
+    trending: false,
+    "faq": [
+    {
+      "question": "Can I use maple syrup instead of honey?",
+      "answer": "Yes, maple syrup is a great alternative to honey and adds a unique flavor."
+    },
+    {
+      "question": "Can I make this lemonade ahead of time?",
+      "answer": "Yes, you can prepare the lemonade and store it in the refrigerator for up to 2 days. Stir well before serving."
+    },
+    {
+      "question": "Can I use bottled lemon juice instead of fresh lemons?",
+      "answer": "Fresh lemon juice is recommended for the best flavor, but bottled lemon juice can be used in a pinch."
+    },
+    {
+      "question": "How can I make this lemonade fizzy?",
+      "answer": "Replace still water with sparkling water for a fizzy version of this lemonade."
+    },
+    {
+      "question": "Can I add herbs to this lemonade?",
+      "answer": "Absolutely! Fresh mint, basil, or rosemary can add a unique and refreshing twist."
+    }
+  ]
   },
   {
     id: 22,
@@ -3208,7 +3230,21 @@ Ready to make this delicious dish? Grab your ingredients and start creating your
           ],
     preptime: 30,
     type: false,
-    trending: false
+    trending: false,
+    faq: [
+    {
+      "question": "Can I use a different type of pasta?",
+      "answer": "Yes, you can use any pasta you prefer, such as spaghetti, fettuccine, or rigatoni. Just adjust the cooking time according to the pasta type."
+    },
+    {
+      "question": "Can I make this dish vegan?",
+      "answer": "Absolutely! Substitute the heavy cream with coconut cream or cashew cream, and use vegan butter and cheese alternatives."
+    },
+    {
+      "question": "How can I store leftovers?",
+      "answer": "Store leftovers in an airtight container in the refrigerator for up to 3 days. Reheat on the stovetop or microwave, adding a splash of water or cream to restore the sauce's consistency."
+    }
+  ]
   },
   {
     id: 24,
@@ -3339,7 +3375,21 @@ Ready to make this delicious soup? Grab your ingredients and start creating your
           ],
     preptime: 20,
     type: false,
-    trending: false
+    trending: false,
+    faq: [
+      {
+        "question": "Can I use vegetable broth instead of chicken broth?",
+        "answer": "Yes, vegetable broth works perfectly for a vegetarian version of this soup."
+      },
+      {
+        "question": "Can I add protein to this soup?",
+        "answer": "Absolutely! Shredded chicken, ground beef, or even tofu can be added for extra protein."
+      },
+      {
+        "question": "How long can I store leftovers?",
+        "answer": "Store leftovers in an airtight container in the refrigerator for up to 3 days. Reheat on the stovetop or microwave before serving."
+      }
+    ]
   },
   {
     id: 25,
@@ -3474,7 +3524,21 @@ Ready to make this delicious dish? Grab your ingredients and start creating your
           ],
     preptime: 25,
     type: false,
-    trending: false
+    trending: false,
+    faq: [
+    {
+      "question": "Can I use chicken instead of shrimp?",
+      "answer": "Yes, you can substitute shrimp with chicken, beef, or tofu for a different protein option."
+    },
+    {
+      "question": "Is this dish gluten-free?",
+      "answer": "You can make it gluten-free by using gluten-free soy sauce and noodles."
+    },
+    {
+      "question": "Can I add more vegetables?",
+      "answer": "Absolutely! Feel free to add broccoli, mushrooms, or zucchini for extra nutrition."
+    }
+  ]
   },
   {
     id: 26,
@@ -3605,7 +3669,21 @@ Ready to make this delicious dish? Grab your ingredients and start creating your
           ],
     preptime: 15,
     type: false,
-    trending: false
+    trending: false,
+    faq: [
+    {
+      "question": "Can I make this omelette vegan?",
+      "answer": "Yes, you can use a tofu scramble or chickpea flour mixture as an egg substitute and skip the feta cheese."
+    },
+    {
+      "question": "Can I add other vegetables?",
+      "answer": "Absolutely! Bell peppers, tomatoes, or zucchini would be great additions."
+    },
+    {
+      "question": "How can I make this dish spicier?",
+      "answer": "Add more red chili flakes or a dash of hot sauce for extra heat."
+    }
+  ]
   },
   {
     id: 27,
@@ -3733,7 +3811,21 @@ Ready to make this delicious sauce? Grab your ingredients and start creating you
           ],
     preptime: 10,
     type: true,
-    trending: false
+    trending: false,
+    faq: [
+    {
+      "question": "Can I use fresh red peppers instead of roasted?",
+      "answer": "Yes, but you’ll need to roast them first to achieve the smoky flavor that defines Romesco sauce."
+    },
+    {
+      "question": "How long can I store this sauce?",
+      "answer": "Store in an airtight container in the refrigerator for up to 1 week or freeze for up to 3 months."
+    },
+    {
+      "question": "Can I make this sauce nut-free?",
+      "answer": "Yes, substitute almonds with sunflower seeds or pumpkin seeds for a nut-free version."
+    }
+  ]
   },
   {
     id: 28,
@@ -3860,7 +3952,21 @@ Ready to make this delicious dish? Grab your ingredients and start creating your
           ],
     preptime: 10,
     type: true,
-    trending: false
+    trending: false,
+    faq: [
+    {
+      "question": "Can I make this dish vegan?",
+      "answer": "Yes, skip the eggs and queso fresco, and use vegan cheese or extra beans for a vegan version."
+    },
+    {
+      "question": "Can I use corn tortillas instead of tostadas?",
+      "answer": "Yes, you can use corn tortillas, but toast them until crispy for a similar texture."
+    },
+    {
+      "question": "How can I add more protein?",
+      "answer": "Add shredded chicken, chorizo, or black beans for extra protein."
+    }
+  ]
   },
   {
     id: 29,
@@ -3990,7 +4096,21 @@ Ready to make this delicious dish? Grab your ingredients and start creating your
           ],
     preptime: 35,
     type: true,
-    trending: false
+    trending: false,
+    faq: [
+    {
+      "question": "Can I make these pancakes gluten-free?",
+      "answer": "Yes, substitute all-purpose flour with gluten-free flour for a gluten-free version."
+    },
+    {
+      "question": "Can I use a different type of milk?",
+      "answer": "Yes, you can use almond milk, oat milk, or any other milk alternative."
+    },
+    {
+      "question": "How can I make these pancakes vegan?",
+      "answer": "Replace the egg with a flax egg and use a plant-based milk and butter substitute."
+    }
+  ]
   },
   {
     id: 30,
@@ -4120,7 +4240,21 @@ Ready to make this delicious dish? Grab your ingredients and start creating your
           ],
     preptime: 20,
     type: true,
-    trending: false
+    trending: false,
+    faq: [
+    {
+      "question": "Can I use a different type of pasta?",
+      "answer": "Yes, you can use spaghetti, fettuccine, or any pasta you prefer. Adjust the cooking time according to the pasta type."
+    },
+    {
+      "question": "Can I make this dish vegan?",
+      "answer": "Yes, substitute butter with vegan butter and skip the pecorino cheese or use a vegan cheese alternative."
+    },
+    {
+      "question": "How can I store leftovers?",
+      "answer": "Store leftovers in an airtight container in the refrigerator for up to 3 days. Reheat on the stovetop with a splash of water or olive oil to restore the sauce's consistency."
+    }
+  ]
   },
   {
     id: 31,
@@ -4250,7 +4384,21 @@ Ready to make this delicious dish? Grab your ingredients and start creating your
           ],
     preptime: 30,
     type: true,
-    trending: false
+    trending: false,
+    faq: [
+    {
+      "question": "Can I use chicken thighs instead of breasts?",
+      "answer": "Yes, chicken thighs work well and add extra juiciness. Adjust the cooking time as thighs may take slightly longer to cook."
+    },
+    {
+      "question": "Can I make this dish gluten-free?",
+      "answer": "Yes, this recipe is naturally gluten-free. Just ensure the chicken broth used is gluten-free."
+    },
+    {
+      "question": "How can I make the sauce thicker?",
+      "answer": "Mix 1 teaspoon of cornstarch with 1 tablespoon of water and stir it into the sauce during the last few minutes of cooking."
+    }
+  ]
   },
   {
     id: 32,
@@ -4379,7 +4527,21 @@ Ready to make this delicious soup? Grab your ingredients and start creating your
           ],
     preptime: 25,
     type: true,
-    trending: false
+    trending: false,
+    faq: [
+    {
+      "question": "Can I use a different type of mushroom?",
+      "answer": "Yes, you can use cremini, shiitake, or portobello mushrooms for a deeper flavor."
+    },
+    {
+      "question": "Can I make this soup vegan?",
+      "answer": "Yes, substitute butter with olive oil and use coconut cream or cashew cream instead of heavy cream."
+    },
+    {
+      "question": "How long can I store leftovers?",
+      "answer": "Store in an airtight container in the refrigerator for up to 3 days or freeze for up to 1 month."
+    }
+  ]
   },
   {
     id: 33,
@@ -4506,7 +4668,21 @@ Ready to make this delicious dessert? Grab your ingredients and start creating y
           ],
     preptime: 20,
     type: true,
-    trending: false
+    trending: false,
+    faq: [
+    {
+      "question": "Can I make this dessert ahead of time?",
+      "answer": "Yes, you can prepare the batter and refrigerate it in the ramekins for up to 24 hours. Bake just before serving."
+    },
+    {
+      "question": "Can I use milk chocolate instead of dark chocolate?",
+      "answer": "Yes, but the cake will be sweeter and less rich. Adjust the sugar accordingly."
+    },
+    {
+      "question": "How do I know when the cake is done?",
+      "answer": "The edges should be set, but the center should still be soft and jiggly when gently shaken."
+    }
+  ]
   },
   {
     id: 34,
@@ -4635,7 +4811,21 @@ Ready to make this delicious dish? Grab your ingredients and start creating your
           ],
     preptime: 30,
     type: true,
-    trending: false
+    trending: false,
+    faq: [
+    {
+      "question": "Can I use a different grain instead of quinoa?",
+      "answer": "Yes, you can use brown rice, farro, or couscous as a substitute."
+    },
+    {
+      "question": "Can I add protein to this bowl?",
+      "answer": "Absolutely! Add tofu, tempeh, or edamame for extra protein."
+    },
+    {
+      "question": "How do I store leftovers?",
+      "answer": "Store components separately in airtight containers in the refrigerator for up to 3 days. Assemble just before serving."
+    }
+  ]
   },
   {
     id: 35,
@@ -4764,7 +4954,21 @@ Ready to make this delicious dish? Grab your ingredients and start creating your
           ],
     preptime: 20,
     type: true,
-    trending: true
+    trending: true,
+    faq: [
+    {
+      "question": "Can I use flour tortillas instead of corn tortillas?",
+      "answer": "Yes, flour tortillas work well, but corn tortillas add an authentic touch."
+    },
+    {
+      "question": "Can I make this dish spicy?",
+      "answer": "Yes, add a pinch of cayenne pepper or a dash of hot sauce to the shrimp seasoning."
+    },
+    {
+      "question": "How do I store leftovers?",
+      "answer": "Store the shrimp and toppings separately in airtight containers in the refrigerator for up to 2 days. Reheat the shrimp gently before serving."
+    }
+  ]
   },
   {
     id: 36,
@@ -4889,7 +5093,21 @@ Ready to make this delicious dish? Grab your ingredients and start creating your
           ],
     preptime: 10,
     type: true,
-    trending: false
+    trending: false,
+    faq: [
+    {
+      "question": "Can I use balsamic vinegar instead of balsamic glaze?",
+      "answer": "Yes, but reduce the vinegar in a saucepan until it thickens for a similar consistency."
+    },
+    {
+      "question": "Can I add other ingredients?",
+      "answer": "Yes, you can add avocado, cucumber, or arugula for extra flavor and texture."
+    },
+    {
+      "question": "How do I store leftovers?",
+      "answer": "Store in an airtight container in the refrigerator for up to 1 day. The salad is best enjoyed fresh."
+    }
+  ]
   },
   {
     id: 37,
@@ -5013,35 +5231,171 @@ Ready to make this delicious dessert? Grab your ingredients and start creating y
           ],
     preptime: 10,
     type: true,
-    trending: false
+    trending: false,
+    faq: [
+    {
+      "question": "Can I use frozen mangoes?",
+      "answer": "Yes, but thaw them completely and drain any excess liquid before using."
+    },
+    {
+      "question": "Can I make this dessert vegan?",
+      "answer": "Yes, use coconut cream or a plant-based condensed milk alternative."
+    },
+    {
+      "question": "How long can I store this dessert?",
+      "answer": "Store in an airtight container in the refrigerator for up to 2 days."
+    }
+  ]
   },
   {
     id: 38,
-    img: '/assets/chinese-mango-pudding.webp',
-    lien:'chinese-mango-pudding',
-    category: 'Dessert',
-    alte: 'Traditional Chinese Mango Pudding: A creamy and refreshing dessert made with ripe mangoes, coconut milk, and a hint of vanilla, served chilled with fresh mango slices and a drizzle of cream.',
+    img : "/assets/chinese-mango-pudding.webp",
+    lien: "chinese-mango-pudding",
+    category: "Dessert",
+    alte: "Traditional Chinese Mango Pudding: A creamy and refreshing dessert made with ripe mangoes, coconut milk, and a hint of vanilla, served chilled with fresh mango slices and a drizzle of cream.",
     comment: [
-            'Peel and dice ripe mangoes into cubes.',
-            'Blend the mangoes with sugar, coconut milk, and a dash of vanilla.',
-            'Pour the mixture into molds and refrigerate until set.',
-            'Serve with a garnish of fresh mango slices and a drizzle of cream.'
-          ],
-    title: 'Traditional Chinese Mango Pudding Recipe to Try at Home',
-    brief: 'Satisfy your cravings with creamy mango desserts! Try recipes like mango and cream or traditional Chinese mango pudding today.',
-    description: 'Chinese mango pudding is a beloved and iconic dessert in many Asian cultures, celebrated for its smooth, creamy texture and vibrant mango flavor. This easy-to-make recipe combines perfectly ripe mangoes with coconut milk, sugar, and a hint of vanilla, creating a velvety pudding that melts in your mouth. After chilling, the pudding sets into a firm yet smooth consistency, offering a refreshing and cooling treat. Whether served as a light dessert after a meal or enjoyed as a snack on a warm day, this mango pudding is a favorite among mango enthusiasts. For an added touch of sweetness and beauty, serve it topped with fresh mango slices, making it not only delicious but visually appealing. This tropical dessert is sure to become a go-to favorite in your recipe collection, perfect for family gatherings, special occasions, or just a sweet indulgence to satisfy your cravings. Chinese mango pudding is not only a delicious dessert but also a versatile dish that can be enjoyed in various ways. It can be customized by adding other tropical fruits like lychee or coconut flakes for a new twist. Some variations even include a layer of tapioca pearls, giving the pudding a unique texture. Whether you are hosting a dinner party or just craving a light and refreshing dessert, this mango pudding is sure to impress your guests with its exotic flavors. Additionally, mangoes are packed with vitamins, making this dessert a somewhat healthy indulgence. By preparing it at home, you can adjust the sweetness to your liking and avoid the added preservatives often found in store-bought versions. This makes homemade Chinese mango pudding a great option for those looking to enjoy an authentic, fresh treat',
+      "Peel and dice ripe mangoes into cubes.",
+      "Blend the mangoes with sugar, coconut milk, and a dash of vanilla.",
+      "Pour the mixture into molds and refrigerate until set.",
+      "Serve with a garnish of fresh mango slices and a drizzle of cream."
+    ],
+    "title": "Traditional Chinese Mango Pudding Recipe to Try at Home",
+    "brief": "Satisfy your cravings with creamy mango desserts! Try recipes like mango and cream or traditional Chinese mango pudding today.",
+    "description": `## Traditional Chinese Mango Pudding: A Creamy and Refreshing Dessert  
+  
+  Chinese mango pudding is a beloved and iconic dessert in many Asian cultures, celebrated for its smooth, creamy texture and vibrant mango flavor. This easy-to-make recipe combines perfectly ripe mangoes with coconut milk, sugar, and a hint of vanilla, creating a velvety pudding that melts in your mouth. After chilling, the pudding sets into a firm yet smooth consistency, offering a refreshing and cooling treat. Whether served as a light dessert after a meal or enjoyed as a snack on a warm day, this mango pudding is a favorite among mango enthusiasts.  
+  
+  For an added touch of sweetness and beauty, serve it topped with fresh mango slices, making it not only delicious but visually appealing. This tropical dessert is sure to become a go-to favorite in your recipe collection, perfect for family gatherings, special occasions, or just a sweet indulgence to satisfy your cravings.  
+  
+  ---
+  
+  ### Why You’ll Love This Traditional Chinese Mango Pudding  
+  
+  This dessert is a favorite for so many reasons. Here’s why it’s a must-try:  
+  
+  - **Creamy and Refreshing**: The combination of ripe mangoes and coconut milk creates a luxurious texture.  
+  - **Easy to Make**: Ready in just 16 minutes, it’s perfect for quick desserts or last-minute gatherings.  
+  - **Customizable**: Add tropical fruits like lychee or coconut flakes for a unique twist.  
+  - **Healthy Indulgence**: Mangoes are packed with vitamins, making this dessert a guilt-free treat.  
+  
+  ---
+  
+  ### The Magic of Traditional Chinese Mango Pudding  
+  
+  What makes this **Traditional Chinese Mango Pudding** truly special is its simplicity and versatility. The **ripe mangoes** provide a juicy, tropical flavor, while the **coconut milk** adds richness and creaminess. The **agar-agar powder** ensures a firm yet smooth consistency, making it easy to slice and serve. Topped with fresh mango slices, this dessert is as visually appealing as it is delicious.  
+  
+  ---
+  
+  ### Health Benefits of Mango Pudding  
+  
+  Not only is this dessert delicious, but it’s also packed with nutrients. Here’s a breakdown of its health benefits:  
+  
+  - **Rich in Vitamins**: Mangoes are loaded with vitamins A and C, which support immune health and skin vitality.  
+  - **Natural Sweetness**: Mangoes provide natural sugars, reducing the need for added sweeteners.  
+  - **Customizable**: Use low-fat coconut milk or natural sweeteners for a healthier version.  
+  - **Digestive Aid**: Agar-agar is a natural source of fiber, which can aid digestion.  
+  
+  By enjoying this **Traditional Chinese Mango Pudding**, you’re not just satisfying your sweet tooth—you’re also nourishing your body with essential nutrients.  
+  
+  ---
+  
+  ### Perfect for Any Occasion  
+  
+  One of the best things about this **Traditional Chinese Mango Pudding** is its versatility. It’s a dessert that fits seamlessly into any occasion:  
+  
+  - **Family Gatherings**: A crowd-pleaser that both kids and adults will love.  
+  - **Special Occasions**: Perfect for birthdays, holidays, or dinner parties.  
+  - **Everyday Treats**: A quick and easy dessert to satisfy your cravings.  
+  - **Meal Prep**: Make a big batch and enjoy it throughout the week.  
+  
+  No matter the occasion, this mango pudding is sure to be a hit.  
+  
+  ---
+  
+  ### Tips for Making the Perfect Mango Pudding  
+  
+  While this dessert is incredibly simple to make, a few expert tips can take it to the next level:  
+  
+  1. **Use Ripe Mangoes**: The riper the mangoes, the sweeter and more flavorful the pudding will be.  
+  2. **Chill Thoroughly**: Refrigerate the pudding for at least 2 hours to ensure it sets properly.  
+  3. **Adjust Sweetness**: Taste the mixture before setting and adjust the sugar to your preference.  
+  4. **Garnish Creatively**: Add fresh mint, basil leaves, or a sprinkle of toasted coconut for an elegant finish.  
+  5. **Experiment with Layers**: Layer mango puree with coconut jelly or tapioca pearls for a unique texture.  
+  
+  By following these tips, you can create a dessert that’s not only delicious but also tailored to your taste.  
+  
+  ---
+  
+  ### Variations to Try  
+  
+  One of the best things about this recipe is how easy it is to customize. Here are a few variations to try:  
+  
+  - **Tropical Twist**: Add diced pineapple, kiwi, or passion fruit for a tropical fruit medley.  
+  - **Coconut Delight**: Use coconut cream instead of coconut milk for extra richness.  
+  - **Spiced Version**: Add a pinch of cardamom or cinnamon for a warm, spiced flavor.  
+  - **Vegan Option**: Use agar-agar instead of gelatin for a vegan-friendly dessert.  
+  
+  These variations allow you to tailor the pudding to your preferences and keep it exciting every time you make it.  
+  
+  ---
+  
+  ### Pairing Ideas  
+  
+  This **Traditional Chinese Mango Pudding** is delicious on its own, but it pairs wonderfully with other treats and beverages:  
+  
+  - **Fresh Fruit**: Serve with a side of fresh berries or sliced melon for added freshness.  
+  - **Coffee or Tea**: Enjoy with a cup of green tea or coffee for a balanced dessert experience.  
+  - **Ice Cream**: Pair with a scoop of vanilla or coconut ice cream for an indulgent treat.  
+  - **Sparkling Wine**: Complement the dessert with a glass of sparkling wine or champagne for a celebratory touch.  
+  
+  These pairings enhance the overall dining experience and make your dessert even more enjoyable.  
+  
+  ---
+  
+  ### Final Thoughts  
+  
+  The **Traditional Chinese Mango Pudding** is more than just a dessert—it’s a celebration of tropical flavors that come together in a quick and easy masterpiece. Whether you’re cooking for yourself, your family, or a crowd, this recipe is sure to satisfy. With its juicy mangoes, creamy coconut milk, and endless customization options, it’s a dessert that’s sure to become a favorite in your household.  
+  
+  So, why not give it a try? Whip up a batch of **Traditional Chinese Mango Pudding** today and treat yourself to a dessert that’s both refreshing and indulgent.  
+  
+  ---
+  
+  **Call to Action**:  
+  Ready to make this delicious dessert? Grab your ingredients and start creating your **Traditional Chinese Mango Pudding** today! Don’t forget to share your creations on social media and tag us—we can’t wait to see your tasty results!  `,
     ingredients: [
-            '2 ripe mangoes, peeled and diced',
-            '1/2 cup coconut milk',
-            '1/4 cup sugar (adjust to taste)',
-            '1/2 tsp vanilla extract',
-            '1/4 cup water (for dissolving agar-agar)',
-            '1 tsp agar-agar powder',
-            'Fresh mango slices for garnish'
-          ],
+      "2 ripe mangoes, peeled and diced",
+      "1/2 cup coconut milk",
+      "1/4 cup sugar (adjust to taste)",
+      "1/2 tsp vanilla extract",
+      "1/4 cup water (for dissolving agar-agar)",
+      "1 tsp agar-agar powder",
+      "Fresh mango slices for garnish"
+    ],
     preptime: 16,
     type: true,
-    trending: false
+    trending: false,
+    faq: [
+      {
+        "question": "Can I use frozen mangoes?",
+        "answer": "Yes, but thaw them completely and drain any excess liquid before using."
+      },
+      {
+        "question": "Can I make this dessert vegan?",
+        "answer": "Yes, use coconut cream or a plant-based condensed milk alternative."
+      },
+      {
+        "question": "How long can I store this dessert?",
+        "answer": "Store in an airtight container in the refrigerator for up to 2 days."
+      },
+      {
+        "question": "Can I use gelatin instead of agar-agar?",
+        "answer": "Yes, but the texture will be slightly different. Use 1 teaspoon of gelatin dissolved in warm water as a substitute."
+      },
+      {
+        "question": "Can I add other fruits to this pudding?",
+        "answer": "Absolutely! Add diced pineapple, kiwi, or berries for a fruity twist."
+      }
+    ]
   },
   {
    id: 39,
@@ -5163,7 +5517,21 @@ Ready to make your own Virgin Mojito? Try this easy recipe and share your creati
          ],
    preptime: 10,
    type: false,
-   trending: false
+   trending: false,
+   faq: [
+    {
+      "question": "Can I use honey instead of sugar?",
+      "answer": "Yes, honey works well as a natural sweetener. Adjust the amount to taste."
+    },
+    {
+      "question": "Can I add fruit to this mojito?",
+      "answer": "Absolutely! Add strawberries, raspberries, or mango for a fruity twist."
+    },
+    {
+      "question": "How long can I store leftovers?",
+      "answer": "This drink is best enjoyed fresh, but you can store it in the refrigerator for up to 1 day."
+    }
+  ]
  },
  {
    id: 40,
@@ -5271,7 +5639,21 @@ Ready to make your own Virgin Piña Colada? Try this easy recipe and share your 
          ],
    preptime: 5,
    type: false,
-   trending: false
+   trending: false,
+   faq: [
+    {
+      "question": "Can I use frozen pineapple?",
+      "answer": "Yes, frozen pineapple works well and adds a thicker texture to the drink."
+    },
+    {
+      "question": "Can I make this mocktail ahead of time?",
+      "answer": "Yes, you can blend the ingredients and store them in the refrigerator for up to 1 day. Stir well before serving."
+    },
+    {
+      "question": "Can I use almond milk instead of coconut milk?",
+      "answer": "Yes, but the flavor will be less tropical. Coconut milk is recommended for authenticity."
+    }
+  ]
  },
  {
    id: 41,
@@ -5381,7 +5763,21 @@ Ready to make your own No-Alcohol Espresso Martini? Try this easy recipe and sha
          ],
    preptime: 5,
    type: false,
-   trending: false
+   trending: false,
+   faq: [
+    {
+      "question": "Can I use decaf espresso?",
+      "answer": "Yes, decaf espresso works perfectly if you want to avoid caffeine."
+    },
+    {
+      "question": "Can I make this mocktail ahead of time?",
+      "answer": "It’s best enjoyed fresh, but you can prepare the espresso and syrup in advance and shake with ice just before serving."
+    },
+    {
+      "question": "Can I use almond milk instead of coffee liqueur substitute?",
+      "answer": "Yes, but the flavor will be less intense. Coffee liqueur substitute adds depth and richness."
+    }
+  ]
  },
  {
    id: 42,
@@ -5539,7 +5935,21 @@ Ready to try these recipes? Pick your favorite and whip up a drink in just 5 min
          ],
    preptime: 15,
    type: false,
-   trending: true
+   trending: true,
+   faq: [
+    {
+      "question": "Can I use frozen fruits for the smoothies?",
+      "answer": "Yes, frozen fruits work perfectly and add a thicker texture to the smoothies."
+    },
+    {
+      "question": "Can I substitute dairy milk with plant-based milk?",
+      "answer": "Absolutely! Almond milk, oat milk, or soy milk are great alternatives."
+    },
+    {
+      "question": "How long can I store these drinks?",
+      "answer": "Smoothies and juices are best enjoyed fresh, but you can store them in the refrigerator for up to 1 day."
+    }
+  ]
  },
  {
    id: 44,
@@ -5686,6 +6096,20 @@ Ready to join the Dalgona revolution? Experiment with flavors, share your creati
    preptime: 10,
    type: false,
    trending: false,
+   faq: [
+    {
+      "question": "Can I use decaf instant coffee?",
+      "answer": "Yes, decaf instant coffee works perfectly if you want to avoid caffeine."
+    },
+    {
+      "question": "Can I make this ahead of time?",
+      "answer": "The whipped coffee is best made fresh, but you can prepare the mixture and store it in the refrigerator for up to 1 day."
+    },
+    {
+      "question": "Can I use a hand mixer instead of whisking by hand?",
+      "answer": "Yes, a hand mixer will make the process faster and easier."
+    }
+  ]
  },
  {
    id: 45,
@@ -5864,7 +6288,29 @@ Ready to create your own Strawberry Rose Sparkler? Share your Valentine’s Day 
          ],
    preptime: 5,
    type: false,
-   trending: false
+   trending: false,
+   "faq": [
+    {
+      "question": "Can I use frozen strawberries?",
+      "answer": "Yes, but thaw them first to release their juices for better flavor."
+    },
+    {
+      "question": "Where can I find edible rose petals?",
+      "answer": "You can find edible rose petals at specialty grocery stores or online retailers like Amazon."
+    },
+    {
+      "question": "Can I make a non-alcoholic version?",
+      "answer": "Absolutely! Replace sparkling wine with ginger ale, sparkling water, or a non-alcoholic sparkling wine alternative."
+    },
+    {
+      "question": "How do I store leftover rose syrup?",
+      "answer": "Store rose syrup in an airtight container in the refrigerator for up to 2 weeks."
+    },
+    {
+      "question": "Can I batch-make this for a party?",
+      "answer": "Yes, muddle the strawberries and rose syrup in a pitcher, and let guests add their choice of sparkling wine or water individually."
+    }
+  ]
  }
         
         
