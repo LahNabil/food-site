@@ -32,10 +32,10 @@ export const Footer = () => {
         <div className="categories-footer">
         <h3>Categories</h3>
         <ul>
-          <li>Quick & easy</li>
-          <li>Main corse</li>
-          <li>Dessert</li>
-          <li>Drinks</li>
+          <li><Link href='/postitems/category/quick-and-easy'>Quick & easy</Link></li>
+          <li><Link href='/postitems/category/main-course'>Main corse</Link></li>
+          <li><Link href='/postitems/category/dessert'>Dessert</Link></li>
+          <li><Link href='/postitems/category/drinks'>Drinks</Link></li>
         </ul>    
         </div>
       </div>
