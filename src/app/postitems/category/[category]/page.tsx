@@ -81,8 +81,6 @@ const CategoryPage = async ({ params }: { params: Promise<Params> }) => {
     return null;
   }
   
-  
-
   // Get the H1 title for the current category
   const h1Title = getH1Title(decodedCategory);
   const categorySchema = {
@@ -92,18 +90,44 @@ const CategoryPage = async ({ params }: { params: Promise<Params> }) => {
     "description": `Explore a collection of delicious and easy ${decodedCategory.toLowerCase()} recipes. Perfect for every occasion!`,
     "url": `https://www.fastcookiteasy.com/postitems/category/${slugify(category)}`,
     "numberOfItems": filteredItems.length,
-    "itemListElement": filteredItems.map((item, index) => ({
-      "@type": "ListItem",
-      "position": index + 1,
-      "item": {
-        "@type": "Recipe",
-        "name": item.title,
-        "url": `https://www.fastcookiteasy.com/postitems/${item.lien}`,
-        "image": `https://www.fastcookiteasy.com${item.img}`,
-        "description": item.brief
-      }
-    }))
+    "itemListElement": filteredItems.map((item, index) => {
+      // Ensure preptime exists to avoid NaN values
+      const totalTime = item.preptime || 0;
+      const prepTime = Math.round(totalTime / 3);
+      const cookTime = totalTime - prepTime;
+
+      return {
+        "@type": "ListItem",
+        "position": index + 1,
+        "item": {
+          "@type": "Recipe",
+          "name": item.title,
+          "url": `https://www.fastcookiteasy.com/postitems/${item.lien}`,
+          "image": `https://www.fastcookiteasy.com${item.img}`,
+          "description": item.brief,
+          "recipeCategory": item.category || "General",
+          "recipeCuisine": "International",
+          "cookTime": cookTime > 0 ? `PT${cookTime}M` : "PT10M",
+          "prepTime": item.preptime ? `PT${item.preptime}M` : "PT15M",
+          "recipeIngredient": item.ingredients?.length ? item.ingredients : ["Ingredients not available"],
+          "recipeInstructions": item.comment?.length
+            ? item.comment.map((step) => ({
+                "@type": "HowToStep",
+                "text": step,
+                "image": `https://www.fastcookiteasy.com${item.img}`,
+                "url": `https://www.fastcookiteasy.com/postitems/${item.lien}`
+              }))
+            : [{ "@type": "HowToStep", "text": "Instructions not available" }],
+          "author": {
+            "@type": "Organization",
+            "name": "Fast Cookit Easy"
+          },
+          "keywords": "recipe, quick recipe, main course, cook recipe, fast recipe, refreshing, easy recipe"
+        }
+      };
+    })
   };
+
 
   return (
     <main id="main">
