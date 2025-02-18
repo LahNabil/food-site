@@ -90,6 +90,32 @@ export function middleware(req) {
   if (pathname === "/postitems/Creamy-Mushroom-Soup") {
     return NextResponse.redirect("https://fastcookiteasy.com/postitems/creamy-mushroom-soup", 301); // Permanent Redirect
   }
+  if (pathname === "/postitems/Banana-Pancakes") {
+    return NextResponse.redirect("https://fastcookiteasy.com/postitems/banana-pancakes", 301); // Permanent Redirect
+  }
+  if (pathname === "/postitems/Lemon-Honey-Glazed-Chicken") {
+    return NextResponse.redirect("https://fastcookiteasy.com/postitems/lemon-honey-glazed-chicken", 301); // Permanent Redirect
+  }
+  if (pathname === "/postitems/Healthy-Lemonade") {
+    return NextResponse.redirect("https://fastcookiteasy.com/postitems/healthy-lemonade", 301); // Permanent Redirect
+  }
+  if (pathname === "/postitems/Virgin-Strawberry-Daiquiri") {
+    return NextResponse.redirect("https://fastcookiteasy.com/postitems/virgin-strawberry-daiquiri", 301); // Permanent Redirect
+  }
+  if (pathname === "/postitems/Vegan-Buddha-Bowl") {
+    return NextResponse.redirect("https://fastcookiteasy.com/postitems/vegan-buddha-bowl", 301); // Permanent Redirect
+  }
+  if (pathname === "/postitems/Chocolate-Lava-Cake") {
+    return NextResponse.redirect("https://fastcookiteasy.com/postitems/chocolate-lava-cake", 301); // Permanent Redirect
+  }
+  if (pathname === "/postitems/Grilled-Shrimp-Tacos") {
+    return NextResponse.redirect("https://fastcookiteasy.com/postitems/grilled-shrimp-tacos", 301); // Permanent Redirect
+  }
+  if (pathname === "/postitems/Shrimp-Lo-Mein") {
+    return NextResponse.redirect("https://fastcookiteasy.com/postitems/shrimp-lo-mein", 301); // Permanent Redirect
+  }
+
+  
 
   
   return NextResponse.next();
