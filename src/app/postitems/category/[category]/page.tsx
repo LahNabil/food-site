@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
     post.category.toLowerCase() === decodedCategory.toLowerCase()
   );
   const slugifiedCategory = slugify(category); // Convert "Main Course" to "main-course"
-  const canonicalUrl = `https://www.fastcookiteasy.com/postitems/category/${slugifiedCategory}`;
+  const canonicalUrl = `https://fastcookiteasy.com/postitems/category/${slugifiedCategory}`;
 
 
   return {
