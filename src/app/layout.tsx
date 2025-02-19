@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Cook it Easy - Quick and Delicious Recipes",
     description: "Discover easy and quick recipes to cook delicious meals in no time. Cook it Easy provides simple step-by-step guides for tasty dishes, perfect for beginners and food enthusiasts alike.",
-    url: "https://www.fastcookiteasy.com",
+    url: "https://fastcookiteasy.com",
     siteName: "Cook it Easy",
     images: [
       {

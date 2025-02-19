@@ -85,47 +85,75 @@ const CategoryPage = async ({ params }: { params: Promise<Params> }) => {
   const h1Title = getH1Title(decodedCategory);
   const categorySchema = {
     "@context": "https://schema.org",
-    "@type": "ItemList",
+    "@type": "CollectionPage",
     "name": `${decodedCategory} Recipes`,
     "description": `Explore a collection of delicious and easy ${decodedCategory.toLowerCase()} recipes. Perfect for every occasion!`,
     "url": `https://www.fastcookiteasy.com/postitems/category/${slugify(category)}`,
-    "numberOfItems": filteredItems.length,
-    "itemListElement": filteredItems.map((item, index) => {
-      // Ensure preptime exists to avoid NaN values
-      const totalTime = item.preptime || 0;
-      const prepTime = Math.round(totalTime / 3);
-      const cookTime = totalTime - prepTime;
-
-      return {
-        "@type": "ListItem",
-        "position": index + 1,
-        "item": {
-          "@type": "Recipe",
-          "name": item.title,
-          "url": `https://www.fastcookiteasy.com/postitems/${item.lien}`,
-          "image": `https://www.fastcookiteasy.com${item.img}`,
-          "description": item.brief,
-          "recipeCategory": item.category || "General",
-          "recipeCuisine": "International",
-          "cookTime": cookTime > 0 ? `PT${cookTime}M` : "PT10M",
-          "prepTime": item.preptime ? `PT${item.preptime}M` : "PT15M",
-          "recipeIngredient": item.ingredients?.length ? item.ingredients : ["Ingredients not available"],
-          "recipeInstructions": item.comment?.length
-            ? item.comment.map((step) => ({
-                "@type": "HowToStep",
-                "text": step,
-                "image": `https://www.fastcookiteasy.com${item.img}`,
-                "url": `https://www.fastcookiteasy.com/postitems/${item.lien}`
-              }))
-            : [{ "@type": "HowToStep", "text": "Instructions not available" }],
-          "author": {
-            "@type": "Organization",
-            "name": "Fast Cookit Easy"
-          },
-          "keywords": "recipe, quick recipe, main course, cook recipe, fast recipe, refreshing, easy recipe"
-        }
-      };
-    })
+    "mainEntity": {
+      "@type": "ItemList",
+      "numberOfItems": filteredItems.length,
+      "itemListElement": filteredItems.map((item, index) => {
+        const totalTime = item.preptime || 0;
+        const prepTime = Math.round(totalTime / 3);
+        const cookTime = totalTime - prepTime;
+  
+        return {
+          "@type": "ListItem",
+          "position": index + 1,
+          "item": {
+            "@type": "Recipe",
+            "name": item.title,
+            "url": `https://www.fastcookiteasy.com/postitems/${item.lien}`,
+            "image": `https://www.fastcookiteasy.com${item.img}`,
+            "description": item.brief,
+            "recipeCategory": item.category || "General",
+            "recipeCuisine": "International",
+            "cookTime": cookTime > 0 ? `PT${cookTime}M` : "PT10M",
+            "prepTime": item.preptime ? `PT${item.preptime}M` : "PT15M",
+            "recipeIngredient": item.ingredients?.length ? item.ingredients : ["Ingredients not available"],
+            "recipeInstructions": item.comment?.length
+              ? item.comment.map((step) => ({
+                  "@type": "HowToStep",
+                  "text": step,
+                  "image": `https://www.fastcookiteasy.com${item.img}`,
+                  "url": `https://www.fastcookiteasy.com/postitems/${item.lien}`
+                }))
+              : [{ "@type": "HowToStep", "text": "Instructions not available" }],
+            "author": {
+              "@type": "Organization",
+              "name": "Fast Cookit Easy",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.fastcookiteasy.com/logo.png" // Replace with your actual logo URL
+              }
+            },
+            "keywords": "recipe, quick recipe, main course, cook recipe, fast recipe, refreshing, easy recipe"
+          }
+        };
+      })
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Fast Cookit Easy",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.fastcookiteasy.com/logo.png" // Replace with your actual logo URL
+      }
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Fast Cookit Easy",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.fastcookiteasy.com/assets/fastcookiteasy_logo.jpg" // Replace with your actual logo URL
+      }
+    },
+    "about": {
+      "@type": "WebSite",
+      "name": "Fast Cookit Easy",
+      "url": "https://www.fastcookiteasy.com",
+      "description": "Your go-to destination for quick and easy recipes."
+    }
   };
 
 
