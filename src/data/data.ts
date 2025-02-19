@@ -6238,24 +6238,6 @@ Impress your partner with a homemade cocktail kit:
 2. **Personalized Note**: Write a love quote or memory on a custom tag.  
 3. **Pairing Suggestions**: Include dark chocolate or a playlist of “your songs.”  
 
----
-
-### Frequently Asked Questions  
-
-#### **1. Can I use frozen strawberries?**  
-Yes, but thaw them first to release their juices.  
-
-#### **2. Where can I find edible rose petals?**  
-Specialty grocery stores or online retailers like Amazon.  
-
-#### **3. What if I don’t like floral flavors?**  
-Reduce the rose syrup or substitute with vanilla syrup.  
-
-#### **4. Can I batch-make this for a party?**  
-Absolutely! Muddle strawberries in a pitcher and let guests add sparkling wine.  
-
-#### **5. How do I store leftovers?**  
-The drink is best fresh, but strawberry-rose puree keeps refrigerated for 2 days.  
 
 ---
 
@@ -6451,35 +6433,6 @@ Impress your friends or family with a homemade detox kit:
 
 ---
 
-### Frequently Asked Questions  
-
-#### **1. Is activated charcoal safe to consume?**  
-Yes, but only in moderation and using food-grade charcoal. Avoid consuming it with medications or supplements.  
-
-#### **2. Can I use bottled lemon juice?**  
-Fresh lemon juice is recommended for the best flavor and nutritional benefits.  
-
-#### **3. Can I make this drink ahead of time?**  
-Yes, but stir well before serving as the charcoal may settle.  
-
-#### **4. Can I use maple syrup instead of honey?**  
-Absolutely! Maple syrup is a great vegan alternative.  
-
-#### **5. How often can I drink Charcoal Lemonade?**  
-Limit to 1-2 times per week to avoid overconsumption of activated charcoal.  
-
----
-
-### The Role of Color in Detox Drinks  
-
-Color psychology plays a key role in Charcoal Lemonade’s appeal:  
-
-- **Black**: Symbolizes detoxification and renewal.  
-- **Yellow**: Represents energy and vitality from the lemons.  
-- **Green Garnishes**: Adds a touch of freshness and balance.  
-
----
-
 ### Final Thoughts: More Than a Drink  
 
 Charcoal Lemonade isn’t just a beverage—it’s a ritual. It invites you to pause, reflect, and take a moment to care for your body and mind. Whether you’re starting your day or winding down, this drink offers a refreshing and detoxifying experience.  
@@ -6651,25 +6604,6 @@ Impress your friends or family with a homemade Ube Latte kit:
 1. **Packaged Ingredients**: Ube halaya, ube powder, and a recipe card.  
 2. **Personalized Note**: Include a note about the cultural significance of ube.  
 3. **Pairing Suggestions**: Add a small pack of ube cookies or pandesal.  
-
----
-
-### Frequently Asked Questions  
-
-#### **1. Where can I find ube halaya?**  
-You can find it at Asian grocery stores, Filipino markets, or online retailers.  
-
-#### **2. Can I use ube extract instead of ube halaya?**  
-Yes, but adjust the sweetness and texture by adding a sweetener and thickening agent like cornstarch.  
-
-#### **3. Can I make this without espresso?**  
-Absolutely! Use strong brewed coffee or a coffee alternative like chicory.  
-
-#### **4. How do I store ube halaya?**  
-Store it in an airtight container in the refrigerator for up to 2 weeks.  
-
-#### **5. Can I make this drink ahead of time?**  
-It’s best served fresh, but you can prepare the ube mixture in advance and assemble when ready to serve.  
 
 ---
 
@@ -6857,24 +6791,6 @@ Impress your friends or family with a homemade smoothie bowl kit:
 
 ---
 
-### Frequently Asked Questions  
-
-#### **1. Where can I find dragon fruit?**  
-You can find it at most grocery stores, Asian markets, or online retailers.  
-
-#### **2. Can I use frozen dragon fruit?**  
-Yes, frozen dragon fruit works perfectly for smoothie bowls.  
-
-#### **3. Can I make this bowl vegan?**  
-Absolutely! Use plant-based milk and skip honey for a vegan version.  
-
-#### **4. How do I store leftover smoothie base?**  
-Store it in an airtight container in the freezer for up to 1 week.  
-
-#### **5. Can I make this bowl nut-free?**  
-Yes, skip nuts and use seeds or coconut flakes for crunch.  
-
----
 
 ### The Role of Color in Food Trends  
 
@@ -6928,6 +6844,375 @@ Ready to create your own Dragon Fruit Smoothie Bowl? Share your colorful creatio
       answer: 'Yes, skip nuts and use seeds or coconut flakes for crunch.'
     }
   ]
+},
+{
+  id: 49,
+  img: '/assets/moroccan-mint-tea.webp',
+  lien: 'moroccan-mint-tea',
+  category: 'Drinks',
+  alte: 'Moroccan Mint Tea: A refreshing and sweetened green tea infused with fresh mint leaves, traditionally served in Moroccan culture.',
+  comment: [
+    'Boil water and steep green tea leaves for 2-3 minutes.',
+    'Add fresh mint leaves and sugar to the teapot.',
+    'Pour the tea into glasses from a height to create a frothy top.',
+    'Garnish with additional mint leaves for a fresh aroma.',
+    'Serve hot and enjoy the refreshing flavors!'
+  ],
+  title: 'Moroccan Mint Tea: A Refreshing Sweetened Green Tea',
+  brief: 'Learn how to make Moroccan Mint Tea, a refreshing and sweetened green tea infused with fresh mint leaves. This traditional drink is a staple of Moroccan culture and perfect for any occasion!',
+  description: `## Moroccan Mint Tea: A Refreshing Sweetened Green Tea  
+
+Moroccan Mint Tea is more than just a drink—it’s a symbol of hospitality, tradition, and warmth in Moroccan culture. This refreshing blend of green tea, fresh mint leaves, and sugar is a delightful balance of sweetness and herbal freshness. Whether you’re hosting guests or enjoying a quiet moment, this tea is sure to transport you to the vibrant streets of Morocco.  
+
+---
+
+### Why Moroccan Mint Tea is a Cultural Icon  
+
+This tea is cherished for its unique flavor and cultural significance:  
+
+- **Green Tea**: Provides a light, earthy base with antioxidants.  
+- **Fresh Mint**: Adds a cooling, refreshing aroma and flavor.  
+- **Sugar**: Balances the bitterness of the tea with a touch of sweetness.  
+- **Tradition**: The act of pouring tea from a height is a symbol of hospitality and artistry.  
+
+It’s a harmonious blend of flavor and tradition, perfect for tea lovers and cultural enthusiasts alike.  
+
+---
+
+### The Cultural History of Moroccan Mint Tea  
+
+Moroccan Mint Tea has a rich history deeply rooted in Moroccan culture:  
+
+- **Origins**: Introduced to Morocco in the 18th century, it quickly became a national drink.  
+- **Symbolism**: Serving tea is a gesture of hospitality and friendship.  
+- **Ritual**: The preparation and pouring of tea are considered an art form.  
+
+The Moroccan Mint Tea recipe draws from this cultural heritage, offering a taste of Morocco in every sip.  
+
+---
+
+### The Science of Flavor Pairing: Green Tea + Mint  
+
+What makes this combination so magical?  
+
+1. **Balanced Flavors**: The bitterness of green tea is balanced by the sweetness of sugar and the freshness of mint.  
+2. **Aromatic Synergy**: The herbal aroma of mint enhances the earthy notes of green tea.  
+3. **Refreshing Texture**: The light, crisp texture makes it a perfect thirst-quencher.  
+
+This synergy creates a drink that’s both comforting and invigorating—a hallmark of great tea-making.  
+
+---
+
+### Crafting the Perfect Moroccan Tea Experience  
+
+Beyond taste, Moroccan Mint Tea offers a delightful sensory experience:  
+
+- **Sensory Appeal**: The aroma of fresh mint and the sound of pouring tea engage the senses.  
+- **Presentation**: Serve in ornate glasses or teapots to honor the tradition.  
+- **Garnishes**: Add extra mint leaves or a sprinkle of sugar for a decorative touch.  
+
+---
+
+### Creative Variations to Suit Every Taste  
+
+Customize this tea to suit your preferences:  
+
+#### **1. Iced Moroccan Mint Tea**  
+Chill the tea and serve over ice for a refreshing summer drink.  
+
+#### **2. Honey Version**  
+Replace sugar with honey for a natural sweetener.  
+
+#### **3. Spiced Twist**  
+Add a pinch of cinnamon or ginger for a warm, spiced flavor.  
+
+#### **4. Herbal Blend**  
+Mix in other herbs like lemon verbena or sage for a unique twist.  
+
+#### **5. Decaf Option**  
+Use decaffeinated green tea for a soothing evening drink.  
+
+---
+
+### Pairing with Moroccan Treats  
+
+Elevate your tea experience with these traditional pairings:  
+
+- **Msemen**: A flaky, layered Moroccan flatbread.  
+- **Chebakia**: A sesame-coated, honey-drenched pastry.  
+- **Almond Cookies**: Perfect for dipping into your tea.  
+- **Dates**: A classic accompaniment to Moroccan tea.  
+
+---
+
+### The Psychology of Tea Rituals  
+
+Why do tea rituals like Moroccan Mint Tea resonate so deeply?  
+
+- **Mindful Consumption**: Encourages slowing down and savoring the moment.  
+- **Cultural Connection**: Ties to Moroccan traditions and hospitality.  
+- **Symbolism**: Represents warmth, generosity, and connection.  
+
+---
+
+### Global Inspirations for Tea Traditions  
+
+Moroccan Mint Tea borrows from global tea traditions:  
+
+- **Japanese Matcha**: A ceremonial green tea with a rich cultural history.  
+- **Indian Chai**: A spiced tea enjoyed throughout the day.  
+- **British Afternoon Tea**: A ritual of tea and light snacks.  
+
+---
+
+### DIY Moroccan Tea Kit Idea  
+
+Impress your friends or family with a homemade Moroccan Tea kit:  
+
+1. **Packaged Ingredients**: Green tea leaves, fresh mint, and a recipe card.  
+2. **Personalized Note**: Include a note about the cultural significance of Moroccan tea.  
+3. **Pairing Suggestions**: Add a small pack of dates or almonds.  
+
+---
+
+### The Role of Ritual in Tea Culture  
+
+Ritual plays a key role in the Moroccan Mint Tea experience:  
+
+- **Pouring Technique**: The height of the pour creates froth and cools the tea.  
+- **Serving Order**: Traditionally, the first cup is poured back into the teapot to mix flavors.  
+- **Presentation**: Ornate teapots and glasses enhance the experience.  
+
+---
+
+### Final Thoughts: More Than a Drink  
+
+Moroccan Mint Tea isn’t just a beverage—it’s a ritual. It invites you to slow down, connect with others, and savor the moment. Whether you’re hosting guests or enjoying a quiet afternoon, this tea offers a taste of Moroccan warmth and hospitality.  
+
+So, pour yourself a glass, take a sip, and let Moroccan Mint Tea transport you to the vibrant heart of Morocco.  
+
+---
+
+**Call to Action**:  
+Ready to create your own Moroccan Mint Tea? Share your tea moments on social media and tag us—we’d love to feature your cultural creations! 🌿✨`,
+  ingredients: [
+    '2 tsp gunpowder green tea leaves',
+    '1 bunch fresh mint leaves (about 1 cup)',
+    '4 cups water',
+    '3-4 tbsp sugar (or to taste)',
+    'Additional mint leaves for garnish'
+  ],
+  preptime: 10,
+  type: false,
+  trending: false,
+  faq: [
+    {
+      question: 'What type of green tea is best for Moroccan Mint Tea?',
+      answer: 'Gunpowder green tea is traditionally used for its robust flavor.'
+    },
+    {
+      question: 'Can I use dried mint instead of fresh?',
+      answer: 'Fresh mint is preferred for its aroma, but dried mint can be used in a pinch.'
+    },
+    {
+      question: 'How much sugar should I add?',
+      answer: 'Adjust to taste, but traditionally, it’s quite sweet. Start with 2-3 tablespoons per teapot.'
+    },
+    {
+      question: 'Can I make this tea ahead of time?',
+      answer: 'It’s best served fresh, but you can store it in the refrigerator for up to 24 hours.'
+    },
+    {
+      question: 'Is Moroccan Mint Tea caffeinated?',
+      answer: 'Yes, but you can use decaffeinated green tea if preferred.'
+    }
+  ]
+},
+{
+  id: 46,
+  img: '/assets/japanese-matcha-latte.webp',
+  lien: 'japanese-matcha-latte',
+  category: 'Drinks',
+  alte: 'Japanese Matcha Latte: A Zen-inspired green tea drink with ceremonial-grade matcha, steamed milk, and honey in a traditional bowl.',
+  comment: [
+          'Sift matcha powder into a bowl to remove clumps.',
+          'Whisk with hot water until frothy using a bamboo chasen.',
+          'Heat and froth milk of choice until velvety smooth.',
+          'Combine matcha base with milk and sweeten to taste.',
+          'Dust with matcha powder or create latte art for garnish.'
+        ],
+  title: 'Japanese Matcha Latte: A Zen-Inspired Green Tea Drink',
+  brief: 'Discover how to make an authentic Japanese Matcha Latte, combining ceremonial-grade matcha with creamy steamed milk for a mindful beverage that promotes focus and tranquility. Perfect for tea ceremonies or modern wellness routines!',
+  description: `## Japanese Matcha Latte: A Zen-Inspired Green Tea Drink  
+
+The Japanese Matcha Latte is more than a beverage - it's a meditative practice in a bowl. This vibrant green elixir combines stone-ground ceremonial-grade matcha with perfectly steamed milk, creating a harmonious balance of umami richness and creamy sweetness. Rooted in centuries-old tea ceremonies, this modern adaptation brings Zen philosophy to your daily routine.  
+
+---
+
+### Why Matcha Embodies Zen Philosophy  
+
+This drink captures the essence of Japanese wabi-sabi through its preparation and presentation:  
+
+- **Mindful Preparation**: The deliberate whisking ritual promotes presence and focus  
+- **Vibrant Color**: Symbolizes renewal and connection to nature  
+- **L-Theanine**: Natural amino acid in matcha induces calm alertness  
+- **Asymmetrical Beauty**: Imperfect foam patterns embrace natural aesthetics  
+
+It's a drink designed to engage all senses while grounding the spirit.  
+
+---
+
+### The History of Matcha in Japanese Culture  
+
+Matcha's journey from Chinese Zen monasteries to Japanese tea ceremonies:  
+
+- **9th Century**: Buddhist monks bring tea seeds from China  
+- **12th Century**: Eisai popularizes matcha for meditation focus  
+- **16th Century**: Sen no Rikyū establishes the Japanese tea ceremony (chanoyu)  
+- **21st Century**: Global wellness movement adopts matcha for its health benefits  
+
+Our latte recipe honors these traditions while adapting to modern lifestyles.  
+
+---
+
+### The Science of Matcha's Unique Properties  
+
+What makes this powdered green tea special?  
+
+1. **Shade-Grown**: Increases chlorophyll and L-theanine content  
+2. **Stone-Ground**: Preserves cellular structure for maximum nutrient retention  
+3. **Whole Leaf Consumption**: Provides 137x more antioxidants than regular green tea  
+4. **Caffeine + L-Theanine**: Creates sustained energy without jitters  
+
+---
+
+### Crafting the Perfect Zen Experience  
+
+Enhance your matcha ritual with these elements:  
+
+- **Sound**: Listen to the bamboo whisk's rhythmic scraping  
+- **Texture**: Achieve velvety microfoam with proper whisking technique  
+- **Aroma**: Inhale the vegetal-sweet scent before sipping  
+- **Vessel Choice**: Use a handcrafted chawan bowl for authenticity  
+
+---
+
+### Modern Variations for Every Palate  
+
+Adapt this traditional drink to suit contemporary tastes:  
+
+#### **1. Dairy-Free Zen**  
+Use oat milk for creaminess or coconut milk for tropical notes  
+
+#### **2. Sweet Enlightenment**  
+Add vanilla syrup or white chocolate for dessert-style lattes  
+
+#### **3. Iced Serenity**  
+Shake matcha with cold milk and pour over ice  
+
+#### **4. Superfood Boost**  
+Mix in collagen peptides or adaptogenic mushrooms  
+
+#### **5. Seasonal Harmony**  
+Add pumpkin spice in autumn or cherry blossom flavor in spring  
+
+---
+
+### Pairing with Japanese Confectionery  
+
+Complete your tea ceremony experience:  
+
+- **Wagashi**: Artistic traditional sweets balancing matcha's bitterness  
+- **Dorayaki**: Red bean pancake sandwiches  
+- **Matcha Cookies**: Buttery shortbread with green tea infusion  
+- **Dark Chocolate**: 70% cacao for contrasting bitterness  
+
+---
+
+### The Neuroscience of Tea Rituals  
+
+Why matcha preparation enhances mental clarity:  
+
+- **Ritualistic Actions**: Activate prefrontal cortex for focused attention  
+- **Mindful Sipping**: Triggers parasympathetic nervous system relaxation  
+- **Visual Focus**: Green color wavelength promotes alpha brain waves  
+
+---
+
+### Global Matcha Innovations  
+
+How different cultures adapt this Japanese treasure:  
+
+- **Matcha Lattes**: Western coffee shop staple since 2010s  
+- **Matcha Smoothies**: Brazilian acai bowl meets Japanese tea  
+- **Matcha Cocktails**: NYC mixologists pair with gin or sake  
+- **Matcha Skincare**: Korean beauty brands harness antioxidant power  
+
+---
+
+### DIY Zen Tea Kit Gift Idea  
+
+Create a mindful gift package:  
+
+1. **Ceremonial-Grade Matcha**: In gold-sealed tin  
+2. **Bamboo Whisk Set**: Chasen and chawan bowl  
+3. **Instruction Scroll**: Calligraphy-printed preparation steps  
+4. **Accompanying Soundtrack**: Zen garden ambiance recordings  
+
+---
+
+### The Psychology of Green in Food  
+
+How matcha's color enhances the experience:  
+
+- **Appetite Regulation**: Green subconsciously signals "natural" and "healthy"  
+- **Calming Effect**: Associated with nature and growth  
+- **Instagram Appeal**: Photogenic vibrant hue drives social sharing  
+
+---
+
+### Final Thoughts: A Bowl of Mindfulness  
+
+The Japanese Matcha Latte transcends being merely a drink - it's an invitation to pause in our hectic world. Each step, from sifting the jade powder to creating the perfect foam, becomes an act of meditation. Whether you're starting your morning, needing an afternoon reset, or sharing with friends, this latte offers both physical nourishment and mental space.  
+
+As the Japanese tea proverb says: "Ichigo Ichie" - treasure every meeting, for it will never recur. Your matcha moment is worth savoring.  
+
+---
+
+**Call to Action**:  
+Ready to begin your matcha journey? Share your Zen-inspired creations with #MatchaMoment and tag us for a chance to be featured! 🍵✨`,
+  ingredients: [
+          '1 tsp ceremonial-grade matcha powder',
+          '2 oz hot water (175°F/80°C)',
+          '6 oz milk (dairy or plant-based)',
+          '1 tsp honey or sweetener of choice',
+          'Optional: Matcha dusting or latte art for garnish'
+        ],
+  preptime: 5,
+  type: false,
+  trending: false,
+  "faq": [
+   {
+     "question": "What's the difference between ceremonial and culinary grade matcha?",
+     "answer": "Ceremonial grade is brighter green, smoother, and meant for drinking. Culinary grade is stronger-flavored for baking/cooking."
+   },
+   {
+     "question": "Can I make this iced?",
+     "answer": "Absolutely! Shake matcha with cold milk and pour over ice for a refreshing version."
+   },
+   {
+     "question": "How do I prevent clumps in my matcha?",
+     "answer": "Always sift matcha first and use proper whisking technique in a 'W' or 'M' motion."
+   },
+   {
+     "question": "Is matcha latte healthy?",
+     "answer": "Yes! Packed with antioxidants, but watch added sweeteners. A typical latte has about 70 calories unsweetened."
+   },
+   {
+     "question": "Can I froth milk without a steamer?",
+     "answer": "Use a French press, jar with lid, or handheld frother to create foam."
+   }
+ ]
 }
 
         
