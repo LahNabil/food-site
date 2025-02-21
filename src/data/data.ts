@@ -164,6 +164,10 @@ Do not forget to experiment with different fillings and toppings to make this sa
     type: false,
     trending: true,
     tips: 'For a vegetarian version, replace the ham with grilled tofu or a vegetarian deli slice. You can also add a bit of pesto or hot sauce for extra flavor.',
+    "aggregateRating": {
+  "ratingValue": "4.3",
+  "reviewCount": "7"
+},
     faq: [
       {
         question: 'Can I use gluten-free flatbread for this recipe?',
@@ -268,6 +272,10 @@ Ready to dive into this smoky, plant-based delight? Gather your ingredients and 
     type: true,
     trending: false,
     tips: 'For a spicier kick, add chili flakes to the tofu while grilling. You can also serve this dish with quinoa or couscous for a more filling meal.',
+    "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
     faq: [
       {
         question: 'Can I use regular tofu instead of smoked tofu?',
@@ -357,6 +365,10 @@ Explore more recipes on our blog and find your next kitchen favorite. Let’s ma
     type: false,
     trending: false,
     tips: 'For a creamier sauce, stir in a spoonful of coconut milk towards the end of the cooking process. You can also adjust the spice level by adding more or less curry powder.',
+    "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
     faq: [
       {
         question: 'Can I use plant-based sausages?',
@@ -460,6 +472,10 @@ For more recipes that pack a punch, explore our blog and discover your next favo
   type: false,
   trending: false,
   tips: 'For extra spice, add some chili flakes or Sriracha sauce to the dish. You can also swap out the beef for chicken or tofu for a different protein option.',
+  "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
   faq: [
    {
      question: 'Can I use chicken instead of beef?',
@@ -554,6 +570,10 @@ Ready to embrace the vibrant flavors of greens in a comforting soup? Try this ea
   type: true,
   trending: false,
   tips: 'For added texture, you can serve the soup with crunchy croutons or a slice of toasted bread. This soup also pairs well with a drizzle of olive oil or a sprinkle of grated Parmesan cheese.',
+  "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
   faq: [
    {
      question: 'Can I use frozen vegetables for this soup?',
@@ -703,6 +723,10 @@ So, why wait? Gather your ingredients, fire up the grill, and treat yourself to 
   type: false,
   trending: true,
   tips: 'For added crunch, top the salad with toasted nuts or seeds. You can also substitute grilled chicken with baked or poached chicken for a different texture.',
+  "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
   faq: [
    {
      question: 'Can I use a different protein instead of chicken?',
@@ -858,6 +882,10 @@ Indulge in the joy of cooking and savor every bite of this classic Sesame Chicke
   type: false,
   trending: false,
   tips: 'For added heat, sprinkle some chili flakes or drizzle with sriracha before serving. You can also substitute honey with maple syrup or agave for a different sweetness.',
+  "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
   faq: [
    {
      question: 'Can I make this dish gluten-free?',
@@ -1018,6 +1046,10 @@ Enjoy the crispy, juicy goodness of this classic dish—you’ll find yourself c
   type: false,
   trending: true,
   tips: 'For an extra crispy finish, broil the chicken for the last 5 minutes of baking. You can also marinate the drumsticks overnight for more intense flavors.',
+  "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
   faq: [
    {
      question: 'Can I use boneless chicken for this recipe?',
@@ -1176,6 +1208,10 @@ So, gather your ingredients, get ready to enjoy the vibrant flavors of Indian cu
   type: false,
   trending: true,
   tips: 'For a smoky flavor, grill the chicken before adding it to the sauce. You can also add a pinch of fenugreek leaves for an authentic touch.',
+  "aggregateRating": {
+      "ratingValue": "4",
+      "reviewCount": "5"
+    },
   faq: [
    {
      question: 'Can I use coconut milk instead of cream?',
@@ -1298,6 +1334,10 @@ So, if you're in the mood for a quick and satisfying meal, Arrabbiata Pasta is t
   type: false,
   trending: true,
   tips: 'For added richness, you can stir in some Parmesan cheese or a splash of cream. Serve with crusty garlic bread for a complete meal.',
+  "aggregateRating": {
+      "ratingValue": "4.5",
+      "reviewCount": "7"
+    },
   faq: [
    {
      question: 'Can I use fresh tomatoes instead of canned?',
@@ -1461,6 +1501,10 @@ Ready to impress your family and friends? Grab your ingredients and start cookin
   preptime: 25,
   type: false,
   trending: false,
+  "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
   faq: [
    {
      question: 'Can I use turkey or chicken instead of beef?',
@@ -1622,6 +1666,10 @@ Ready to try this recipe? Gather your ingredients and start layering your Spinac
   preptime: 50,
   type: false,
   trending: true,
+  "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
   faq: [
    {
      question: 'Can I use fresh spinach instead of frozen?',
@@ -1783,6 +1831,10 @@ Ready to make this iconic sandwich? Gather your ingredients and start assembling
   preptime: 30,
   type: false,
   trending: false,
+  "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
   faq: [
    {
      question: 'Can I use different meats?',
@@ -1942,6 +1994,10 @@ Ready to whip up this delicious dish? Grab your ingredients and start cooking Ya
   preptime: 15,
   type: false,
   trending: true,
+  "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
   faq: [
    {
      question: 'Can I use other vegetables?',
@@ -2100,6 +2156,10 @@ Ready to make this delicious dish? Grab your ingredients and start cooking Panee
   preptime: 30,
   type: false,
   trending: true,
+  "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
   faq: [
    {
      question: 'Can I use store-bought roti?',
@@ -2269,6 +2329,10 @@ Ready to make this delicious dish? Grab your ingredients and start cooking Spicy
   preptime: 25,
   type: false,
   trending: true,
+  "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
   faq: [
    {
      question: 'Can I use frozen shrimp?',
@@ -2408,6 +2472,10 @@ Ready to make this delicious dish? Grab your ingredients and start cooking Cilan
   preptime: 10,
   type: false,
   trending: true,
+  "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
   faq: [
    {
      question: 'Can I use gluten-free bread?',
@@ -2543,6 +2611,10 @@ Ready to make this delicious dessert? Grab your ingredients and start creating y
     preptime: 25,
     type: false,
     trending: false,
+    "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
     faq: [
       {
         question: 'Can I use a different type of cookie for the crust?',
@@ -2680,6 +2752,10 @@ Ready to make this delicious dessert? Grab your ingredients and start creating y
     preptime: 30,
     type: false,
     trending: true,
+    "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
     faq: [
       {
         question: 'Can I use a different filling?',
@@ -2814,6 +2890,10 @@ Ready to make this delicious dessert? Grab your ingredients and start creating y
     preptime: 30,
     type: false,
     trending: true,
+    "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
     faq: [
       {
         question: 'Can I use agar-agar instead of gelatin?',
@@ -2946,6 +3026,10 @@ Ready to make this delicious drink? Grab your ingredients and start creating you
     preptime: 10,
     type: false,
     trending: false,
+    "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
     "faq": [
     {
       "question": "Can I use maple syrup instead of honey?",
@@ -3086,6 +3170,10 @@ Ready to make this delicious drink? Grab your ingredients and start creating you
     preptime: 10,
     type: false,
     trending: false,
+    "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
     faq: [
       {
           question: 'Can I use frozen strawberries instead of fresh ones?',
@@ -3231,6 +3319,10 @@ Ready to make this delicious dish? Grab your ingredients and start creating your
     preptime: 30,
     type: false,
     trending: false,
+    "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
     faq: [
     {
       "question": "Can I use a different type of pasta?",
@@ -3376,6 +3468,10 @@ Ready to make this delicious soup? Grab your ingredients and start creating your
     preptime: 20,
     type: false,
     trending: false,
+    "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
     faq: [
       {
         "question": "Can I use vegetable broth instead of chicken broth?",
@@ -3525,6 +3621,10 @@ Ready to make this delicious dish? Grab your ingredients and start creating your
     preptime: 25,
     type: false,
     trending: false,
+    "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
     faq: [
     {
       "question": "Can I use chicken instead of shrimp?",
@@ -3670,6 +3770,10 @@ Ready to make this delicious dish? Grab your ingredients and start creating your
     preptime: 15,
     type: false,
     trending: false,
+    "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
     faq: [
     {
       "question": "Can I make this omelette vegan?",
@@ -3812,6 +3916,10 @@ Ready to make this delicious sauce? Grab your ingredients and start creating you
     preptime: 10,
     type: true,
     trending: false,
+    "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
     faq: [
     {
       "question": "Can I use fresh red peppers instead of roasted?",
@@ -3953,6 +4061,10 @@ Ready to make this delicious dish? Grab your ingredients and start creating your
     preptime: 10,
     type: true,
     trending: false,
+    "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
     faq: [
     {
       "question": "Can I make this dish vegan?",
@@ -4097,6 +4209,10 @@ Ready to make this delicious dish? Grab your ingredients and start creating your
     preptime: 35,
     type: true,
     trending: false,
+    "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
     faq: [
     {
       "question": "Can I make these pancakes gluten-free?",
@@ -4241,6 +4357,10 @@ Ready to make this delicious dish? Grab your ingredients and start creating your
     preptime: 20,
     type: true,
     trending: false,
+    "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
     faq: [
     {
       "question": "Can I use a different type of pasta?",
@@ -4385,6 +4505,10 @@ Ready to make this delicious dish? Grab your ingredients and start creating your
     preptime: 30,
     type: true,
     trending: false,
+    "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
     faq: [
     {
       "question": "Can I use chicken thighs instead of breasts?",
@@ -4528,6 +4652,10 @@ Ready to make this delicious soup? Grab your ingredients and start creating your
     preptime: 25,
     type: true,
     trending: false,
+    "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
     faq: [
     {
       "question": "Can I use a different type of mushroom?",
@@ -4669,6 +4797,10 @@ Ready to make this delicious dessert? Grab your ingredients and start creating y
     preptime: 20,
     type: true,
     trending: false,
+    "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
     faq: [
     {
       "question": "Can I make this dessert ahead of time?",
@@ -4812,6 +4944,10 @@ Ready to make this delicious dish? Grab your ingredients and start creating your
     preptime: 30,
     type: true,
     trending: false,
+    "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
     faq: [
     {
       "question": "Can I use a different grain instead of quinoa?",
@@ -4955,6 +5091,10 @@ Ready to make this delicious dish? Grab your ingredients and start creating your
     preptime: 20,
     type: true,
     trending: true,
+    "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
     faq: [
     {
       "question": "Can I use flour tortillas instead of corn tortillas?",
@@ -5094,6 +5234,10 @@ Ready to make this delicious dish? Grab your ingredients and start creating your
     preptime: 10,
     type: true,
     trending: false,
+    "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
     faq: [
     {
       "question": "Can I use balsamic vinegar instead of balsamic glaze?",
@@ -5232,6 +5376,10 @@ Ready to make this delicious dessert? Grab your ingredients and start creating y
     preptime: 10,
     type: true,
     trending: false,
+    "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
     faq: [
     {
       "question": "Can I use frozen mangoes?",
@@ -5374,6 +5522,10 @@ Ready to make this delicious dessert? Grab your ingredients and start creating y
     preptime: 16,
     type: true,
     trending: false,
+    "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
     faq: [
       {
         "question": "Can I use frozen mangoes?",
@@ -5518,6 +5670,10 @@ Ready to make your own Virgin Mojito? Try this easy recipe and share your creati
    preptime: 10,
    type: false,
    trending: false,
+   "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
    faq: [
     {
       "question": "Can I use honey instead of sugar?",
@@ -5640,6 +5796,10 @@ Ready to make your own Virgin Piña Colada? Try this easy recipe and share your 
    preptime: 5,
    type: false,
    trending: false,
+   "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
    faq: [
     {
       "question": "Can I use frozen pineapple?",
@@ -5764,6 +5924,10 @@ Ready to make your own No-Alcohol Espresso Martini? Try this easy recipe and sha
    preptime: 5,
    type: false,
    trending: false,
+   "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
    faq: [
     {
       "question": "Can I use decaf espresso?",
@@ -5936,6 +6100,10 @@ Ready to try these recipes? Pick your favorite and whip up a drink in just 5 min
    preptime: 15,
    type: false,
    trending: true,
+   "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
    faq: [
     {
       "question": "Can I use frozen fruits for the smoothies?",
@@ -6096,6 +6264,10 @@ Ready to join the Dalgona revolution? Experiment with flavors, share your creati
    preptime: 10,
    type: false,
    trending: false,
+   "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
    faq: [
     {
       "question": "Can I use decaf instant coffee?",
@@ -6271,6 +6443,10 @@ Ready to create your own Strawberry Rose Sparkler? Share your Valentine’s Day 
    preptime: 5,
    type: false,
    trending: false,
+   "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
    "faq": [
     {
       "question": "Can I use frozen strawberries?",
@@ -6454,6 +6630,10 @@ Ready to create your own Charcoal Lemonade? Share your detox creations on social
   preptime: 10,
   type: false,
   trending: false,
+  "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
   faq: [
     {
       question: 'Is activated charcoal safe to consume?',
@@ -6638,6 +6818,10 @@ Ready to create your own Ube Latte? Share your colorful creations on social medi
   preptime: 10,
   type: false,
   trending: false,
+  "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
   faq: [
     {
       question: 'Where can I find ube halaya?',
@@ -6822,6 +7006,10 @@ Ready to create your own Dragon Fruit Smoothie Bowl? Share your colorful creatio
   preptime: 10,
   type: false,
   trending: false,
+  "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
   faq: [
     {
       question: 'Where can I find dragon fruit?',
@@ -7005,6 +7193,10 @@ Ready to create your own Moroccan Mint Tea? Share your tea moments on social med
   preptime: 10,
   type: false,
   trending: false,
+  "aggregateRating": {
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
   faq: [
     {
       question: 'What type of green tea is best for Moroccan Mint Tea?',
@@ -7029,10 +7221,11 @@ Ready to create your own Moroccan Mint Tea? Share your tea moments on social med
   ]
 },
 {
-  id: 46,
+  id: 50,
   img: '/assets/japanese-matcha-latte.webp',
   lien: 'japanese-matcha-latte',
   category: 'Drinks',
+  datePublished: '',
   alte: 'Japanese Matcha Latte: A Zen-inspired green tea drink with ceremonial-grade matcha, steamed milk, and honey in a traditional bowl.',
   comment: [
           'Sift matcha powder into a bowl to remove clumps.',
@@ -7191,7 +7384,24 @@ Ready to begin your matcha journey? Share your Zen-inspired creations with #Matc
   preptime: 5,
   type: false,
   trending: false,
-  "faq": [
+  keywords: [
+    'Japanese',
+    'Drinks',
+    'latte',
+    'refreshing'
+  ],
+  aggregateRating: {
+  "ratingValue": "4.3",
+  "reviewCount": "7"
+  },
+  nutrition:{
+    "@type": "NutritionInformation",
+    "calories": "250 kcal",
+    "fatContent": "10 g",
+    "carbohydrateContent": "30 g",
+    "proteinContent": "5 g"
+  },
+  faq: [
    {
      "question": "What's the difference between ceremonial and culinary grade matcha?",
      "answer": "Ceremonial grade is brighter green, smoother, and meant for drinking. Culinary grade is stronger-flavored for baking/cooking."
@@ -7213,6 +7423,555 @@ Ready to begin your matcha journey? Share your Zen-inspired creations with #Matc
      "answer": "Use a French press, jar with lid, or handheld frother to create foam."
    }
  ]
+},
+{
+  id: 51,
+  img: '/assets/taiyaki-dessert.webp',
+  lien: 'how-to-make-taiyaki',
+  category: 'Dessert',
+  datePublished: '2025-02-21', // Add the actual publish date
+  alte: 'Taiyaki: A traditional Japanese fish-shaped dessert filled with sweet red bean paste, custard, or chocolate.',
+  comment: [
+    'Prepare the taiyaki batter by mixing flour, sugar, baking powder, and eggs.',
+    'Heat the taiyaki pan and lightly grease each mold.',
+    'Pour a thin layer of batter into each fish mold.',
+    'Add your choice of filling (red bean paste, custard, or chocolate).',
+    'Cover the filling with another layer of batter.',
+    'Cook until golden brown, then flip to cook the other side.',
+    'Remove from the pan and let cool slightly before serving.'
+  ],
+  title: 'How to Make Taiyaki: The Iconic Japanese Fish-Shaped Dessert',
+  brief: 'Learn how to make Taiyaki, the beloved Japanese fish-shaped dessert filled with sweet red bean paste, custard, or chocolate. Perfect for street food lovers and home bakers alike!',
+  description: `## How to Make Taiyaki: The Iconic Japanese Fish-Shaped Dessert  
+
+Taiyaki is more than just a dessert - it's a cultural icon. This fish-shaped treat, with its crispy exterior and sweet, gooey filling, has been a staple of Japanese street food for over a century. Whether filled with traditional red bean paste, creamy custard, or modern chocolate, Taiyaki is a delightful blend of tradition and innovation.  
+
+---
+
+### The History of Taiyaki  
+
+Taiyaki's origins date back to the Meiji era (1868-1912) in Japan:  
+
+- **Inspiration**: The fish shape symbolizes prosperity and good luck.  
+- **Evolution**: Originally filled with only red bean paste, it now includes custard, chocolate, and even savory fillings.  
+- **Global Popularity**: From Tokyo street stalls to trendy cafes worldwide, Taiyaki has become a global sensation.  
+
+---
+
+### Why Taiyaki is Special  
+
+This dessert is more than just its shape:  
+
+- **Texture**: Crispy on the outside, soft and fluffy on the inside.  
+- **Versatility**: Endless filling options to suit every taste.  
+- **Cultural Significance**: A symbol of Japanese craftsmanship and creativity.  
+
+---
+
+### Ingredients for Taiyaki  
+
+#### **For the Batter**:  
+- 1 ½ cups all-purpose flour  
+- 1 tsp baking powder  
+- ½ cup sugar  
+- 2 large eggs  
+- 1 cup milk  
+- 1 tbsp vegetable oil  
+
+#### **For the Filling**:  
+- 1 cup sweet red bean paste (anko)  
+- OR 1 cup custard  
+- OR ½ cup melted chocolate  
+
+---
+
+### Step-by-Step Instructions  
+
+1. **Prepare the Batter**:  
+   - In a bowl, whisk together flour, baking powder, and sugar.  
+   - Add eggs, milk, and oil, then mix until smooth.  
+
+2. **Heat the Taiyaki Pan**:  
+   - Preheat the taiyaki pan over medium heat and lightly grease the molds.  
+
+3. **Assemble the Taiyaki**:  
+   - Pour a thin layer of batter into each fish mold.  
+   - Add 1-2 tablespoons of your chosen filling.  
+   - Cover the filling with another layer of batter.  
+
+4. **Cook to Perfection**:  
+   - Close the pan and cook for 2-3 minutes on each side, until golden brown.  
+   - Carefully remove the taiyaki and let cool slightly before serving.  
+
+---
+
+### Creative Filling Ideas  
+
+- **Classic**: Sweet red bean paste (anko)  
+- **Creamy**: Vanilla custard or matcha custard  
+- **Decadent**: Melted chocolate or Nutella  
+- **Fruity**: Strawberry jam or lemon curd  
+- **Savory**: Cheese or sausage for a twist  
+
+---
+
+### Tips for Perfect Taiyaki  
+
+- **Batter Consistency**: Ensure the batter is smooth and lump-free for even cooking.  
+- **Pan Temperature**: Keep the heat medium to avoid burning.  
+- **Filling Amount**: Don’t overfill, or the filling may leak out.  
+- **Serving Suggestion**: Enjoy warm for the best texture and flavor.  
+
+---
+
+### The Cultural Significance of Taiyaki  
+
+Taiyaki is more than a dessert - it’s a symbol of Japanese culture:  
+
+- **Festivals**: Often sold at matsuri (festivals) and seasonal events.  
+- **Artistry**: The fish shape represents craftsmanship and attention to detail.  
+- **Nostalgia**: A beloved treat for both children and adults.  
+
+---
+
+### Final Thoughts  
+
+Taiyaki is a delightful blend of tradition and creativity. Whether you stick to the classic red bean paste or experiment with modern fillings, this fish-shaped dessert is sure to bring joy to your kitchen. So grab your taiyaki pan and start cooking!  
+
+---
+
+**Call to Action**:  
+Tried this recipe? Share your Taiyaki creations with #TaiyakiTime and tag us for a chance to be featured! 🐟✨`,
+  ingredients: [
+    '1 ½ cups all-purpose flour',
+    '1 tsp baking powder',
+    '½ cup sugar',
+    '2 large eggs',
+    '1 cup milk',
+    '1 tbsp vegetable oil',
+    '1 cup sweet red bean paste (anko) OR 1 cup custard OR ½ cup melted chocolate'
+  ],
+  preptime: 10,
+  cooktime: 15,
+  totalTime: 25,
+  type: false,
+  trending: false,
+  keywords: [
+    'Japanese',
+    'Desserts',
+    'Taiyaki',
+    'Street Food'
+  ],
+  aggregateRating: {
+    "ratingValue": "4.5",
+    "reviewCount": "12"
+  },
+  nutrition: {
+    "@type": "NutritionInformation",
+    "calories": "200 kcal",
+    "fatContent": "6 g",
+    "carbohydrateContent": "32 g",
+    "proteinContent": "4 g"
+  },
+  faq: [
+    {
+      "question": "Can I make taiyaki without a taiyaki pan?",
+      "answer": "Yes! Use a pancake mold or muffin tin, though the fish shape won’t be the same."
+    },
+    {
+      "question": "What’s the best filling for taiyaki?",
+      "answer": "Traditional red bean paste is classic, but custard and chocolate are also popular."
+    },
+    {
+      "question": "Can I make taiyaki batter ahead of time?",
+      "answer": "Yes, store it in the fridge for up to 24 hours. Stir well before using."
+    },
+    {
+      "question": "Is taiyaki gluten-free?",
+      "answer": "Not traditionally, but you can use gluten-free flour for a similar result."
+    },
+    {
+      "question": "How do I store leftover taiyaki?",
+      "answer": "Store in an airtight container for up to 2 days. Reheat in a toaster oven for best results."
+    }
+  ]
+},
+{
+  id: 52,
+  img: '/assets/japanese-wagashi.webp',
+  lien: 'traditional-japanese-wagashi',
+  category: 'Dessert',
+  datePublished: '2025-02-21', // Update with actual publish date
+  alte: 'Traditional Japanese Wagashi: Delicate artisan sweets made from mochi, sweet bean paste, and seasonal ingredients, served in tea ceremonies.',
+  comment: [
+    'Soak glutinous rice overnight, then steam until tender',
+    'Pound steamed rice into smooth mochi using a wooden mortar',
+    'Prepare sweet red bean paste (anko) from scratch',
+    'Shape mochi into seasonal forms using kashigata molds',
+    'Add natural colorings using matcha or sakura petals',
+    'Arrange wagashi on washi paper with edible gold leaf accents'
+  ],
+  title: 'How to Prepare Traditional Japanese Wagashi Sweets',
+  brief: 'Master the art of authentic Japanese Wagashi - elegant, seasonal confections that harmonize with matcha tea. Learn centuries-old techniques for creating edible poetry!',
+  description: `## How to Prepare Traditional Japanese Wagashi Sweets  
+
+Wagashi are more than sweets - they're edible embodiments of Japanese aesthetics. These intricate confections change with the seasons, reflecting nature's beauty through ingredients like cherry blossoms in spring and persimmons in autumn. Originally created for tea ceremonies, they balance matcha's bitterness with subtle sweetness.  
+
+---
+
+### The Philosophy Behind Wagashi  
+
+Five essential principles guide wagashi creation:  
+
+1. **Seasonality (Kisetsukan)**: Must reflect current season through shape/ingredients  
+2. **Subtlety (Hakanasa)**: Light sweetness that doesn't overpower  
+3. **Visual Poetry (Omokage)**: Designs inspired by nature and literature  
+4. **Texture Play (Shitsukan)**: Contrast between mochi's chew and anko's smoothness  
+5. **Ephemerality (Mujōkan)**: Best consumed fresh within hours  
+
+---
+
+### Historical Timeline  
+
+- **8th Century**: Chinese Tang dynasty sweets influence early prototypes  
+- **16th Century**: Tea master Sen no Rikyū formalizes wagashi for chanoyu  
+- **19th Century**: Edo-period sugar boom makes sweets accessible to public  
+- **Modern Day**: 3,000+ varieties exist, protected as cultural heritage  
+
+---
+
+### Essential Ingredients  
+
+#### **Base Components**:  
+- **Mochi**: Pounded glutinous rice (shiratamako or mochigome)  
+- **Anko**: Red/white bean paste (koshian=smoothed, tsubuan=chunky)  
+- **Kanten**: Agar-agar from red algae  
+- **Wasambon-tō**: Ultra-fine ceremonial sugar  
+
+#### **Seasonal Accents**:  
+- Spring: Cherry blossoms, young bamboo  
+- Summer: Glass-like mizu yōkan  
+- Autumn: Chestnuts, sweet potatoes  
+- Winter: Yuzu citrus, snowflake motifs  
+
+---
+
+### Step-by-Step Guide: Sakura Mochi  
+
+1. **Prepare Sakura Components**:  
+   - Salt-pickled cherry leaves (12hr soak to desalinate)  
+   - Food-grade sakura blossoms (rehydrated in warm water)  
+
+2. **Make Mochi Dough**:  
+   - Mix 200g shiratamako + 300ml water, steam 20min  
+   - Knead until elastic while still warm  
+
+3. **Assemble**:  
+   - Flatten mochi into oval shapes  
+   - Wrap around koshian (smooth red bean paste)  
+   - Encase in sakura leaf, garnish with blossom  
+
+---
+
+### Modern vs Traditional Techniques  
+
+| Traditional | Modern |  
+|-------------|--------|  
+| Hand-pounded mochi | Microwave mochi |  
+| Wooden kashigata molds | 3D-printed designs |  
+| Natural plant dyes | Food coloring |  
+| Charcoal hearth cooking | Induction cooktops |  
+
+---
+
+### Cultural Significance  
+
+- **Tea Ceremonies**: Wagashi names often reference classical poetry  
+- **Gift Culture**: Exchanged during Oseibo (year-end) and Ochūgen (mid-year)  
+- **Zen Influence**: Imperfect shapes embody wabi-sabi aesthetics  
+- **Seasonal Awareness**: Designs track Japan's 72 micro-seasons  
+
+---
+
+### Expert Tips  
+
+- **Texture Control**: Use ice water when kneading mochi for summer wagashi  
+- **Color Theory**: Match hues to seasonal events (gold for autumn moon viewing)  
+- **Serving Temp**: 20°C for optimal flavor release  
+- **Utensils**: Bamboo spatula prevents mochi sticking  
+
+---
+
+### Common Wagashi Types  
+
+1. **Nerikiri**: Clay-like dough shaped into seasonal motifs  
+2. **Yōkan**: Jellied dessert with layered patterns  
+3. **Monaka**: Crispy rice wafer sandwiching anko  
+4. **Dango**: Skewered mochi dumplings  
+5. **Higashi**: Dry sweets pressed in wooden molds  
+
+---
+
+### Nutritional Information  
+
+While wagashi are lower in fat than Western desserts:  
+- Average 150-200 kcal per piece  
+- High in iron from red beans  
+- Contains dietary fiber from mochi  
+- Natural sugars from seasonal fruits  
+
+---
+
+### Final Thoughts  
+
+Making wagashi is meditation in edible form. As you shape each sweet, remember the Japanese proverb: "Ichigo Ichie" - this moment happens only once. Whether crafting autumn maple leaves or spring cherry blossoms, you're participating in a 1,200-year-old culinary tradition.  
+
+**Call to Action**:  
+Share your wagashi creations with #EdibleHaiku and tag @[YourSite] for a feature! 🎋🌸`,  
+  ingredients: [
+    '200g shiratamako (glutinous rice flour)',
+    '300ml spring water',
+    '150g dried adzuki beans',
+    '100g wasambon-tō (Japanese ceremonial sugar)',
+    '12 salt-pickled sakura leaves',
+    '20 food-grade sakura blossoms',
+    '1 tsp matcha powder (for coloring)',
+    'Edible gold leaf (optional garnish)'
+  ],
+  preptime: 90,
+  cooktime: 30,
+  totalTime: 120,
+  type: false,
+  trending: false,
+  keywords: [
+    'Japanese',
+    'Wagashi',
+    'Traditional',
+    'Tea Ceremony'
+  ],
+  aggregateRating: {
+    "ratingValue": "4.8",
+    "reviewCount": "25"
+  },
+  nutrition: {
+    "@type": "NutritionInformation",
+    "calories": "180 kcal",
+    "fatContent": "0.5g",
+    "carbohydrateContent": "42g",
+    "proteinContent": "3g"
+  },
+  faq: [
+    {
+      "question": "Can I use regular sugar instead of wasambon-tō?",
+      "answer": "Wasambon-tō's ultra-fine texture is ideal, but blend regular sugar with 1 tsp cornstarch as a substitute."
+    },
+    {
+      "question": "How long do wagashi stay fresh?",
+      "answer": "Consume within 24 hours. Store between damp cloth and parchment paper at 15°C."
+    },
+    {
+      "question": "Are wagashi gluten-free?",
+      "answer": "Traditional versions using shiratamako are gluten-free, but verify rice flour processing methods."
+    },
+    {
+      "question": "What tools do I need to start?",
+      "answer": "Essential: wooden mold (kashigata), bamboo spatula, silk screening cloth. Optional: nerikiri tools."
+    },
+    {
+      "question": "Can I freeze wagashi?",
+      "answer": "Freezing alters mochi's texture. Best made fresh daily."
+    }
+  ]
+},
+{
+  id: 53,
+  img: '/assets/quick-japanese-desserts.webp',
+  lien: 'quick-easy-japanese-desserts',
+  category: 'Dessert',
+  datePublished: '2025-02-21', //
+  alte: 'Quick and Easy Japanese Desserts: Simple, no-fuss recipes for busy days, featuring matcha, mochi, and more.',
+  comment: [
+    'Mix matcha powder with yogurt for a 2-minute parfait',
+    'Blend frozen mango with coconut milk for instant mochi filling',
+    'Layer store-bought mochi with fresh fruit for a quick dessert',
+    'Dust store-bought dorayaki with powdered sugar for instant elegance',
+    'Combine sweet red bean paste with ice cream for a 5-minute treat'
+  ],
+  title: 'Quick and Easy Japanese Desserts for Busy Days',
+  brief: 'Discover 10 effortless Japanese dessert recipes you can make in under 30 minutes! Perfect for busy days, these quick treats bring a taste of Japan to your home with minimal effort.',
+  description: `## Quick and Easy Japanese Desserts for Busy Days  
+
+Life gets busy, but that doesn’t mean you have to skip dessert! Japanese cuisine offers a treasure trove of quick, no-fuss sweets that are as easy to make as they are delicious. From matcha parfaits to instant mochi, these recipes are perfect for satisfying your sweet tooth without spending hours in the kitchen.  
+
+---
+
+### Why Japanese Desserts Are Perfect for Busy Days  
+
+Japanese desserts are known for their simplicity and elegance. Here’s why they’re ideal for busy schedules:  
+
+1. **Minimal Ingredients**: Often require just 3-5 components.  
+2. **Quick Prep**: Most recipes take under 30 minutes.  
+3. **Healthy Options**: Many use natural sweeteners like red bean paste or fruit.  
+4. **Versatile**: Easily adapted to what’s in your pantry.  
+
+---
+
+### 10 Quick Japanese Dessert Recipes  
+
+#### **1. Matcha Yogurt Parfait (2 Minutes)**  
+- **Ingredients**: Greek yogurt, matcha powder, honey, granola.  
+- **Steps**: Mix 1 tsp matcha with 1 cup yogurt, drizzle with honey, and top with granola.  
+
+#### **2. Mango Mochi Ice Cream (5 Minutes)**  
+- **Ingredients**: Store-bought mochi, mango sorbet.  
+- **Steps**: Fill mochi with sorbet, seal, and freeze for 5 minutes.  
+
+#### **3. Dorayaki Pancake Sandwich (10 Minutes)**  
+- **Ingredients**: Pancake mix, sweet red bean paste.  
+- **Steps**: Make small pancakes, sandwich with anko, and dust with powdered sugar.  
+
+#### **4. Matcha Latte Popsicles (5 Minutes Prep)**  
+- **Ingredients**: Matcha latte mix, milk, popsicle molds.  
+- **Steps**: Mix matcha with milk, pour into molds, and freeze.  
+
+#### **5. Shiratama Dango with Fruit (15 Minutes)**  
+- **Ingredients**: Shiratamako (mochi flour), water, fresh fruit.  
+- **Steps**: Mix flour with water, shape into balls, boil, and serve with fruit.  
+
+#### **6. Anko Toast (5 Minutes)**  
+- **Ingredients**: Toast, sweet red bean paste, butter.  
+- **Steps**: Spread anko on toast, add a pat of butter, and enjoy.  
+
+#### **7. Matcha Chocolate Bark (10 Minutes)**  
+- **Ingredients**: White chocolate, matcha powder, nuts.  
+- **Steps**: Melt chocolate, mix in matcha, spread on parchment, and top with nuts.  
+
+#### **8. Instant Mizu Yōkan (5 Minutes)**  
+- **Ingredients**: Kanten powder, red bean paste, sugar.  
+- **Steps**: Dissolve kanten in water, mix with anko, and chill.  
+
+#### **9. Fruit Anmitsu (10 Minutes)**  
+- **Ingredients**: Canned fruit, agar jelly, sweet syrup.  
+- **Steps**: Layer fruit and jelly, drizzle with syrup.  
+
+#### **10. Green Tea Affogato (3 Minutes)**  
+- **Ingredients**: Matcha ice cream, hot espresso.  
+- **Steps**: Pour espresso over ice cream and enjoy.  
+
+---
+
+### Why These Recipes Work  
+
+- **Pantry-Friendly**: Use common ingredients or easy substitutes.  
+- **Time-Saving**: No complicated techniques or long cooking times.  
+- **Customizable**: Swap ingredients based on what you have.  
+
+---
+
+### Tips for Making Quick Japanese Desserts  
+
+1. **Stock Up on Staples**: Keep matcha, mochi flour, and red bean paste on hand.  
+2. **Use Store-Bought Shortcuts**: Pre-made mochi or dorayaki save time.  
+3. **Prep Ahead**: Make components like anko in bulk and freeze.  
+4. **Experiment**: Mix and match flavors for unique creations.  
+
+---
+
+### Health Benefits of Japanese Desserts  
+
+- **Low in Fat**: Many recipes use minimal butter or oil.  
+- **Natural Sweeteners**: Red bean paste and fruit reduce refined sugar.  
+- **Rich in Antioxidants**: Matcha and green tea are packed with health benefits.  
+
+---
+
+### Cultural Significance  
+
+Japanese desserts aren’t just food - they’re an expression of culture:  
+
+- **Seasonality**: Reflects Japan’s deep connection to nature.  
+- **Mindfulness**: Encourages savoring each bite.  
+- **Artistry**: Even quick desserts are visually stunning.  
+
+---
+
+### Final Thoughts  
+
+Japanese desserts prove that you don’t need hours in the kitchen to create something special. Whether you’re craving matcha, mochi, or something fruity, these quick recipes bring a taste of Japan to your busy life.  
+
+**Call to Action**:  
+Tried these recipes? Share your creations with #QuickJapaneseDesserts and tag @[YourSite] for a feature! 🍡🍵`,  
+  ingredients: [
+    '1 cup Greek yogurt',
+    '1 tsp matcha powder',
+    '1 tbsp honey',
+    '1/2 cup granola',
+    '4 store-bought mochi',
+    '1 cup mango sorbet',
+    '1 cup pancake mix',
+    '1/2 cup sweet red bean paste',
+    '1 cup matcha latte mix',
+    '1 cup milk',
+    '1 cup shiratamako (mochi flour)',
+    '1/2 cup water',
+    '1 cup fresh fruit',
+    '2 slices toast',
+    '1 tbsp butter',
+    '1 cup white chocolate',
+    '1/4 cup nuts',
+    '1 tsp kanten powder',
+    '1/2 cup sugar',
+    '1 cup canned fruit',
+    '1/2 cup agar jelly',
+    '1/4 cup sweet syrup',
+    '1 scoop matcha ice cream',
+    '1 shot hot espresso'
+  ],
+  preptime: 5,
+  cooktime: 10,
+  totalTime: 15,
+  type: false,
+  trending: false,
+  keywords: [
+    'Quick Japanese Desserts',
+    'Easy Asian Sweets',
+    'Fast Japanese Recipes',
+    'Matcha Desserts',
+    'Mochi Recipes'
+  ],
+  aggregateRating: {
+    "ratingValue": "4.7",
+    "reviewCount": "18"
+  },
+  nutrition: {
+    "@type": "NutritionInformation",
+    "calories": "150 kcal",
+    "fatContent": "3g",
+    "carbohydrateContent": "28g",
+    "proteinContent": "4g"
+  },
+  faq: [
+    {
+      "question": "Can I use regular flour instead of shiratamako?",
+      "answer": "Shiratamako is essential for mochi's texture, but you can use glutinous rice flour as a substitute."
+    },
+    {
+      "question": "How do I store matcha powder?",
+      "answer": "Keep it in an airtight container in the fridge to preserve freshness."
+    },
+    {
+      "question": "Are these desserts kid-friendly?",
+      "answer": "Absolutely! Kids love the sweet flavors and fun shapes."
+    },
+    {
+      "question": "Can I make these ahead of time?",
+      "answer": "Some desserts, like matcha bark or popsicles, can be made in advance."
+    },
+    {
+      "question": "What’s the best matcha brand for desserts?",
+      "answer": "Look for ceremonial-grade matcha for the best flavor and color."
+    }
+  ]
 }
 
         

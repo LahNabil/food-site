@@ -91,19 +91,28 @@ const PostItem = async ({ params }: { params: Params }) => {
     "name": foundItem.title,
     "cookTime": `PT${cookTime}M`,
     "recipeCuisine": "International",
+    "datePublished": foundItem.datePublished || "2024-12-12",
     "recipeYield": "3 servings",
     "image": `https://www.fastcookiteasy.com${foundItem.img}`,
     "description": foundItem.brief,
     "prepTime": `PT${foundItem.preptime}M`,
     "recipeCategory": foundItem.category,
     "url": `https://www.fastcookiteasy.com/postitems/${foundItem?.lien}`,
-    "keywords": "recipe, Quick recipe,Main Course, cook recipe, fast recipe, refreshing, easy recipe",
+    "keywords": foundItem.keywords || "recipe, Quick recipe,Main Course, cook recipe, fast recipe, refreshing, easy recipe",
     "recipeIngredient": foundItem.ingredients,
     "author": {
     "@type": "Organization",
     "name": "Fast Cookit Easy"
     },
-    
+    ...(foundItem.nutrition ? {
+      "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": foundItem.nutrition.calories || "N/A",
+        "fatContent": foundItem.nutrition.fatContent || "N/A",
+        "carbohydrateContent": foundItem.nutrition.carbohydrateContent || "N/A",
+        "proteinContent": foundItem.nutrition.proteinContent || "N/A"
+      }
+    } : {}),
     "recipeInstructions": foundItem.comment.map((step) => ({
       "@type": "HowToStep",
       "text": step,
@@ -111,6 +120,7 @@ const PostItem = async ({ params }: { params: Params }) => {
       "url": `https://www.fastcookiteasy.com/postitems/${foundItem?.lien}`,
       
     })),
+
   };
 
   const faqSchema = {
