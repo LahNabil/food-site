@@ -15,6 +15,61 @@
   width: fit-content; 
   font-family: "Dancing Script", serif;  
 }
+/* Container for the pagination */
+.pagination {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically (optional) */
+  gap: 10px; /* Space between buttons */
+  margin-top: 20px; /* Add some space above the pagination */
+  
+}
+@media (max-width: 768px) {
+  .pagination {
+    gap: 5px;
+    flex-wrap: wrap;
+    padding: 0 10px;
+  }
+
+  .pagination button {
+    padding: 6px 8px;
+    font-size: 12px;
+    min-width: 30px;
+  }
+}
+
+/* Style for pagination buttons */
+.pagination button {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect for buttons */
+.pagination button:hover {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+/* Active page button style */
+.pagination button.active {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+/* Disabled button style */
+.pagination button:disabled {
+  background-color: #f0f0f0;
+  color: #ccc;
+  cursor: not-allowed;
+  border-color: #ccc;
+}
 
 .col-lg-3, .col-md-6 {
   width: 25%; 
