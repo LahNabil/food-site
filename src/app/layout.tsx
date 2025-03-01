@@ -86,6 +86,26 @@ export default function RootLayout({
           src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_ADSENSE_PID}`}
           crossOrigin="anonymous"
         />
+        <Script
+          id="grow-me-script"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              !(function(){
+                window.growMe || ((window.growMe = function(e) {
+                  window.growMe._.push(e);
+                }), (window.growMe._ = []));
+                var e = document.createElement("script");
+                e.type = "text/javascript";
+                e.src = "https://faves.grow.me/main.js";
+                e.defer = !0;
+                e.setAttribute("data-grow-faves-site-id", "U2l0ZTpkNTM5MDlkOS01N2VkLTRjNjEtYjQzNC04MWJiOTM3NGZiNTY=");
+                var t = document.getElementsByTagName("script")[0];
+                t.parentNode.insertBefore(e, t);
+              })();
+            `,
+          }}
+        />
         {children}
         <Footer/>
       </body>
