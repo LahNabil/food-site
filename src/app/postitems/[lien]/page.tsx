@@ -113,7 +113,8 @@ const PostItem = async ({ params }: { params: Params }) => {
         "proteinContent": foundItem.nutrition.proteinContent || "N/A"
       }
     } : {}),
-    "recipeInstructions": foundItem.comment.map((step) => ({
+    "recipeInstructions": foundItem.comment.map((step, index) => ({
+      "name": `Step ${index + 1}:`,
       "@type": "HowToStep",
       "text": step,
       "image": `https://www.fastcookiteasy.com${foundItem.img}`,
