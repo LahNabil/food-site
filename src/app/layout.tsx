@@ -88,7 +88,8 @@ export default function RootLayout({
         />
         <Script
           id="grow-me-script"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
+          data-grow-initializer=""
           dangerouslySetInnerHTML={{
             __html: `
               !(function(){
@@ -99,7 +100,7 @@ export default function RootLayout({
                 e.type = "text/javascript";
                 e.src = "https://faves.grow.me/main.js";
                 e.defer = !0;
-                e.setAttribute("data-grow-faves-site-id", "U2l0ZTpkNTM5MDlkOS01N2VkLTRjNjEtYjQzNC04MWJiOTM3NGZiNTY=");
+                e.setAttribute("data-grow-faves-site-id", "${process.env.NEXT_PUBLIC_GROW_ID}");
                 var t = document.getElementsByTagName("script")[0];
                 t.parentNode.insertBefore(e, t);
               })();
