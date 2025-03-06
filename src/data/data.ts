@@ -9485,7 +9485,7 @@ Try this recipe tonight and share your creations with #VeganPastaLove!
   "id": 63,
   "img": "/assets/easy-pancake-recipe.webp",
   "lien": "easy-pancake-recipe",
-  "category": "Quick & Easy",
+  "category": "Dessert",
   "datePublished": "2025-03-06", // Update with actual publish date
   "alte": "Lazy Sunday Brunch: Easy Pancake Recipe – Fluffy, golden pancakes perfect for a relaxing weekend morning.",
   "comment": [
