@@ -88,7 +88,6 @@ export default function RootLayout({
         />
         <Script
           id="grow-me-script"
-          strategy="lazyOnload"
           data-grow-initializer=""
           dangerouslySetInnerHTML={{
             __html: `
